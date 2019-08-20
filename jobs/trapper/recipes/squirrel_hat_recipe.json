@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 22,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:trapper.squirrel_hat.display_name)",
+   "description": "i18n(trapper_plus:trapper.squirrel_hat.description)",
+   "flavor": "i18n(trapper_plus:trapper.squirrel_hat.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/squirrel_hat/squirrel_hat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth:resources:squirrel_pelt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:hat:squirrel"
+      }
+   ]
+}

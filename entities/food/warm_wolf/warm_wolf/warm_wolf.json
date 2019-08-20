@@ -1,0 +1,50 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(warm_wolf.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 6
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:warm_wolf:warm_wolf_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 60,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.warm_wolf.display_name)",
+         "description": "i18n(trapper_plus:food.warm_wolf.description)",
+         "icon": "file(warm_wolf.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags":["food_container", "prepared_food", "warm_wolf", "stockpile_prepared_food", "meat"]
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

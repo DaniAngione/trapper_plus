@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:buffs.rabbit_spirit.display_name)",
+   "description": "i18n(trapper_plus:buffs.rabbit_spirit.description)",
+   "icon": "file(rabbit_spirit_buff.png)",
+   "modifiers": {
+      "compassion": {
+         "add": 25
+      },
+      "speed": {
+         "add": 10
+      }
+   }
+}

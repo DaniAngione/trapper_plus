@@ -1,0 +1,10 @@
+{
+   "mixins": "stonehearth:mixins:resources:jerky",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.venison_jerky.display_name)"
+      }
+   }
+}

@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_sausage_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 140
+         },
+         "default": {
+            "satisfaction": 75
+         },
+         "quality": 5
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_sausage.serving_display_name)",
+         "description": "i18n(trapper_plus:food.smoked_sausage.serving_description)",
+         "material_tags":["food", "smoked_sausage_serving", "meat"],
+         "subject_override": "trapper_plus:food:smoked_sausage"
+      }
+   }
+}

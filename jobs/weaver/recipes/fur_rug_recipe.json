@@ -1,0 +1,11 @@
+{
+	"mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "pelt resource",
+         "count": 3
+      }
+   ]
+}

@@ -1,0 +1,25 @@
+{
+   "craftable_recipes": {
+      "crafting_materials": {
+			"recipes": {
+				"scaly_leather_bolt": {
+					"recipe": "file(scaly_leather_bolt_recipe.json)"
+				}
+			}
+		},
+		"clothing_armor": {
+			"recipes": {
+				"scaly_leather_boots": {
+					"recipe": "file(scaly_leather_boots_recipe.json)"
+				}
+         }
+	   },
+		"toys": {
+			"recipes": {
+				"plushie_toy_dragon": {
+					"recipe": "file(plushie_toy_dragon_recipe.json)"
+				}
+         }
+	   }
+   }
+}

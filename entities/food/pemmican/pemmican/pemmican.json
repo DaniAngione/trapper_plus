@@ -1,0 +1,56 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(pemmican.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:pemmican:pemmican_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 7,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.pemmican.display_name)",
+         "description": "i18n(trapper_plus:food.pemmican.description)",
+         "icon": "file(pemmican.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "pemmican",
+            "stockpile_prepared_food",
+            "meat"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

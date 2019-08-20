@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 6,
+   "recipe_name": "i18n(trapper_plus:food.warm_wolf.display_name)",
+   "description": "i18n(trapper_plus:food.warm_wolf.description)",
+   "flavor": "i18n(trapper_plus:food.warm_wolf.flavor)",
+   "portrait": "/trapper_plus/entities/food/warm_wolf/warm_wolf/warm_wolf.png",
+   "workshop": "stonehearth:cook:oven",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:roast_sausage",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth:food:peasant_bread",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:food:warm_wolf"
+      }
+   ]
+}

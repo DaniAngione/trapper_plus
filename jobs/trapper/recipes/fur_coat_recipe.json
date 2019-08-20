@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:worker.fur_coat.display_name)",
+   "description": "i18n(trapper_plus:worker.fur_coat.description)",
+   "flavor": "i18n(trapper_plus:worker.fur_coat.flavor)",
+   "portrait": "/trapper_plus/jobs/worker/fur_coat_outfit/fur_coat_outfit.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "large pelt resource",
+         "count": 1
+      },
+		{
+         "material": "small pelt resource",
+         "count": 1
+      },
+	  {
+         "uri": "trapper_plus:refined:thin_leather",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:worker:outfit:fur_coat"
+      }
+   ]
+}

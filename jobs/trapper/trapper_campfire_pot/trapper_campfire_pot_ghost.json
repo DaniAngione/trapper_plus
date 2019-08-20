@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(trapper_campfire_pot.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "animation_table": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/campfire_pot.json"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "effect_list": {
+         "default": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.campfire_pot.display_name)",
+         "description": "i18n(trapper_plus:trapper.campfire_pot.description)",
+         "icon": "file(trapper_campfire_pot.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool"
+         ]
+      }
+   }
+}

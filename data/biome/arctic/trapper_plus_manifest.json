@@ -1,0 +1,10 @@
+{
+   "info" : {
+      "name" : "trapper_plus_arctic_manifest",
+      "deferred_load": true,
+      "version" : 3
+   },
+   "aliases" : {},
+   "mixintos" :  {},
+   "overrides" : {}
+}

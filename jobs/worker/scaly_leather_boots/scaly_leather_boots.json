@@ -1,0 +1,54 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(scaly_leather_boots.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(scaly_leather_boots_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(scaly_leather_boots_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "accessory",
+         "render_type": "merge_with_model",
+         "roles": "worker_job",
+         "ilevel": 1,
+         "injected_buffs": [
+            "trapper_plus:buffs:boots"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 12,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.scaly_leather_boots.display_name)",
+         "description": "i18n(trapper_plus:entities.scaly_leather_boots.worn_description)",
+         "icon": "file(scaly_leather_boots.png)",
+         "category": "armor",
+         "material_tags":["worker_outfit", "leather", "stockpile_equipment"]
+      }
+   }
+}

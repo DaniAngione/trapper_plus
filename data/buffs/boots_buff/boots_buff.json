@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:buffs.boots.display_name)",
+   "description": "i18n(trapper_plus:buffs.boots.description)",
+   "icon": "file(boots_buff.png)",
+   "modifiers": {
+      "speed": {
+         "add": 8
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "entries": {
+      "skin": {
+         "items": {
+            "skin": {
+               "uri": "trapper_plus:resources:fresh_zilla_skin",
+               "weight": 1
+            }
+         }
+      }
+   }
+}

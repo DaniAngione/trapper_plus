@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "effort": 12,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_white_meat.recipes.poultry_display_name)",
+   "description": "i18n(trapper_plus:food.raw_white_meat.recipes.poultry_description)",
+   "flavor": "i18n(trapper_plus:food.raw_white_meat.recipes.poultry_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/3x_white_raw_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:poultry_large",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_poultry_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_poultry_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_poultry_meat"
+      }
+   ]
+}

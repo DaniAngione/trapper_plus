@@ -1,0 +1,34 @@
+{
+	"components": {
+      "stonehearth:resource_node": {
+		 "resource": "trapper_plus:raw_deer_jerky",
+         "resource_loot_table": {
+            "entries": {
+               "pelt": {
+                  "items": {
+                     "pelt": {
+                        "uri": "trapper_plus:resources:fresh_deer_pelt"
+                     }
+                  }
+               }
+            }
+         }
+      }
+    },
+   "entity_data": {
+      "stonehearth:harvest_beast_loot_table": {
+         "entries": {
+            "default": {
+               "items": {
+				  "jerky": {
+                     "uri": "trapper_plus:raw_deer_jerky"
+                  },
+                  "pelt": {
+                     "uri": "trapper_plus:resources:fresh_deer_pelt"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

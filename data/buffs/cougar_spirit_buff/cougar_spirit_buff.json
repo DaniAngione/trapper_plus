@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:buffs.cougar_spirit.display_name)",
+   "description": "i18n(trapper_plus:buffs.cougar_spirit.description)",
+   "icon": "file(cougar_spirit_buff.png)",
+   "modifiers": {
+      "diligence": {
+         "add": 25
+      },
+      "speed": {
+         "add": 25
+      }
+   }
+}

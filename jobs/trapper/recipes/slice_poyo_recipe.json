@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_white_meat.recipes.poyo_display_name)",
+   "description": "i18n(trapper_plus:food.raw_white_meat.recipes.poyo_description)",
+   "flavor": "i18n(trapper_plus:food.raw_white_meat.recipes.poyo_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/2x_white_raw_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:poyo_meat",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_poyo_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_poyo_meat"
+      }
+   ]
+}

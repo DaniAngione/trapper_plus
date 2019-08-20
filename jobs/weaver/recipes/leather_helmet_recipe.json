@@ -1,0 +1,15 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "uri": "trapper_plus:refined:thin_leather",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ]
+}

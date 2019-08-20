@@ -1,0 +1,37 @@
+{
+	"type": "index",
+	"stockpile": {
+		"animal_parts": {
+			"categories": {
+				"fresh_pelts": {
+					"ordinal": 0.1,
+					"display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
+					"icon": "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt.png",
+					"filter": "fresh_pelt"
+				},
+				"fresh_small_pelts": {
+					"ordinal": 0.2,
+					"display_name": "i18n(trapper_plus:entities.fresh_small_pelt.display_name)",
+					"icon": "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt.png",
+					"filter": "fresh_small_pelt"
+				},
+				"small_pelts": {
+					"ordinal": 1.1,
+					"display_name": "i18n(trapper_plus:data.filters.small_pelt)",
+					"icon": "/stonehearth/entities/resources/pelt/squirrel_pelt/squirrel_pelt.png",
+					"filter": "small_pelt"
+				}
+			}
+		},
+		"raw_foods": {
+			"categories": {
+				"raw_meat": {
+					"ordinal": 3.1,
+					"display_name": "i18n(trapper_plus:data.filters.raw_meat)",
+					"icon": "/trapper_plus/entities/resources/raw_meat/input_all_raw.png",
+					"filter": "raw meat"
+				}
+			}
+		}
+	}
+}

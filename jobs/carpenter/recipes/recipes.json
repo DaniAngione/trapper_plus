@@ -1,0 +1,14 @@
+{
+   "craftable_recipes": {
+      "utility": {
+			"recipes": {
+				"oak_tannin": {
+					"recipe": "file(oak_tannin_recipe.json)"
+				},
+				"acacia_tannin": {
+					"recipe": "file(acacia_tannin_recipe.json)"
+				}
+			}
+        }
+    }
+}

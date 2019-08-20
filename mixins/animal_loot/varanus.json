@@ -1,0 +1,13 @@
+{
+   "stonehearth:loot_drops": {
+      "entries": {
+         "default": {
+            "items": {
+               "skin": {
+                  "uri": "trapper_plus:resources:fresh_varanus_skin"
+               }
+            }
+         }
+      }
+   }
+}

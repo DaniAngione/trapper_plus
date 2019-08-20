@@ -1,0 +1,24 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fox_rug.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.45, "y": 0, "z": 0 },
+         "region_origin": { "x": -0.5, "y": 0, "z": -0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:floor_decor": {},
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:decorations.fox_rug.display_name)",
+         "description": "i18n(stonehearth:entities.decoration.fur_rug.fur_rug_ghost.description)",
+         "icon": "file(fox_rug.png)"
+      }
+   }
+}

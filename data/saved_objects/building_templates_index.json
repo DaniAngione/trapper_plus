@@ -1,0 +1,49 @@
+{
+   "template_tabs": {
+      "ascendancy": {
+         "categories": {
+            "camp": {
+				"templates": {
+                  "ac_trapper_house": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:trapper"
+                     },
+                     "file": "file(building_templates/ac_trapper_house.json)"
+                  }
+				}
+            }
+         }
+      },
+	  "rayyas_children": {
+         "categories": {
+            "outpost": {
+				"templates": {
+                  "rc_trapper_house": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:trapper"
+                     },
+                     "file": "file(building_templates/rc_trapper_house.json)"
+                  }
+				}
+            }
+         }
+      },
+	  "northern_alliance": {
+         "categories": {
+            "outpost": {
+				"templates": {
+                  "na_trapper_house": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:trapper"
+                     },
+                     "file": "file(building_templates/na_trapper_house.json)"
+                  }
+				}
+            }
+         }
+      }
+   }
+}

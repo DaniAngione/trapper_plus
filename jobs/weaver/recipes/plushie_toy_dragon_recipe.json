@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:decorations.plushie_dragon.display_name)",
+   "description": "i18n(trapper_plus:decorations.plushie_dragon.description)",
+   "flavor": "i18n(trapper_plus:decorations.plushie_dragon.flavor)",
+   "portrait": "/trapper_plus/entities/decoration/plushie_toy_dragon/plushie_toy_dragon.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      },
+      {
+         "material": "skin resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:toys:plushie_toy_dragon"
+      }
+   ]
+}

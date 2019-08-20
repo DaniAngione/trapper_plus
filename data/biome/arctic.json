@@ -1,0 +1,5 @@
+{
+   "applied_manifests": {
+      "trapper_plus_arctic": "file(arctic/trapper_plus_manifest.json)"
+   }
+}

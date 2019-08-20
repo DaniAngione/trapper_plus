@@ -1,0 +1,151 @@
+{
+   "type": "index",
+   "stockpile": {
+      "all_smokehouse": {
+         "display_name": "i18n(trapper_plus:data.filters.all_type)",
+         "ordinal": 1,
+         "categories": {
+            "everything": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:data.filters.everything)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_curables.png",
+               "filter": "smokehouse_curable"
+            }
+         }
+      },
+      "meat_types": {
+         "display_name": "i18n(trapper_plus:data.filters.meat_types)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "raw_white_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_white)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_white_raw.png",
+               "filter": "white meat smokehouse_curable"
+            },
+            "raw_small_meat": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_small)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_small_raw.png",
+               "filter": "small meat smokehouse_curable"
+            },
+            "raw_big_meat": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_big_raw.png",
+               "filter": "large meat smokehouse_curable"
+            },
+            "sausages": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:data.filters.raw_sausage)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_raw_sausage.png",
+               "filter": "sausage smokehouse_curable"
+            },
+            "raw_meat_piece": {
+               "ordinal": 5,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_piece)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_piece_raw.png",
+               "filter": "piece meat smokehouse_curable"
+            }
+         }
+      },
+      "specific_foods": {
+         "display_name": "i18n(trapper_plus:data.filters.specific_foods)",
+         "filter": "resources",
+         "ordinal": 3,
+         "categories": {
+            "mutton_meat": {
+               "ordinal": 9,
+               "display_name": "i18n(trapper_plus:food.raw_mutton_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
+               "filter": "mutton raw_jerky"
+            },
+            "pork_meat": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:food.raw_pork_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "pork raw_jerky"
+            },
+            "poultry_meat": {
+               "ordinal": 7,
+               "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
+               "filter": "poultry raw_jerky"
+            },
+            "poyo_meat": {
+               "ordinal": 6,
+               "display_name": "i18n(trapper_plus:food.raw_poyo_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
+               "filter": "poyo raw_jerky"
+            },
+            "ostrich_meat": {
+               "ordinal": 5,
+               "display_name": "i18n(trapper_plus:food.raw_ostrich_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
+               "filter": "ostrich raw_jerky"
+            },
+            "duckduck_meat": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:food.raw_duckduck_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
+               "filter": "duckduck raw_jerky"
+            },
+            "boar_meat": {
+               "ordinal": 11,
+               "display_name": "i18n(trapper_plus:food.raw_boar_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "boar raw_jerky"
+            },
+            "deer_meat": {
+               "ordinal": 12,
+               "display_name": "i18n(trapper_plus:food.raw_deer_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "deer raw_jerky"
+            },
+            "rabbit_meat": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:food.raw_rabbit_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
+               "filter": "rabbit raw_jerky"
+            },
+            "racoon_meat": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:food.raw_racoon_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
+               "filter": "racoon raw_jerky"
+            },
+            "red_fox_meat": {
+               "ordinal": 8,
+               "display_name": "i18n(trapper_plus:food.raw_red_fox_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
+               "filter": "fox raw_jerky"
+            },
+            "wolf_meat": {
+               "ordinal": 11.1,
+               "display_name": "i18n(trapper_plus:food.raw_wolf_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "wolf raw_jerky"
+            },
+            "squirrel_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:food.raw_squirrel_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
+               "filter": "squirrel raw_jerky"
+            },
+            "varanus_meat": {
+               "ordinal": 13,
+               "display_name": "i18n(trapper_plus:food.raw_varanus_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
+               "filter": "varanus raw_jerky"
+            },
+            "venison_meat": {
+               "ordinal": 14,
+               "display_name": "i18n(trapper_plus:food.raw_venison_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "venison raw_jerky"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "type": "recipe",
+   "effort": 16,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_meat.recipes.pork_display_name)",
+   "description": "i18n(trapper_plus:food.raw_meat.recipes.pork_description)",
+   "flavor": "i18n(trapper_plus:food.raw_meat.recipes.pork_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/4x_raw_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:pork",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_pork_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_pork_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_pork_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_pork_meat"
+      }
+   ]
+}

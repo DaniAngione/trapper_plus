@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": -0.05 },
+         "region_origin": { "x": 0.05, "y": 0, "z": -0.05 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(tanning_tub.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "file(/data/rigs/jobs/trapper/tanning_tub/tanning_tub.json)",
+         "color_map": "core_dani:color_map:fluids",
+         "material_maps": [
+            "core_dani:material_map"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.tanning_tub.display_name)",
+         "description": "i18n(trapper_plus:trapper.tanning_tub.description)",
+         "icon": "file(tanning_tub.png)",
+         "category": "workshops"
+      }
+   }
+}

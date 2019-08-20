@@ -1,0 +1,64 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "mixin",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(raw_white_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(raw_white_meat_rotting.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 3
+      },
+      "render_info": {
+         "scale": 0.09
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 160,
+            "max": 190
+         },
+         "decay_stages": {
+            "decay_1": {
+               "trigger_decay_value": 36,
+               "model_variant": "decay_1",
+               "description": "i18n(trapper_plus:food.raw_meat.decay_1_description)"
+            }
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_white_meat.display_name)",
+         "description": "i18n(trapper_plus:food.raw_white_meat.description)",
+         "icon": "file(raw_white_meat.png)",
+         "is_item": true,
+         "category": "cooking_ingredient",
+         "material_tags": [
+            "stockpile_cooking_ingredient",
+            "food",
+            "meat",
+            "raw",
+            "cooking_ingredient",
+            "white"
+         ]
+      }
+   }
+}

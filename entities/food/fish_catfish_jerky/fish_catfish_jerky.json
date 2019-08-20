@@ -1,0 +1,66 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fish_catfish_jerky.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(../fish_jerky/fish_jerky_rotting.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 2
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 48
+         },
+         "default": {
+            "satisfaction": 42
+         },
+         "quality": 3
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 640,
+            "max": 680
+         },
+         "rotten_entity_alias": "trapper_plus:food:rotten:fish_jerky"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.fish_catfish_jerky.display_name)",
+         "description": "i18n(trapper_plus:food.fish_jerky.description)",
+         "icon": "file(fish_catfish_jerky.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "stockpile_cooking_ingredient",
+            "meat",
+            "raw",
+            "cooking_ingredient",
+            "raw_food",
+            "fish",
+            "fish_meat",
+            "jerky"
+         ]
+      }
+   }
+}

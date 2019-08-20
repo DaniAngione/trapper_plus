@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_meat.recipes.mutton_display_name)",
+   "description": "i18n(trapper_plus:food.raw_meat.recipes.mutton_description)",
+   "flavor": "i18n(trapper_plus:food.raw_meat.recipes.mutton_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/2x_raw_small_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:mutton",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_mutton_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_mutton_meat"
+      }
+   ]
+}

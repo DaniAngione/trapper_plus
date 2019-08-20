@@ -1,0 +1,18 @@
+{
+   "recipe_name": "i18n(trapper_plus:armor.leather.display_name)",
+   "description": "i18n(trapper_plus:armor.leather.description)",
+   "flavor": "i18n(trapper_plus:armor.leather.flavor)",
+	"mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "uri": "trapper_plus:refined:thin_leather",
+         "count": 3
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ]
+}

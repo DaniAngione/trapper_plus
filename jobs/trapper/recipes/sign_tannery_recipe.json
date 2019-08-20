@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:decorations.tannery_sign.recipe_display_name)",
+   "description": "i18n(trapper_plus:decorations.tannery_sign.description)",
+   "flavor": "i18n(trapper_plus:decorations.tannery_sign.flavor)",
+   "portrait": "/trapper_plus/entities/decoration/wooden_sign_tannery/wooden_sign_tannery.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+	  {
+		 "material": "pelt resource",
+         "count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:decoration:wooden_sign_tannery"
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 4,
+   "recipe_name": "i18n(trapper_plus:entities.tannin.recipe_display_name)",
+   "description": "i18n(trapper_plus:entities.tannin.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.tannin.flavor)",
+   "portrait": "/trapper_plus/entities/resources/tannin/tannin.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "saw",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:resources:tannin"
+      }
+   ]
+}

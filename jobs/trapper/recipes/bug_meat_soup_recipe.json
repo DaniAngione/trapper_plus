@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 14,
+   "work_units": 1,
+   "recipe_name": "i18n(trapper_plus:food.bug_meat_soup.recipe_name)",
+   "description": "i18n(trapper_plus:food.bug_meat_soup.recipe_description)",
+   "flavor": "i18n(trapper_plus:food.bug_meat_soup.flavor)",
+   "portrait": "/trapper_plus/entities/food/bug_meat_soup/bug_meat_soup/bug_meat_soup.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "food bug_meat raw",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:food:bug_meat_soup"
+      }
+   ]
+}

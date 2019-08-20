@@ -1,0 +1,24 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "idle.json",
+         "loop": true
+       },
+      "smoke": {
+         "type": "cubemitter",
+         "loop" : true,
+         "cubemitter": "/trapper_plus/data/horde/particles/tanning_tub/tanning_tub_smog.cubemitter.json",
+         "transforms": {
+            "x":0.0,
+            "y":1.1,
+            "z":0.0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      }
+   }
+}

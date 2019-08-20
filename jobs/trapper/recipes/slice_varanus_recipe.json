@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "effort": 12,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_small_meat.recipes.varanus_display_name)",
+   "description": "i18n(trapper_plus:food.raw_small_meat.recipes.varanus_description)",
+   "flavor": "i18n(trapper_plus:food.raw_small_meat.recipes.varanus_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/3x_raw_small_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:varanus_meat",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_varanus_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_varanus_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_varanus_meat"
+      }
+   ]
+}

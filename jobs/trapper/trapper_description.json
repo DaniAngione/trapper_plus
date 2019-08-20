@@ -1,0 +1,40 @@
+{
+   "roles": ["trapper_job", "hunter", "crafter"],
+   "task_groups": [
+      "stonehearth:task_groups:crafting"
+   ],
+   "crafter": {
+      "work_effect": "fiddle",
+      "recipe_list": "/trapper_plus/jobs/trapper/recipes/recipes.json"
+   },
+   "workshop": {
+      "portrait": "file(trapper_block/trapper_block.png)",
+      "workbench_type": "trapper_plus:trapper:block",
+      "skin_class": "trapper",
+      "open_sound": "stonehearth:sounds:ui:weaver_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+   },
+   "xp_rewards": {
+      "craft_level_0": 2,
+      "craft_level_1": 3,
+      "craft_level_2": 5,
+      "craft_level_3": 6,
+      "craft_level_4": 7,
+      "craft_level_5": 9,
+      "craft_level_6": 11
+   },
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "name": "i18n(trapper_plus:trapper.perks.l1_display_name)",
+               "id": "crafter_recipe_unlock_1",
+               "icon": "file(images/l1_perk.png)",
+               "description": "i18n(trapper_plus:trapper.perks.l1_description)",
+               "level": 1
+            }
+         ]
+      }
+   }
+}

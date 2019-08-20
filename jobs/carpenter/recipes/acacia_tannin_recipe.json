@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 4,
+   "recipe_name": "i18n(trapper_plus:entities.tannin.acacia_recipe_display_name)",
+   "description": "i18n(trapper_plus:entities.tannin.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.tannin.flavor)",
+   "portrait": "/trapper_plus/entities/resources/tannin/tannin.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:trees:acacia:sapling",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:resources:tannin"
+      }
+   ]
+}

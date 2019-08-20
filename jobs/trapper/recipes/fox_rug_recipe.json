@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 25,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:decorations.fox_rug.display_name)",
+   "description": "i18n(trapper_plus:decorations.fox_rug.description)",
+   "flavor": "i18n(trapper_plus:decorations.fox_rug.flavor)",
+   "portrait": "/trapper_plus/entities/decoration/fox_rug/fox_rug.png",
+   "workshop": "trapper_plus:trapper:block",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "fiber resource",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth:resources:red_fox_pelt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:decoration:fox_rug"
+      }
+   ]
+}

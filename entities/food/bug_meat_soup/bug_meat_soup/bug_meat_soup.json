@@ -1,0 +1,58 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bug_meat_soup.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 30
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:bug_meat_soup:bug_meat_soup_serving",
+         "stacks_per_serving": 6
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.bug_meat_soup.display_name)",
+         "description": "i18n(trapper_plus:food.bug_meat_soup.description)",
+         "icon": "file(bug_meat_soup.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "soup",
+            "meat",
+            "bug_meat",
+            "crafted",
+            "stockpile_prepared_food"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 29,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.animal_fat_rendered_lard.recipe_name)",
+   "description": "i18n(trapper_plus:food.animal_fat_rendered_lard.recipe_description)",
+   "flavor": "i18n(trapper_plus:food.animal_fat_rendered_lard.flavor)",
+   "portrait": "/trapper_plus/entities/food/animal_fat_rendered_lard/animal_fat_rendered_lard.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "work_effect": "fiddle",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "trapper_plus:resources:animal_fat",
+         "count": 1
+      },
+		{
+         "uri": "stonehearth:food:pork",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:food:animal_fat_rendered:lard"
+      },
+		{
+         "item": "trapper_plus:food:animal_fat_rendered:lard"
+      }
+   ]
+}

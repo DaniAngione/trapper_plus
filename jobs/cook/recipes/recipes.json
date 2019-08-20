@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "chefs_specials": {
+			"recipes": {
+				"roast_sausage": {
+					"recipe": "file(warm_wolf_recipe.json)"
+				}
+			}
+        }
+    }
+}

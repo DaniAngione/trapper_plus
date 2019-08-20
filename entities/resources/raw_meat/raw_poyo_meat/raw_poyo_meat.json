@@ -1,0 +1,26 @@
+{
+   "mixins": "trapper_plus:mixins:resources:raw_white_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_poyo_meat.display_name)",
+         "material_tags": [
+            "smokehouse_curable",
+            "poyo",
+            "raw_jerky"
+         ]
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 6,
+            "max": 18
+         },
+         "cool_entity_alias": "trapper_plus:raw_poyo_meat",
+         "proper_cool_entity_alias": "trapper_plus:poyo_jerky",
+         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
+         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
+			"proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+      }
+   }
+}

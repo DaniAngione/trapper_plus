@@ -1,0 +1,40 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bug_meat_soup_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 31
+         },
+         "default": {
+            "satisfaction": 27
+         },
+         "applied_buffs": [
+            "stonehearth_ace:buffs:consumption:warm_belly"
+         ],
+         "quality": 4
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.bug_meat_soup.serving_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "meat"
+         ],
+         "subject_override": "trapper_plus:food:bug_meat_soup"
+      }
+   }
+}

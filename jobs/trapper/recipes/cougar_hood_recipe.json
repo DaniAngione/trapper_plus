@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:trapper.cougar_hat.display_name)",
+   "description": "i18n(trapper_plus:trapper.cougar_hat.description)",
+   "flavor": "i18n(trapper_plus:trapper.cougar_hat.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/cougar_hat/cougar_hat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth:resources:cougar_pelt",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:hat:cougar"
+      }
+   ]
+}

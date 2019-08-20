@@ -1,0 +1,43 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "mixin",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fresh_pelt.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_pelt.description)",
+         "icon": "file(fresh_pelt.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "stockpile_animal_part",
+            "resource",
+            "animal_part",
+            "large",
+            "fresh",
+            "pelt"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -12
+      }
+   }
+}

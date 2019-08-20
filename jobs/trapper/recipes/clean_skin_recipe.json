@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 14,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.raw_skin.recipe_display_name)",
+   "description": "i18n(trapper_plus:entities.raw_skin.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.raw_skin.flavor)",
+   "portrait": "/trapper_plus/entities/resources/rawskin/rawskin.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "skin resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:resources:rawskin"
+      },
+	  {
+         "item": "trapper_plus:resources:rawskin"
+      }
+   ]
+}

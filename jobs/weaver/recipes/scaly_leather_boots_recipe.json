@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.scaly_leather_boots.display_name)",
+   "description": "i18n(trapper_plus:entities.scaly_leather_boots.description)",
+   "flavor": "i18n(trapper_plus:entities.scaly_leather_boots.flavor)",
+   "portrait": "/trapper_plus/jobs/worker/scaly_leather_boots/scaly_leather_boots.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:refined:scaly_leather",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:worker:scaly_leather_boots"
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:trapper.tanning_tub.recipe_display_name)",
+   "description": "i18n(trapper_plus:trapper.tanning_tub.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.tanning_tub.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/tanning_tub/tanning_tub.png",
+   "level_requirement": 2,
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+	  {
+         "uri": "trapper_plus:resources:tannin",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:tanning_tub"
+      }
+   ]
+}

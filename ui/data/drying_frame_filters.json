@@ -1,0 +1,67 @@
+{
+   "type": "index",
+   "stockpile": {
+      "resources": {
+         "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+         "filter": "resources",
+         "ordinal": 1,
+         "categories": {
+            "large_fresh_pelt": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:data.filters.large_fresh_pelt)",
+               "icon": "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt_stockpile.png",
+               "filter": "large fresh pelt"
+            }
+         }
+      },
+      "resource_types": {
+         "display_name": "i18n(trapper_plus:data.filters.resource_types)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "fresh_red_fox_pelt": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:entities.fresh_red_fox_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.png",
+               "filter": "fresh pelt red_fox"
+            },
+            "fresh_boar_pelt": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:entities.fresh_boar_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_boar_pelt/fresh_boar_pelt.png",
+               "filter": "fresh pelt boar"
+            },
+            "fresh_cougar_pelt": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:entities.fresh_cougar_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_cougar_pelt/fresh_cougar_pelt.png",
+               "filter": "fresh pelt cougar"
+            },
+            "fresh_deer_pelt": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:entities.fresh_deer_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_deer_pelt/fresh_deer_pelt.png",
+               "filter": "fresh pelt deer"
+            },
+            "fresh_wolf_pelt": {
+               "ordinal": 5,
+               "display_name": "i18n(trapper_plus:entities.fresh_wolf_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.png",
+               "filter": "fresh pelt wolf"
+            },
+            "fresh_varanus_pelt": {
+               "ordinal": 9,
+               "display_name": "i18n(trapper_plus:entities.fresh_varanus_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png",
+               "filter": "fresh pelt varanus"
+            },
+            "fresh_zilla_pelt": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:entities.fresh_zilla_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/skin/fresh_zilla_skin/fresh_zilla_skin.png",
+               "filter": "fresh pelt zilla"
+            }
+         }
+      }
+   }
+}

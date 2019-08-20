@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:buffs.racoon_spirit.display_name)",
+   "description": "i18n(trapper_plus:buffs.racoon_spirit.description)",
+   "icon": "file(racoon_spirit_buff.png)",
+   "modifiers": {
+      "diligence": {
+         "add": 15
+      },
+      "speed": {
+         "add": 10
+      }
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "mob": {
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "model_origin": { "x": -0.2, "y": -5.8, "z": 1.8 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "animation_table": "file(/data/rigs/jobs/trapper/smokehouse/smokehouse.json)"
+      },
+      "effect_list": {
+         "default": "file(/data/rigs/jobs/trapper/smokehouse/effects/closed.json)",
+         "initial_pose_animation": "closed.json"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(na_smokehouse.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.na_smokehouse.display_name)",
+         "description": "i18n(trapper_plus:trapper.na_smokehouse.description)",
+         "icon": "file(na_smokehouse.png)",
+         "category": "construction"
+      }
+   }
+}

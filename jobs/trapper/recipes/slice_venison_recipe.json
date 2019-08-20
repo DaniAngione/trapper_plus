@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "effort": 12,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_meat.recipes.venison_display_name)",
+   "description": "i18n(trapper_plus:food.raw_meat.recipes.venison_description)",
+   "flavor": "i18n(trapper_plus:food.raw_meat.recipes.venison_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/3x_raw_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:venison",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_venison_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_venison_meat"
+      },
+	  {
+         "item": "trapper_plus:raw_venison_meat"
+      }
+   ]
+}

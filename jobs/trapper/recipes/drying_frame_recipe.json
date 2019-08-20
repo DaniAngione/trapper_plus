@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 16,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:trapper.drying_frame.recipe_display_name)",
+   "description": "i18n(trapper_plus:trapper.drying_frame.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.drying_frame.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/drying_frame/drying_frame.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:drying_frame"
+      }
+   ]
+}

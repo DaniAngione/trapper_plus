@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(rabbit_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(rabbit_hat_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(rabbit_hat_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "trapper_job",
+         "required_job_level": 4,
+         "ilevel": 4,
+         "injected_buffs": [
+            "trapper_plus:buffs:rabbit_spirit"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 11,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.rabbit_hat.display_name)",
+         "description": "i18n(trapper_plus:trapper.rabbit_hat.worn_description)",
+         "icon": "file(rabbit_hat.png)",
+         "category": "armor",
+         "material_tags": [
+            "trapper_outfit",
+            "cloth",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

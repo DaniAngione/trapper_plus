@@ -1,0 +1,50 @@
+{
+   "type": "index",
+   "resources": {
+      "food meat raw": {
+         "name": "i18n(trapper_plus:data.constants.food_meat_raw_resource_name)",
+         "default_resource": "trapper_plus:raw_red_fox_meat",
+         "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_raw.png"
+      },
+      "small food meat raw": {
+         "name": "i18n(trapper_plus:data.constants.small_food_meat_raw_resource_name)",
+         "default_resource": "trapper_plus:raw_squirrel_meat",
+         "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_small_raw.png"
+      },
+      "large food meat raw": {
+         "name": "i18n(trapper_plus:data.constants.large_food_meat_raw_resource_name)",
+         "default_resource": "trapper_plus:raw_boar_meat",
+         "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_big_raw.png"
+      },
+      "pelt resource": {
+         "name": "i18n(trapper_plus:data.constants.any_pelt_resource_name)",
+         "icon": "/trapper_plus/entities/resources/any_pelt.png",
+         "default_resource": "stonehearth:resources:red_fox_pelt"
+      },
+      "large pelt resource": {
+         "name": "i18n(trapper_plus:data.constants.large_pelt_resource_name)",
+         "icon": "/trapper_plus/entities/resources/large_pelt.png",
+         "default_resource": "stonehearth:resources:boar_pelt"
+      },
+      "small pelt resource": {
+         "name": "i18n(trapper_plus:data.constants.small_pelt_resource_name)",
+         "icon": "/trapper_plus/entities/resources/small_pelt.png",
+         "default_resource": "stonehearth:resources:squirrel_pelt"
+      },
+      "skin resource": {
+         "name": "i18n(trapper_plus:data.constants.skin_resource_name)",
+         "icon": "/trapper_plus/entities/resources/any_skin.png",
+         "default_resource": "stonehearth:resources:varanus_skin"
+      },
+      "animal_fat_rendered cooking_ingredient": {
+         "name": "i18n(trapper_plus:data.constants.animal_fat_rendered_resource_name)",
+         "icon": "/trapper_plus/entities/food/animal_fat_rendered/animal_fat_rendered_icon.png",
+         "default_resource": "trapper_plus:food:animal_fat_rendered"
+      },
+      "food meat jerky": {
+         "name": "i18n(trapper_plus:data.constants.food_meat_jerky_name)",
+         "default_resource": "stonehearth:rabbit_jerky",
+         "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_jerky.png"
+      }
+   }
+}

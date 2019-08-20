@@ -1,0 +1,35 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(thin_leather.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.thin_leather.display_name)",
+         "description": "i18n(trapper_plus:entities.thin_leather.description)",
+         "icon": "file(thin_leather.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags":["leather", "refined", "refined_cloth", "stockpile_refined_weaver"]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}

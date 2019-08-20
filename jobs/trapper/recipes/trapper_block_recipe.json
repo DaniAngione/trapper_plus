@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 25,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:trapper.block.recipe_display_name)",
+   "description": "i18n(trapper_plus:trapper.block.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.block.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/trapper_block/trapper_block.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:block"
+      }
+   ]
+}
