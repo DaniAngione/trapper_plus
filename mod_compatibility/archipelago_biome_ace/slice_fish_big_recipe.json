@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "effort": 11,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.raw_white_meat.recipes.fish_big_display_name)",
+   "description": "i18n(trapper_plus:food.raw_white_meat.recipes.fish_big_description)",
+   "flavor": "i18n(trapper_plus:food.raw_white_meat.recipes.fish_big_flavor)",
+   "portrait": "/trapper_plus/entities/resources/raw_meat/3x_fish_meat.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "archipelago_biome:food:big_fish",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth_ace:food:fish_meat"
+      },
+	   {
+         "item": "stonehearth_ace:food:fish_meat"
+      },
+		{
+         "item": "stonehearth_ace:food:fish_meat"
+      }
+   ]
+}

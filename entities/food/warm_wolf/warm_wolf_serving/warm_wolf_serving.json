@@ -17,17 +17,22 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 150
+            "satisfaction": 88
          },
          "default": {
-            "satisfaction": 90
+            "satisfaction": 60
          },
-         "quality": 5
+         "quality": 6
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.warm_wolf.serving_display_name)",
          "description": "i18n(trapper_plus:food.warm_wolf.serving_description)",
-         "material_tags":["food", "warm_wolf_serving", "meat"],
+         "material_tags": [
+            "food",
+            "warm_wolf_serving",
+            "meat",
+            "dinner_time"
+         ],
          "subject_override": "trapper_plus:food:warm_wolf"
       }
    }

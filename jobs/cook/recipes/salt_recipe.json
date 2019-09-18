@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.food.salt.display_name)",
+   "description": "i18n(trapper_plus:entities.food.salt.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.food.salt.flavor)",
+   "portrait": "/trapper_plus/entities/food/salt/salt.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "trapper_plus:resources:salt:clump_of_rock_salt",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:food:salt"
+      }
+   ]
+}

@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:trapper.input_rack_pelt_large.recipe_display_name)",
+   "description": "i18n(trapper_plus:trapper.input_rack_pelt_large.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.input_rack_pelt_large.flavor)",
+   "portrait": "/trapper_plus/entities/containers/input_rack_pelt_large/input_rack_pelt_large.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:containers:input_rack:pelt_large"
+      }
+   ]
+}

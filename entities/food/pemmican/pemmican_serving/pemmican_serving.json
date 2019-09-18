@@ -33,7 +33,10 @@
          "material_tags": [
             "food",
             "pemmican_serving",
-            "meat"
+            "meat",
+            "lunch_time",
+            "dinner_time",
+            "breakfast_time"
          ],
          "subject_override": "trapper_plus:food:pemmican"
       }

@@ -6,7 +6,7 @@
    "emission": {
       "rate": {
          "kind": "CONSTANT",
-         "values": [3]
+         "values": [4]
       },
       "angle": {
          "kind": "CONSTANT",
@@ -14,14 +14,14 @@
       },
       "origin": {
          "surface": "RECTANGLE",
-         "values": [2, 2, 0, 0]
+         "values": [1.8, 1.8, 0, 0]
       }
    },
    "particle": {
       "lifetime": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [800, 1200]
+            "values": [800, 1600]
          }
       },
       "speed": {
@@ -63,8 +63,8 @@
          "over_lifetime_a": {
             "kind": "CURVE",
             "values": [
-               [0, 0.3],
-               [0.8, 0.2],
+               [0, 0.2],
+               [0.8, 0.1],
                [1, 0]
             ]
          }

@@ -1,0 +1,38 @@
+{
+   "craftable_recipes": {
+		"workbenches": {
+         "recipes": {
+            "fish_trap": {
+               "recipe": "file(fish_trap_recipe.json)"
+            }
+         }
+		},
+		"tannery": {
+			"recipes": {
+				"trapper_tannin_chestnut": {
+					"recipe": "file(trapper_tannin_chestnut_recipe.json)"
+				}
+			}
+		},
+		"butchering": {
+			"recipes": {
+				"slice_steak": {
+					"recipe": "file(slice_steak_recipe.json)"
+				}
+			}
+		},	
+		"boiling": {
+			"recipes": {
+				"rendered_animal_fat_tallow": {
+					"recipe": "file(rendered_animal_fat_tallow_recipe.json)"
+				},
+				"pemmican": {
+					"recipe": "file(pemmican_recipe.json)"
+				}
+			}
+		},
+      "clothing": {
+         "recipes": {}
+      }
+   }
+}

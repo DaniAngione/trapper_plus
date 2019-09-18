@@ -1,0 +1,39 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(output_rack_rawhide.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "/trapper_plus/data/rigs/containers/input_rack_pelt_large/input_rack_pelt_large.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.containers.output_rack_rawhide.display_name)",
+         "description": "i18n(trapper_plus:entities.containers.output_rack_rawhide.description)",
+         "icon": "file(output_rack_rawhide.png)",
+         "category": "storage",
+         "material_tags": [
+            "wood",
+            "containers",
+            "crafted",
+            "furniture",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

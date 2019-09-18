@@ -2,12 +2,13 @@
    "type": "recipe",
    "effort": 80,
    "work_units": 10,
-   "recipe_name": "i18n(trapper_plus:trapper.smokehouse.display_name)",
+   "recipe_name": "i18n(trapper_plus:trapper.rc_smokehouse.display_name)",
    "description": "i18n(trapper_plus:trapper.smokehouse.recipe_description)",
    "flavor": "i18n(trapper_plus:trapper.smokehouse.flavor)",
    "portrait": "/trapper_plus/jobs/trapper/rc_smokehouse/rc_smokehouse.png",
    "level_requirement": 2,
    "work_effect": "work",
+	"manual_unlock": true,
    "ingredients": [
       {
          "material": "clay resource",

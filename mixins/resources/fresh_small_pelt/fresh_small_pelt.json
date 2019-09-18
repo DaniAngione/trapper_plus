@@ -32,8 +32,7 @@
             "resource",
             "animal_part",
             "small",
-            "pelt",
-            "fresh"
+            "fresh_pelt"
          ]
       },
       "stonehearth:appeal": {

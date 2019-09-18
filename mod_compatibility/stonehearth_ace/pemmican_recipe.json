@@ -1,0 +1,40 @@
+{
+   "type": "recipe",
+   "effort": 32,
+   "work_units": 1,
+   "recipe_name": "i18n(trapper_plus:food.pemmican.recipe_name)",
+   "description": "i18n(trapper_plus:food.pemmican.recipe_description)",
+   "flavor": "i18n(trapper_plus:food.pemmican.flavor)",
+   "portrait": "/trapper_plus/entities/food/pemmican/pemmican/pemmican_x3.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "material": "food meat raw",
+         "count": 2
+      },
+		{
+         "material": "raw_food fruit",
+         "count": 2
+      },
+		{
+         "material": "animal_fat_rendered cooking_ingredient",
+         "count": 1
+      },
+		{
+         "uri": "trapper_plus:resources:rawhide",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:food:pemmican"
+      },
+		{
+         "item": "trapper_plus:food:pemmican"
+      },
+		{
+         "item": "trapper_plus:food:pemmican"
+      }
+   ]
+}

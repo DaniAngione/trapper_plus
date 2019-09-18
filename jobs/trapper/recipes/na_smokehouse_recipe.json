@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 10,
+   "recipe_name": "i18n(trapper_plus:trapper.na_smokehouse.display_name)",
+   "description": "i18n(trapper_plus:trapper.smokehouse.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.smokehouse.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/na_smokehouse/na_smokehouse.png",
+   "level_requirement": 2,
+   "work_effect": "work",
+	"manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 4
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:na_smokehouse"
+      }
+   ]
+}

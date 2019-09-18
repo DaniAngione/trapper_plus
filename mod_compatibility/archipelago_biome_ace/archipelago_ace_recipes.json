@@ -1,0 +1,14 @@
+{
+   "craftable_recipes": {
+		"butchering": {
+			"recipes": {
+				"slice_fish": {
+					"recipe": "file(slice_fish_recipe.json)"
+				},
+				"slice_fish_big": {
+					"recipe": "file(slice_fish_big_recipe.json)"
+				}
+			}
+		}
+   }
+}

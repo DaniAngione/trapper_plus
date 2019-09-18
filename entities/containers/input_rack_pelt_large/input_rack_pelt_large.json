@@ -1,0 +1,57 @@
+{
+   "type": "entity",
+   "mixins": "file(input_rack_pelt_large_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(input_rack_pelt_large_iconic.json)",
+         "ghost_form": "file(input_rack_pelt_large_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 1, "z": 1 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 3, "z": 1 }
+            }
+         ]
+      },
+      "stonehearth:storage": {
+         "type": "input_crate",
+         "capacity": 20,
+         "render_contents": true,
+         "reposition_items": "shift",
+         "filter_list": "trapper_plus:input_box:pelt_large_rack_filters",
+         "is_single_filter": true,
+         "default_filter": [
+            "large pelt"
+         ]
+      },
+      "effect_list": {
+         "default": "/trapper_plus/data/rigs/containers/input_rack_pelt_large/effects/idle.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.09
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(salt.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 7,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.food.salt.display_name)",
+         "description": "i18n(trapper_plus:entities.food.salt.description)",
+         "icon": "file(salt.png)",
+         "is_item": true,
+         "category": "cooking_ingredient",
+         "material_tags": [
+            "stockpile_cooking_ingredient",
+            "cooking_ingredient",
+            "salt",
+            "seasoning",
+            "other_ingredient"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}

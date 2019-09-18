@@ -6,6 +6,11 @@
          "default_resource": "trapper_plus:raw_red_fox_meat",
          "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_raw.png"
       },
+      "cooking_ingredient hangable fish_meat": {
+         "name": "i18n(trapper_plus:data.constants.fish_resource_name)",
+         "icon": "/archipelago_biome/entities/food/fish/fish.png",
+         "default_resource": "archipelago_biome:food:fish"
+      },
       "small food meat raw": {
          "name": "i18n(trapper_plus:data.constants.small_food_meat_raw_resource_name)",
          "default_resource": "trapper_plus:raw_squirrel_meat",
@@ -45,6 +50,20 @@
          "name": "i18n(trapper_plus:data.constants.food_meat_jerky_name)",
          "default_resource": "stonehearth:rabbit_jerky",
          "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_jerky.png"
+      },
+      "leather resource": {
+         "name": "i18n(trapper_plus:data.constants.leather_resource_name)",
+         "icon": "/trapper_plus/entities/refined/any_leather.png"
+      },
+      "leather resource small": {
+         "name": "i18n(trapper_plus:data.constants.leather_resource_small_name)",
+         "icon": "/trapper_plus/entities/refined/small_leather.png",
+         "default_resource": "trapper_plus:refined:thin_leather"
+      },
+      "leather resource bolt": {
+         "name": "i18n(trapper_plus:data.constants.leather_resource_bolt_name)",
+         "icon": "/trapper_plus/entities/refined/bolt_leather.png",
+         "default_resource": "stonehearth:refined:leather_bolt"
       }
    }
 }

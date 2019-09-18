@@ -1,6 +1,6 @@
 {
    "type": "recipe",
-   "effort": 60,
+   "effort": 20,
    "work_units": 6,
    "recipe_name": "i18n(trapper_plus:food.warm_wolf.display_name)",
    "description": "i18n(trapper_plus:food.warm_wolf.description)",

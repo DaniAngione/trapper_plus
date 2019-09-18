@@ -17,17 +17,22 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 140
+            "satisfaction": 65
          },
          "default": {
-            "satisfaction": 75
+            "satisfaction": 55
          },
-         "quality": 5
+         "quality": 6
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.smoked_sausage.serving_display_name)",
          "description": "i18n(trapper_plus:food.smoked_sausage.serving_description)",
-         "material_tags":["food", "smoked_sausage_serving", "meat"],
+         "material_tags": [
+            "food",
+            "smoked_sausage_serving",
+            "meat",
+            "lunch_time"
+         ],
          "subject_override": "trapper_plus:food:smoked_sausage"
       }
    }

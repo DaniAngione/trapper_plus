@@ -8,6 +8,7 @@
    "portrait": "/trapper_plus/jobs/trapper/smokehouse/smokehouse.png",
    "level_requirement": 2,
    "work_effect": "work",
+	"manual_unlock": true,
    "ingredients": [
       {
          "material": "wood resource",

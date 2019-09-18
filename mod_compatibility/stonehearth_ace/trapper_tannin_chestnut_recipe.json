@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 4,
+   "recipe_name": "i18n(trapper_plus:entities.tannin.chestnut_recipe_display_name)",
+   "description": "i18n(trapper_plus:entities.tannin.chestnut_recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.tannin.chestnut_flavor)",
+   "portrait": "/trapper_plus/entities/resources/2x_tannin.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "work_effect": "fiddle",
+	"level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth_ace:resources:wood:chestnut_log",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:resources:tannin"
+      },
+		{
+         "item": "trapper_plus:resources:tannin"
+      }
+   ]
+}

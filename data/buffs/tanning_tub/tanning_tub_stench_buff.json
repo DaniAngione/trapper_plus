@@ -1,0 +1,25 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "i18n(trapper_plus:buffs.tanning_tub_stench.display_name)",
+   "description": "i18n(trapper_plus:buffs.tanning_tub_stench.description)",
+   "icon": "file(tanning_tub_stench_buff.png)",
+   "script": "core_dani:buff_scripts:add_thought",
+   "duration": "6h",
+   "repeat_add_action": "renew_duration",
+   "thought": "stonehearth:thoughts:job:tanning_tub_stench",
+   "modifiers": {
+      "willpower": {
+         "multiply": 0.5
+      },
+      "social_loss_amount": {
+         "multiply": 0.2
+      },
+      "curiosity": {
+         "multiply": 0.5
+      },
+      "inspiration": {
+         "multiply": 0.2
+      }
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_steak.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:smoked_steak:smoked_steak_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 19,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_steak.display_name)",
+         "description": "i18n(trapper_plus:food.smoked_steak.description)",
+         "icon": "file(smoked_steak.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "smoked_steak",
+            "smoked",
+            "stockpile_prepared_food",
+            "meat",
+            "lunch_time"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

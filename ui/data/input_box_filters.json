@@ -1,37 +1,73 @@
 {
-	"type": "index",
-	"stockpile": {
-		"animal_parts": {
-			"categories": {
-				"fresh_pelts": {
-					"ordinal": 0.1,
-					"display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
-					"icon": "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt.png",
-					"filter": "fresh_pelt"
-				},
-				"fresh_small_pelts": {
-					"ordinal": 0.2,
-					"display_name": "i18n(trapper_plus:entities.fresh_small_pelt.display_name)",
-					"icon": "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt.png",
-					"filter": "fresh_small_pelt"
-				},
-				"small_pelts": {
-					"ordinal": 1.1,
-					"display_name": "i18n(trapper_plus:data.filters.small_pelt)",
-					"icon": "/stonehearth/entities/resources/pelt/squirrel_pelt/squirrel_pelt.png",
-					"filter": "small_pelt"
-				}
-			}
-		},
-		"raw_foods": {
-			"categories": {
-				"raw_meat": {
-					"ordinal": 3.1,
-					"display_name": "i18n(trapper_plus:data.filters.raw_meat)",
-					"icon": "/trapper_plus/entities/resources/raw_meat/input_all_raw.png",
-					"filter": "raw meat"
-				}
-			}
-		}
-	}
+   "type": "index",
+   "stockpile": {
+      "animal_parts": {
+         "categories": {
+            "any_fresh_pelt": {
+               "ordinal": 0.2,
+               "display_name": "i18n(trapper_plus:entities.any_fresh_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/any_fresh_pelt.png",
+               "filter": "fresh_pelt"
+            },
+            "fresh_small_pelt": {
+               "ordinal": 0.3,
+               "display_name": "i18n(trapper_plus:entities.fresh_small_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/fresh_small_pelt.png",
+               "filter": "small fresh_pelt"
+            },
+            "fresh_pelt": {
+               "ordinal": 0.4,
+               "display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/fresh_large_pelt.png",
+               "filter": "large fresh_pelt"
+            },
+            "pelts": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:entities.pelts.display_name)",
+               "icon": "/trapper_plus/entities/resources/any_pelt.png"
+            },
+            "small_pelt": {
+               "ordinal": 1.1,
+               "display_name": "i18n(trapper_plus:data.filters.small_pelt)",
+               "icon": "/trapper_plus/entities/resources/small_pelt.png",
+               "filter": "small pelt"
+            },
+            "large_pelt": {
+               "ordinal": 1.2,
+               "display_name": "i18n(trapper_plus:data.filters.large_pelt)",
+               "icon": "/trapper_plus/entities/resources/large_pelt.png",
+               "filter": "large pelt"
+            },
+            "fresh_skin": {
+               "ordinal": 1.99,
+               "display_name": "i18n(trapper_plus:data.filters.fresh_skin)",
+               "icon": "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png",
+               "filter": "fresh_skin"
+            },
+            "hard_pelts": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:data.filters.hard_pelts)",
+               "icon": "/trapper_plus/entities/resources/any_skin.png",
+               "filter": "resource animal_part skin"
+            }
+         }
+      },
+      "raw_foods": {
+         "categories": {
+            "raw_meat": {
+               "ordinal": 0.1,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/input_all_raw.png",
+               "filter": "raw meat"
+            }
+         }
+      },
+      "cooking_ingredients": {
+         "categories": {
+            "mixintypes": {
+               "any_raw_meat": "remove"
+            }
+         }
+      }
+   }
 }

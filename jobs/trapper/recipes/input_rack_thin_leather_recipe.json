@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 8,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:trapper.input_rack_thin_leather.recipe_display_name)",
+   "description": "i18n(trapper_plus:trapper.input_rack_thin_leather.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.input_rack_thin_leather.flavor)",
+   "portrait": "/trapper_plus/entities/containers/input_rack_thin_leather/input_rack_thin_leather.png",
+   "work_effect": "work",
+	"level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:containers:input_rack:thin_leather"
+      }
+   ]
+}

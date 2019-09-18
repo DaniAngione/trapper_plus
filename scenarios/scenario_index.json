@@ -1,0 +1,11 @@
+{
+   "static": {
+      "scenarios": [
+         "file(static/terrain/rock_salt_vein)"
+      ],
+      "categories": {}
+   },
+   "dynamic": {
+      "scenarios": []
+   }
+}

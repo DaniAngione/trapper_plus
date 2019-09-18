@@ -15,7 +15,7 @@
    },
    "entity_data": {
       "stonehearth:net_worth": {
-         "value_in_gold": 9,
+         "value_in_gold": 10,
          "rarity": "uncommon",
          "shop_info": {
             "buyable": true,
@@ -37,6 +37,7 @@
             "fat",
             "oil",
             "grease",
+            "grease_or_oil",
             "wax",
             "poor"
          ]

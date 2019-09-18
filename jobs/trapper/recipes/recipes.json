@@ -1,4 +1,7 @@
 {
+	"mixins": [
+		"file(ace_recipes.json)"
+	],
    "craftable_recipes": {
       "workbenches": {
          "ordinal": 1,
@@ -24,124 +27,147 @@
 				},
 				"rc_smokehouse": {
 					"recipe": "file(rc_smokehouse_recipe.json)"
+				},
+				"na_smokehouse": {
+					"recipe": "file(na_smokehouse_recipe.json)"
+				},
+				"trapper_salt_box": {
+					"recipe": "file(trapper_salt_box_recipe.json)"
 				}
          }
       },
-	  "tannery": {
-		 "ordinal": 5,
-		 "name": "i18n(trapper_plus:trapper.recipes.tannery_name)",
-		 "recipes": {
-			"clean_pelt": {
-				"recipe": "file(clean_pelt_recipe.json)"
-			},
-			"clean_skin": {
-				"recipe": "file(clean_skin_recipe.json)"
-			},
-			"clean_small_pelt": {
-				"recipe": "file(clean_small_pelt_recipe.json)"
-			},
-			"trapper_tannin": {
-				"recipe": "file(trapper_tannin_recipe.json)"
+		"tannery": {
+			"ordinal": 5,
+			"name": "i18n(trapper_plus:trapper.recipes.tannery_name)",
+			"recipes": {
+				"clean_pelt": {
+					"recipe": "file(clean_pelt_recipe.json)"
+				},
+				"clean_skin": {
+					"recipe": "file(clean_skin_recipe.json)"
+				},
+				"clean_small_pelt": {
+					"recipe": "file(clean_small_pelt_recipe.json)"
+				},
+				"trapper_tannin": {
+					"recipe": "file(trapper_tannin_recipe.json)"
+				}
 			}
-		 }
-	  },
-	  "butchering": {
-		 "ordinal": 5.1,
-		 "name": "i18n(trapper_plus:trapper.recipes.butchering_name)",
-		 "recipes": {
-			"slice_venison": {
-				"recipe": "file(slice_venison_recipe.json)"
-			},
-			"slice_pork": {
-				"recipe": "file(slice_pork_recipe.json)"
-			},
-			"slice_mutton": {
-				"recipe": "file(slice_mutton_recipe.json)"
-			},
-			"slice_poultry": {
-				"recipe": "file(slice_poultry_recipe.json)"
-			},
-			"slice_poyo": {
-				"recipe": "file(slice_poyo_recipe.json)"
-			},
-			"slice_varanus": {
-				"recipe": "file(slice_varanus_recipe.json)"
-			},
-			"sausage_recipe": {
-				"recipe": "file(sausage_recipe.json)"
+		},
+		"butchering": {
+			"ordinal": 6,
+			"name": "i18n(trapper_plus:trapper.recipes.butchering_name)",
+			"recipes": {
+				"slice_venison": {
+					"recipe": "file(slice_venison_recipe.json)"
+				},
+				"slice_pork": {
+					"recipe": "file(slice_pork_recipe.json)"
+				},
+				"slice_mutton": {
+					"recipe": "file(slice_mutton_recipe.json)"
+				},
+				"slice_poultry": {
+					"recipe": "file(slice_poultry_recipe.json)"
+				},
+				"slice_poyo": {
+					"recipe": "file(slice_poyo_recipe.json)"
+				},
+				"slice_varanus": {
+					"recipe": "file(slice_varanus_recipe.json)"
+				},
+				"sausage_recipe": {
+					"recipe": "file(sausage_recipe.json)"
+				}
 			}
-		 }
-	  },
-	  "boiling": {
-		 "ordinal": 5.2,
-		 "name": "i18n(trapper_plus:trapper.recipes.boiling_name)",
-		 "recipes": {
-			"bug_meat_soup": {
-				"recipe": "file(bug_meat_soup_recipe.json)"
-			},
-			"rendered_animal_fat": {
-				"recipe": "file(rendered_animal_fat_recipe.json)"
-			},
-			"rendered_animal_fat_lard": {
-				"recipe": "file(rendered_animal_fat_lard_recipe.json)"
-			},
-			"pemmican": {
-				"recipe": "file(pemmican_recipe.json)"
+		},	
+		"curing": {
+			"ordinal": 7,
+			"name": "i18n(trapper_plus:trapper.recipes.curing_name)",
+			"recipes": {}
+		},
+		"boiling": {
+			"ordinal": 8,
+			"name": "i18n(trapper_plus:trapper.recipes.boiling_name)",
+			"recipes": {
+				"bug_meat_soup": {
+					"recipe": "file(bug_meat_soup_recipe.json)"
+				},
+				"rendered_animal_fat": {
+					"recipe": "file(rendered_animal_fat_recipe.json)"
+				},
+				"rendered_animal_fat_lard": {
+					"recipe": "file(rendered_animal_fat_lard_recipe.json)"
+				},
+				"pemmican": {
+					"recipe": "file(pemmican_recipe.json)"
+				}
 			}
-		 }
-	  },
+		},
       "storage": {
          "ordinal": 10,
          "name": "i18n(trapper_plus:trapper.recipes.storage_name)",
          "recipes": {
+				"input_rack_pelt_large": {
+					"recipe": "file(input_rack_pelt_large_recipe.json)"
+				},
+				"input_rack_pelt_small": {
+					"recipe": "file(input_rack_pelt_small_recipe.json)"
+				},
+				"input_rack_thin_leather": {
+					"recipe": "file(input_rack_thin_leather_recipe.json)"
+				},
+				"output_rack_rawhide": {
+					"recipe": "file(output_rack_rawhide_recipe.json)"
+				}
          }
       },
       "clothing": {
          "ordinal": 20,
          "name": "i18n(trapper_plus:trapper.recipes.clothing_name)",
          "recipes": {
-			"fur_coat": {
-				"recipe": "file(fur_coat_recipe.json)"
-			},
-			"squirrel_hat": {
-				"recipe": "file(squirrel_hat_recipe.json)"
-			},
-			"racoon_hat": {
-				"recipe": "file(racoon_hat_recipe.json)"
-			},
-			"rabbit_hat": {
-				"recipe": "file(rabbit_hat_recipe.json)"
-			},
-			"wolf_hood": {
-				"recipe": "file(wolf_hood_recipe.json)"
-			},
-			"cougar_hood": {
-				"recipe": "file(cougar_hood_recipe.json)"
-			}
+				"fur_coat": {
+					"recipe": "file(fur_coat_recipe.json)"
+				},
+				"squirrel_hat": {
+					"recipe": "file(squirrel_hat_recipe.json)"
+				},
+				"racoon_hat": {
+					"recipe": "file(racoon_hat_recipe.json)"
+				},
+				"rabbit_hat": {
+					"recipe": "file(rabbit_hat_recipe.json)"
+				},
+				"wolf_hood": {
+					"recipe": "file(wolf_hood_recipe.json)"
+				},
+				"cougar_hood": {
+					"recipe": "file(cougar_hood_recipe.json)"
+				}
          }
       },
       "decorations": {
          "ordinal": 30,
          "name": "i18n(trapper_plus:trapper.recipes.decorations_name)",
          "recipes": {
-			"sign_tannery": {
-				"recipe": "file(sign_tannery_recipe.json)"
-			},
-			"fox_rug": {
-				"recipe": "file(fox_rug_recipe.json)"
-			},
-			"cougar_rug": {
-				"recipe": "file(cougar_rug_recipe.json)"
-			},
-			"boar_rug": {
-				"recipe": "file(boar_rug_recipe.json)"
-			},
-			"deer_rug": {
-				"recipe": "file(deer_rug_recipe.json)"
-			},
-			"wolf_rug": {
-				"recipe": "file(wolf_rug_recipe.json)"
-			}
+				"sign_tannery": {
+					"recipe": "file(sign_tannery_recipe.json)"
+				},
+				"fox_rug": {
+					"recipe": "file(fox_rug_recipe.json)"
+				},
+				"cougar_rug": {
+					"recipe": "file(cougar_rug_recipe.json)"
+				},
+				"boar_rug": {
+					"recipe": "file(boar_rug_recipe.json)"
+				},
+				"deer_rug": {
+					"recipe": "file(deer_rug_recipe.json)"
+				},
+				"wolf_rug": {
+					"recipe": "file(wolf_rug_recipe.json)"
+				}
          }
       }
    }

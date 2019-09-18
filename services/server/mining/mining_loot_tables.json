@@ -1,0 +1,21 @@
+{
+   "type": "index",
+   "mineable_blocks": {
+      "salt": {
+         "entries": {
+            "default": {
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  },
+                  "clump_of_rock_salt": {
+                     "uri": "trapper_plus:resources:salt:clump_of_rock_salt",
+                     "weight": 40
+                  }
+               }
+            }
+         }
+      }
+   }
+}

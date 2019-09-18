@@ -30,7 +30,14 @@
          "icon": "file(scaly_leather_bolt.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags":["leather", "resource", "refined_cloth", "stockpile_refined_weaver"]
+         "material_tags": [
+            "leather",
+            "scaly_leather_bolt",
+            "bolt",
+            "resource",
+            "refined_cloth",
+            "stockpile_refined_weaver"
+         ]
       }
    }
 }

@@ -10,6 +10,18 @@
                "display_name": "i18n(trapper_plus:data.filters.everything)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_curables.png",
                "filter": "smokehouse_curable"
+            },
+            "only_raw": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:data.filters.only_raw)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_only_raw.png",
+               "filter": "smokehouse_curable raw"
+            },
+            "only_salted": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:data.filters.only_salted)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_only_salted.png",
+               "filter": "smokehouse_curable salted"
             }
          }
       },

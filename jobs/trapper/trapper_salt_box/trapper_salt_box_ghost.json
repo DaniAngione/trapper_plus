@@ -1,0 +1,42 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(trapper_salt_box.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/trapper_salt_box.json"
+      },
+      "effect_list": {
+         "default": "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/effects/idle.json"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "z"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.salt_box.display_name)",
+         "description": "i18n(trapper_plus:trapper.salt_box.description)",
+         "icon": "file(trapper_salt_box.png)",
+         "category": "storage",
+         "material_tags": [
+            "wood",
+            "containers",
+            "crafted",
+            "furniture",
+            "trapper_salt_box",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

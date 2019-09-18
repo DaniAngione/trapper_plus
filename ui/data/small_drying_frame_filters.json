@@ -6,11 +6,11 @@
          "filter": "resources",
          "ordinal": 1,
          "categories": {
-            "large_fresh_pelt": {
+            "small_fresh_pelt": {
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:data.filters.small_fresh_pelt)",
-               "icon": "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt_stockpile.png",
-               "filter": "small fresh pelt"
+               "icon": "/trapper_plus/entities/resources/fresh_small_pelt.png",
+               "filter": "small fresh_pelt"
             }
          }
       },
@@ -23,19 +23,19 @@
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:entities.fresh_rabbit_pelt.display_name)",
                "icon": "/trapper_plus/entities/resources/pelt/fresh_rabbit_pelt/fresh_rabbit_pelt.png",
-               "filter": "fresh pelt rabbit"
+               "filter": "fresh_pelt rabbit"
             },
             "fresh_racoon_pelt": {
                "ordinal": 2,
                "display_name": "i18n(trapper_plus:entities.fresh_racoon_pelt.display_name)",
                "icon": "/trapper_plus/entities/resources/pelt/fresh_racoon_pelt/fresh_racoon_pelt.png",
-               "filter": "fresh pelt racoon"
+               "filter": "fresh_pelt racoon"
             },
             "fresh_squirrel_pelt": {
                "ordinal": 3,
                "display_name": "i18n(trapper_plus:entities.fresh_squirrel_pelt.display_name)",
                "icon": "/trapper_plus/entities/resources/pelt/fresh_squirrel_pelt/fresh_squirrel_pelt.png",
-               "filter": "fresh pelt squirrel"
+               "filter": "fresh_pelt squirrel"
             }
          }
       }

@@ -1,11 +1,18 @@
 {
    "craftable_recipes": {
+		"ingredients": {
+			"recipes": {
+				"salt": {
+					"recipe": "file(salt_recipe.json)"
+				}
+			}
+      },
       "chefs_specials": {
 			"recipes": {
 				"roast_sausage": {
 					"recipe": "file(warm_wolf_recipe.json)"
 				}
 			}
-        }
-    }
+      }
+   }
 }

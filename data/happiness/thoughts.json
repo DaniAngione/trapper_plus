@@ -1,0 +1,16 @@
+{
+   "type": "index",
+   "thoughts": {
+      "job": {
+         "values": {
+            "tanning_tub_stench": {
+               "display_name": "i18n(trapper_plus:data.happiness.thoughts.job.values.tanning_tub_stench.display_name)",
+               "tooltip": "i18n(trapper_plus:data.happiness.thoughts.job.values.tanning_tub_stench.tooltip)",
+               "happiness_delta": -6,
+               "duration": "6h",
+               "stackable": false
+            }
+         }
+      }
+   }
+}

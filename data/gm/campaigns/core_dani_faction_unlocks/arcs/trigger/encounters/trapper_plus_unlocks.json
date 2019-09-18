@@ -1,0 +1,8 @@
+{
+	"type": "encounter",
+	"encounter_type": "script",
+	"in_edge": "trapper_plus_unlocks",
+	"script_info": {
+		"script": "file(lua/trapper_plus_unlocks.lua)"
+	}
+}

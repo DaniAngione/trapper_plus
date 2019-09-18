@@ -17,10 +17,12 @@
       },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 31
+            "satisfaction": 25,
+            "drink_satisfaction": 14
          },
          "default": {
-            "satisfaction": 27
+            "satisfaction": 20,
+            "drink_satisfaction": 7
          },
          "applied_buffs": [
             "stonehearth_ace:buffs:consumption:warm_belly"
@@ -32,7 +34,8 @@
          "description": "",
          "material_tags": [
             "food",
-            "meat"
+            "meat",
+            "dinner_time"
          ],
          "subject_override": "trapper_plus:food:bug_meat_soup"
       }

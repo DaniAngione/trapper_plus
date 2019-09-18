@@ -7,6 +7,7 @@
          "display_name": "i18n(trapper_plus:food.raw_racoon_meat.display_name)",
          "material_tags": [
             "smokehouse_curable",
+            "salt_box_curable",
             "racoon",
             "raw_jerky"
          ]
@@ -16,11 +17,12 @@
             "min": 6,
             "max": 18
          },
-         "cool_entity_alias": "trapper_plus:raw_racoon_meat",
-         "proper_cool_entity_alias": "stonehearth:racoon_jerky",
+         "proper_cool_entity_alias": "trapper_plus:food:smoked_racoon_meat",
          "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
          "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-			"proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse",
+         "alternative_cool_entity_alias": "trapper_plus:food:salted_racoon_meat",
+         "alternative_cooler_alias": "trapper_plus:trapper:salt_box"
       }
    }
 }

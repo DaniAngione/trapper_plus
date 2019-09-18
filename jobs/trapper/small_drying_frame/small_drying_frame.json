@@ -33,7 +33,7 @@
          "render_contents": true,
          "filter_list": "trapper_plus:input_box:small_drying_frame_filters",
          "default_filter": [
-            "small fresh pelt"
+            "small fresh_pelt"
          ],
          "is_single_filter": true
       },

@@ -1,0 +1,18 @@
+{
+   "mixins": "/stonehearth/scenarios/static/terrain/ore_vein/ore_vein.json",
+   "name": "rock_salt_vein",
+   "kind": "salt",
+   "weight": 75,
+   "habitat_types": [
+      "foothills"
+   ],
+   "data": {
+      "num_veins_min": 0,
+      "num_veins_max": 1,
+      "vein_length_min": 24,
+      "vein_length_max": 36,
+      "vein_radius": 4,
+      "mother_lode_radius_min": 5,
+      "mother_lode_radius_max": 8
+   }
+}

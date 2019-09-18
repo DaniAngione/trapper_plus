@@ -26,7 +26,14 @@
          "icon": "file(thin_leather.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags":["leather", "refined", "refined_cloth", "stockpile_refined_weaver"]
+         "material_tags": [
+            "leather",
+            "small",
+            "thin_leather",
+            "resource",
+            "refined_cloth",
+            "stockpile_refined_weaver"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 1

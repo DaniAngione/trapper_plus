@@ -24,7 +24,8 @@
          "is_item": true,
          "category": "resources",
          "material_tags": [
-            "zilla"
+            "zilla",
+            "fresh_skin"
          ]
       },
       "core_dani:cooling": {

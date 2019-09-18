@@ -23,8 +23,8 @@
          "stacks_per_serving": 1
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 34,
-         "rarity": "common",
+         "value_in_gold": 18,
+         "rarity": "uncommon",
          "shop_info": {
             "buyable": true,
             "sellable": true,
@@ -38,7 +38,15 @@
          "icon": "file(smoked_sausage.png)",
          "is_item": true,
          "category": "food",
-         "material_tags":["food_container", "prepared_food", "smoked_sausage", "stockpile_prepared_food", "meat"]
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "smoked_sausage",
+            "smoked",
+            "stockpile_prepared_food",
+            "meat",
+            "lunch_time"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 3

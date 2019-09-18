@@ -1,0 +1,11 @@
+{
+   "block_types": {
+      "salt": {
+         "tag": 609,
+         "kind": "salt"
+      }
+   },
+   "selectable_kinds": {
+      "salt": "trapper_plus:terrain:ui:rock_salt_block"
+   }
+}
