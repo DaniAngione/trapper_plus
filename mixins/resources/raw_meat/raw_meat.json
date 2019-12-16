@@ -27,9 +27,7 @@
          "rarity": "common",
          "shop_info": {
             "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
+            "sellable": true
          }
       },
       "stonehearth:food_decay": {
@@ -53,7 +51,6 @@
          "category": "cooking_ingredient",
          "material_tags": [
             "stockpile_cooking_ingredient",
-            "food",
             "meat",
             "raw",
             "cooking_ingredient",

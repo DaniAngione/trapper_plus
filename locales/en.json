@@ -139,6 +139,66 @@
       }
    },
    "data": {
+      "gm": {
+         "campaigns": {
+            "trader": {
+               "arcs": {
+                  "encounters": {
+                     "tier_1_shops": {
+                        "salt_mine_shop_1": {
+                           "shop_info": {
+                              "name": "Salt Mine Workers",
+                              "title": "Some workers from a local salt mine have arrived"
+                           }
+                        }
+                     },
+                     "tier_2_shops": {
+                        "salt_mine_shop_2": {
+                           "shop_info": {
+                              "name": "Salt Mines of Angor",
+                              "title": "A trader from a big salt mine has arrived"
+                           }
+                        }
+                     },
+                     "tier_3_shops": {
+                        "salt_mine_shop_3": {
+                           "shop_info": {
+                              "name": "Cirdain's Salt Quarry",
+                              "title": "A caravan from a famous salt mine is here for business"
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "saved_objects": {
+         "building_templates": {
+            "northern_alliance": {
+               "trapper_house": {
+                  "display_name": "Trapper's Camp"
+               },
+               "curing_yard": {
+                  "display_name": "Trapper's Curing Yard"
+               }
+            },
+            "rayyas_children": {
+               "trapper_house": {
+                  "display_name": "Trapper's Workshop"
+               },
+               "curing_yard": {
+                  "display_name": "Trapper's Curing Yard"
+               }
+            },
+            "trapper_house": {
+               "display_name": "Trapper's House"
+            },
+            "curing_yard": {
+               "display_name": "Trapper's Curing Yard"
+            }
+         }
+      },
       "constants": {
          "small_pelt_resource_name": "Fur Pelt (Small)",
          "skin_resource_name": "Any Scaly Skin",
@@ -175,7 +235,9 @@
          "fresh_skin": "Any Fresh Skin",
          "small_leather": "All Thin Leathers",
          "only_raw": "Only Raw Curables",
-         "only_salted": "Only Salted Curables"
+         "only_salted": "Only Salted Curables",
+         "any_cheese": "Any Cheese",
+         "any_nuts": "Any Basket of Nuts"
       },
       "happiness": {
          "thoughts": {
@@ -187,6 +249,17 @@
                   }
                }
             }
+         }
+      },
+      "buffs": {
+         "smoky_flavors": {
+            "display_name": "Smoky Flavors",
+            "description": "Mmmm, this was perfectly cured. So hearty! Stamina, Courage and Muscle are increased.<ul><li>Crafting is slightly faster</li></ul>"
+         }
+      },
+      "loadouts": {
+         "items": {
+            "meat": "Meat"
          }
       }
    },
@@ -327,6 +400,82 @@
             "description": "A common seasoning also useful for preserving and curing.",
             "recipe_description": "Grind rock salt into a versatile seasoning also useful for preserving and curing.",
             "flavor": "Preservation and curing with salt is handled by the Trapper"
+         },
+         "salt_smoked": {
+            "display_name": "Sack of Smoked Salt",
+            "description": "An exquisite seasoning with a very bold flavor."
+         },
+         "almond": {
+            "smoked_almond_basket": {
+               "display_name": "Basket of Smoked Almonds",
+               "description": "Softly cooked nuts with a smoky flavor."
+            },
+            "smoked_almond_serving": {
+               "display_name": "Serving of Smoked Almonds"
+            }
+         },
+         "chestnut": {
+            "smoked_chestnut_basket": {
+               "display_name": "Basket of Smoked Chestnuts",
+               "description": "Very popular and delicious smoked nuts, a nice treat during the winter."
+            },
+            "smoked_chestnut_serving": {
+               "display_name": "Serving of Smoked Chestnuts"
+            }
+         },
+         "hazelnut": {
+            "smoked_hazelnut_basket": {
+               "display_name": "Basket of Smoked Hazelnuts",
+               "description": "Flavorful nuts with a touch of smoke."
+            },
+            "smoked_hazelnut_serving": {
+               "display_name": "Serving of Smoked Hazelnuts"
+            }
+         },
+         "smoked_nuts_basket": {
+            "display_name": "Basket of Smoked Nuts",
+            "description": "An exquisite and diverse mix of smoked nuts."
+         },
+         "smoked_nuts_serving": {
+            "display_name": "Serving of Smoked Nuts"
+         },
+         "walnut": {
+            "smoked_walnut_basket": {
+               "display_name": "Basket of Smoked Walnuts",
+               "description": "Hard outside, tender inside, with a spicy flavor of smoke."
+            },
+            "smoked_walnut_serving": {
+               "display_name": "Serving of Smoked Walnuts"
+            }
+         },
+         "dairy": {
+            "smoked_cheese_aged": {
+               "smoked_cheese_aged": {
+                  "display_name": "Smoked Cheddar",
+                  "description": "A delicious and firm cheese with a very strong flavor."
+               },
+               "smoked_cheese_aged_serving": {
+                  "display_name": "Slice of Smoked Cheddar"
+               }
+            },
+            "smoked_cheese_fresh": {
+               "smoked_cheese_fresh": {
+                  "display_name": "Smoked Mozzarella",
+                  "description": "A soft cheese, almost creamy inside, with a salty taste."
+               },
+               "smoked_cheese_fresh_serving": {
+                  "display_name": "Slice of Smoked Mozzarella"
+               }
+            },
+            "smoked_cheese_mild": {
+               "smoked_cheese_mild": {
+                  "display_name": "Smoked Gouda",
+                  "description": "A firm, mild cheese with a fudgy taste and a sweet finish."
+               },
+               "smoked_cheese_mild_serving": {
+                  "display_name": "Slice of Smoked Gouda"
+               }
+            }
          }
       },
       "clump_of_rock_salt": {
@@ -595,7 +744,7 @@
          "display_name": "Raw Cougar Meat"
       },
       "fish_jerky": {
-         "display_name": "Smoked Fish Fillet",
+         "display_name": "Fish Jerky",
          "description": "Thin, crunchy and stringy. Has a peculiar flavor."
       },
       "rotten_fish_jerky": {
@@ -603,19 +752,19 @@
          "description": "It smells worse than it looks like."
       },
       "fish_carp_jerky": {
-         "display_name": "Smoked Carp Fillet"
+         "display_name": "Carp Jerky"
       },
       "fish_catfish_jerky": {
-         "display_name": "Smoked Catfish Fillet"
+         "display_name": "Catfish Jerky"
       },
       "fish_salmon_jerky": {
-         "display_name": "Smoked Salmon Fillet"
+         "display_name": "Salmon Jerky"
       },
       "fish_trout_jerky": {
-         "display_name": "Smoked Trout Fillet"
+         "display_name": "Trout Jerky"
       },
       "smoked_pork": {
-         "display_name": "Smoked Pork",
+         "display_name": "Leg of Smoked Pork",
          "description": "A tender smoked piece of pork meat.",
          "serving_display_name": "Serving of Smoked Pork"
       },
@@ -625,7 +774,7 @@
          "serving_display_name": "Serving of Smoked Mutton"
       },
       "smoked_poultry": {
-         "display_name": "Smoked Poultry",
+         "display_name": "Smoked Poultry Drumstick",
          "description": "Fleshy and tender, smoked poultry meat.",
          "serving_display_name": "Serving of Smoked Poultry"
       },
@@ -640,14 +789,322 @@
          "serving_display_name": "Serving of Smoked Steak"
       },
       "smoked_varanus": {
-         "display_name": "Smoked Varanus",
+         "display_name": "Slab of Smoked Varanus",
          "description": "An exotic and not so tasty meat, smoked.",
          "serving_display_name": "Serving of Smoked Varanus"
       },
       "smoked_venison": {
-         "display_name": "Smoked Venison",
+         "display_name": "Chunk of Smoked Venison",
          "description": "Delicious wild game smoked to perfection.",
          "serving_display_name": "Serving of Smoked Venison"
+      },
+      "smoked_meat": {
+         "display_name": "Smoked Meat",
+         "description": "Somewhat satisfying cut of tenderly smoked meat."
+      },
+      "rotten": {
+         "smoked_meat": {
+            "display_name": "Rotten Smoked Meat",
+            "description": "This has gone bad, no use for it anymore..."
+         },
+         "salted_meat": {
+            "description": "This has gone bad, no use for it anymore...",
+            "display_name": "Rotten Salted Meat"
+         }
+      },
+      "smoked_meat_small": {
+         "description": "Small and somewhat satisfying bits of tenderly smoked meat.",
+         "display_name": "Small Smoked Meat"
+      },
+      "salted_meat": {
+         "display_name": "Salted Meat",
+         "description": "Very well preserved. Can be further cured in a smokery."
+      },
+      "salted_meat_small": {
+         "display_name": "Small Salted Meat",
+         "description": "Quite salty and dry small cuts of meat. Can be further cured in a smokery."
+      },
+      "smoked_boar_meat": {
+         "display_name": "i18n(trapper_plus:food.smoked_boar_meat.display_name)"
+      },
+      "smoked_bear_meat": {
+         "display_name": "Smoked Bear Meat"
+      },
+      "smoked_beef_meat": {
+         "display_name": "Smoked Beef Cuts"
+      },
+      "smoked_cougar_meat": {
+         "display_name": "Smoked Cougar Meat"
+      },
+      "smoked_deer_meat": {
+         "display_name": "Smoked Deer Meat"
+      },
+      "smoked_duckduck_meat": {
+         "display_name": "Smoked Duckduck Meat"
+      },
+      "smoked_mutton_meat": {
+         "display_name": "Smoked Mutton Cuts"
+      },
+      "smoked_ostrich_meat": {
+         "display_name": "Smoked Ostrich Meat"
+      },
+      "smoked_pork_meat": {
+         "display_name": "Smoked Pork Cuts"
+      },
+      "smoked_poultry_meat": {
+         "display_name": "Smoked Poultry Cuts"
+      },
+      "smoked_poyo_meat": {
+         "display_name": "Smoked Poyo Cuts"
+      },
+      "smoked_rabbit_meat": {
+         "display_name": "Smoked Rabbit Meat"
+      },
+      "smoked_racoon_meat": {
+         "display_name": "Smoked Raccoon Meat"
+      },
+      "smoked_red_fox_meat": {
+         "display_name": "Smoked Fox Meat"
+      },
+      "smoked_squirrel_meat": {
+         "display_name": "Smoked Squirrel Meat"
+      },
+      "smoked_varanus_meat": {
+         "display_name": "Smoked Varanus Cuts"
+      },
+      "smoked_venison_meat": {
+         "display_name": "Smoked Venison Cuts"
+      },
+      "smoked_wolf_meat": {
+         "display_name": "Smoked Wolf Meat"
+      },
+      "smoked_fish_meat": {
+         "display_name": "Smoked Fish Fillet",
+         "description": "Nutritious, stringy, but not that flavorful..."
+      },
+      "rotten_smoked_fish_meat": {
+         "display_name": "Rotten Smoked Fish Meat",
+         "description": "Can't be eaten anymore."
+      },
+      "rotten_salted_fish_meat": {
+         "display_name": "Rotten Salted Fish Meat",
+         "description": "This is definitely not worth anymore."
+      },
+      "salted_fish_meat": {
+         "display_name": "Salted Fish Fillet",
+         "description": "Salty and crispy, not so enjoyable. Can be further cured in a smokery."
+      },
+      "smoked_fish_carp_meat": {
+         "display_name": "Smoked Carp Fillet"
+      },
+      "smoked_fish_catfish_meat": {
+         "display_name": "Smoked Catfish Fillet"
+      },
+      "smoked_fish_salmon_meat": {
+         "display_name": "Smoked Salmon Fillet"
+      },
+      "smoked_fish_trout_meat": {
+         "display_name": "Smoked Trout Fillet"
+      },
+      "big_fish_salted": {
+         "display_name": "Salted Big Fish",
+         "description": "Very dry and salty, but still juicy inside! Can be further cured in a smokery."
+      },
+      "big_fish_salted_serving": {
+         "display_name": "Serving of Salted Big Fish"
+      },
+      "fish_salted": {
+         "display_name": "Salted Fish",
+         "description": "Crisp and dry outside. Can be further cured in a smokery."
+      },
+      "salted_bear_meat": {
+         "display_name": "Salted Bear Meat"
+      },
+      "salted_beef_meat": {
+         "display_name": "Salted Beef Cuts"
+      },
+      "salted_boar_meat": {
+         "display_name": "Salted Boar Meat"
+      },
+      "salted_cougar_meat": {
+         "display_name": "Salted Cougar Meat"
+      },
+      "salted_deer_meat": {
+         "display_name": "Salted Deer Meat"
+      },
+      "salted_duckduck_meat": {
+         "display_name": "Salted Duckduck Meat"
+      },
+      "salted_fish_carp_meat": {
+         "display_name": "Salted Carp Fillet"
+      },
+      "salted_fish_catfish_meat": {
+         "display_name": "Salted Catfish Fillet"
+      },
+      "salted_fish_salmon_meat": {
+         "display_name": "Salted Salmon Fillet"
+      },
+      "salted_fish_trout_meat": {
+         "display_name": "Salted Trout Fillet"
+      },
+      "salted_mutton_meat": {
+         "display_name": "Salted Mutton Cuts"
+      },
+      "salted_ostrich_meat": {
+         "display_name": "Salted Ostrich Meat"
+      },
+      "salted_pork_meat": {
+         "display_name": "Salted Pork Cuts"
+      },
+      "salted_poultry_meat": {
+         "display_name": "Salted Poultry Cuts"
+      },
+      "salted_poyo_meat": {
+         "display_name": "Salted Poyo Cuts"
+      },
+      "salted_rabbit_meat": {
+         "display_name": "Salted Rabbit Meat"
+      },
+      "salted_racoon_meat": {
+         "display_name": "Salted Raccoon Meat"
+      },
+      "salted_red_fox_meat": {
+         "display_name": "Salted Fox Meat"
+      },
+      "salted_squirrel_meat": {
+         "display_name": "Salted Squirrel Meat"
+      },
+      "salted_varanus_meat": {
+         "display_name": "Salted Varanus Cuts"
+      },
+      "salted_venison_meat": {
+         "display_name": "Salted Venison Cuts"
+      },
+      "salted_wolf_meat": {
+         "display_name": "Salted Wolf Meat"
+      },
+      "salted_mutton": {
+         "description": "Crispy and nicely salted. Can be further cured in a smokery.",
+         "display_name": "Salted Mutton"
+      },
+      "salted_mutton_serving": {
+         "display_name": "Serving of Salted Mutton"
+      },
+      "salted_pork": {
+         "display_name": "Leg of Salted Pork",
+         "description": "A delicious piece of salted swine meat. Can be further cured in a smokery."
+      },
+      "salted_pork_serving": {
+         "display_name": "Serving of Salted Pork"
+      },
+      "salted_poultry": {
+         "display_name": "Salted Poultry Drumstick",
+         "description": "Hearty and crunchy piece of salted fowl. Can be further cured in a smokery."
+      },
+      "salted_poultry_serving": {
+         "display_name": "Serving of Salted Poultry"
+      },
+      "salted_poyo": {
+         "display_name": "Salted Poyo",
+         "description": "The salty, well preserved chest piece of a poyo. Can be further cured in a smokery."
+      },
+      "salted_poyo_serving": {
+         "display_name": "Serving of Salted Poyo"
+      },
+      "salted_sausage": {
+         "display_name": "Salted Sausage",
+         "description": "Seasoned to perfection, can be further cured in a smokery."
+      },
+      "salted_sausage_serving": {
+         "display_name": "Serving of Salted Sausage"
+      },
+      "salted_steak": {
+         "display_name": "Salted Steak",
+         "description": "Tender and juicy, if not a bit salty... Can be further cured in a smokery."
+      },
+      "salted_steak_serving": {
+         "display_name": "Serving of Salted Steak"
+      },
+      "salted_varanus": {
+         "display_name": "Slab of Salted Varanus",
+         "description": "Exotic and tender. Can be further cured in a smokery."
+      },
+      "salted_varanus_serving": {
+         "display_name": "Serving of Salted Varanus"
+      },
+      "salted_venison": {
+         "display_name": "Chunk of Salted Venison",
+         "description": "A valuable and fancy piece of game meat, can be further cured in a smokery."
+      },
+      "salted_venison_serving": {
+         "display_name": "Serving of Salted Venison"
+      },
+      "big_fish_jerky": {
+         "display_name": "Cured Big Fish",
+         "description": "A deliciously flavored and smoked chunk of fish meat."
+      },
+      "big_fish_jerky_serving": {
+         "display_name": "Serving of Cured Big Fish"
+      },
+      "whole_fish_jerky": {
+         "display_name": "Cured Fish",
+         "description": "A stringy and salty whole fish, very tasty!"
+      },
+      "jerky_mutton": {
+         "display_name": "Rack of Cured Mutton",
+         "description": "Perfectly salted and smoked rack of meat, ready to be eaten!"
+      },
+      "jerky_mutton_serving": {
+         "display_name": "Serving of Cured Mutton"
+      },
+      "jerky_pork": {
+         "display_name": "Cured Ham",
+         "description": "A hearty, juicy large bit of smoked pork."
+      },
+      "jerky_pork_serving": {
+         "display_name": "Serving of Cured Ham"
+      },
+      "jerky_poultry": {
+         "display_name": "Cured Poultry Drumstick",
+         "description": "Well seasoned and smoked fowl meat."
+      },
+      "jerky_poultry_serving": {
+         "display_name": "Serving of Cured Poultry"
+      },
+      "jerky_poyo": {
+         "display_name": "Cured Poyo",
+         "description": "A refined and tasty poyo breast with a crispy, salty crust."
+      },
+      "jerky_poyo_serving": {
+         "display_name": "Serving of Cured Poyo"
+      },
+      "jerky_sausage": {
+         "display_name": "Cured Sausage",
+         "description": "An exquisitely prepared sausage."
+      },
+      "jerky_sausage_serving": {
+         "display_name": "Serving of Cured Sausage"
+      },
+      "jerky_steak": {
+         "display_name": "Cured Steak",
+         "description": "Like a giant jerky!"
+      },
+      "jerky_steak_serving": {
+         "display_name": "Serving of Cured Steak"
+      },
+      "jerky_varanus": {
+         "display_name": "Slab of Cured Varanus",
+         "description": "Something so bad turned into something so good..."
+      },
+      "jerky_varanus_serving": {
+         "display_name": "Serving of Cured Varanus"
+      },
+      "jerky_venison": {
+         "display_name": "Chunk of Cured Venison",
+         "description": "Delicious and flavorful game meat, smoked to perfection."
+      },
+      "jerky_venison_serving": {
+         "display_name": "Serving of Cured Venison"
       }
    },
    "worker": {

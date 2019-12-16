@@ -10,8 +10,15 @@
                         "value": "stonehearth:jobs:trapper"
                      },
                      "file": "file(building_templates/ac_trapper_house.json)"
+                  },
+						"ac_curing_yard": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:trapper"
+                     },
+                     "file": "file(building_templates/ac_curing_yard.json)"
                   }
-				}
+					}
             }
          }
       },
@@ -25,8 +32,15 @@
                         "value": "stonehearth:jobs:trapper"
                      },
                      "file": "file(building_templates/rc_trapper_house.json)"
+                  },
+						"rc_curing_yard": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:trapper"
+                     },
+                     "file": "file(building_templates/rc_curing_yard.json)"
                   }
-				}
+					}
             }
          }
       },
@@ -40,8 +54,15 @@
                         "value": "stonehearth:jobs:trapper"
                      },
                      "file": "file(building_templates/na_trapper_house.json)"
+                  },
+						"na_curing_yard": {
+                     "unlock_requirement": {
+                        "type": "has_job",
+                        "value": "stonehearth:jobs:trapper"
+                     },
+                     "file": "file(building_templates/na_curing_yard.json)"
                   }
-				}
+					}
             }
          }
       }

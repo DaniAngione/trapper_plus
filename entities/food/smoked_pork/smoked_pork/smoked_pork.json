@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
       "model_variants": {
@@ -8,6 +8,9 @@
                "file(smoked_pork.qb)"
             ]
          }
+      },
+      "render_info": {
+         "scale": 0.09
       },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0 }
@@ -53,6 +56,13 @@
       },
       "stonehearth:item_quality": {
          "variable_quality": true
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 384,
+            "max": 480
+         },
+         "rotten_entity_alias": "stonehearth:food:rotten:pork_meat"
       }
    }
 }

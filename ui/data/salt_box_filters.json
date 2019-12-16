@@ -1,7 +1,7 @@
 {
    "type": "index",
    "stockpile": {
-      "all_smokehouse": {
+      "all_salt_box": {
          "display_name": "i18n(trapper_plus:data.filters.all_type)",
          "ordinal": 1,
          "categories": {
@@ -9,44 +9,38 @@
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:data.filters.everything)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_curables.png",
-               "filter": "smokehouse_curable"
+               "filter": "salt_box_curable"
             }
          }
       },
-      "meat_types": {
+      "food_types": {
          "display_name": "i18n(trapper_plus:data.filters.meat_types)",
          "filter": "resources",
          "ordinal": 2,
          "categories": {
-            "raw_white_meat": {
-               "ordinal": 1,
-               "display_name": "i18n(trapper_plus:data.filters.raw_meat_white)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_white_raw.png",
-               "filter": "white meat smokehouse_curable"
-            },
             "raw_small_meat": {
-               "ordinal": 2,
+               "ordinal": 1,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_small)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_small_raw.png",
-               "filter": "small meat smokehouse_curable"
+               "filter": "small meat raw salt_box_curable"
             },
             "raw_big_meat": {
-               "ordinal": 3,
+               "ordinal": 2,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_big_raw.png",
-               "filter": "large meat smokehouse_curable"
+               "filter": "large meat raw salt_box_curable"
             },
             "sausages": {
-               "ordinal": 4,
+               "ordinal": 3,
                "display_name": "i18n(trapper_plus:data.filters.raw_sausage)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_raw_sausage.png",
-               "filter": "sausage smokehouse_curable"
+               "filter": "sausage salt_box_curable"
             },
             "raw_meat_piece": {
-               "ordinal": 5,
+               "ordinal": 4,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_piece)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_piece_raw.png",
-               "filter": "piece meat smokehouse_curable"
+               "filter": "piece meat raw salt_box_curable"
             }
          }
       },

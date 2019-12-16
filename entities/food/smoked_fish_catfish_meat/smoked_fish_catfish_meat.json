@@ -1,0 +1,13 @@
+{
+   "mixins": "trapper_plus:mixins:food:smoked_fish_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_fish_catfish_meat.display_name)",
+         "material_tags": [
+            "catfish"
+         ]
+      }
+   }
+}

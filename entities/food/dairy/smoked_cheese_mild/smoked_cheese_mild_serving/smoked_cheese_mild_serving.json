@@ -1,0 +1,44 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_cheese_mild_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 120
+         },
+         "default": {
+            "satisfaction": 80
+         },
+         "applied_buffs": [
+            "trapper_plus:buffs:consumption:smoky_flavors"
+         ],
+         "quality": 6
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.food.dairy.smoked_cheese_mild.smoked_cheese_mild_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "smoked_cheese_mild_serving",
+            "dairy",
+            "smoked",
+            "cheese",
+            "dinner_time"
+         ],
+         "subject_override": "trapper_plus:food:dairy:smoked_cheese_mild"
+      }
+   }
+}

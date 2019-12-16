@@ -1,6 +1,6 @@
 {
    "stockpile": {
-      "meat_types": {
+      "food_types": {
         "categories": {
             "all_fish": {
                "ordinal": 10,

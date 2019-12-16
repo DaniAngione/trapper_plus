@@ -15,6 +15,9 @@
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
    },
    "xp_rewards": {
+		"befriend_pet": 20,
+      "unsuccessful_trap": 2,
+      "successful_trap": 4,
       "craft_level_0": 2,
       "craft_level_1": 3,
       "craft_level_2": 5,

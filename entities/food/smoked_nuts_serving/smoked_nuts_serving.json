@@ -1,0 +1,39 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_nuts_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 50
+         },
+         "default": {
+            "satisfaction": 40
+         },
+         "quality": 4
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.food.smoked_nuts_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "nuts",
+            "vegetarian",
+            "dinner_time"
+         ],
+         "subject_override": "trapper_plus:food:smoked_nuts_basket"
+      }
+   }
+}

@@ -1,0 +1,57 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_cheese_fresh.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:dairy:smoked_cheese_fresh:smoked_cheese_fresh_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 22,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.food.dairy.smoked_cheese_fresh.smoked_cheese_fresh.display_name)",
+         "description": "i18n(trapper_plus:entities.food.dairy.smoked_cheese_fresh.smoked_cheese_fresh.description)",
+         "icon": "file(smoked_cheese_fresh.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "cheese_fresh",
+            "smoked",
+            "dairy",
+            "cheese",
+            "stockpile_prepared_food",
+            "dinner_time"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 6
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

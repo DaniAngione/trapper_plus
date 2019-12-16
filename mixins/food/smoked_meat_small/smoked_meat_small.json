@@ -1,0 +1,64 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "mixin",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_meat_small.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(smoked_meat_small_rotting.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 45
+         },
+         "default": {
+            "satisfaction": 35
+         },
+         "quality": 5
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 350,
+            "max": 420
+         },
+         "rotten_entity_alias": "trapper_plus:food:rotten:smoked_meat_small"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_meat_small.display_name)",
+         "description": "i18n(trapper_plus:food.smoked_meat_small.description)",
+         "icon": "file(smoked_meat_small.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "stockpile_prepared_food",
+            "food",
+            "meat",
+            "cooking_ingredient",
+            "smoked",
+            "small"
+         ]
+      }
+   }
+}

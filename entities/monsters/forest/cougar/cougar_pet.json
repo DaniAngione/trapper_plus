@@ -1,0 +1,18 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "skin": {
+                     "uri": "trapper_plus:resources:fresh_cougar_pelt"
+                  },
+						"meat": {
+                     "uri": "trapper_plus:raw_cougar_meat"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

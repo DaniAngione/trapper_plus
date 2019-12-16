@@ -1,0 +1,71 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(salted_sausage.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:salted_sausage:salted_sausage_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 18,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.salted_sausage.display_name)",
+         "description": "i18n(trapper_plus:food.salted_sausage.description)",
+         "icon": "file(salted_sausage.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "salted_sausage",
+            "salted",
+            "stockpile_prepared_food",
+            "meat",
+            "lunch_time",
+            "smokehouse_curable"
+         ]
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 8,
+            "max": 16
+         },
+         "proper_cool_entity_alias": "trapper_plus:food:jerky_sausage",
+         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
+         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
+         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 700,
+            "max": 720
+         },
+         "rotten_entity_alias": "stonehearth:food:rotten:sausage_meat"
+      }
+   }
+}

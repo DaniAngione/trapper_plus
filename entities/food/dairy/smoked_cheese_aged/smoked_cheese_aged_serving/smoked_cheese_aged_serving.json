@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_cheese_aged_serving.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 220
+         },
+         "default": {
+            "satisfaction": 180
+         },
+         "applied_buffs": [
+            "trapper_plus:buffs:consumption:smoky_flavors"
+         ],
+         "quality": 6
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.food.dairy.smoked_cheese_aged.smoked_cheese_aged_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "smoked_cheese_aged_serving",
+            "dairy",
+            "cheese",
+            "smoked",
+            "dinner_time"
+         ],
+         "subject_override": "trapper_plus:food:dairy:smoked_cheese_aged"
+      }
+   }
+}

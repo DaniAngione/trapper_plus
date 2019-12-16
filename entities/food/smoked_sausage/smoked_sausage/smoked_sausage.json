@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
       "model_variants": {
@@ -50,6 +50,13 @@
       },
       "stonehearth:appeal": {
          "appeal": 3
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 700,
+            "max": 720
+         },
+         "rotten_entity_alias": "stonehearth:food:rotten:sausage_meat"
       }
    }
 }

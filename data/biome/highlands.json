@@ -1,0 +1,5 @@
+{
+   "applied_manifests": {
+      "trapper_plus_highlands": "file(highlands/trapper_plus_manifest.json)"
+   }
+}

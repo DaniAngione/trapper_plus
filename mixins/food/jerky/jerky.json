@@ -8,6 +8,9 @@
          "default": {
             "satisfaction": 70
          },
+         "applied_buffs": [
+            "trapper_plus:buffs:consumption:smoky_flavors"
+         ],
          "quality": 5
       },
       "stonehearth:net_worth": {

@@ -1,0 +1,39 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(salted_sausage_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 55
+         },
+         "default": {
+            "satisfaction": 35
+         },
+         "quality": 4
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.salted_sausage_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "salted_sausage_serving",
+            "meat",
+            "lunch_time"
+         ],
+         "subject_override": "trapper_plus:food:salted_sausage"
+      }
+   }
+}

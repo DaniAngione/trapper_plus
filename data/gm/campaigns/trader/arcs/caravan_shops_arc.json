@@ -1,0 +1,7 @@
+{
+   "encounters": {
+	   "salt_mine_shop_1": "file(encounters/tier_1_shops/salt_mine_shop_1.json)",
+      "salt_mine_shop_2": "file(encounters/tier_2_shops/salt_mine_shop_2.json)",
+      "salt_mine_shop_3": "file(encounters/tier_3_shops/salt_mine_shop_3.json)"
+   }
+}

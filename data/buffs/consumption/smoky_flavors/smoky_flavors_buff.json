@@ -1,0 +1,23 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:data.buffs.smoky_flavors.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.smoky_flavors.description)",
+   "icon": "file(smoky_flavors_buff.png)",
+   "duration": "4h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "multiplicative_work_rate_modifier": {
+         "multiply": 1.05
+      },
+      "stamina": {
+         "add": 10
+      },
+      "courage": {
+         "add": 10
+      },
+      "muscle": {
+         "add": 10
+      }
+   }
+}

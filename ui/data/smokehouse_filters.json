@@ -25,28 +25,34 @@
             }
          }
       },
-      "meat_types": {
+      "food_types": {
          "display_name": "i18n(trapper_plus:data.filters.meat_types)",
          "filter": "resources",
          "ordinal": 2,
          "categories": {
-            "raw_white_meat": {
-               "ordinal": 1,
-               "display_name": "i18n(trapper_plus:data.filters.raw_meat_white)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_white_raw.png",
-               "filter": "white meat smokehouse_curable"
-            },
             "raw_small_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_small)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_small_raw.png",
+               "filter": "small meat raw smokehouse_curable"
+            },
+            "salted_small_meat": {
                "ordinal": 2,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_small)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_small_raw.png",
-               "filter": "small meat smokehouse_curable"
+               "filter": "small meat salted smokehouse_curable"
             },
             "raw_big_meat": {
                "ordinal": 3,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_big_raw.png",
-               "filter": "large meat smokehouse_curable"
+               "filter": "large meat raw smokehouse_curable"
+            },
+            "salted_big_meat": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_big_raw.png",
+               "filter": "large meat salted smokehouse_curable"
             },
             "sausages": {
                "ordinal": 4,
@@ -58,7 +64,25 @@
                "ordinal": 5,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_piece)",
                "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_piece_raw.png",
-               "filter": "piece meat smokehouse_curable"
+               "filter": "piece meat raw smokehouse_curable"
+            },
+            "salted_meat_piece": {
+               "ordinal": 6,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_piece)",
+               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_piece_raw.png",
+               "filter": "piece meat salted smokehouse_curable"
+            },
+            "any_nuts": {
+               "ordinal": 7,
+               "display_name": "i18n(trapper_plus:data.filters.any_nuts)",
+               "icon": "/stonehearth_ace/entities/food/nuts_basket/nuts_basket.png",
+               "filter": "nut_basket smokehouse_curable"
+            },
+            "any_cheese": {
+               "ordinal": 8,
+               "display_name": "i18n(trapper_plus:data.filters.any_cheese)",
+               "icon": "/stonehearth_ace/entities/food/dairy/cheese_mild/cheese_mild/cheese_mild.png",
+               "filter": "cheese smokehouse_curable"
             }
          }
       },

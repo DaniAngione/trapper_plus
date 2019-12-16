@@ -1,0 +1,11 @@
+{
+   "out_edge": {
+      "out_edges": [
+         {
+            "out_edge": "salt_mine_shop_2",
+            "type": "weighted_edge",
+            "weight": 2
+         }
+      ]
+   }
+}

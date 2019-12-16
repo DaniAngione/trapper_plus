@@ -1,0 +1,14 @@
+{
+   "type": "index",
+   "loadouts": {
+      "military_expedition": {
+         "content": {
+            "jerky": {
+               "display_name": "i18n(trapper_plus:data.loadouts.items.meat)",
+               "uri": "trapper_plus:food:smoked_red_fox_meat",
+               "icon": "/trapper_plus/data/loadouts/images/items/meat.png"
+            }
+         }
+      }
+   }
+}

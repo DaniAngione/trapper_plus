@@ -26,6 +26,9 @@
          "default": {
             "satisfaction": 55
          },
+         "applied_buffs": [
+            "trapper_plus:buffs:consumption:smoky_flavors"
+         ],
          "quality": 5
       },
       "stonehearth:net_worth": {
@@ -58,6 +61,7 @@
             "prepared_food",
             "fish",
             "fish_meat",
+            "carp",
             "jerky"
          ]
       }

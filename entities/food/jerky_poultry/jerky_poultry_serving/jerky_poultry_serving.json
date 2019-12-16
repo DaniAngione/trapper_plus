@@ -1,0 +1,42 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(jerky_poultry_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 75
+         },
+         "default": {
+            "satisfaction": 45
+         },
+         "applied_buffs": [
+            "trapper_plus:buffs:consumption:smoky_flavors"
+         ],
+         "quality": 5
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.jerky_poultry_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "jerky_poultry_serving",
+            "meat",
+            "lunch_time"
+         ],
+         "subject_override": "trapper_plus:food:jerky_poultry"
+      }
+   }
+}

@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
       "model_variants": {
@@ -54,6 +54,13 @@
       },
       "stonehearth:item_quality": {
          "variable_quality": true
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 3024,
+            "max": 4032
+         },
+         "rotten_entity_alias": "trapper_plus:resources:rawhide"
       }
    }
 }

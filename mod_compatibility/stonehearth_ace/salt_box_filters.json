@@ -1,0 +1,48 @@
+{
+   "stockpile": {
+      "food_types": {
+        "categories": {
+            "all_fish": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:food.fish_smoked.all_raw_display_name)",
+               "icon": "/trapper_plus/mod_compatibility/stonehearth_ace/all_fish.png",
+               "filter": "fish_meat"
+            }
+         }
+      },
+	  "specific_foods": {
+			"categories": {
+            "fish_meat": {
+               "ordinal": 27,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_meat/fish_meat.png",
+               "filter": "raw fish fish_meat_fish_meat"
+            },
+				"fish_carp_meat": {
+               "ordinal": 28,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_carp_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_carp_meat/fish_carp_meat.png",
+               "filter": "raw fish fish_carp_meat"
+            },
+				"fish_catfish_meat": {
+               "ordinal": 29,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_catfish_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_catfish_meat/fish_catfish_meat.png",
+               "filter": "raw fish fish_catfish_meat"
+            },
+				"fish_salmon_meat": {
+               "ordinal": 30,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_salmon_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_salmon_meat/fish_salmon_meat.png",
+               "filter": "raw fish fish_salmon_meat"
+            },
+				"fish_trout_meat": {
+               "ordinal": 31,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_trout_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_trout_meat/fish_trout_meat.png",
+               "filter": "raw fish fish_trout_meat"
+            }
+         }
+		}
+   }
+}

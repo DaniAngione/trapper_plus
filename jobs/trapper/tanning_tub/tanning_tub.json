@@ -34,9 +34,6 @@
          ],
          "is_single_filter": true
       },
-      "effect_list": {
-         "default": "file(/data/rigs/jobs/trapper/tanning_tub/effects/idle.json)"
-      },
       "sensor_list": {
          "sensors": {
             "stench": {

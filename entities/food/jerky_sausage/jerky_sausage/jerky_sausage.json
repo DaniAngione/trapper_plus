@@ -1,0 +1,62 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(jerky_sausage.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "trapper_plus:food:jerky_sausage:jerky_sausage_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 18,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.jerky_sausage.display_name)",
+         "description": "i18n(trapper_plus:food.jerky_sausage.description)",
+         "icon": "file(jerky_sausage.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "jerky_sausage",
+            "jerky",
+            "stockpile_prepared_food",
+            "meat",
+            "lunch_time"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 700,
+            "max": 720
+         },
+         "rotten_entity_alias": "stonehearth:food:rotten:sausage_meat"
+      }
+   }
+}

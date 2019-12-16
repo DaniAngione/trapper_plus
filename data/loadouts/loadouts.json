@@ -1,0 +1,23 @@
+{
+   "type": "index",
+   "loadouts": {
+      "food_for_days": {
+         "content": {
+            "jerky": {
+               "display_name": "i18n(trapper_plus:data.loadouts.items.meat)",
+               "uri": "trapper_plus:food:smoked_rabbit_meat",
+               "icon": "file(images/items/meat.png)"
+            }
+         }
+      },
+      "money_solves_all_problems": {
+         "content": {
+            "jerky": {
+               "display_name": "i18n(trapper_plus:data.loadouts.items.meat)",
+               "uri": "trapper_plus:food:smoked_racoon_meat",
+               "icon": "file(images/items/meat.png)"
+            }
+         }
+      }
+   }
+}
