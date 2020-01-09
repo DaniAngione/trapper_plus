@@ -15,7 +15,20 @@
                      "uri": "trapper_plus:resources:fresh_rabbit_pelt"
                   }
                }
-            }
+            },
+				"fat": {
+					"roll_type": "some_of",
+					"num_rolls": {
+						"min": 0,
+						"max": 1
+					},
+					"items": {
+						"meat": {
+							"uri": "trapper_plus:resources:animal_fat",
+							"weight": 1
+						}
+					}
+				}
          }
       },
       "stonehearth:resource_node": {
@@ -43,7 +56,7 @@
                   }
                }
             },
-			"jerky": {
+				"jerky": {
                "items": {
                   "jerky": {
                      "uri": "trapper_plus:raw_rabbit_meat"

@@ -1,0 +1,15 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 5
+      },
+	  {
+         "material": "small pelt resource",
+         "count": 3
+      }
+   ]
+}

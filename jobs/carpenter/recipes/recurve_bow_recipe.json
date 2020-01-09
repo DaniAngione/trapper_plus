@@ -1,0 +1,19 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+		{
+         "material": "wood resource",
+         "count": 6
+      },
+      {
+         "material": "leather resource small",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ]
+}

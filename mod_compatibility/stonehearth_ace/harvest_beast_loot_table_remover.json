@@ -1,0 +1,7 @@
+{
+	"entity_data": {
+		"mixintypes": {
+			"stonehearth:harvest_beast_loot_table": "remove"
+		}
+   }
+}

@@ -14,17 +14,17 @@
             }
          }
       }
-    },
-   "entity_data": {
+   },
+	"entity_data": {
       "stonehearth:harvest_beast_loot_table": {
          "entries": {
             "default": {
-               "items": {
-				  "jerky": {
-                     "uri": "trapper_plus:raw_deer_meat"
-                  },
-                  "pelt": {
-                     "uri": "trapper_plus:resources:fresh_deer_pelt"
+					"items": {
+						"jerky": {
+							"uri": "trapper_plus:raw_deer_meat"
+						},
+						"pelt": {
+							"uri": "trapper_plus:resources:fresh_deer_pelt"
                   }
                }
             }

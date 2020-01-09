@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "bone resource",
+         "count": 1
+      },
+	  {
+         "material": "food_container raw_food vegetable",
+         "count": 1
+      },
+      {
+         "material": "small food meat raw",
+         "count": 1
+      },
+	  {
+         "material": "low_fuel",
+         "count": 1
+      }
+   ]
+}

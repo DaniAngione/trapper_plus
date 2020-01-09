@@ -1,0 +1,27 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+		{
+         "material": "food meat raw",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:food:egg",
+         "count": 1
+      },     
+		{
+         "uri": "stonehearth_ace:food:cooked_nuts",
+         "count": 1
+      },
+      {
+         "material": "seasoning",
+         "count": 1
+      },
+	   {
+         "material": "low_fuel",
+         "count": 1
+      }
+   ]
+}

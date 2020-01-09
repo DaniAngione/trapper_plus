@@ -212,13 +212,15 @@
          "leather_resource_bolt_name": "Any Bolt of Leather",
          "leather_resource_small_name": "Any Thin Leather",
          "leather_resource_name": "Any Leather",
-         "fish_resource_name": "Any Whole Fish"
+         "fish_resource_name": "Any Whole Fish",
+         "salt_resource_name": "Any Cooking Salt",
+         "seasoning_resource_name": "Any Seasoning"
       },
       "filters": {
          "meat_types": "Food Types",
          "raw_meat": "Raw Meat",
          "raw_sausage": "Sausages",
-         "specific_foods": "Specific Foods",
+         "specific_foods": "Specific Raw Foods",
          "raw_meat_small": "Raw Meat (Small)",
          "raw_meat_big": "Raw Meat (Large)",
          "all_type": "Unrestricted",
@@ -237,7 +239,11 @@
          "only_raw": "Only Raw Curables",
          "only_salted": "Only Salted Curables",
          "any_cheese": "Any Cheese",
-         "any_nuts": "Any Basket of Nuts"
+         "any_nuts": "Any Basket of Nuts",
+         "salted_meat_small": "Salted Meat (Small)",
+         "salted_meat_big": "Salted Meat (Large)",
+         "salted_meat_piece": "Salted Animal Parts",
+         "salted_foods": "Specific Salted Foods"
       },
       "happiness": {
          "thoughts": {
@@ -359,7 +365,9 @@
       },
       "animal_fat": {
          "display_name": "Cut of Animal Fat",
-         "description": "Eww. It smells bad and looks gross!"
+         "description": "Eww. It smells bad and looks gross!",
+         "recipe_description": "Use a knife to trim the fat from a large piece of raw meat.",
+         "flavor": "Eww. It smells bad and looks gross!"
       },
       "fresh_moomoo_pelt": {
          "display_name": "Fresh Moo-Moo Pelt"

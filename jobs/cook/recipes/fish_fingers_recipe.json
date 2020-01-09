@@ -1,0 +1,27 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "raw fish_meat",
+         "count": 1
+      },
+		{
+			"material": "grain_flour cooking_ingredient",
+			"count": 1
+		},
+		{
+			"material": "oil cooking_ingredient",
+			"count": 1
+		},
+      {
+         "material": "cooking_ingredient salt",
+         "count": 1
+      },
+	  {
+         "material": "low_fuel",
+         "count": 1
+      }
+   ]
+}

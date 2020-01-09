@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 4
+      },
+	  {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      },
+	  {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 1
+      },
+	  {
+         "material": "leather resource bolt",
+         "count": 1
+      }
+   ]
+}

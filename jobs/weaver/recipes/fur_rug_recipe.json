@@ -4,8 +4,8 @@
 	},
    "ingredients": [
       {
-         "material": "pelt resource",
-         "count": 3
+         "material": "large pelt resource",
+         "count": 2
       }
    ]
 }

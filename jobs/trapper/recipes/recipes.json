@@ -78,6 +78,9 @@
 				},
 				"sausage_recipe": {
 					"recipe": "file(sausage_recipe.json)"
+				},
+				"slice_animal_fat": {
+					"recipe": "file(slice_animal_fat_recipe.json)"
 				}
 			}
 		},	

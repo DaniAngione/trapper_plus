@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "raw_food fungi",
+         "count": 1
+      },
+	  {
+         "material": "butter cooking_ingredient",
+         "count": 1
+      },
+	  {
+         "material": "seasoning",
+         "count": 1
+      },
+	  {
+         "material": "low_fuel",
+         "count": 1
+      }
+   ]
+}

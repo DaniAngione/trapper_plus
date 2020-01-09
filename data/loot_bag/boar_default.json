@@ -13,6 +13,19 @@
                "uri": "trapper_plus:resources:fresh_boar_pelt"
             }
          }
-      }
+      },
+		"fat": {
+			"roll_type": "some_of",
+			"num_rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"items": {
+				"meat": {
+					"uri": "trapper_plus:resources:animal_fat",
+					"weight": 1
+				}
+			}
+		}
    }
 }

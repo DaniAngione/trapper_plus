@@ -1,0 +1,15 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:egg_large",
+         "count": 1
+      },
+      {
+         "material": "cooking_ingredient salt",
+         "count": 1
+      }
+   ]
+}

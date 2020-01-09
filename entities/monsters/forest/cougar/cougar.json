@@ -11,7 +11,20 @@
                      "uri": "trapper_plus:raw_cougar_meat"
                   }
                }
-            }
+            },
+				"fat": {
+					"roll_type": "some_of",
+					"num_rolls": {
+						"min": 1,
+						"max": 2
+					},
+					"items": {
+						"meat": {
+							"uri": "trapper_plus:resources:animal_fat",
+							"weight": 1
+						}
+					}
+				}
          }
       }
    }

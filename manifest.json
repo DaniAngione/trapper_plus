@@ -303,10 +303,86 @@
       "stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "stonehearth/jobs/trapper/trapper_abilities/trapper_abilities.json": "file(jobs/trapper/trapper_abilities/trapper_abilities.json)",
       "stonehearth/jobs/trapper/trapper_description.json": "file(jobs/trapper/trapper_description.json)",
+		"stonehearth/jobs/blacksmith/recipes/long_sword_recipe.json": "file(jobs/blacksmith/recipes/long_sword_recipe.json)",
+		"stonehearth/jobs/blacksmith/recipes/short_sword_recipe.json": "file(jobs/blacksmith/recipes/short_sword_recipe.json)",
+		"stonehearth/jobs/blacksmith/recipes/two_handed_sword_recipe.json": "file(jobs/blacksmith/recipes/two_handed_sword_recipe.json)",
+		"stonehearth/jobs/blacksmith/recipes/silver_mail_recipe.json": "file(jobs/blacksmith/recipes/silver_mail_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/iron_short_sword_recipe.json": "file(jobs/blacksmith/recipes/iron_short_sword_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/iron_sword_recipe.json": "file(jobs/blacksmith/recipes/iron_sword_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/light_steel_shield_recipe.json": "file(jobs/blacksmith/recipes/light_steel_shield_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/silver_shield_recipe.json": "file(jobs/blacksmith/recipes/silver_shield_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/silver_short_sword_recipe.json": "file(jobs/blacksmith/recipes/silver_short_sword_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/steel_chainmail_recipe.json": "file(jobs/blacksmith/recipes/steel_chainmail_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/steel_helm_recipe.json": "file(jobs/blacksmith/recipes/steel_helm_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/trapper_knife_steel_recipe.json": "file(jobs/blacksmith/recipes/trapper_knife_steel_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/worker_tools_steel_recipe.json": "file(jobs/blacksmith/recipes/worker_tools_steel_recipe.json)",
+		"stonehearth_ace/jobs/blacksmith/recipes/blacksmith_forge_advanced_recipe.json": "file(jobs/blacksmith/recipes/blacksmith_forge_advanced_recipe.json)",
+		"stonehearth_ace/jobs/mason/recipes/stone_comfy_bed_recipe.json": "file(jobs/mason/recipes/stone_comfy_bed_recipe.json)",
+		"stonehearth_ace/jobs/mason/recipes/stone_comfy_bed_pet_recipe.json": "file(jobs/mason/recipes/stone_comfy_bed_pet_recipe.json)",
+		"stonehearth_ace/jobs/mason/recipes/stone_training_dummy_recipe.json": "file(jobs/mason/recipes/stone_training_dummy_recipe.json)",
+		"stonehearth_ace/jobs/mason/recipes/stone_training_target_recipe.json": "file(jobs/mason/recipes/stone_training_target_recipe.json)",
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
+		"stonehearth/jobs/carpenter/recipes/archer_bow_recipe.json": "file(jobs/carpenter/recipes/archer_bow_recipe.json)",
+		"stonehearth/jobs/carpenter/recipes/recurve_bow_recipe.json": "file(jobs/carpenter/recipes/recurve_bow_recipe.json)",
+		"stonehearth_ace/jobs/carpenter/recipes/composite_bow_recipe.json": "file(jobs/carpenter/recipes/composite_bow_recipe.json)",
+		"stonehearth/jobs/carpenter/recipes/shepherds_crook_recipe.json": "file(jobs/carpenter/recipes/shepherds_crook_recipe.json)",
+		"stonehearth/jobs/carpenter/recipes/leather_bound_chest_recipe.json": "file(jobs/carpenter/recipes/leather_bound_chest_recipe.json)",
+		"stonehearth/jobs/carpenter/recipes/ornate_leather_bound_chest_recipe.json": "file(jobs/carpenter/recipes/ornate_leather_bound_chest_recipe.json)",
       "stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
       "stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
+		"stonehearth/jobs/cook/recipes/dumpling_vegetarian_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/dumpling_vegetarian_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/fried_eggs_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/fried_eggs_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/fried_eggs_large_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/fried_eggs_large_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/meat_stew_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/meat_stew_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/omelette_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/omelette_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/bacon_and_eggs_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/bacon_and_eggs_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/dumpling_meat_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/dumpling_meat_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"northern_alliance/jobs/cook/recipes/na_meat_stew_recipe.json": [
+			"/trapper_plus/jobs/cook/recipes/na_meat_stew_recipe.json",
+			"/stonehearth_ace/cooking_fuel_adder.json"
+		],
+		"stonehearth/jobs/cook/recipes/sausage_recipe.json": "file(jobs/cook/recipes/sausage_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/dumpling_salmon_recipe.json": "file(jobs/cook/recipes/dumpling_salmon_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/fish_fingers_recipe.json": "file(jobs/cook/recipes/fish_fingers_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/glazed_pork_ribs_recipe.json": "file(jobs/cook/recipes/glazed_pork_ribs_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/imperial_salad_recipe.json": "file(jobs/cook/recipes/imperial_salad_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/nutty_meatballs_recipe.json": "file(jobs/cook/recipes/nutty_meatballs_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/nutty_poultry_recipe.json": "file(jobs/cook/recipes/nutty_poultry_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/pasta_recipe.json": "file(jobs/cook/recipes/pasta_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/poyo_nuggets_recipe.json": "file(jobs/cook/recipes/poyo_nuggets_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/seared_meat_veggies_recipe.json": "file(jobs/cook/recipes/seared_meat_veggies_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/broth_recipe.json": "file(jobs/cook/recipes/broth_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/buttered_bulbs_recipe.json": "file(jobs/cook/recipes/buttered_bulbs_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/cooked_rice_recipe.json": "file(jobs/cook/recipes/cooked_rice_recipe.json)",
+		"stonehearth_ace/jobs/cook/recipes/curdling_mixture_recipe.json": "file(jobs/cook/recipes/curdling_mixture_recipe.json)",
+		"stonehearth_ace/jobs/weaver/recipes/chitin_shield_recipe.json": "file(jobs/weaver/recipes/chitin_shield_recipe.json)",
+		"stonehearth_ace/jobs/weaver/recipes/simple_quiver_bolts_recipe.json": "file(jobs/weaver/recipes/simple_quiver_bolts_recipe.json)",
+		"stonehearth_ace/jobs/weaver/recipes/backpack_leather_recipe.json": "file(jobs/weaver/recipes/backpack_leather_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/fire_quiver_recipe.json": "file(jobs/weaver/recipes/fire_quiver_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/simple_quiver_recipe.json": "file(jobs/weaver/recipes/simple_quiver_recipe.json)",
       "stonehearth/jobs/weaver/recipes/fur_rug_recipe.json": "file(jobs/weaver/recipes/fur_rug_recipe.json)",
+		"lostems/jobs/weaver/recipes/fur_rug_small_recipe.json": "file(jobs/weaver/recipes/fur_rug_small_recipe.json)",
       "stonehearth/jobs/weaver/recipes/leather_bolt_recipe.json": "file(jobs/weaver/recipes/leather_bolt_recipe.json)",
       "stonehearth/jobs/weaver/recipes/leather_vest_recipe.json": "file(jobs/weaver/recipes/leather_vest_recipe.json)",
       "stonehearth/jobs/weaver/recipes/leather_helmet_recipe.json": "file(jobs/weaver/recipes/leather_helmet_recipe.json)",
@@ -321,12 +397,30 @@
       "stonehearth:food:varanus_meat": "file(entities/food/varanus_meat/varanus_meat.json)",
       "stonehearth:food:venison": "file(entities/food/venison/venison.json)",
       "stonehearth_ace:food:steak": "file(entities/food/steak/steak.json)",
-      "stonehearth/entities/critters/red_fox_wolf/red_fox_wolf.json": "file(entities/critters/red_fox_wolf/red_fox_wolf.json)",
-      "stonehearth/entities/critters/racoon/racoon.json": "file(entities/critters/racoon/racoon.json)",
-      "stonehearth/entities/critters/squirrel/squirrel.json": "file(entities/critters/squirrel/squirrel.json)",
-      "stonehearth/entities/critters/deer/deer.json": "file(entities/critters/deer/deer.json)",
-      "stonehearth/entities/critters/deer_horned/deer_horned.json": "file(entities/critters/deer_horned/deer_horned.json)",
-      "stonehearth/entities/critters/rabbit/rabbit.json": "file(entities/critters/rabbit/rabbit.json)",
+      "stonehearth/entities/critters/red_fox_wolf/red_fox_wolf.json": [
+			"file(entities/critters/red_fox_wolf/red_fox_wolf.json)",
+			"stonehearth_ace/harvest_beast_loot_table_remover.json"
+		],
+      "stonehearth/entities/critters/racoon/racoon.json": [ 
+			"file(entities/critters/racoon/racoon.json)",
+			"stonehearth_ace/harvest_beast_loot_table_remover.json"
+		],
+      "stonehearth/entities/critters/squirrel/squirrel.json": [
+			"file(entities/critters/squirrel/squirrel.json)",
+			"stonehearth_ace/harvest_beast_loot_table_remover.json"
+		],
+      "stonehearth/entities/critters/deer/deer.json": [
+			"file(entities/critters/deer/deer.json)",
+			"stonehearth_ace/harvest_beast_loot_table_remover.json"
+		],
+      "stonehearth/entities/critters/deer_horned/deer_horned.json": [
+			"file(entities/critters/deer_horned/deer_horned.json)",
+			"stonehearth_ace/harvest_beast_loot_table_remover.json"
+		],
+      "stonehearth/entities/critters/rabbit/rabbit.json": [
+			"file(entities/critters/rabbit/rabbit.json)",
+			"stonehearth_ace/harvest_beast_loot_table_remover.json"
+		],
       "stonehearth/entities/monsters/forest/cougar/cougar.json": "file(entities/monsters/forest/cougar/cougar.json)",
       "stonehearth/entities/monsters/forest/cougar/cougar_pet.json": "file(entities/monsters/forest/cougar/cougar_pet.json)",
       "stonehearth/entities/monsters/forest/boar/boar.json": "file(entities/monsters/forest/boar/boar.json)",
@@ -350,6 +444,12 @@
       "stonehearth/entities/resources/skin/varanus_skin/varanus_skin.json": "file(entities/resources/skin/varanus_skin/varanus_skin.json)",
       "stonehearth/entities/resources/skin/zilla_skin/zilla_skin.json": "file(entities/resources/skin/zilla_skin/zilla_skin.json)",
       "stonehearth/entities/refined/leather_bolt/leather_bolt.json": "file(entities/refined/leather_bolt/leather_bolt.json)",
+		"trapper_plus/ui/data/drying_frame_filters.json": [
+			"/stonehearth_ace/ui/data/drying_frame_filters.json"
+		],
+      "trapper_plus/ui/data/pelt_large_rack_filters.json": [
+			"/stonehearth_ace/ui/data/pelt_large_rack_filters.json"
+		],
 		"trapper_plus/ui/data/smokehouse_filters.json": [
 			"/archipelago_biome/ui/data/smokehouse_filters.json",
 			"/stonehearth_ace/ui/data/smokehouse_filters.json"
@@ -382,7 +482,20 @@
       "stonehearth_ace/entities/food/dairy/cheese_fresh/cheese_fresh/cheese_fresh.json": "file(entities/food/dairy/cheese_fresh/cheese_fresh/cheese_fresh.json)",
       "stonehearth_ace/entities/resources/pelt/bear_pelt/bear_pelt.json": "file(entities/resources/pelt/bear_pelt/bear_pelt.json)",
       "stonehearth_ace/entities/resources/pelt/moomoo_pelt/moomoo_pelt.json": "file(entities/resources/pelt/moomoo_pelt/moomoo_pelt.json)",
-      "stonehearth_ace/entities/resources/pelt/wild_cattle_pelt/wild_cattle_pelt.json": "file(entities/resources/pelt/wild_cattle_pelt/wild_cattle_pelt.json)"
+      "stonehearth_ace/entities/resources/pelt/wild_cattle_pelt/wild_cattle_pelt.json": "file(entities/resources/pelt/wild_cattle_pelt/wild_cattle_pelt.json)",
+		"stonehearth:resources:herb:brightbell": "file(entities/resources/herb/brightbell/brightbell.json)",
+		"stonehearth:resources:herb:frostsnap": "file(entities/resources/herb/frostsnap/frostsnap.json)",
+		"stonehearth:resources:herb:cactus_flower": "file(entities/resources/herb/cactus_flower/cactus_flower.json)",
+		"stonehearth:resources:herb:cactus:tulip:yellow": "file(entities/resources/herb/cactus_tulip_yellow/cactus_tulip_yellow.json)",
+		"stonehearth:resources:herb:cactus:tulip:red": "file(entities/resources/herb/cactus_tulip_red/cactus_tulip_red.json)",
+		"stonehearth:resources:herb:cactus:tulip:blue": "file(entities/resources/herb/cactus_tulip_blue/cactus_tulip_blue.json)",
+		"stonehearth:resources:herb:snow_poppy": "file(entities/resources/herb/snow_poppy/snow_poppy.json)",
+		"stonehearth:resources:herb:violet": "file(entities/resources/herb/violet/violet.json)",
+		"stonehearth_ace:resources:herb:daisy": "file(entities/resources/herb/daisy/daisy.json)",
+		"stonehearth_ace:resources:herb:foxlily": "file(entities/resources/herb/foxlily/foxlily.json)",
+		"stonehearth_ace:resources:herb:sunflower": "file(entities/resources/herb/sunflower/sunflower.json)",
+		"archipelago_biome:resources:herb:hibiscus": "file(entities/resources/herb/hibiscus/hibiscus.json)",
+		"archipelago_biome:resources:herb:blue_hibiscus": "file(entities/resources/herb/blue_hibiscus/blue_hibiscus.json)"
    },
    "overrides": {		
       "stonehearth/ai/task_groups/trapping_task_group.lua": "file(ai/task_groups/trapping_task_group.lua)",
@@ -397,7 +510,11 @@
 		"archipelago_biome/ui/data/smokehouse_filters.json": "file(mod_compatibility/archipelago_biome/smokehouse_filters.json)",
 		"stonehearth_ace/ui/data/smokehouse_filters.json": "file(mod_compatibility/stonehearth_ace/smokehouse_filters.json)",
 		"archipelago_biome/ui/data/salt_box_filters.json": "file(mod_compatibility/archipelago_biome/salt_box_filters.json)",
-		"stonehearth_ace/ui/data/salt_box_filters.json": "file(mod_compatibility/stonehearth_ace/salt_box_filters.json)"
+		"stonehearth_ace/ui/data/salt_box_filters.json": "file(mod_compatibility/stonehearth_ace/salt_box_filters.json)",
+		"stonehearth_ace/ui/data/drying_frame_filters.json": "file(mod_compatibility/stonehearth_ace/drying_frame_filters.json)",
+		"stonehearth_ace/ui/data/pelt_large_rack_filters.json": "file(mod_compatibility/stonehearth_ace/pelt_large_rack_filters.json)",
+		"stonehearth_ace/harvest_beast_loot_table_remover.json": "file(mod_compatibility/stonehearth_ace/harvest_beast_loot_table_remover.json)",
+		"stonehearth_ace/cooking_fuel_adder.json": "file(mod_compatibility/stonehearth_ace/cooking_fuel_adder.json)"
    },
    "components": {},
    "controllers": {},

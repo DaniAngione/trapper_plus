@@ -1,0 +1,19 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "drink_container milk",
+         "count": 3
+      },
+      {
+         "material": "cooking_ingredient salt",
+         "count": 1
+      },
+      {
+         "material": "herb resource",
+         "count": 1
+      }
+   ]
+}

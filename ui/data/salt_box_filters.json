@@ -138,6 +138,48 @@
                "display_name": "i18n(trapper_plus:food.raw_venison_meat.display_name)",
                "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
                "filter": "venison raw_jerky"
+            },
+            "mutton": {
+               "ordinal": 30,
+               "display_name": "i18n(stonehearth:entities.food.mutton.display_name)",
+               "icon": "/stonehearth/entities/food/mutton/mutton.png",
+               "filter": "raw piece mutton"
+            },
+            "pork": {
+               "ordinal": 31,
+               "display_name": "i18n(stonehearth:entities.food.pork.display_name)",
+               "icon": "/stonehearth/entities/food/pork/pork.png",
+               "filter": "raw piece pork"
+            },
+            "poultry_large": {
+               "ordinal": 32,
+               "display_name": "i18n(stonehearth:entities.food.poultry_large.display_name)",
+               "icon": "/stonehearth/entities/food/poultry_large/poultry_large.png",
+               "filter": "raw piece poultry"
+            },
+            "whole_poyo_meat": {
+               "ordinal": 33,
+               "display_name": "i18n(stonehearth:entities.food.poyo_meat.display_name)",
+               "icon": "/stonehearth/entities/food/poyo_meat/poyo_meat.png",
+               "filter": "raw piece poyo_meat"
+            },
+            "whole_varanus_meat": {
+               "ordinal": 34,
+               "display_name": "i18n(stonehearth:entities.food.varanus_meat.display_name)",
+               "icon": "/stonehearth/entities/food/varanus_meat/varanus_meat.png",
+               "filter": "raw piece varanus_meat"
+            },
+            "venison": {
+               "ordinal": 35,
+               "display_name": "i18n(stonehearth:entities.food.venison.display_name)",
+               "icon": "/stonehearth/entities/food/venison/venison.png",
+               "filter": "raw piece venison"
+            },
+            "sausage": {
+               "ordinal": 40,
+               "display_name": "i18n(stonehearth:entities.food.sausage.display_name)",
+               "icon": "/stonehearth/entities/food/sausage/sausage.png",
+               "filter": "raw sausage"
             }
          }
       }

@@ -1,0 +1,11 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "small food meat raw",
+         "count": 3
+      }
+   ]
+}

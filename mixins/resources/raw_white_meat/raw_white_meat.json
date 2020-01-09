@@ -51,6 +51,7 @@
          "category": "cooking_ingredient",
          "material_tags": [
             "stockpile_cooking_ingredient",
+            "animal_ingredient",
             "meat",
             "raw",
             "cooking_ingredient",

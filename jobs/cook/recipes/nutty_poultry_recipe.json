@@ -1,0 +1,27 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:poultry_large",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth_ace:food:cooked_nuts",
+         "count": 1
+      },
+		{
+         "material": "grease cooking_ingredient",
+         "count": 1
+      },
+      {
+         "material": "seasoning",
+         "count": 1
+      },
+	   {
+         "material": "low_fuel",
+         "count": 1
+      }
+   ]
+}

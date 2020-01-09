@@ -13,16 +13,32 @@
 	  "specific_foods": {
 		"categories": {
             "fish": {
-               "ordinal": 25,
+               "ordinal": 20,
                "display_name": "i18n(trapper_plus:food.fish_smoked.raw_display_name)",
                "icon": "/trapper_plus/mod_compatibility/archipelago_biome/fish.png",
                "filter": "raw fish"
             },
-			"big_fish": {
-               "ordinal": 26,
+				"big_fish": {
+               "ordinal": 28,
                "display_name": "i18n(trapper_plus:food.big_fish_smoked.raw_display_name)",
                "icon": "/trapper_plus/mod_compatibility/archipelago_biome/big_fish.png",
                "filter": "raw big_fish"
+            }
+         }
+	  },
+	  "salted_foods": {
+		"categories": {
+            "fish": {
+               "ordinal": 20,
+               "display_name": "i18n(trapper_plus:food.fish_salted.display_name)",
+               "icon": "/trapper_plus/entities/food/fish_salted/fish_salted.png",
+               "filter": "salted fish"
+            },
+				"big_fish": {
+               "ordinal": 28,
+               "display_name": "i18n(trapper_plus:food.big_fish_salted.display_name)",
+               "icon": "/trapper_plus/entities/food/big_fish_salted/big_fish_salted.png",
+               "filter": "salted big_fish"
             }
          }
 	  }

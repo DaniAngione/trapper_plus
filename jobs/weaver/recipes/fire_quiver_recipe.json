@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "leather resource bolt",
+         "count": 3
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "material": "feather resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:resources:coal:lump_of_coal",
+         "count": 2
+      }
+   ]
+}

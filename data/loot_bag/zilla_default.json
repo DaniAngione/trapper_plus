@@ -7,6 +7,19 @@
                "weight": 1
             }
          }
-      }
+      },
+		"fat": {
+			"roll_type": "some_of",
+			"num_rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"items": {
+				"meat": {
+					"uri": "trapper_plus:resources:animal_fat",
+					"weight": 1
+				}
+			}
+		}
    }
 }

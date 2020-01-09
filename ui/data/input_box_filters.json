@@ -66,6 +66,18 @@
          "categories": {
             "mixintypes": {
                "any_raw_meat": "remove"
+            },
+            "any_salt": {
+               "ordinal": 2.5,
+               "display_name": "i18n(trapper_plus:data.constants.salt_resource_name)",
+               "icon": "/trapper_plus/entities/food/any_salt.png",
+               "filter": "cooking_ingredient salt"
+            },
+            "seasoning": {
+               "ordinal": 2.51,
+               "display_name": "i18n(trapper_plus:data.constants.seasoning_resource_name)",
+               "icon": "/trapper_plus/entities/food/any_seasoning.png",
+               "filter": "seasoning"
             }
          }
       }

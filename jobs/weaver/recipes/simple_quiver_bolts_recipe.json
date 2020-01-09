@@ -1,0 +1,19 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "leather resource bolt",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:iron:ore",
+         "count": 1
+      },
+      {
+         "material": "feather resource",
+         "count": 1
+      }
+   ]
+}

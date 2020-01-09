@@ -9,13 +9,26 @@
                   }
                }
             },
-			"pelt": {
+				"pelt": {
                "items": {
                   "pelt": {
                      "uri": "trapper_plus:resources:fresh_racoon_pelt"
                   }
                }
-            }
+            },
+				"fat": {
+					"roll_type": "some_of",
+					"num_rolls": {
+						"min": 0,
+						"max": 1
+					},
+					"items": {
+						"meat": {
+							"uri": "trapper_plus:resources:animal_fat",
+							"weight": 1
+						}
+					}
+				}
          }
       }
    },

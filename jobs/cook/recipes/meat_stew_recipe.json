@@ -1,0 +1,15 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "food_container raw_food vegetable",
+         "count": 2
+      },
+      {
+         "material": "small food meat raw",
+         "count": 1
+      }
+   ]
+}

@@ -1,0 +1,27 @@
+{
+   "type": "index",
+   "stockpile": {
+      "resource_types": {
+         "categories": {
+            "bear_pelt": {
+               "ordinal": 6,
+               "display_name": "i18n(stonehearth_ace:entities.resources.pelt.bear_pelt.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/pelt/bear_pelt/bear_pelt.png",
+               "filter": "pelt bear"
+            },
+            "moomoo_pelt": {
+               "ordinal": 7,
+               "display_name": "i18n(stonehearth_ace:entities.resources.pelt.moomoo_pelt.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/pelt/moomoo_pelt/moomoo_pelt.png",
+               "filter": "pelt moomoo"
+            },
+            "wild_cattle_pelt": {
+               "ordinal": 8,
+               "display_name": "i18n(stonehearth_ace:entities.resources.pelt.wild_cattle_pelt.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/pelt/wild_cattle_pelt/wild_cattle_pelt.png",
+               "filter": "pelt wild_cattle"
+            }
+         }
+      }
+   }
+}

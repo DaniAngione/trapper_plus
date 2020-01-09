@@ -24,17 +24,159 @@
       },
 	  "specific_foods": {
 		"categories": {
-            "fish": {
-               "ordinal": 25,
-               "display_name": "i18n(trapper_plus:food.fish_smoked.raw_display_name)",
-               "icon": "/trapper_plus/mod_compatibility/archipelago_biome/fish.png",
-               "filter": "raw fish"
+				"cougar_meat": {
+               "ordinal": 12.1,
+               "display_name": "i18n(trapper_plus:food.raw_cougar_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "cougar raw_jerky"
             },
-			"big_fish": {
-               "ordinal": 26,
-               "display_name": "i18n(trapper_plus:food.big_fish_smoked.raw_display_name)",
-               "icon": "/trapper_plus/mod_compatibility/archipelago_biome/big_fish.png",
-               "filter": "raw big_fish"
+            "bear_meat": {
+               "ordinal": 12.2,
+               "display_name": "i18n(trapper_plus:food.raw_bear_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "bear raw_jerky"
+            },
+            "beef_meat": {
+               "ordinal": 12.3,
+               "display_name": "i18n(trapper_plus:food.raw_beef_meat.display_name)",
+               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
+               "filter": "beef raw_jerky"
+            },
+            "fish_meat": {
+               "ordinal": 21,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_meat/fish_meat.png",
+               "filter": "raw fish fish_meat_fish_meat"
+            },
+				"fish_carp_meat": {
+               "ordinal": 22,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_carp_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_carp_meat/fish_carp_meat.png",
+               "filter": "raw fish fish_carp_meat"
+            },
+				"fish_catfish_meat": {
+               "ordinal": 23,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_catfish_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_catfish_meat/fish_catfish_meat.png",
+               "filter": "raw fish fish_catfish_meat"
+            },
+				"fish_salmon_meat": {
+               "ordinal": 24,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_salmon_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_salmon_meat/fish_salmon_meat.png",
+               "filter": "raw fish fish_salmon_meat"
+            },
+				"fish_trout_meat": {
+               "ordinal": 25,
+               "display_name": "i18n(stonehearth_ace:entities.food.fish_trout_meat.display_name)",
+               "icon": "/stonehearth_ace/entities/food/fish_trout_meat/fish_trout_meat.png",
+               "filter": "raw fish fish_trout_meat"
+            },
+				"steak": {
+               "ordinal": 34.5,
+               "display_name": "i18n(stonehearth_ace:entities.food.steak.display_name)",
+               "icon": "/stonehearth_ace/entities/food/steak/steak.png",
+               "filter": "raw piece steak"
+            },
+            "chestnuts": {
+               "ordinal": 50,
+               "display_name": "i18n(stonehearth_ace:entities.food.chestnut.chestnut_basket.display_name)",
+               "icon": "/stonehearth_ace/entities/food/chestnut/chestnut_basket/chestnut_basket.png",
+               "filter": "food_container chestnut"
+            },
+            "almonds": {
+               "ordinal": 51,
+               "display_name": "i18n(stonehearth_ace:entities.food.almond.almond_basket.display_name)",
+               "icon": "/stonehearth_ace/entities/food/almond/almond_basket/almond_basket.png",
+               "filter": "food_container almond"
+            },
+            "walnuts": {
+               "ordinal": 52,
+               "display_name": "i18n(stonehearth_ace:entities.food.walnut.walnut_basket.display_name)",
+               "icon": "/stonehearth_ace/entities/food/walnut/walnut_basket/walnut_basket.png",
+               "filter": "food_container walnut"
+            },
+            "hazelnuts": {
+               "ordinal": 53,
+               "display_name": "i18n(stonehearth_ace:entities.food.hazelnut.hazelnut_basket.display_name)",
+               "icon": "/stonehearth_ace/entities/food/hazelnut/hazelnut_basket/hazelnut_basket.png",
+               "filter": "food_container hazelnut"
+            },
+            "cheese_fresh": {
+               "ordinal": 60,
+               "display_name": "i18n(stonehearth_ace:entities.food.dairy.cheese_fresh.cheese_fresh.display_name)",
+               "icon": "/stonehearth_ace/entities/food/dairy/cheese_fresh/cheese_fresh/cheese_fresh.png",
+               "filter": "cheese_fresh cheese smokehouse_curable"
+            },
+            "cheese_mild": {
+               "ordinal": 61,
+               "display_name": "i18n(stonehearth_ace:entities.food.dairy.cheese_mild.cheese_mild.display_name)",
+               "icon": "/stonehearth_ace/entities/food/dairy/cheese_mild/cheese_mild/cheese_mild.png",
+               "filter": "cheese_mild cheese smokehouse_curable"
+            },
+            "cheese_aged": {
+               "ordinal": 62,
+               "display_name": "i18n(stonehearth_ace:entities.food.dairy.cheese_aged.cheese_aged.display_name)",
+               "icon": "/stonehearth_ace/entities/food/dairy/cheese_aged/cheese_aged/cheese_aged.png",
+               "filter": "cheese_aged cheese smokehouse_curable"
+            }
+         }
+	  },
+	  "salted_foods": {
+		"categories": {
+				"cougar_meat": {
+               "ordinal": 12.1,
+               "display_name": "i18n(trapper_plus:food.salted_cougar_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_meat/salted_meat.png",
+               "filter": "cougar salted"
+            },
+            "bear_meat": {
+               "ordinal": 12.2,
+               "display_name": "i18n(trapper_plus:food.salted_bear_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_meat/salted_meat.png",
+               "filter": "bear salted"
+            },
+            "beef_meat": {
+               "ordinal": 12.3,
+               "display_name": "i18n(trapper_plus:food.salted_beef_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_meat/salted_meat.png",
+               "filter": "beef salted"
+            },
+            "fish_meat": {
+               "ordinal": 21,
+               "display_name": "i18n(trapper_plus:food.salted_fish_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_fish_meat/salted_fish_meat.png",
+               "filter": "salted fish fish_meat_fish_meat"
+            },
+				"fish_carp_meat": {
+               "ordinal": 22,
+               "display_name": "i18n(trapper_plus:food.salted_fish_carp_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_fish_meat/salted_fish_meat.png",
+               "filter": "salted fish fish_carp_meat"
+            },
+				"fish_catfish_meat": {
+               "ordinal": 23,
+               "display_name": "i18n(trapper_plus:food.salted_fish_catfish_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_fish_meat/salted_fish_meat.png",
+               "filter": "salted fish fish_catfish_meat"
+            },
+				"fish_salmon_meat": {
+               "ordinal": 24,
+               "display_name": "i18n(trapper_plus:food.salted_fish_salmon_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_fish_meat/salted_fish_meat.png",
+               "filter": "salted fish fish_salmon_meat"
+            },
+				"fish_trout_meat": {
+               "ordinal": 25,
+               "display_name": "i18n(trapper_plus:food.salted_fish_trout_meat.display_name)",
+               "icon": "/trapper_plus/mixins/food/salted_fish_meat/salted_fish_meat.png",
+               "filter": "salted fish fish_trout_meat"
+            },
+				"steak": {
+               "ordinal": 34.5,
+               "display_name": "i18n(trapper_plus:food.salted_steak.display_name)",
+               "icon": "/trapper_plus/entities/food/salted_steak/salted_steak/salted_steak.png",
+               "filter": "salted piece steak"
             }
          }
 	  }
