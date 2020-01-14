@@ -2,6 +2,9 @@
    "mixins": "trapper_plus:mixins:resources:fresh_pelt",
    "type": "entity",
    "components": {
+      "mixintypes": {
+         "model_variants": "override"
+      },
       "model_variants": {
          "default": {
             "models": [

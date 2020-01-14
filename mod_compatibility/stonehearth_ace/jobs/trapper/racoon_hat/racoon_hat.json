@@ -1,0 +1,40 @@
+{
+   "type": "entity",
+   "components": {		
+      "model_variants": {
+			"mixintypes": {
+				"default": "override",
+				"female": "override"
+			},
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(racoon_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(racoon_hat_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "helmet",
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:sunstroke_resist",
+				"stonehearth_ace:buffs:weather:cold_resist"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "material_tags": [
+				"civillian_equipment",
+				"hat"
+         ]
+      }
+   }
+}

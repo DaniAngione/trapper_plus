@@ -1,0 +1,15 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_deer_meat"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

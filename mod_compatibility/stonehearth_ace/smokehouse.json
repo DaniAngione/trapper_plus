@@ -1,0 +1,11 @@
+{
+   "components": {
+      "stonehearth:evolve": {}
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "trapper_plus:trapper:smokehouse:unlit",
+         "evolve_time": "36h+12h"
+      }
+   }
+}

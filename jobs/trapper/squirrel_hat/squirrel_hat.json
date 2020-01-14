@@ -26,7 +26,7 @@
          "render_type": "merge_with_model",
          "roles": "trapper_job",
          "required_job_level": 2,
-         "ilevel": 2,
+         "ilevel": 3,
          "injected_buffs": [
             "trapper_plus:buffs:squirrel_spirit"
          ],
@@ -51,6 +51,7 @@
          "category": "armor",
          "material_tags": [
             "trapper_outfit",
+            "squirrel_hat",
             "cloth",
             "stockpile_equipment"
          ]

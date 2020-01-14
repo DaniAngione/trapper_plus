@@ -1,0 +1,25 @@
+{
+   "components": {
+      "stonehearth:resource_node": {
+         "resource": "trapper_plus:raw_rabbit_meat",
+         "resource_loot_table": {
+            "entries": {
+               "pelt": {
+                  "items": {
+                     "pelt": {
+                        "uri": "trapper_plus:resources:fresh_rabbit_pelt"
+                     }
+                  }
+               },
+               "jerky": {
+                  "items": {
+                     "pelt": {
+                        "uri": "trapper_plus:raw_rabbit_meat"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

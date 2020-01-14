@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:decorations.wild_cattle_rug.display_name)",
+   "description": "i18n(trapper_plus:decorations.wild_cattle_rug.description)",
+   "flavor": "i18n(trapper_plus:decorations.wild_cattle_rug.flavor)",
+   "portrait": "/trapper_plus/entities/decoration/wild_cattle_rug/wild_cattle_rug.png",
+   "workshop": "trapper_plus:trapper:block",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "fiber resource",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth_ace:resources:wild_cattle_pelt",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:decoration:wild_cattle_rug"
+      }
+   ]
+}

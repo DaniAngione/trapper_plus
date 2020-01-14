@@ -30,7 +30,13 @@
       },
       "stonehearth:catalog": {
          "category": "decoration",
-         "material_tags":["refined", "crafted", "decoration", "stockpile_decoration"]
+         "material_tags": [
+            "refined",
+            "crafted",
+            "decoration",
+            "fox_rug",
+            "stockpile_decoration"
+         ]
       },
       "stonehearth:appeal": {
          "appeal": 7

@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:buffs.fox_spirit.display_name)",
+   "description": "i18n(trapper_plus:buffs.fox_spirit.description)",
+   "icon": "file(fox_spirit_buff.png)",
+   "modifiers": {
+      "diligence": {
+         "add": 15
+      },
+      "speed": {
+         "add": 10
+      }
+   }
+}

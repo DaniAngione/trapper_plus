@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fur_pile.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.containers.fur_pile.display_name)",
+         "description": "i18n(trapper_plus:entities.containers.fur_pile.description)",
+         "icon": "file(fur_pile.png)",
+         "category": "storage",
+         "material_tags": [
+            "stockpile_animal_part",
+            "crafted",
+            "fur_pile",
+            "resource_pile"
+         ]
+      }
+   }
+}

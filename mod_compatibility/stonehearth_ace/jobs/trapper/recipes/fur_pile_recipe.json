@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:entities.containers.fur_pile.display_name)",
+   "description": "i18n(trapper_plus:entities.containers.fur_pile.description)",
+   "flavor": "i18n(trapper_plus:entities.containers.fur_pile.flavor)",
+   "portrait": "/trapper_plus/entities/containers/fur_pile/fur_pile.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "pelt resource",
+         "count": 48
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:containers:fur_pile"
+      }
+   ]
+}

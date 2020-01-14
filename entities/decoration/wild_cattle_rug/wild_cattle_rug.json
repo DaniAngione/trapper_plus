@@ -1,0 +1,46 @@
+{
+   "type": "entity",
+   "mixins": "file(wild_cattle_rug_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(wild_cattle_rug_iconic.json)",
+         "ghost_form": "file(wild_cattle_rug_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "region_collision_shape": {
+         "region_collision_type": "none",
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 0.1, "z": 2 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 17,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "category": "decoration",
+         "material_tags": [
+            "refined",
+            "crafted",
+            "wild_cattle_rug",
+            "decoration",
+            "stockpile_decoration"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 8
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

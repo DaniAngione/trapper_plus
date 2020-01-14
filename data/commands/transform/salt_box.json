@@ -1,0 +1,12 @@
+{
+   "type": "command",
+   "name": "salt_box",
+   "display_name": "i18n(trapper_plus:data.commands.transform.salt_box.display_name)",
+   "description": "i18n(trapper_plus:data.commands.transform.salt_box.description)",
+   "default_enabled": true,
+   "ordinal": 99,
+   "icon": "/trapper_plus/entities/food/salt/salt.png",
+   "action": "call",
+   "function": "stonehearth_ace:transform_command",
+   "args": []
+}

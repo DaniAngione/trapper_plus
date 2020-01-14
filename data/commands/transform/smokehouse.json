@@ -1,0 +1,12 @@
+{
+   "type": "command",
+   "name": "smokehouse",
+   "display_name": "i18n(trapper_plus:data.commands.transform.smokehouse.display_name)",
+   "description": "i18n(trapper_plus:data.commands.transform.smokehouse.description)",
+   "default_enabled": true,
+   "ordinal": 99,
+   "icon": "file(smokehouse.png)",
+   "action": "call",
+   "function": "stonehearth_ace:transform_command",
+   "args": []
+}

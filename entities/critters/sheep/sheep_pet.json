@@ -1,0 +1,15 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "skin": {
+                     "uri": "trapper_plus:raw_mutton_meat"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

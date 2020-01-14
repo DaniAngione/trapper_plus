@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:decorations.moomoo_rug.display_name)",
+   "description": "i18n(trapper_plus:decorations.moomoo_rug.description)",
+   "flavor": "i18n(trapper_plus:decorations.moomoo_rug.flavor)",
+   "portrait": "/trapper_plus/entities/decoration/moomoo_rug/moomoo_rug.png",
+   "workshop": "trapper_plus:trapper:block",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "material": "fiber resource",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth_ace:resources:moomoo_pelt",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:decoration:moomoo_rug"
+      }
+   ]
+}

@@ -10,6 +10,11 @@
             "models": [
                "file(animal_fat.qb)"
             ]
+         },
+         "decay_1": {
+            "models": [
+               "file(animal_fat_rotting.qb)"
+            ]
          }
       }
    },
@@ -22,6 +27,19 @@
             "sellable": true,
             "shopkeeper_level": 2,
             "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 240,
+            "max": 360
+         },
+         "decay_stages": {
+            "decay_1": {
+               "trigger_decay_value": 180,
+               "model_variant": "decay_1",
+               "description": "i18n(trapper_plus:food.raw_meat.decay_1_description)"
+            }
          }
       },
       "stonehearth:catalog": {

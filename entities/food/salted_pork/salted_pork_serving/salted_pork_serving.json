@@ -26,7 +26,7 @@
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.salted_pork_serving.display_name)",
-         "description": "",
+         "description": "i18n(trapper_plus:food.salted_pork_serving.description)",
          "material_tags": [
             "food",
             "salted_pork_serving",

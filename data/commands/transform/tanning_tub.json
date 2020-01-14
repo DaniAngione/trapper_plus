@@ -1,0 +1,12 @@
+{
+   "type": "command",
+   "name": "tanning_tub",
+   "display_name": "i18n(trapper_plus:data.commands.transform.tanning_tub.display_name)",
+   "description": "i18n(trapper_plus:data.commands.transform.tanning_tub.description)",
+   "default_enabled": true,
+   "ordinal": 99,
+   "icon": "/trapper_plus/entities/resources/tannin/tannin.png",
+   "action": "call",
+   "function": "stonehearth_ace:transform_command",
+   "args": []
+}

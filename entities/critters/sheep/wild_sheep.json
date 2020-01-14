@@ -1,0 +1,19 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "raw_meat": {
+               "num_rolls": {
+                  "min": 0,
+                  "max": 1
+               },
+               "items": {
+                  "pelt": {
+                     "uri": "trapper_plus:raw_mutton_meat"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

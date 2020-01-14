@@ -14,6 +14,16 @@
 				}
 			}
 		},
+		"storage": {
+         "recipes": {
+				"fur_pile": {
+					"recipe": "file(fur_pile_recipe.json)"
+				},
+				"fur_pile_small": {
+					"recipe": "file(fur_pile_small_recipe.json)"
+				}
+         }
+      },
 		"butchering": {
 			"recipes": {
 				"slice_steak": {
@@ -33,6 +43,19 @@
 		},
       "clothing": {
          "recipes": {}
+      },
+		"decorations": {
+         "recipes": {
+				"moomoo_rug": {
+					"recipe": "file(moomoo_rug_recipe.json)"
+				},
+				"wild_cattle_rug": {
+					"recipe": "file(wild_cattle_rug_recipe.json)"
+				},
+				"bear_rug": {
+					"recipe": "file(bear_rug_recipe.json)"
+				}
+         }
       }
    }
 }

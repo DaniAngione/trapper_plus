@@ -78,26 +78,32 @@
                "icon": "/stonehearth_ace/entities/food/steak/steak.png",
                "filter": "raw piece steak"
             },
-            "chestnuts": {
+				"nuts": {
                "ordinal": 50,
+               "display_name": "i18n(stonehearth_ace:entities.food.nuts_basket.display_name)",
+               "icon": "/stonehearth_ace/entities/food/nuts_basket/nuts_basket.png",
+               "filter": "nut_basket nuts"
+            },
+            "chestnuts": {
+               "ordinal": 51,
                "display_name": "i18n(stonehearth_ace:entities.food.chestnut.chestnut_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/chestnut/chestnut_basket/chestnut_basket.png",
                "filter": "food_container chestnut"
             },
             "almonds": {
-               "ordinal": 51,
+               "ordinal": 52,
                "display_name": "i18n(stonehearth_ace:entities.food.almond.almond_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/almond/almond_basket/almond_basket.png",
                "filter": "food_container almond"
             },
             "walnuts": {
-               "ordinal": 52,
+               "ordinal": 53,
                "display_name": "i18n(stonehearth_ace:entities.food.walnut.walnut_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/walnut/walnut_basket/walnut_basket.png",
                "filter": "food_container walnut"
             },
             "hazelnuts": {
-               "ordinal": 53,
+               "ordinal": 54,
                "display_name": "i18n(stonehearth_ace:entities.food.hazelnut.hazelnut_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/hazelnut/hazelnut_basket/hazelnut_basket.png",
                "filter": "food_container hazelnut"

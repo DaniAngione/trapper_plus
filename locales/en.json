@@ -43,7 +43,8 @@
          "description": "Used to tan rawhide into leather. Should be kept away due to its foul smell!",
          "recipe_display_name": "Tanning Tub",
          "recipe_description": "Used to tan rawhide into leather.",
-         "flavor": "Tanneries are usually built on the outskirts of towns due to their... particular smell."
+         "flavor": "Tanneries are usually built on the outskirts of towns due to their... particular smell.",
+         "water_description": "This tub requires tannin to be functional again."
       },
       "drying_frame": {
          "display_name": "Drying Frame",
@@ -104,7 +105,7 @@
          "flavor": "Become one with the pack."
       },
       "cougar_hat": {
-         "display_name": "Cougar Hood",
+         "display_name": "Big Cat Hood",
          "description": "Trappers can wear this hood for a good speed and diligence increase.",
          "worn_description": "Increasing the Trapper's speed and diligence.",
          "flavor": "Only a master of the hunt can wear this."
@@ -113,7 +114,8 @@
          "display_name": "Wooden Smokery",
          "description": "Smokehouses are useful for curing products like meat with smoke.",
          "recipe_description": "A smokehouse can be used to cure certain products like raw meats or sausages into edible and preserved forms.",
-         "flavor": "Smells funny."
+         "flavor": "Smells funny.",
+         "unlit_description": "It has run out of fuel and needs to be lit again before it can work!"
       },
       "campfire_pot": {
          "display_name": "Trapper's Campfire & Pot",
@@ -124,18 +126,27 @@
       },
       "rc_smokehouse": {
          "description": "Smokehouses are useful for curing products like meat with smoke.",
-         "display_name": "Clay Smokery"
+         "display_name": "Clay Smokery",
+         "unlit_description": "It has run out of fuel and needs to be lit again before it can work!"
       },
       "na_smokehouse": {
          "display_name": "Stone Smokery",
-         "description": "Smokehouses are useful for curing products like meat with smoke."
+         "description": "Smokehouses are useful for curing products like meat with smoke.",
+         "unlit_description": "It has run out of fuel and needs to be lit again before it can work!"
       },
       "salt_box": {
          "display_name": "Salt Box",
          "description": "Prepared by the Trapper for curing a variety of products with salt.",
          "recipe_display_name": "Salt Box",
          "recipe_description": "Can be used for curing a variety of products with salt.",
-         "flavor": "Salted goods can be further cured in a smokehouse for the best results!"
+         "flavor": "Salted goods can be further cured in a smokehouse for the best results!",
+         "dirty_description": "It's all dirty and humid. The salt must be replaced before it can be used again."
+      },
+      "fox_hat": {
+         "worn_description": "Slightly increasing the Trapper's speed and diligence.",
+         "display_name": "Fox Hat",
+         "description": "Trappers can wear this hat for a small speed and diligence increase.",
+         "flavor": "What does the fox say?"
       }
    },
    "data": {
@@ -267,6 +278,22 @@
          "items": {
             "meat": "Meat"
          }
+      },
+      "commands": {
+         "transform": {
+            "tanning_tub": {
+               "display_name": "Add More Tannin",
+               "description": "Order the Trapper to refill this vat and add another Pinch of Tannin to it so it can be used to tan hides again. This command is automatically issued whenever the tub needs it."
+            },
+            "smokehouse": {
+               "display_name": "Refuel",
+               "description": "Order the Trapper to bring any common fuel and light the smokery again. They must be able to access the backside opening to light the fire. This command is automatically issued when needed."
+            },
+            "salt_box": {
+               "display_name": "Clean & Add Salt",
+               "description": "Order the Trapper to clean this salt box and replace the humid, dirty salt. This command will be issued automatically when needed."
+            }
+         }
       }
    },
    "entities": {
@@ -302,7 +329,7 @@
          "display_name": "Fresh Boar Pelt"
       },
       "fresh_cougar_pelt": {
-         "display_name": "Fresh Cougar Pelt"
+         "display_name": "Fresh Big Cat Pelt"
       },
       "fresh_deer_pelt": {
          "display_name": "Fresh Deer Pelt"
@@ -311,7 +338,7 @@
          "display_name": "Fresh Rabbit Pelt"
       },
       "fresh_racoon_pelt": {
-         "display_name": "Fresh Racoon Pelt"
+         "display_name": "Fresh Raccoon Pelt"
       },
       "fresh_red_fox_pelt": {
          "display_name": "Fresh Fox Pelt"
@@ -400,6 +427,18 @@
          "output_rack_rawhide": {
             "display_name": "Rawhide Stockpile",
             "description": "A dry place for clean pelts to wait before the tanning tub."
+         },
+         "fur_pile": {
+            "display_name": "Bundle of Furs",
+            "description": "Can be harvested for up to 48 fur pelts.",
+            "iconic_description": "Place it so it can be harvested for fur pelts.",
+            "flavor": "Very useful for stockpiling pelts or simply trading them in bulk"
+         },
+         "fur_pile_small": {
+            "display_name": "Small Bundle of Furs",
+            "description": "Can be harvested for up to 6 fur pelts.",
+            "iconic_description": "Place it so it can be harvested for fur pelts.",
+            "flavor": "Very useful for stockpiling pelts or simply trading them in bulk"
          }
       },
       "food": {
@@ -531,6 +570,10 @@
       "tanning_tub_stench": {
          "display_name": "Foul Stench",
          "description": "One shouldn't hang around the tanning vats for so long..."
+      },
+      "fox_spirit": {
+         "description": "Diligence increased by 15 and Speed Increased by 10",
+         "display_name": "The Fox's Cunning"
       }
    },
    "decorations": {
@@ -551,9 +594,9 @@
          "flavor": ""
       },
       "cougar_rug": {
-         "display_name": "Cougar Rug",
+         "display_name": "Big Cat Rug",
          "description": "Make a comfy rug with the prepared fur of a cougar.",
-         "flavor": "Careful with the teeth."
+         "flavor": "Careful with the teeth"
       },
       "deer_rug": {
          "display_name": "Deer Rug",
@@ -569,6 +612,21 @@
          "display_name": "Wolf Rug",
          "description": "Make a comfy rug with the prepared fur of a wolf.",
          "flavor": "Not so scary anymore."
+      },
+      "bear_rug": {
+         "display_name": "Bear Rug",
+			"description": "Make a comfy rug with the prepared fur of a bear.",
+         "flavor": "An unbearable sight for some"
+      },
+      "moomoo_rug": {
+         "display_name": "Moo-Moo Rug",
+			"description": "Make a comfy rug with the prepared fur of a moo-moo.",
+         "flavor": "Very popular on farmhouses"
+      },
+      "wild_cattle_rug": {
+         "display_name": "Wild Cattle Rug",
+			"description": "Make a comfy rug with the prepared fur of wild cattle.",
+         "flavor": ""
       }
    },
    "food": {
@@ -749,7 +807,7 @@
          "display_name": "Raw Beef Cuts"
       },
       "raw_cougar_meat": {
-         "display_name": "Raw Cougar Meat"
+         "display_name": "Raw Big Cat Meat"
       },
       "fish_jerky": {
          "display_name": "Fish Jerky",
@@ -842,7 +900,7 @@
          "display_name": "Smoked Beef Cuts"
       },
       "smoked_cougar_meat": {
-         "display_name": "Smoked Cougar Meat"
+         "display_name": "Smoked Big Cat Meat"
       },
       "smoked_deer_meat": {
          "display_name": "Smoked Deer Meat"
@@ -935,7 +993,7 @@
          "display_name": "Salted Boar Meat"
       },
       "salted_cougar_meat": {
-         "display_name": "Salted Cougar Meat"
+         "display_name": "Salted Big Cat Meat"
       },
       "salted_deer_meat": {
          "display_name": "Salted Deer Meat"
@@ -1000,10 +1058,11 @@
       },
       "salted_pork": {
          "display_name": "Leg of Salted Pork",
-         "description": "A delicious piece of salted swine meat. Can be further cured in a smokery."
+         "description": "This salted pork is particularly good. Can be further cured in a smokery."
       },
       "salted_pork_serving": {
-         "display_name": "Serving of Salted Pork"
+         "display_name": "Serving of Salted Pork",
+         "description": "\"Salted pork?\""
       },
       "salted_poultry": {
          "display_name": "Salted Poultry Drumstick",

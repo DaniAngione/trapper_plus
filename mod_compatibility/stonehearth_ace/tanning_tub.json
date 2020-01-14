@@ -1,0 +1,11 @@
+{
+   "components": {
+      "stonehearth:evolve": {}
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "trapper_plus:trapper:tanning_tub:water",
+         "evolve_time": "1d+36h"
+      }
+   }
+}

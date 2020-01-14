@@ -26,7 +26,7 @@
          "render_type": "merge_with_model",
          "roles": "trapper_job",
          "required_job_level": 6,
-         "ilevel": 6,
+         "ilevel": 7,
          "injected_buffs": [
             "trapper_plus:buffs:cougar_spirit"
          ],
@@ -51,6 +51,7 @@
          "category": "armor",
          "material_tags": [
             "trapper_outfit",
+            "cougar_hat",
             "cloth",
             "stockpile_equipment"
          ]

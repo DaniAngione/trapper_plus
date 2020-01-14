@@ -1,0 +1,11 @@
+{
+   "components": {
+      "stonehearth:evolve": {}
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "trapper_plus:trapper:salt_box:dirty",
+         "evolve_time": "3d+48h"
+      }
+   }
+}

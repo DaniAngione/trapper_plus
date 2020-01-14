@@ -71,7 +71,13 @@
          "description": "i18n(trapper_plus:worker.fur_coat.worn_description)",
          "icon": "file(fur_coat_outfit.png)",
          "category": "armor",
-         "material_tags":["cloth", "worker_outfit", "fur", "stockpile_equipment"]
+         "material_tags": [
+            "cloth",
+            "worker_outfit",
+            "fur",
+            "stockpile_equipment",
+            "civillian_equipment"
+         ]
       }
    }
 }

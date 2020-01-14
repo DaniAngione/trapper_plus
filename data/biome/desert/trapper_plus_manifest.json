@@ -9,6 +9,9 @@
    "overrides" : {
       "/trapper_plus/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.qb": "file(entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_fennec_pelt.qb)",
       "/trapper_plus/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.png": "file(entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_fennec_pelt.png)",
+		
+		"/trapper_plus/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.qb": "/trapper_plus/data/biome/desert/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.png": "/trapper_plus/data/biome/desert/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.png",
 
       "/trapper_plus/entities/decoration/fox_rug/fox_rug.qb": "file(entities/decoration/fox_rug/fox_rug_fennec.qb)",
       "/trapper_plus/entities/decoration/fox_rug/fox_rug.png": "file(entities/decoration/fox_rug/fox_rug_fennec.png)",  

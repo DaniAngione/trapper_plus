@@ -26,7 +26,7 @@
          "render_type": "merge_with_model",
          "roles": "trapper_job",
          "required_job_level": 3,
-         "ilevel": 3,
+         "ilevel": 4,
          "injected_buffs": [
             "trapper_plus:buffs:racoon_spirit"
          ],
@@ -51,6 +51,7 @@
          "category": "armor",
          "material_tags": [
             "trapper_outfit",
+            "racoon_hat",
             "cloth",
             "stockpile_equipment"
          ]

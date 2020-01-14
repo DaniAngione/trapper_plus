@@ -1,0 +1,22 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "jerky": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_beef_meat"
+                  }
+               }
+            },
+            "pelts": {
+               "items": {
+                  "pelt": {
+                     "uri": "trapper_plus:resources:fresh_wild_cattle_pelt"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

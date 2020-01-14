@@ -1,0 +1,12 @@
+{
+	"mixins": "/trapper_plus/jobs/trapper/recipes/recipes.json",
+   "craftable_recipes": {
+		"clothing": {
+			"recipes": {
+				"racoon_hat": {
+					"recipe": "file(fox_hat_recipe.json)"
+				}
+			}
+      }
+   }
+}
