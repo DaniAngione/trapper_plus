@@ -1,394 +1,1191 @@
 {
-   "na_rug_pelt_wolf": {
-      "recipe_name": "Tapete de Pele do Lobo Negro",
-      "display_name": "Tapete de Pele do Lobo Negro"
-   },
-   "armor": {
-      "leather": {
-         "display_name": "Armadura de Couro",
-         "description": "Couro é uma resistente proteção contra armas leves.",
-         "flavor": "Insultos também são rebatidos!",
-         "i_description": "Couro é uma resistente proteção."
-      }
-   },
-   "trapper": {
-      "recipes": {
-         "workbenches_name": "Equipamentos & Ferramentas",
-         "tannery_name": "Couro & Curtição",
-         "butchering_name": "Açougue",
-         "storage_name": "Armazenagem",
-         "clothing_name": "Roupas & Vestimentas",
-         "decorations_name": "Decorações"
-      },
-	  "craft_menu": {
-		"display_name": "Menu de Trabalho do Caçador",
-		"description": "Cuida da curtição do couro e trabalhos de açougue.",
-		"required_job_text": "Requer um caçador"
-	  },
-      "perks": {
-         "l1_display_name": "Curtição",
-         "l1_description": "O Caçador é capaz de construir estruturas de cortume, extrair taninos, secar e preparar peles."
-      },
-      "block": {
-         "display_name": "Bloco do Caçador",
-         "description": "Usado pelo Caçador para limpar peles.",
-         "recipe_display_name": "Bloco do Caçador",
-         "recipe_description": "Necessário para limpar peles e prepará-las para curtição.",
-         "flavor": "Isso é... s-sangue?"
-      },
-      "tanning_tub": {
-         "display_name": "Bacia de Curtição",
-         "description": "Utilizada para curtir peles cruas e transformá-las em couro. Deve ser mantida longe devido ao mau cheiro!",
-         "recipe_display_name": "Bacia de Curtição",
-         "recipe_description": "Utilizada para curtir peles cruas e transformá-las em couro.",
-         "flavor": "Cortumes são geralmente construídos nas periferias devido ao seu cheiro... particular."
-      },
-      "drying_frame": {
-         "display_name": "Moldura de Secagem",
-         "description": "Utilizada para secar grandes peles frescas que serão muito úteis posteriormente.",
-         "recipe_display_name": "Moldura de Secagem",
-         "recipe_description": "Utilizada para secar grandes peles frescas e prepará-las para curtição.",
-         "flavor": "NÃO é uma cama elástica!"
-      },
-      "small_drying_frame": {
-         "description": "Pode simultaneamente secar até oito peles frescas pequenas para serem usadas posteriormente.",
-         "display_name": "Varal de Secagem",
-         "recipe_display_name": "Varal de Secagem",
-         "recipe_description": "Necessário para secar pequenas peles frescas e prepará-las para curtição.",
-         "flavor": ""
-      },
-      "racoon_hat": {
-         "display_name": "Chapéu de Guaxinim",
-         "description": "Caçadores podem utilizar esse chapéu para um pequeno ganho em velocidade e disciplina.",
-         "worn_description": "Providenciando um pequeno ganho em velocidade e disciplina.",
-         "flavor": ""
-      },
-      "rabbit_hat": {
-         "display_name": "Chapéu de Coelho",
-         "description": "Caçadores podem utilizar esse chapéu para um grande ganho em compaixão e um pequeno ganho em velocidade.",
-         "worn_description": "Providenciando um bom ganho em compaixão e um pequeno ganho em velocidade.",
-         "flavor": "Para fazer amigos peludos."
-      },
-      "squirrel_hat": {
-         "display_name": "Chapéu de Esquilo",
-         "description": "Caçadores podem utilizar esse chapéu para um pequeno ganho em velocidade.",
-         "worn_description": "Providenciando um pequeno ganho em velocidade.",
-         "flavor": "ESQUILO!"
-      },
-      "wolf_hat": {
-         "display_name": "Capuz de Lobo",
-         "description": "Caçadores podem utilizar esse chapéu para um bom ganho em velocidade.",
-         "worn_description": "Providenciando um bom ganho em velocidade.",
-         "flavor": "Torne-se um com a alcatéia."
-      },
-      "cougar_hat": {
-         "display_name": "Capuz de Suçuarana",
-         "description": "Caçadores podem utilizar esse chapéu para um bom ganho em velocidade e disciplina.",
-         "worn_description": "Providenciando um bom ganho em velocidade e disciplina.",
-         "flavor": "Apenas um mestre caçador é capaz de usar esse chapéu."
-      },
-      "smokehouse": {
-         "display_name": "Casa de Defumação",
-         "description": "Casas de defumação são úteis para, através da fumaça, curtir produtos como carne.",
-         "recipe_description": "Uma casa de defumação pode ser utilizada para curtir certos produtos como carnes ou salsichas.",
-         "flavor": "Cheira engraçado."
-      }
-   },
-   "data": {
-      "constants": {
-         "small_pelt_resource_name": "Pele Pequena",
-         "skin_resource_name": "Pele Escamada"
-      },
-      "filters": {
-         "meat_types": "Tipos de Comida",
-         "raw_jerky": "Todas as Carnes Defumáveis",
-         "raw_sausage": "Salsichas",
-         "specific_foods": "Comidas Específicas",
-         "raw_jerky_small": "Carnes Pequenas",
-         "raw_jerky_big": "Carnes de Caça",
-         "all_type": "Sem Restrições",
-         "everything": "Todos os Curáveis",
-         "raw_meat": "Carne Crua",
-         "small_pelt": "Pele Pequena"
-      }
-   },
-   "entities": {
-      "rawhide": {
-         "display_name": "Pele Crua",
-         "description": "Pele Crua pode ser curtida e transformada em couro numa bacia de curtição.",
-         "recipe_display_name": "Limpar Pele",
-         "small_recipe_display_name": "Limpar Pele Pequena",
-         "recipe_description": "Raspe e desengordure uma pele de animal para prepará-la para curtição. Produz duas unidades de pele crua.",
-         "small_recipe_description": "Raspe e desengordure uma pele de animal para prepará-la para curtição.",
-         "flavor": "Eca."
-      },
-      "tannin": {
-         "display_name": "Pitada de Tanino",
-         "description": "Extraído de materiais orgânicos como madeira, casca ou folhas. Utilizado na curtição de couro.",
-         "recipe_display_name": "Extrair Taninos",
-         "oak_recipe_display_name": "Extrair Taninos do Carvalho",
-         "acacia_recipe_display_name": "Extrair Taninos da Acácia",
-         "recipe_description": "Taninos são utilizados por Caçadores para criar bacias de curtição que transformam peles cruas em couro.",
-         "flavor": ""
-      },
-      "fresh_pelt": {
-         "display_name": "Pele Fresca",
-         "description": "Eww! Recentemente esfolada, precisa ser seca antes de ser usada."
-      },
-      "fresh_small_pelt": {
-         "display_name": "Pele Fresca Pequena"
-      },
-      "fresh_boar_pelt": {
-         "display_name": "Pele Fresca de Javali"
-      },
-      "fresh_cougar_pelt": {
-         "display_name": "Pele Fresca de Suçuarana"
-      },
-      "fresh_deer_pelt": {
-         "display_name": "Pele Fresca de Cervo"
-      },
-      "fresh_rabbit_pelt": {
-         "display_name": "Pele Fresca de Coelho"
-      },
-      "fresh_racoon_pelt": {
-         "display_name": "Pele Fresca de Guaxinim"
-      },
-      "fresh_red_fox_pelt": {
-         "display_name": "Pele Fresca de Raposa"
-      },
-      "fresh_squirrel_pelt": {
-         "display_name": "Pele Fresca de Esquilo"
-      },
-      "fresh_wolf_pelt": {
-         "display_name": "Pele Fresca de Lobo"
-      },
-      "fresh_varanus_pelt": {
-         "display_name": "Pele Fresca de Varanus",
-         "description": "Eww! Áspera e escamosa, requer secagem."
-      },
-      "fresh_zilla_pelt": {
-         "display_name": "Pele Fresca de Zilla",
-         "description": "Eww! Áspera, escamosa e ainda quente. Requer secagem."
-      },
-      "thin_leather": {
-         "display_name": "Couro Fino",
-         "description": "Maleável mas frágil. Pode ser enrolado em rolos mais fortes por um tecelão.",
-         "recipe_display_name": "Rolo de Couro",
-         "recipe_description": "Folhas preparadas de couro prontas para serem usadas.",
-         "flavor": "Um Caçador pode curtir peles e transformá-las em couro."
-      },
-      "scaly_leather": {
-         "display_name": "Couro Escamado",
-         "description": "Cheio de escamas duras porém flexíveis. Pode ser enrolado em rolos mais fortes por um tecelão."
-      },
-      "raw_skin": {
-         "display_name": "Pele Escamada Crua",
-         "description": "Pele Escamada Crua pode ser curtida e transformada em couro escamado numa bacia de curtição.",
-         "recipe_display_name": "Limpar Pele Escamada",
-         "small_recipe_display_name": "Limpar Pele Pequena Escamada",
-         "recipe_description": "Desengordure uma pele de animal escamado para prepará-la para curtição. Produz duas unidades de pele crua.",
-         "small_recipe_description": "Desengordure uma pele de animal escamado para prepará-la para curtição.",
-         "flavor": "Escamas!"
-      },
-      "scaly_leather_boots": {
-         "display_name": "Bota de Couro Escamado",
-         "worn_description": "Provém um pequeno aumento de velocidade para Trabalhadores.",
-         "description": "Uma resistente bota de couro escamado que provém um pequeno aumento de velocidade para Trabalhadores.",
-         "flavor": ""
-      },
-      "scaly_leather_bolt": {
-         "display_name": "Rolo de Couro Escamado",
-         "description": "Coberto de escamas mas maleável e resistente.",
-         "recipe_display_name": "Rolo de Couro Escamado",
-         "recipe_description": "Folhas preparadas de couro escamado prontas para serem usadas.",
-         "flavor": "Animais com escamas como o Varanus possuem couro escamado."
-      }
-   },
-   "buffs": {
-      "wolf_spirit": {
-         "display_name": "O Espírito do Lobo",
-         "description": "Velocidade aumentada em 25"
-      },
-      "squirrel_spirit": {
-         "display_name": "A Agilidade do Esquilo",
-         "description": "Velocidade aumentada em 15"
-      },
-      "racoon_spirit": {
-         "display_name": "A Sagacidade do Guaxinim",
-         "description": "Disciplina aumentada em 15 e Velocidade aumentada em 10"
-      },
-      "rabbit_spirit": {
-         "display_name": "O Charme do Coelho",
-         "description": "Compaixão aumentada em 25 e Velocidade aumentada em 10"
-      },
-      "cougar_spirit": {
-         "display_name": "A Alma da Suçuarana",
-         "description": "Disciplina e Velocidade aumentadas em 25"
-      },
-      "boots": {
-         "display_name": "Botas Chiques",
-         "description": "Velocidade aumentada em 8"
-      }
-   },
-   "decorations": {
-      "tannery_sign": {
-         "display_name": "Placa do Cortume",
-         "recipe_display_name": "Placa de Parede do Caçador",
-         "description": "Uma placa com a marca do Caçador.",
-         "flavor": ""
-      },
-      "plushie_dragon": {
-         "display_name": "Dragão de Pelúcia",
-         "description": "Um pouco mais fofo que o original.",
-         "flavor": "Rawrr!"
-      },
-      "boar_rug": {
-         "display_name": "Tapete de Pele de Javali",
-         "description": "Faça um comfortável carpete com a pele de um javali.",
-         "flavor": ""
-      },
-      "cougar_rug": {
-         "display_name": "Tapete de Pele de Suçuarana",
-         "description": "Faça um comfortável carpete com a pele de uma suçuarana.",
-         "flavor": "Cuidado com os dentes."
-      },
-      "deer_rug": {
-         "display_name": "Tapete de Pele de Cervo",
-         "description": "Faça um comfortável carpete com a pele de um cervo.",
-         "flavor": ""
-      },
-      "fox_rug": {
-         "display_name": "Tapete de Pele de Raposa",
-         "description": "Faça um comfortável carpete com a pele de uma raposa.",
-         "flavor": ""
-      },
-      "wolf_rug": {
-         "display_name": "Tapete de Pele de Lobo",
-         "description": "Faça um comfortável carpete com a pele de um lobo.",
-         "flavor": "Não assusta mais."
-      }
-   },
-   "food": {
-      "raw_jerky": {
-         "display_name": "Charque Cru",
-         "description": "Não ideal para consumo. Requer curagem numa casa de defumação ou utilização na cozinha!",
-         "decay_1_description": "Está apodrecendo! Melhor utilizar logo antes que se perca...",
-         "recipes": {
-            "poyo_display_name": "Fatiar Carne de Poyo",
-            "poyo_description": "Produz duas unidades de carne fatiada de poyo que pode ser utilizada na culinária ou defumada numa casa de defumação.",
-            "poyo_flavor": "",
-            "poultry_display_name": "Fatiar Carne de Ave",
-            "poultry_description": "Produz três unidades de carne fatiada de ave que pode ser utilizada na culinária ou defumada numa casa de defumação.",
-            "poultry_flavor": "",
-            "pork_display_name": "Fatiar Carne Suína",
-            "pork_description": "Produz quatro unidades de carne suína fatiada que pode ser utilizada na culinária ou defumada numa casa de defumação.",
-            "pork_flavor": "",
-            "mutton_display_name": "Fatiar Carne de Cordeiro",
-            "mutton_description": "Produz duas unidades de carne de cordeiro fatiada que pode ser utilizada na culinária ou defumada numa casa de defumação.",
-            "mutton_flavor": "",
-            "venison_display_name": "Fatiar Carne de Caça",
-            "venison_description": "Produz três unidades de carne de caça fatiada que pode ser utilizada na culinária ou defumada numa casa de defumação.",
-            "venison_flavor": "",
-            "varanus_display_name": "Fatiar Carne de Varanus",
-            "varanus_description": "Produz três unidades de carne de varanus fatiada que pode ser utilizada na culinária ou defumada numa casa de defumação.",
-            "varanus_flavor": ""
-         }
-      },
-      "raw_boar_jerky": {
-         "display_name": "Carne Crua de Javali"
-      },
-      "raw_deer_jerky": {
-         "display_name": "Carne Crua de Cervo"
-      },
-      "raw_duckduck_jerky": {
-         "display_name": "Carne Crua de Patopato"
-      },
-      "raw_poultry_jerky": {
-         "display_name": "Carne Crua de Ave"
-      },
-      "raw_poyo_jerky": {
-         "display_name": "Carne Crua de Poyo"
-      },
-      "raw_rabbit_jerky": {
-         "display_name": "Carne Crua de Coelho"
-      },
-      "raw_racoon_jerky": {
-         "display_name": "Carne Crua de Guaxinim"
-      },
-      "raw_red_fox_jerky": {
-         "display_name": "Carne Crua de Raposa"
-      },
-      "raw_mutton_jerky": {
-         "display_name": "Carne Crua de Cordeiro"
-      },
-      "raw_squirrel_jerky": {
-         "display_name": "Carne Crua de Esquilo"
-      },
-      "raw_varanus_jerky": {
-         "display_name": "Carne Crua de Varanus"
-      },
-      "mutton_jerky": {
-         "display_name": "Charque de Cordeiro"
-      },
-      "poultry_jerky": {
-         "display_name": "Charque de Ave"
-      },
-      "poyo_jerky": {
-         "display_name": "Charque de Poyo"
-      },
-      "raw_pork_jerky": {
-         "display_name": "Carne Crua Suína"
-      },
-      "raw_venison_jerky": {
-         "display_name": "Carne Crua de Caça"
-      },
-      "pork_jerky": {
-         "display_name": "Charque Suíno"
-      },
-      "venison_jerky": {
-         "display_name": "Charque de Caça"
-      },
-      "raw_ostrich_jerky": {
-         "display_name": "Carne Crua de Avestruz"
-      },
-      "fish_smoked": {
-	     "all_raw_display_name": "Peixes",
-         "raw_display_name": "Peixe Fresco",
-         "display_name": "Peixe Defumado",
-         "description": "Fibrosa e deliciosa carne branca!"
-      },
-	  "big_fish_smoked": {
-         "raw_display_name": "Grande Peixe Fresco",
-         "display_name": "Grande Peixe Defumado",
-         "description": "Um delicioso e saudável fruto do trabalho de um pescador.",
-		 "serving_display_name": "Porção de Grande Peixe Defumado"
-      },
-      "smoked_sausage": {
-         "serving_display_name": "Porção de Salsicha Defumada",
-         "serving_description": "",
-         "display_name": "Salsicha Defumada",
-         "description": "Gostosa, fibrosa e crocante carne moída e defumada numa casa de defumação."
-      },
-      "sausage": {
-         "description": "O Caçador pode utilizar fibras para um encapsulamento mais rústico das salsichas."
-      },
-      "warm_wolf": {
-         "serving_display_name": "Porção de Lobo-Quente",
-         "serving_description": "",
-         "display_name": "Lobo-Quente",
-         "description": "Talvez uma das melhores ideias de todos os tempos foi colocar salsicha no pão.",
-         "flavor": "Agora precisamos de algum tipo de molho..."
-      },
-      "raw_wolf_jerky": {
-         "display_name": "Carne Crua de Lobo"
-      }
-   },
-   "worker": {
-      "fur_coat": {
-         "display_name": "Casaco de Peles",
-         "worn_description": "Quente e confortável, mantém o frio longe...",
-         "description": "Trabalhadores podem utilizar esse casaco para se manterem quentes em dias frios.",
-		 "flavor": ""
-      }
-   }
+	"na_rug_pelt_wolf": {
+		"recipe_name": "Tapete de Pele do Lobo Negro",
+		"display_name": "Tapete de Pele do Lobo Negro"
+	},
+	"armor": {
+		"leather": {
+			"display_name": "Armadura de Couro",
+			"description": "Couro é uma resistente proteção contra armas leves.",
+			"flavor": "Insultos também são rebatidos!",
+			"i_description": "Couro é uma resistente proteção."
+		}
+	},
+	"trapper": {
+		"recipes": {
+			"workbenches_name": "Equipamentos & Ferramentas",
+			"tannery_name": "Couro & Curtição",
+			"butchering_name": "Açougue",
+			"curing_name": "Cura",
+			"boiling_name": "Cozimento",
+			"storage_name": "Armazenagem",
+			"clothing_name": "Roupas & Vestimentas",
+			"decorations_name": "Decorações"
+		},
+		"craft_menu": {
+			"display_name": "Menu de Trabalho do Caçador",
+			"description": "Cuida da curtição do couro e trabalhos de açougue.",
+			"required_job_text": "Requer um caçador"
+		},
+		"perks": {
+			"l1_display_name": "Curtição",
+			"l1_description": "O Caçador é capaz de construir estruturas de cortume, extrair taninos, secar e preparar peles."
+		},
+		"block": {
+			"display_name": "Bloco do Caçador",
+			"description": "Usado pelo Caçador para limpar peles.",
+			"recipe_display_name": "Bloco do Caçador",
+			"recipe_description": "Necessário para limpar peles e prepará-las para curtição.",
+			"flavor": "Isso é... s-sangue?"
+		},
+		"tanning_tub": {
+			"display_name": "Bacia de Curtição",
+			"description": "Utilizada para curtir peles cruas e transformá-las em couro. Deve ser mantida longe devido ao mau cheiro!",
+			"recipe_display_name": "Bacia de Curtição",
+			"recipe_description": "Utilizada para curtir peles cruas e transformá-las em couro.",
+			"flavor": "Cortumes são geralmente construídos nas periferias devido ao seu cheiro... particular.",
+			"water_description": "Essa bacia requer tanino para funcionar novamente."
+		},
+		"drying_frame": {
+			"display_name": "Moldura de Secagem",
+			"description": "Utilizada para secar grandes peles frescas que serão muito úteis posteriormente.",
+			"recipe_display_name": "Moldura de Secagem",
+			"recipe_description": "Utilizada para secar grandes peles frescas e prepará-las para curtição.",
+			"flavor": "NÃO é uma cama elástica!"
+		},
+		"small_drying_frame": {
+			"description": "Pode simultaneamente secar até oito peles frescas pequenas para serem usadas posteriormente.",
+			"display_name": "Varal de Secagem",
+			"recipe_display_name": "Varal de Secagem",
+			"recipe_description": "Necessário para secar pequenas peles frescas e prepará-las para curtição.",
+			"flavor": ""
+		},
+		"input_rack_thin_leather": {
+			"recipe_display_name": "Pilha de Couro Fresco",
+			"recipe_description": "Providencia uma ótima forma de empilhar couros recentemente tratados.",
+			"flavor": "Armazena até 20 peças de couro fino"
+		},
+		"input_rack_pelt_large": {
+			"recipe_display_name": "Pilha de Peles Grandes",
+			"recipe_description": "Ofereça aos seus cidadãos uma grande pilha para armazenar peles.",
+			"flavor": "Armazena até 20 peles grandes"
+		},
+		"input_rack_pelt_small": {
+			"recipe_display_name": "Suporte de Parede de Peles Pequenas",
+			"recipe_description": "Permita que seus cidadãos pendurem pequenas peles prontas para uso.",
+			"flavor": "Armazena até 20 peles pequenas"
+		},
+		"output_rack_rawhide": {
+			"recipe_display_name": "Pilha de Peles Cruas",
+			"recipe_description": "Uma forma eficiente de armazenar todas essas peles cruas antes da curtição.",
+			"flavor": "Armazena até 20 peles cruas"
+		},
+		"racoon_hat": {
+			"display_name": "Chapéu de Guaxinim",
+			"display_name_highlands": "Chapéu de Gambá",
+			"description": "Caçadores podem utilizar esse chapéu para um pequeno ganho em velocidade e disciplina.",
+			"worn_description": "Providenciando um pequeno ganho em velocidade e disciplina.",
+			"flavor": ""
+		},
+		"rabbit_hat": {
+			"display_name": "Chapéu de Coelho",
+			"description": "Caçadores podem utilizar esse chapéu para um grande ganho em compaixão e um pequeno ganho em velocidade.",
+			"worn_description": "Providenciando um bom ganho em compaixão e um pequeno ganho em velocidade.",
+			"flavor": "Para fazer amigos peludos."
+		},
+		"squirrel_hat": {
+			"display_name": "Chapéu de Esquilo",
+			"description": "Caçadores podem utilizar esse chapéu para um pequeno ganho em velocidade.",
+			"worn_description": "Providenciando um pequeno ganho em velocidade.",
+			"flavor": "ESQUILO!"
+		},
+		"wolf_hat": {
+			"display_name": "Capuz de Lobo",
+			"description": "Caçadores podem utilizar esse chapéu para um bom ganho em velocidade.",
+			"worn_description": "Providenciando um bom ganho em velocidade.",
+			"flavor": "Torne-se um com a alcatéia."
+		},
+		"cougar_hat": {
+			"display_name": "Capuz do Felino",
+			"description": "Caçadores podem utilizar esse chapéu para um bom ganho em velocidade e disciplina.",
+			"worn_description": "Providenciando um bom ganho em velocidade e disciplina.",
+			"flavor": "Apenas um mestre caçador é capaz de usar esse chapéu."
+		},
+		"smokehouse": {
+			"display_name": "Casa de Defumação de Madeira",
+			"description": "Casas de defumação são úteis para, através da fumaça, curtir produtos como carne.",
+			"recipe_description": "Uma casa de defumação pode ser utilizada para curtir certos produtos como carnes ou salsichas.",
+			"flavor": "Cheira engraçado.",
+			"unlit_description": "O combustível acabou e precisar ser acendida novamente para funcionar!"
+		},
+		"campfire_pot": {
+			"display_name": "Fogueira & Panela do Caçador",
+			"description": "Utilizadas pelo caçador para ferver e cozinhar.",
+			"recipe_display_name": "Fogueira & Panela do Caçador",
+			"recipe_description": "Necessárias para ferver e cozinhar.",
+			"flavor": "A panela é um instrumento de sobrevivência essencial"
+		},
+		"rc_smokehouse": {
+			"description": "Casas de defumação são úteis para, através da fumaça, curtir produtos como carne.",
+			"display_name": "Casa de Defumação de Argila",
+			"unlit_description": "O combustível acabou e precisar ser acendida novamente para funcionar!"
+		},
+		"na_smokehouse": {
+			"display_name": "Casa de Defumação de Pedra",
+			"description": "Casas de defumação são úteis para, através da fumaça, curtir produtos como carne.",
+			"unlit_description": "O combustível acabou e precisar ser acendida novamente para funcionar!"
+		},
+		"salt_box": {
+			"display_name": "Caixa de Sal",
+			"description": "Preparada pelo Caçador para curtir uma variedade de produtos com sal.",
+			"recipe_display_name": "Caixa de Sal",
+			"recipe_description": "Utilizada para curtir uma variedade de produtos com sal.",
+			"flavor": "Produtos salgados podem ser melhorados ainda mais numa casa de defumação!",
+			"dirty_description": "Está toda suja e úmida. O sal precisa ser substituído antes de ser usada novamente."
+		},
+		"fox_hat": {
+			"worn_description": "Providenciando um pequeno ganho em velocidade e disciplina.",
+			"display_name": "Chapéu de Raposa",
+			"description": "Caçadores podem utilizar esse chapéu para um pequeno ganho em velocidade e disciplina.",
+			"flavor": "O que diz a raposa?"
+		}
+	},
+	"data": {
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"tier_1_shops": {
+								"salt_mine_shop_1": {
+									"shop_info": {
+										"name": "Trabalhadores das Minas de Sal",
+										"title": "Alguns trabalhadores de uma mina local chegaram"
+									}
+								}
+							},
+							"tier_2_shops": {
+								"salt_mine_shop_2": {
+									"shop_info": {
+										"name": "Minas de Sal de Angor",
+										"title": "Um comerciante de uma grande mina de sal chegou"
+									}
+								}
+							},
+							"tier_3_shops": {
+								"salt_mine_shop_3": {
+									"shop_info": {
+										"name": "Mina de Sal do Cirdain",
+										"title": "Uma caravana de uma famosa mina de sal chegou para negócios"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates": {
+				"northern_alliance": {
+					"trapper_house": {
+						"display_name": "Acampamento do Caçador"
+					},
+					"curing_yard": {
+						"display_name": "Pátio de Curtição do Caçador"
+					}
+				},
+				"rayyas_children": {
+					"trapper_house": {
+						"display_name": "Oficina do Caçador"
+					},
+					"curing_yard": {
+						"display_name": "Pátio de Curtição do Caçador"
+					}
+				},
+				"trapper_house": {
+					"display_name": "Casa do Caçador"
+				},
+				"curing_yard": {
+					"display_name": "Pátio de Curtição do Caçador"
+				}
+			}
+		},
+		"constants": {
+			"small_pelt_resource_name": "Pele Pequena",
+			"skin_resource_name": "Pele Escamada",
+			"animal_fat_rendered_resource_name": "Qualquer Gordura Animal Processada",
+			"food_meat_jerky_name": "Carne Preparada",
+			"any_pelt_resource_name": "Qualquer Pele",
+			"large_pelt_resource_name": "Pele (Grande)",
+			"small_food_meat_raw_resource_name": "Carne Crua (Pequena)",
+			"large_food_meat_raw_resource_name": "Carne Crua (Grande)",
+			"food_meat_raw_resource_name": "Qualquer Carne Crua",
+			"leather_resource_bolt_name": "Qualquer Rolo de Couro",
+			"leather_resource_small_name": "Qualquer Couro Fino",
+			"leather_resource_name": "Qualquer Couro",
+			"fish_resource_name": "Qualquer Peixe Inteiro",
+			"salt_resource_name": "Qualquer Sal de Cozinha",
+			"seasoning_resource_name": "Qualquer Tempero"
+		},
+		"filters": {
+			"meat_types": "Tipos de Comida",
+			"raw_meat": "Carne Crua",
+			"raw_sausage": "Salsichas",
+			"specific_foods": "Comidas Específicas",
+			"raw_meat_small": "Carne Crua (Pequena)",
+			"raw_meat_big": "Carne Crua (Grande)",
+			"all_type": "Sem Restrições",
+			"everything": "Todos os Curáveis",
+			"small_pelt": "Pele Pequena",
+			"raw_meat_white": "Carne Crua (Branca)",
+			"raw_meat_piece": "Partes Inteiras de Animais",
+			"resource_types": "Específicos",
+			"large_fresh_pelt": "Pele Fresca (Grande)",
+			"small_fresh_pelt": "Pele Fresca (Pequena)",
+			"rawhide_raw_skin": "Pele Crua & Pele Escamosa Crua",
+			"large_pelt": "Pele (Grande)",
+			"hard_pelts": "Qualquer Pele Escamosa",
+			"fresh_skin": "Qualquer Pele Escamosa Fresca",
+			"small_leather": "Couro Fino",
+			"only_raw": "Apenas Produtos Crus",
+			"only_salted": "Apenas Produtos Salgados",
+			"any_cheese": "Qualquer Queijo",
+			"any_nuts": "Qualquer Cesta de Nozes",
+			"salted_meat_small": "Carne Salgada (Pequena)",
+			"salted_meat_big": "Carne Salgada (Grande)",
+			"salted_meat_piece": "Partes Inteiras de Animais Salgadas",
+			"salted_foods": "Alimentos Salgados Específicos"
+		},
+		"happiness": {
+			"thoughts": {
+				"job": {
+					"values": {
+						"tanning_tub_stench": {
+							"display_name": "Cheirinho Engraçado",
+							"tooltip": "Todos podem perceber, não? Estão olhando?! Meu cheiro está terrível... Eu devo ficar bem longe daquelas bacias horríveis!"
+						}
+					}
+				}
+			}
+		},
+		"buffs": {
+			"smoky_flavors": {
+				"display_name": "Sabores Esfumaçados",
+				"description": "Hmmm, estava perfeitamente defumado! Tão gostoso! Estamina, Coragem e Força melhoradas.<ul><li>Criação de itens é levemente acelerada</li></ul>"
+			}
+		},
+		"loadouts": {
+			"items": {
+				"meat": "Carne"
+			}
+		},
+		"commands": {
+			"transform": {
+				"tanning_tub": {
+					"display_name": "Adicionar Mais Tanino",
+					"description": "Ordene ao Caçador que reponha a água desta bacia e adicione outra Pitada de Tanino para que ela possa curtir peles novamente. Esse comando será ativado automaticamente caso seja necessário."
+				},
+				"smokehouse": {
+					"display_name": "Reabastecer",
+					"description": "Ordene ao Caçador que traga qualquer combustível comum e acenda a casa de defumação novamente. A pessoa que o fizer deverá ser capaz de acessar a parte de trás da casa de defumação para fazê-lo. Esse comando será ativado automaticamente caso seja necessário."
+				},
+				"salt_box": {
+					"display_name": "Limpar & Adicionar Sal",
+					"description": "Ordene ao Caçador que limpe a caixa de sal e substitua o sal que está sujo e úmido. Esse comando será ativado automaticamente caso seja necessário."
+				}
+			}
+		}
+	},
+	"entities": {
+		"rawhide": {
+			"display_name": "Pele Crua",
+			"description": "Pele Crua pode ser curtida e transformada em couro numa bacia de curtição.",
+			"recipe_display_name": "Limpar Pele",
+			"small_recipe_display_name": "Limpar Pele Pequena",
+			"recipe_description": "Raspe e desengordure uma pele de animal para prepará-la para curtição. Produz duas unidades de pele crua.",
+			"small_recipe_description": "Raspe e desengordure uma pele de animal para prepará-la para curtição.",
+			"flavor": "Eca."
+		},
+		"tannin": {
+			"display_name": "Pitada de Tanino",
+			"description": "Extraído de materiais orgânicos como madeira, casca ou folhas. Utilizado na curtição de couro.",
+			"recipe_display_name": "Extrair Taninos",
+			"oak_recipe_display_name": "Extrair Taninos do Carvalho",
+			"chestnut_recipe_display_name": "Extrair Taninos da Castanheira",
+			"acacia_recipe_display_name": "Extrair Taninos da Acácia",
+			"recipe_description": "Taninos são utilizados por Caçadores para criar bacias de curtição que transformam peles cruas em couro.",
+			"chestnut_recipe_description": "Uma forma mais eficiente de extrair taninos, obtendo duas pitadas.",
+			"flavor": "",
+			"chestnut_flavor": "Pedacinhos de castanheira podem ser fervidos para extrair seus taninos"
+		},
+		"fresh_pelt": {
+			"display_name": "Pele Fresca",
+			"description": "Eww! Recentemente esfolada, precisa ser seca antes de ser usada."
+		},
+		"fresh_small_pelt": {
+			"display_name": "Pele Fresca Pequena"
+		},
+		"fresh_boar_pelt": {
+			"display_name": "Pele Fresca de Javali"
+		},
+		"fresh_cougar_pelt": {
+			"display_name": "Pele Fresca de Suçuarana"
+		},
+		"fresh_deer_pelt": {
+			"display_name": "Pele Fresca de Cervo"
+		},
+		"fresh_rabbit_pelt": {
+			"display_name": "Pele Fresca de Coelho"
+		},
+		"fresh_racoon_pelt": {
+			"display_name": "Pele Fresca de Guaxinim",
+			"display_name_highlands": "Pele Fresca de Gambá"
+		},
+		"fresh_red_fox_pelt": {
+			"display_name": "Pele Fresca de Raposa"
+		},
+		"fresh_squirrel_pelt": {
+			"display_name": "Pele Fresca de Esquilo"
+		},
+		"fresh_wolf_pelt": {
+			"display_name": "Pele Fresca de Lobo"
+		},
+		"fresh_varanus_pelt": {
+			"display_name": "Pele Fresca de Varanus",
+			"description": "Eww! Áspera e escamosa, requer secagem."
+		},
+		"fresh_zilla_pelt": {
+			"display_name": "Pele Fresca de Zilla",
+			"description": "Eww! Áspera, escamosa e ainda quente. Requer secagem."
+		},
+		"thin_leather": {
+			"display_name": "Couro Fino",
+			"description": "Maleável mas frágil. Pode ser enrolado em rolos mais fortes por um tecelão.",
+			"recipe_display_name": "Rolo de Couro",
+			"recipe_description": "Folhas preparadas de couro prontas para serem usadas.",
+			"flavor": "Um Caçador pode curtir peles e transformá-las em couro."
+		},
+		"scaly_leather": {
+			"display_name": "Couro Escamado",
+			"description": "Cheio de escamas duras porém flexíveis. Pode ser enrolado em rolos mais fortes por um tecelão."
+		},
+		"raw_skin": {
+			"display_name": "Pele Escamada Crua",
+			"description": "Pele Escamada Crua pode ser curtida e transformada em couro escamado numa bacia de curtição.",
+			"recipe_display_name": "Limpar Pele Escamada",
+			"small_recipe_display_name": "Limpar Pele Pequena Escamada",
+			"recipe_description": "Desengordure uma pele de animal escamado para prepará-la para curtição. Produz duas unidades de pele crua.",
+			"small_recipe_description": "Desengordure uma pele de animal escamado para prepará-la para curtição.",
+			"flavor": "Escamas!"
+		},
+		"scaly_leather_boots": {
+			"display_name": "Bota de Couro Escamado",
+			"worn_description": "Provém um pequeno aumento de velocidade para Trabalhadores.",
+			"description": "Uma resistente bota de couro escamado que provém um pequeno aumento de velocidade para Trabalhadores.",
+			"flavor": ""
+		},
+		"scaly_leather_bolt": {
+			"display_name": "Rolo de Couro Escamado",
+			"description": "Coberto de escamas mas maleável e resistente.",
+			"recipe_display_name": "Rolo de Couro Escamado",
+			"recipe_description": "Folhas preparadas de couro escamado prontas para serem usadas.",
+			"flavor": "Animais com escamas como o Varanus possuem couro escamado."
+		},
+		"animal_fat": {
+			"display_name": "Corte de Gordura Animal",
+			"description": "Eww. Tem um cheiro ruim e um aspecto horrível!",
+			"recipe_description": "Use uma faca para separar a gordura de uma peça grande de carne.",
+			"flavor": "Eww. Tem um cheiro ruim e um aspecto horrível!"
+		},
+		"fresh_moomoo_pelt": {
+			"display_name": "Pele Fresca de Mu-Mu"
+		},
+		"fresh_wild_cattle_pelt": {
+			"display_name": "Pele Fresca de Gado Selvagem"
+		},
+		"fresh_bear_pelt": {
+			"display_name": "Pele Fresca de Urso"
+		},
+		"any_fresh_pelt": {
+			"display_name": "Qualquer Pele Fresca"
+		},
+		"pelts": {
+			"display_name": "Qualquer Pele"
+		},
+		"containers": {
+			"input_rack_pelt_large": {
+				"display_name": "Pilha de Peles Grandes",
+				"description": "Um lugar especial para suprir seus artesãos com peles grandes."
+			},
+			"input_rack_pelt_small": {
+				"display_name": "Suporte de Parede de Peles Pequenas",
+				"description": "Um suporte montado na parede para armazenar peles pequenas."
+			},
+			"input_rack_thin_leather": {
+				"display_name": "Pilha de Couro Fresco",
+				"description": "Um destino para seu couro assim que ele deixa a bacia de curtição."
+			},
+			"output_rack_rawhide": {
+				"display_name": "Pilha de Peles Cruas",
+				"description": "Um local seco e arejado para suas peles cruas aguardarem a curtição."
+			},
+			"fur_pile": {
+				"display_name": "Pacote de Peles",
+				"description": "Pode ser colhido para obter até 48 peles.",
+				"iconic_description": "Coloque-o no mundo para que possa ser colhido por peles.",
+				"flavor": "Muito útil para armazenar peles ou vendê-las em peso"
+			},
+			"fur_pile_small": {
+				"display_name": "Pacote de Peles Pequeno",
+				"description": "Pode ser colhido para obter até 6 peles.",
+				"iconic_description": "Coloque-o no mundo para que possa ser colhido por peles.",
+				"flavor": "Muito útil para armazenar peles ou vendê-las em peso"
+			}
+		},
+		"food": {
+			"salt": {
+				"display_name": "Saca de Sal",
+				"description": "Um tempero comum também útil para preservação e curtição.",
+				"recipe_description": "Ao moer pedras de sal, um tempero versátil e útil para curtição ou preservação é obtido.",
+				"flavor": "Preservação e curtição com sal é trabalho do Caçador"
+			},
+			"salt_smoked": {
+				"display_name": "Saca de Sal Defumado",
+				"description": "Um excelente tempero com um sabor robusto."
+			},
+			"almond": {
+				"smoked_almond_basket": {
+					"display_name": "Cesta de Amêndoas Defumadas",
+					"description": "Nozes levemente cozidas e com um saborzinho de fumaça."
+				},
+				"smoked_almond_serving": {
+					"display_name": "Porção de Amêndoas Defumadas"
+				}
+			},
+			"chestnut": {
+				"smoked_chestnut_basket": {
+					"display_name": "Cesta de Castanhas Defumadas",
+					"description": "Nozes defumadas extremamente populares e deliciosas, um ótimo agrado no inverno."
+				},
+				"smoked_chestnut_serving": {
+					"display_name": "Porção de Castanhas Defumadas"
+				}
+			},
+			"hazelnut": {
+				"smoked_hazelnut_basket": {
+					"display_name": "Cesta de Avelãs Defumadas",
+					"description": "Saborosas nozes com um toque de fumaça."
+				},
+				"smoked_hazelnut_serving": {
+					"display_name": "Porção de Avelãs Defumadas"
+				}
+			},
+			"smoked_nuts_basket": {
+				"display_name": "Cesta de Nozes Defumadas",
+				"description": "Um gostoso e diversificado conjunto de nozes defumadas."
+			},
+			"smoked_nuts_serving": {
+				"display_name": "Porção de Nozes Defumadas"
+			},
+			"walnut": {
+				"smoked_walnut_basket": {
+					"display_name": "Cesta de Nogueiras Defumadas",
+					"description": "Duras por fora, gostosinhas por dentro, com um sabor acentuado."
+				},
+				"smoked_walnut_serving": {
+					"display_name": "Porção de Nogueiras Defumadas"
+				}
+			},
+			"dairy": {
+				"smoked_cheese_aged": {
+					"smoked_cheese_aged": {
+						"display_name": "Cheddar Defumado",
+						"description": "Um delicioso e firme queijo com um sabor bem forte."
+					},
+					"smoked_cheese_aged_serving": {
+						"display_name": "Fatia de Cheddar Defumado"
+					}
+				},
+				"smoked_cheese_fresh": {
+					"smoked_cheese_fresh": {
+						"display_name": "Mozzarella Defumada",
+						"description": "Um queijo macio, quase cremoso, com um gostinho salgado."
+					},
+					"smoked_cheese_fresh_serving": {
+						"display_name": "Fatia de Mozzarella Defumada"
+					}
+				},
+				"smoked_cheese_mild": {
+					"smoked_cheese_mild": {
+						"display_name": "Gouda Defumado",
+						"description": "Um queijo forte, firme, com um sabor específico e um final doce."
+					},
+					"smoked_cheese_mild_serving": {
+						"display_name": "Fatia de Gouda Defumado"
+					}
+				}
+			}
+		},
+		"clump_of_rock_salt": {
+			"display_name": "Nacos de Pedra de Sal",
+			"description": "Tem um brilho bacana. Pode ser moída em sal refinado, um tempero."
+		},
+		"terrain": {
+			"ui": {
+				"rock_salt_block": {
+					"display_name": "Veio de Sal",
+					"description": "Provém nacos de pedra de sal quando minerado."
+				}
+			}
+		}
+	},
+	"buffs": {
+		"wolf_spirit": {
+			"display_name": "O Espírito do Lobo",
+			"description": "Velocidade aumentada em 25"
+		},
+		"squirrel_spirit": {
+			"display_name": "A Agilidade do Esquilo",
+			"description": "Velocidade aumentada em 15"
+		},
+		"racoon_spirit": {
+			"display_name": "A Sagacidade do Guaxinim",
+			"display_name_highlands": "A Sagacidade do Gambá",
+			"description": "Disciplina aumentada em 15 e Velocidade aumentada em 10"
+		},
+		"rabbit_spirit": {
+			"display_name": "O Charme do Coelho",
+			"description": "Compaixão aumentada em 25 e Velocidade aumentada em 10"
+		},
+		"cougar_spirit": {
+			"display_name": "A Alma da Suçuarana",
+			"description": "Disciplina e Velocidade aumentadas em 25"
+		},
+		"boots": {
+			"display_name": "Botas Chiques",
+			"description": "Velocidade aumentada em 8"
+		},
+		"tanning_tub": {
+			"display_name": "Fumaça Nojenta",
+			"description": "Os gases saindo dessa bacia são fétidos e têm um cheiro horrível!"
+		},
+		"tanning_tub_stench": {
+			"display_name": "Cheiro Insuportável",
+			"description": "As pessoas não deveriam ficar perto das bacias de curtição assim..."
+		},
+		"fox_spirit": {
+			"description": "Disciplina aumentada em 15 e Velocidade aumentada em 10",
+			"display_name": "A Esperteza da Raposa"
+		}
+	},
+	"decorations": {
+		"tannery_sign": {
+			"display_name": "Placa do Cortume",
+			"recipe_display_name": "Placa de Parede do Caçador",
+			"description": "Uma placa com a marca do Caçador.",
+			"flavor": ""
+		},
+		"plushie_dragon": {
+			"display_name": "Dragão de Pelúcia",
+			"description": "Um pouco mais fofo que o original.",
+			"flavor": "Rawwrr!"
+		},
+		"boar_rug": {
+			"display_name": "Tapete de Pele de Javali",
+			"description": "Faça um confortável carpete com a pele de um javali.",
+			"flavor": ""
+		},
+		"cougar_rug": {
+			"display_name": "Tapete de Pele de Suçuarana",
+			"description": "Faça um confortável carpete com a pele de uma suçuarana.",
+			"flavor": "Cuidado com os dentes."
+		},
+		"deer_rug": {
+			"display_name": "Tapete de Pele de Cervo",
+			"description": "Faça um confortável carpete com a pele de um cervo.",
+			"flavor": ""
+		},
+		"fox_rug": {
+			"display_name": "Tapete de Pele de Raposa",
+			"description": "Faça um confortável carpete com a pele de uma raposa.",
+			"flavor": ""
+		},
+		"wolf_rug": {
+			"display_name": "Tapete de Pele de Lobo",
+			"description": "Faça um confortável carpete com a pele de um lobo.",
+			"flavor": "Não assusta mais."
+		},
+		"bear_rug": {
+			"display_name": "Tapete de Pele de Urso",
+			"description": "Faça um confortável carpete com a pele de um urso.",
+			"flavor": "Uma visão horrenda para alguns..."
+		},
+		"moomoo_rug": {
+			"display_name": "Tapete de Pele de Mu-Mu",
+			"description": "Faça um confortável carpete com a pele de um mu-mu.",
+			"flavor": "Muito popular em chácaras"
+		},
+		"wild_cattle_rug": {
+			"display_name": "Tapete de Pele de Gado Selvagem",
+			"description": "Faça um confortável carpete com pele de gado selvagem.",
+			"flavor": ""
+		}
+	},
+	"food": {
+		"raw_meat": {
+			"display_name": "Carne Crua",
+			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
+			"decay_1_description": "Está apodrecendo! Melhor utilizá-la antes que desapareça...",
+			"recipes": {
+				"pork_display_name": "Fatiar Carne Crua de Suíno",
+				"pork_description": "Produz quatro unidades de carne crua de suíno para serem utilizadas na cozinha ou curtidas.",
+				"pork_flavor": "",
+				"mutton_display_name": "Fatiar Carne Crua de Cordeiro",
+				"mutton_description": "Produz duas unidades de carne crua de cordeiro para serem utilizadas na cozinha ou curtidas.",
+				"mutton_flavor": "",
+				"venison_display_name": "Fatiar Carne Crua de Caça",
+				"venison_description": "Produz três unidades de carne crua de caça para serem utilizadas na cozinha ou curtidas.",
+				"venison_flavor": "",
+				"steak_display_name": "Fatiar Filé",
+				"steak_description": "Produz duas unidades de carne crua de bovino para serem utilizadas na cozinha ou curtidas.",
+				"steak_flavor": ""
+			}
+		},
+		"raw_small_meat": {
+			"display_name": "Carne Crua Pequena",
+			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
+			"recipes": {
+				"varanus_display_name": "Fatiar Carne de Varanus",
+				"varanus_description": "Produz três unidades de carne crua de varanus para serem utilizadas na cozinha ou curtidas.",
+				"varanus_flavor": ""
+			}
+		},
+		"raw_white_meat": {
+			"display_name": "Carne Branca Crua",
+			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
+			"recipes": {
+				"poyo_display_name": "Fatiar Carne de Poyo",
+				"poyo_description": "Produz duas unidades de carne crua de poyo para serem utilizadas na cozinha ou curtidas.",
+				"poyo_flavor": "",
+				"poultry_display_name": "Fatiar Carne de Ave",
+				"poultry_description": "Produz três unidades de carne crua de ave para serem utilizadas na cozinha ou curtidas.",
+				"poultry_flavor": "",
+				"fish_display_name": "Fatiar Peixe Fresco",
+				"fish_description": "Produz duas unidades de carne crua de peixe para serem utilizadas na cozinha ou curtidas.",
+				"fish_flavor": "",
+				"fish_big_display_name": "Fatiar Carne de Grande Peixe Fresco",
+				"fish_big_description": "Produz três unidades de carne crua de peixe para serem utilizadas na cozinha ou curtidas.",
+				"fish_big_flavor": "Ninguém acreditaria em quão grande ele era!"
+			}
+		},
+		"raw_boar_meat": {
+			"display_name": "Carne Crua de Javali"
+		},
+		"raw_deer_meat": {
+			"display_name": "Carne Crua de Veado"
+		},
+		"raw_duckduck_meat": {
+			"display_name": "Carne Crua de PatoPato"
+		},
+		"raw_poultry_meat": {
+			"display_name": "Carne Crua de Ave"
+		},
+		"raw_poyo_meat": {
+			"display_name": "Carne Crua de Poyo"
+		},
+		"raw_rabbit_meat": {
+			"display_name": "Carne Crua de Coelho"
+		},
+		"raw_racoon_meat": {
+			"display_name": "Carne Crua de Guaxinim",
+			"display_name_highlands": "Carne Crua de Gambá"
+		},
+		"raw_red_fox_meat": {
+			"display_name": "Carne Crua de Raposa"
+		},
+		"raw_mutton_meat": {
+			"display_name": "Carne Crua de Cordeiro"
+		},
+		"raw_squirrel_meat": {
+			"display_name": "Carne Crua de Esquilo"
+		},
+		"raw_varanus_meat": {
+			"display_name": "Carne Crua de Varanus"
+		},
+		"mutton_jerky": {
+			"display_name": "Charque de Cordeiro"
+		},
+		"poultry_jerky": {
+			"display_name": "Charque de Ave"
+		},
+		"poyo_jerky": {
+			"display_name": "Charque de Poyo"
+		},
+		"raw_pork_meat": {
+			"display_name": "Carne Crua Suína"
+		},
+		"raw_venison_meat": {
+			"display_name": "Carne Crua de Caça"
+		},
+		"pork_jerky": {
+			"display_name": "Charque Suíno"
+		},
+		"venison_jerky": {
+			"display_name": "Charque de Caça"
+		},
+		"raw_ostrich_meat": {
+			"display_name": "Carne Crua de Avestruz"
+		},
+		"fish_smoked": {
+			"all_raw_display_name": "Peixes",
+			"raw_display_name": "Peixe Fresco",
+			"display_name": "Peixe Defumado",
+			"description": "Fibrosa e deliciosa carne branca!"
+		},
+		"big_fish_smoked": {
+			"raw_display_name": "Grande Peixe Fresco",
+			"display_name": "Grande Peixe Defumado",
+			"description": "Um delicioso e saudável fruto do trabalho de um pescador.",
+			"serving_display_name": "Porção de Grande Peixe Defumado"
+		},
+		"smoked_sausage": {
+			"serving_display_name": "Porção de Salsicha Defumada",
+			"serving_description": "",
+			"display_name": "Salsicha Defumada",
+			"description": "Gostosa, fibrosa e crocante carne moída e defumada numa casa de defumação."
+		},
+		"sausage": {
+			"description": "O Caçador pode utilizar fibras para um encapsulamento mais rústico das salsichas."
+		},
+		"warm_wolf": {
+			"serving_display_name": "Porção de Lobo-Quente",
+			"serving_description": "",
+			"display_name": "Lobo-Quente",
+			"description": "Talvez uma das melhores ideias de todos os tempos foi colocar salsicha no pão.",
+			"flavor": "Agora precisamos de algum tipo de molho..."
+		},
+		"raw_wolf_meat": {
+			"display_name": "Carne Crua de Lobo"
+		},
+		"animal_fat_rendered": {
+			"display_name": "Balde de Gordura Processada",
+			"description": "Ainda cheira estranho... Pode ser utilizado como gordura na cozinha!",
+			"recipe_name": "Processar Gordura Animal",
+			"recipe_description": "Ferva e trabalhe a gordura animal para transformá-la numa forma mais útil.",
+			"flavor": "Gordura processada possui diversos usos não apenas culinários."
+		},
+		"animal_fat_rendered_lard": {
+			"display_name": "Chapa de Banha",
+			"description": "Oleosa e saborosa gordura suína. Pode ser utilizada como gordura ou manteiga!",
+			"recipe_name": "Processar Gordura Suína (x3)",
+			"recipe_description": "Ferva e trabalhe a gordura animal para transformá-la numa forma mais útil.",
+			"flavor": "Chamada de banha, gordura suína é cremosa o bastante para ser utilizada como manteiga!"
+		},
+		"animal_fat_rendered_tallow": {
+			"display_name": "Balde de Sebo",
+			"description": "Um tipo especial de gordura. Pode ser utilizada também como óleo de cozinha ou cera simples.",
+			"recipe_name": "Processar Gordura Bovina (x2)",
+			"recipe_description": "Ferva e trabalhe a gordura animal para transformá-la numa forma mais útil.",
+			"flavor": "Sebo possui vários usos, desde óleo para fritura até como uma cera simples."
+		},
+		"bug_meat_soup": {
+			"display_name": "Sopa de Insetos",
+			"description": "Aguada e fraca mas melhor que nada.",
+			"serving_name": "Pote de Sopa de Insetos",
+			"recipe_name": "Sopa de Insetos",
+			"recipe_description": "Não tão gostosa como um ensopado mas melhor que nada!",
+			"flavor": "Insetos fervidos, insetos cozidos e... Mais insetos fervidos!"
+		},
+		"pemmican": {
+			"display_name": "Pemicão",
+			"description": "Não muito saboroso mas extremamente nutritivo e duradouro.",
+			"recipe_name": "Pemicão (x3)",
+			"recipe_description": "Carne seca e moída com frutinhas e gordura processada. Um alimento nutritivo e duradouro para sobreviver ao mundo selvagem.",
+			"flavor": "Preservado em pequenos saquinhos de pele crua, Pemicão pode durar anos."
+		},
+		"raw_bear_meat": {
+			"display_name": "Carne Crua de Urso"
+		},
+		"raw_beef_meat": {
+			"display_name": "Carne Crua Bovida"
+		},
+		"raw_cougar_meat": {
+			"display_name": "Carne Crua de Felino"
+		},
+		"fish_jerky": {
+			"display_name": "Charque de Peixe",
+			"description": "Fino, crocante e borrachento. Tem um sabor peculiar."
+		},
+		"rotten_fish_jerky": {
+			"display_name": "Charque de Peixe Podre",
+			"description": "O cheiro é pior do que parece..."
+		},
+		"fish_carp_jerky": {
+			"display_name": "Charque de Carpa"
+		},
+		"fish_catfish_jerky": {
+			"display_name": "Charque de Peixe-Gato"
+		},
+		"fish_salmon_jerky": {
+			"display_name": "Charque de Salmão"
+		},
+		"fish_trout_jerky": {
+			"display_name": "Charque de Truta"
+		},
+		"smoked_pork": {
+			"display_name": "Perna de Porco Defumada",
+			"description": "Uma deliciosa peça de carne suína.",
+			"serving_display_name": "Porção de Perna de Porco Defumada"
+		},
+		"smoked_mutton": {
+			"display_name": "Cordeiro Defumado",
+			"description": "Crocante de deliciosamente defumado.",
+			"serving_display_name": "Porção de Cordeiro Defumado"
+		},
+		"smoked_poultry": {
+			"display_name": "Coxa de Ave Defumada",
+			"description": "Carnuda e suculenta, deliciosa carne branca.",
+			"serving_display_name": "Porção de Coxa de Ave Defumada"
+		},
+		"smoked_poyo": {
+			"display_name": "Poyo Defumado",
+			"description": "Suculento e gosto peito de poyo defumado.",
+			"serving_display_name": "Porção de Poyo Defumado"
+		},
+		"smoked_steak": {
+			"display_name": "Filé Defumado",
+			"description": "Um fino e bem defumado pedaço de carne bovina.",
+			"serving_display_name": "Porção de Filé Defumado"
+		},
+		"smoked_varanus": {
+			"display_name": "Fatia de Varanus Defumado",
+			"description": "Uma carne exótica mas não tão saborosa.",
+			"serving_display_name": "Porção de Fatia de Varanus Defumado"
+		},
+		"smoked_venison": {
+			"display_name": "Posta de Carne de Caça Defumada",
+			"description": "Deliciosa carne de caça, defumada perfeitamente.",
+			"serving_display_name": "Porção de Posta de Carne de Caça Defumada"
+		},
+		"smoked_meat": {
+			"display_name": "Carne Defumada",
+			"description": "Satisfatório corte de carne defumada."
+		},
+		"rotten": {
+			"smoked_meat": {
+				"display_name": "Carne Defumada Podre",
+				"description": "Ficou ruim e não há mais uso..."
+			},
+			"salted_meat": {
+				"description": "Ficou ruim e não há mais uso...",
+				"display_name": "Carne Salgada Podre"
+			}
+		},
+		"smoked_meat_small": {
+			"description": "Pequena e satisfatória porção de carne defumada.",
+			"display_name": "Carne Defumada Pequena"
+		},
+		"salted_meat": {
+			"display_name": "Carne Salgada",
+			"description": "Muito bem preservada, pode ser curada numa casa de defumação."
+		},
+		"salted_meat_small": {
+			"display_name": "Carne Salgada Pequena",
+			"description": "Pequenos e sequinhos pedaços de carne salgada. Pode ser curada numa casa de defumação."
+		},
+		"smoked_boar_meat": {
+			"display_name": "Carne de Javali Defumada"
+		},
+		"smoked_bear_meat": {
+			"display_name": "Carne de Urso Defumada"
+		},
+		"smoked_beef_meat": {
+			"display_name": "Carne Bovina Defumada"
+		},
+		"smoked_cougar_meat": {
+			"display_name": "Carne de Felino Defumada"
+		},
+		"smoked_deer_meat": {
+			"display_name": "Carne de Veado Defumada"
+		},
+		"smoked_duckduck_meat": {
+			"display_name": "Carne de PatoPato Defumada"
+		},
+		"smoked_mutton_meat": {
+			"display_name": "Carne de Cordeiro Defumada"
+		},
+		"smoked_ostrich_meat": {
+			"display_name": "Carne de Avestruz Defumada"
+		},
+		"smoked_pork_meat": {
+			"display_name": "Carne Suína Defumada"
+		},
+		"smoked_poultry_meat": {
+			"display_name": "Carne de Ave Defumada"
+		},
+		"smoked_poyo_meat": {
+			"display_name": "Carne de Poyo Defumada"
+		},
+		"smoked_rabbit_meat": {
+			"display_name": "Carne de Coelho Defumada"
+		},
+		"smoked_racoon_meat": {
+			"display_name": "Carne de Guaxinim Defumada",
+			"display_name_highlands": "Carne de Gambá Defumada"
+		},
+		"smoked_red_fox_meat": {
+			"display_name": "Carne de Raposa Defumada"
+		},
+		"smoked_squirrel_meat": {
+			"display_name": "Carne de Esquilo Defumada"
+		},
+		"smoked_varanus_meat": {
+			"display_name": "Carne de Varanus Defumada"
+		},
+		"smoked_venison_meat": {
+			"display_name": "Carne de Caça Defumada"
+		},
+		"smoked_wolf_meat": {
+			"display_name": "Carne de Lobo Defumada"
+		},
+		"smoked_fish_meat": {
+			"display_name": "Filé de Peixe Defumado",
+			"description": "Nutritivo e borrachento, não muito saboroso..."
+		},
+		"rotten_smoked_fish_meat": {
+			"display_name": "Carne de Peixe Defumada Podre",
+			"description": "Não pode mais ser comida"
+		},
+		"rotten_salted_fish_meat": {
+			"display_name": "Carne de Peixe Salgada Podre",
+			"description": "Definitivamente lixo."
+		},
+		"salted_fish_meat": {
+			"display_name": "Filé de Peixe Salgado",
+			"description": "Salgado e crocante, não tão gostoso. Pode ser curado numa casa de defumação."
+		},
+		"smoked_fish_carp_meat": {
+			"display_name": "Filé de Carpa Defumado"
+		},
+		"smoked_fish_catfish_meat": {
+			"display_name": "Filé de Peixe-Gato Defumado"
+		},
+		"smoked_fish_salmon_meat": {
+			"display_name": "Filé de Salmão Defumado"
+		},
+		"smoked_fish_trout_meat": {
+			"display_name": "Filé de Truta Defumado"
+		},
+		"big_fish_salted": {
+			"display_name": "Grande Peixe Fresco Salgado",
+			"description": "Bem seco e salgadinho mas ainda suculento por dentro. Pode ser curado numa casa de defumação."
+		},
+		"big_fish_salted_serving": {
+			"display_name": "Porção de Grande Peixe Fresco Salgado"
+		},
+		"fish_salted": {
+			"display_name": "Peixe Salgado",
+			"description": "Crocante e sequinho por fora. Pode ser curado numa casa de defumação."
+		},
+		"salted_bear_meat": {
+			"display_name": "Carne de Urso Salgada"
+		},
+		"salted_beef_meat": {
+			"display_name": "Carne Bovina Salgada"
+		},
+		"salted_boar_meat": {
+			"display_name": "Carne de Javali Salgada"
+		},
+		"salted_cougar_meat": {
+			"display_name": "Carne de Felino Salgada"
+		},
+		"salted_deer_meat": {
+			"display_name": "Carne de Veado Salgada"
+		},
+		"salted_duckduck_meat": {
+			"display_name": "Carne de PatoPato Salgada"
+		},
+		"salted_fish_carp_meat": {
+			"display_name": "Filé de Carpa Salgado"
+		},
+		"salted_fish_catfish_meat": {
+			"display_name": "Filé de Peixe-Gato Salgado"
+		},
+		"salted_fish_salmon_meat": {
+			"display_name": "Filé de Salmão Salgado"
+		},
+		"salted_fish_trout_meat": {
+			"display_name": "Filé de Truta Salgado"
+		},
+		"salted_mutton_meat": {
+			"display_name": "Carne de Cordeiro Salgada"
+		},
+		"salted_ostrich_meat": {
+			"display_name": "Carne de Avestruz Salgada"
+		},
+		"salted_pork_meat": {
+			"display_name": "Carne Suína Salgada"
+		},
+		"salted_poultry_meat": {
+			"display_name": "Carne de Ave Salgada"
+		},
+		"salted_poyo_meat": {
+			"display_name": "Carne de Poyo Salgada"
+		},
+		"salted_rabbit_meat": {
+			"display_name": "Carne de Coelho Salgada"
+		},
+		"salted_racoon_meat": {
+			"display_name": "Carne de Guaxinim Salgada",
+			"display_name_highlands": "Carne de Gambá Salgada"
+		},
+		"salted_red_fox_meat": {
+			"display_name": "Carne de Raposa Salgada"
+		},
+		"salted_squirrel_meat": {
+			"display_name": "Carne de Esquilo Salgada"
+		},
+		"salted_varanus_meat": {
+			"display_name": "Carne de Varanus Salgada"
+		},
+		"salted_venison_meat": {
+			"display_name": "Carne de Caça Salgada"
+		},
+		"salted_wolf_meat": {
+			"display_name": "Carne de Lobo Salgada"
+		},
+		"salted_mutton": {
+			"description": "Crocante e salgadinha. Pode ser curado numa casa de defumação.",
+			"display_name": "Cordeiro Salgado"
+		},
+		"salted_mutton_serving": {
+			"display_name": "Porção de Cordeiro Salgado"
+		},
+		"salted_pork": {
+			"display_name": "Perna de Porco Salgada",
+			"description": "O porco salgado está particularmente gostoso. Pode ser curado numa casa de defumação."
+		},
+		"salted_pork_serving": {
+			"display_name": "Porção de Perna Porco Salgada",
+			"description": "\"Porco Salgado?\""
+		},
+		"salted_poultry": {
+			"display_name": "Coxa de Ave Salgada",
+			"description": "Saborosa e crocante peça de carne branca. Pode ser curado numa casa de defumação."
+		},
+		"salted_poultry_serving": {
+			"display_name": "Porção de Coxa de Ave Salgada"
+		},
+		"salted_poyo": {
+			"display_name": "Poyo Salgado",
+			"description": "O peito bem preservado e salgado de um poyo. Pode ser curado numa casa de defumação."
+		},
+		"salted_poyo_serving": {
+			"display_name": "Porção de Poyo Salgado"
+		},
+		"salted_sausage": {
+			"display_name": "Salsichas Salgadas",
+			"description": "Temperadas à perfeição. Pode ser curado numa casa de defumação."
+		},
+		"salted_sausage_serving": {
+			"display_name": "Porção de Salsichas Salgadas."
+		},
+		"salted_steak": {
+			"display_name": "Filé Salgado",
+			"description": "Suculento e macio, um pouco salgado... Pode ser curado numa casa de defumação."
+		},
+		"salted_steak_serving": {
+			"display_name": "Porção de Filé Salgado"
+		},
+		"salted_varanus": {
+			"display_name": "Fatia de Varanus Salgado",
+			"description": "Exótico e macio. Pode ser curado numa casa de defumação."
+		},
+		"salted_varanus_serving": {
+			"display_name": "Porção de Varanus Salgado"
+		},
+		"salted_venison": {
+			"display_name": "Posta de Carne de Caça Salgada",
+			"description": "Valiosa e luxuosa peça de carne de caça. Pode ser curado numa casa de defumação."
+		},
+		"salted_venison_serving": {
+			"display_name": "Porção de Posta de Carne de Caça Salgada"
+		},
+		"big_fish_jerky": {
+			"display_name": "Grande Peixe Curado",
+			"description": "Delicioso e saboroso pedaço de peixe."
+		},
+		"big_fish_jerky_serving": {
+			"display_name": "Porção de Grande Peixe Curado"
+		},
+		"whole_fish_jerky": {
+			"display_name": "Peixe Curado",
+			"description": "Borrachento e bem temperado, muito saboroso!"
+		},
+		"jerky_mutton": {
+			"display_name": "Costela de Cordeiro Curada",
+			"description": "Perfeitamente salgada e defumada, pronta para ser comida!"
+		},
+		"jerky_mutton_serving": {
+			"display_name": "Porção de Costela de Cordeiro Defumada"
+		},
+		"jerky_pork": {
+			"display_name": "Presunto Curado",
+			"description": "Saborosa, suculenta e grande peça de carne suína."
+		},
+		"jerky_pork_serving": {
+			"display_name": "Porção de Presunto Curado"
+		},
+		"jerky_poultry": {
+			"display_name": "Coxa de Ave Curada",
+			"description": "Bem temperada e defumada perfeitamente."
+		},
+		"jerky_poultry_serving": {
+			"display_name": "Porção de Coxa de Ave Curada"
+		},
+		"jerky_poyo": {
+			"display_name": "Poyo Curado",
+			"description": "Um refinado e saboroso peito de poyo com uma crocante casquinha salgada."
+		},
+		"jerky_poyo_serving": {
+			"display_name": "Porção de Poyo Curado"
+		},
+		"jerky_sausage": {
+			"display_name": "Salsicha Curada",
+			"description": "Uma salsicha muito bem preparada."
+		},
+		"jerky_sausage_serving": {
+			"display_name": "Porção de Salsicha Curada"
+		},
+		"jerky_steak": {
+			"display_name": "Filé Curado",
+			"description": "Como uma enorme carne de charque!"
+		},
+		"jerky_steak_serving": {
+			"display_name": "Porção de Filé Curado"
+		},
+		"jerky_varanus": {
+			"display_name": "Fatia de Varanus Curada",
+			"description": "Algo tão ruim se tornou algo tão bom..."
+		},
+		"jerky_varanus_serving": {
+			"display_name": "Porção de Varanus Curada"
+		},
+		"jerky_venison": {
+			"display_name": "Posta de Carne de Caça Curada",
+			"description": "Deliciosa e saborosa carne de caça, defumada perfeitamente."
+		},
+		"jerky_venison_serving": {
+			"display_name": "Porção de Carne de Caça Curada"
+		}
+	},
+	"worker": {
+		"fur_coat": {
+			"display_name": "Casaco de Peles",
+			"worn_description": "Quente e confortável, mantém o frio longe...",
+			"description": "Trabalhadores podem utilizar esse casaco para se manterem quentes em dias frios.",
+			"flavor": ""
+		}
+	}
 }

@@ -1,0 +1,29 @@
+{
+   "trapper": {
+      "racoon_hat": {
+         "display_name": "i18n(trapper_plus:trapper.racoon_hat.display_name_highlands)",
+			"flavor": ""
+      }      
+   },
+   "entities": {
+      "fresh_racoon_pelt": {
+         "display_name": "i18n(trapper_plus:entities.fresh_racoon_pelt.display_name_highlands)"
+      }
+   },
+   "buffs": {
+      "racoon_spirit": {
+         "display_name": "i18n(trapper_plus:buffs.racoon_spirit.display_name_highlands)"
+      }
+   },
+   "food": {
+      "raw_racoon_meat": {
+         "display_name": "i18n(trapper_plus:food.raw_racoon_meat.display_name_highlands)"
+      },
+      "smoked_racoon_meat": {
+         "display_name": "i18n(trapper_plus:food.smoked_racoon_meat.display_name_highlands)"
+      },
+      "salted_racoon_meat": {
+         "display_name": "i18n(trapper_plus:food.salted_racoon_meat.display_name_highlands)"
+      }
+   }
+}

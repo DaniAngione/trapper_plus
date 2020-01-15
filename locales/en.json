@@ -82,6 +82,7 @@
       },
       "racoon_hat": {
          "display_name": "Raccoon Hat",
+         "display_name_highlands": "Skunk Hat",
          "description": "Trappers can wear this hat for a small speed and diligence increase.",
          "worn_description": "Slightly increasing the Trapper's speed and diligence.",
          "flavor": "'Ain't no thing like me, 'cept me!' - Rocket Raccoon"
@@ -338,7 +339,8 @@
          "display_name": "Fresh Rabbit Pelt"
       },
       "fresh_racoon_pelt": {
-         "display_name": "Fresh Raccoon Pelt"
+         "display_name": "Fresh Raccoon Pelt",
+         "display_name_highlands": "Fresh Skunk Pelt"
       },
       "fresh_red_fox_pelt": {
          "display_name": "Fresh Fox Pelt"
@@ -549,6 +551,7 @@
       },
       "racoon_spirit": {
          "display_name": "The Raccoon's Guile",
+         "display_name_highlands": "The Skunk's Guile",
          "description": "Diligence increased by 15 and Speed Increased by 10"
       },
       "rabbit_spirit": {
@@ -615,17 +618,17 @@
       },
       "bear_rug": {
          "display_name": "Bear Rug",
-			"description": "Make a comfy rug with the prepared fur of a bear.",
+         "description": "Make a comfy rug with the prepared fur of a bear.",
          "flavor": "An unbearable sight for some"
       },
       "moomoo_rug": {
          "display_name": "Moo-Moo Rug",
-			"description": "Make a comfy rug with the prepared fur of a moo-moo.",
+         "description": "Make a comfy rug with the prepared fur of a moo-moo.",
          "flavor": "Very popular on farmhouses"
       },
       "wild_cattle_rug": {
          "display_name": "Wild Cattle Rug",
-			"description": "Make a comfy rug with the prepared fur of wild cattle.",
+         "description": "Make a comfy rug with the prepared fur of wild cattle.",
          "flavor": ""
       }
    },
@@ -695,7 +698,8 @@
          "display_name": "Raw Rabbit Meat"
       },
       "raw_racoon_meat": {
-         "display_name": "Raw Raccoon Meat"
+         "display_name": "Raw Raccoon Meat",
+         "display_name_highlands": "Raw Skunk Meat"
       },
       "raw_red_fox_meat": {
          "display_name": "Raw Fox Meat"
@@ -891,7 +895,7 @@
          "description": "Quite salty and dry small cuts of meat. Can be further cured in a smokery."
       },
       "smoked_boar_meat": {
-         "display_name": "i18n(trapper_plus:food.smoked_boar_meat.display_name)"
+         "display_name": "Smoked Boar Meat"
       },
       "smoked_bear_meat": {
          "display_name": "Smoked Bear Meat"
@@ -927,7 +931,8 @@
          "display_name": "Smoked Rabbit Meat"
       },
       "smoked_racoon_meat": {
-         "display_name": "Smoked Raccoon Meat"
+         "display_name": "Smoked Raccoon Meat",
+         "display_name_highlands": "Smoked Skunk Meat"
       },
       "smoked_red_fox_meat": {
          "display_name": "Smoked Fox Meat"
@@ -1032,7 +1037,8 @@
          "display_name": "Salted Rabbit Meat"
       },
       "salted_racoon_meat": {
-         "display_name": "Salted Raccoon Meat"
+         "display_name": "Salted Raccoon Meat",
+         "display_name_highlands": "Salted Skunk Meat"
       },
       "salted_red_fox_meat": {
          "display_name": "Salted Fox Meat"
