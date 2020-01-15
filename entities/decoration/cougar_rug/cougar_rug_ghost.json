@@ -9,8 +9,15 @@
          }
       },
       "mob": {
-         "model_origin": { "x": 0.05, "y": 0, "z": 0 },
-         "region_origin": { "x": -0.5, "y": 0, "z": -0.5 }
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "model_origin": { "x": 0.05, "y": 0, "z": -0.15 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "scale": 0.115
       }
    },
    "entity_data": {

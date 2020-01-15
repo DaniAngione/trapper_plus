@@ -15,7 +15,20 @@
                      "uri": "trapper_plus:resources:fresh_wild_cattle_pelt"
                   }
                }
-            }
+            },
+				"fat": {
+					"roll_type": "some_of",
+					"num_rolls": {
+						"min": 0,
+						"max": 2
+					},
+					"items": {
+						"meat": {
+							"uri": "trapper_plus:resources:animal_fat",
+							"weight": 1
+						}
+					}
+				}
          }
       }
    }

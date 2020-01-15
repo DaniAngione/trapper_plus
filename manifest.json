@@ -544,7 +544,8 @@
       "trapper_plus:trapper:hat:cougar": "/stonehearth_ace/jobs/trapper/cougar_hat/cougar_hat.json",
       "stonehearth_ace/jobs/trapper/na_trapper_description.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/na_trapper_description.json)",
       "stonehearth_ace/jobs/trapper/rc_trapper_description.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/rc_trapper_description.json)",
-		"trapper_plus/data/biome/desert/trapper_plus_manifest.json": "/stonehearth_ace/data/biome/desert/trapper_plus_manifest.json"
+		"trapper_plus/data/biome/desert/trapper_plus_manifest.json": "/stonehearth_ace/data/biome/desert/trapper_plus_manifest.json",
+		"trapper_plus/data/biome/arctic/trapper_plus_manifest.json": "/stonehearth_ace/data/biome/arctic/trapper_plus_manifest.json"
    },
    "overrides": {
       "stonehearth/ai/task_groups/trapping_task_group.lua": "file(ai/task_groups/trapping_task_group.lua)",
@@ -575,7 +576,8 @@
       "stonehearth_ace/jobs/trapper/rabbit_hat/rabbit_hat.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/rabbit_hat/rabbit_hat.json)",
       "stonehearth_ace/jobs/trapper/wolf_hat/wolf_hat.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/wolf_hat/wolf_hat.json)",
       "stonehearth_ace/jobs/trapper/cougar_hat/cougar_hat.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/cougar_hat/cougar_hat.json)",
-		"stonehearth_ace/data/biome/desert/trapper_plus_manifest.json": "file(mod_compatibility/stonehearth_ace/data/biome/desert/trapper_plus_manifest.json)"
+		"stonehearth_ace/data/biome/desert/trapper_plus_manifest.json": "file(mod_compatibility/stonehearth_ace/data/biome/desert/trapper_plus_manifest.json)",
+		"stonehearth_ace/data/biome/arctic/trapper_plus_manifest.json": "file(mod_compatibility/stonehearth_ace/data/biome/arctic/trapper_plus_manifest.json)"
    },
    "components": {},
    "controllers": {},

@@ -1,0 +1,103 @@
+{
+	"overrides": {
+		"/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt.qb": "/trapper_plus/data/biome/arctic/mixins/resources/fresh_pelt/fresh_pelt.qb",
+      "/trapper_plus/mixins/resources/fresh_pelt/fresh_pelt.png": "/trapper_plus/data/biome/arctic/mixins/resources/fresh_pelt/fresh_pelt.png",
+	  
+	   "/trapper_plus/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_red_fox_pelt/fresh_red_fox_pelt.png",
+		
+		"/trapper_plus/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_wolf_pelt/fresh_wolf_pelt.png",
+	  
+      "/trapper_plus/entities/resources/pelt/fresh_boar_pelt/fresh_boar_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_boar_pelt/fresh_boar_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_boar_pelt/fresh_boar_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_boar_pelt/fresh_boar_pelt.png",
+	  
+      "/trapper_plus/entities/resources/pelt/fresh_rabbit_pelt/fresh_rabbit_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_rabbit_pelt/fresh_rabbit_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_rabbit_pelt/fresh_rabbit_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_rabbit_pelt/fresh_rabbit_pelt.png",
+	  
+      "/trapper_plus/entities/resources/pelt/fresh_racoon_pelt/fresh_racoon_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_racoon_pelt/fresh_racoon_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_racoon_pelt/fresh_racoon_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_racoon_pelt/fresh_racoon_pelt.png",
+	  
+	   "/trapper_plus/entities/resources/pelt/fresh_bear_pelt/fresh_bear_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_bear_pelt/fresh_bear_pelt.qb",
+  	   "/trapper_plus/entities/resources/pelt/fresh_bear_pelt/fresh_bear_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_bear_pelt/fresh_bear_pelt.png",
+		
+		"/trapper_plus/entities/resources/pelt/fresh_deer_pelt/fresh_deer_pelt.qb": "/trapper_plus/data/biome/arctic/mixins/resources/fresh_pelt/fresh_pelt.qb",
+  	   "/trapper_plus/entities/resources/pelt/fresh_deer_pelt/fresh_deer_pelt.png": "/trapper_plus/data/biome/arctic/mixins/resources/fresh_pelt/fresh_pelt.png",
+	   
+ 	   "/trapper_plus/entities/resources/pelt/fresh_moomoo_pelt/fresh_moomoo_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_moomoo_pelt/fresh_moomoo_pelt.qb",
+	   "/trapper_plus/entities/resources/pelt/fresh_moomoo_pelt/fresh_moomoo_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_moomoo_pelt/fresh_moomoo_pelt.png",
+	  
+	   "/trapper_plus/entities/resources/pelt/fresh_wild_cattle_pelt/fresh_wild_cattle_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_wild_cattle_pelt/fresh_wild_cattle_pelt.qb",
+	   "/trapper_plus/entities/resources/pelt/fresh_wild_cattle_pelt/fresh_wild_cattle_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_wild_cattle_pelt/fresh_wild_cattle_pelt.png",
+	  
+      "/trapper_plus/entities/resources/pelt/fresh_squirrel_pelt/fresh_squirrel_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_squirrel_pelt/fresh_squirrel_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_squirrel_pelt/fresh_squirrel_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_squirrel_pelt/fresh_squirrel_pelt.png",
+	  
+      "/trapper_plus/entities/resources/pelt/fresh_cougar_pelt/fresh_cougar_pelt.qb": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_cougar_pelt/fresh_cougar_pelt.qb",
+      "/trapper_plus/entities/resources/pelt/fresh_cougar_pelt/fresh_cougar_pelt.png": "/trapper_plus/data/biome/arctic/entities/resources/pelt/fresh_cougar_pelt/fresh_cougar_pelt.png",
+		
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/cougar_hat/cougar_hat.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/cougar_hat/cougar_hat.qb",
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/cougar_hat/cougar_hat_female.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/cougar_hat/cougar_hat_female.qb",
+		"/trapper_plus/jobs/trapper/cougar_hat/cougar_hat_iconic.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/cougar_hat/cougar_hat_iconic.qb",
+		"/trapper_plus/jobs/trapper/cougar_hat/cougar_hat.png": "/trapper_plus/data/biome/arctic/jobs/trapper/cougar_hat/cougar_hat.png",
+		
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/wolf_hat/wolf_hat.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/wolf_hat/wolf_hat.qb",
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/wolf_hat/wolf_hat_female.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/wolf_hat/wolf_hat_female.qb",
+		"/trapper_plus/jobs/trapper/wolf_hat/wolf_hat_iconic.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/wolf_hat/wolf_hat_iconic.qb",
+		"/trapper_plus/jobs/trapper/wolf_hat/wolf_hat.png": "/trapper_plus/data/biome/arctic/jobs/trapper/wolf_hat/wolf_hat.png",
+		
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/racoon_hat/racoon_hat.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/racoon_hat/racoon_hat.qb",
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/racoon_hat/racoon_hat_female.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/racoon_hat/racoon_hat_female.qb",
+		"/trapper_plus/jobs/trapper/racoon_hat/racoon_hat_iconic.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/racoon_hat/racoon_hat_iconic.qb",
+		"/trapper_plus/jobs/trapper/racoon_hat/racoon_hat.png": "/trapper_plus/data/biome/arctic/jobs/trapper/racoon_hat/racoon_hat.png",
+		
+		"/trapper_plus/jobs/trapper/fox_hat/fox_hat.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/fox_hat/fox_hat.qb",
+		"/trapper_plus/jobs/trapper/fox_hat/fox_hat_female.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/fox_hat/fox_hat_female.qb",
+		"/trapper_plus/jobs/trapper/fox_hat/fox_hat_iconic.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/fox_hat/fox_hat_iconic.qb",
+		"/trapper_plus/jobs/trapper/fox_hat/fox_hat.png": "/trapper_plus/data/biome/arctic/jobs/trapper/fox_hat/fox_hat.png",
+		
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/rabbit_hat/rabbit_hat.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/rabbit_hat/rabbit_hat.qb",
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/rabbit_hat/rabbit_hat_female.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/rabbit_hat/rabbit_hat_female.qb",
+		"/trapper_plus/jobs/trapper/rabbit_hat/rabbit_hat_iconic.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/rabbit_hat/rabbit_hat_iconic.qb",
+		"/trapper_plus/jobs/trapper/rabbit_hat/rabbit_hat.png": "/trapper_plus/data/biome/arctic/jobs/trapper/rabbit_hat/rabbit_hat.png",
+		
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/squirrel_hat/squirrel_hat.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/squirrel_hat/squirrel_hat.qb",
+		"/trapper_plus/mod_compatibility/stonehearth_ace/jobs/trapper/squirrel_hat/squirrel_hat_female.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/squirrel_hat/squirrel_hat_female.qb",
+		"/trapper_plus/jobs/trapper/squirrel_hat/squirrel_hat_iconic.qb": "/trapper_plus/data/biome/arctic/jobs/trapper/squirrel_hat/squirrel_hat_iconic.qb",
+		"/trapper_plus/jobs/trapper/squirrel_hat/squirrel_hat.png": "/trapper_plus/data/biome/arctic/jobs/trapper/squirrel_hat/squirrel_hat.png",
+		
+		"/trapper_plus/entities/decoration/bear_rug/bear_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/bear_rug/bear_rug.qb",
+		"/trapper_plus/entities/decoration/bear_rug/bear_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/bear_rug/bear_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/bear_rug/bear_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/bear_rug/bear_rug.png",
+		
+      "/trapper_plus/entities/decoration/fox_rug/fox_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/fox_rug/fox_rug.qb",
+		"/trapper_plus/entities/decoration/fox_rug/fox_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/fox_rug/fox_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/fox_rug/fox_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/fox_rug/fox_rug.png",
+		
+		"/trapper_plus/entities/decoration/boar_rug/boar_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/boar_rug/boar_rug.qb",
+		"/trapper_plus/entities/decoration/boar_rug/boar_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/boar_rug/boar_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/boar_rug/boar_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/boar_rug/boar_rug.png",
+
+		"/trapper_plus/entities/decoration/wolf_rug/wolf_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/wolf_rug/wolf_rug.qb",
+		"/trapper_plus/entities/decoration/wolf_rug/wolf_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/wolf_rug/wolf_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/wolf_rug/wolf_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/wolf_rug/wolf_rug.png",
+		
+		"/trapper_plus/entities/decoration/deer_rug/deer_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/deer_rug/deer_rug.qb",
+		"/trapper_plus/entities/decoration/deer_rug/deer_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/deer_rug/deer_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/deer_rug/deer_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/deer_rug/deer_rug.png",
+		
+		"/trapper_plus/entities/decoration/moomoo_rug/moomoo_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/moomoo_rug/moomoo_rug.qb",
+		"/trapper_plus/entities/decoration/moomoo_rug/moomoo_rug_2.qb": "/trapper_plus/data/biome/arctic/entities/decoration/moomoo_rug/moomoo_rug_2.qb",
+		"/trapper_plus/entities/decoration/moomoo_rug/moomoo_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/moomoo_rug/moomoo_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/moomoo_rug/moomoo_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/moomoo_rug/moomoo_rug.png",
+		
+		"/trapper_plus/entities/decoration/wild_cattle_rug/wild_cattle_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/wild_cattle_rug/wild_cattle_rug.qb",
+		"/trapper_plus/entities/decoration/wild_cattle_rug/wild_cattle_rug_2.qb": "/trapper_plus/data/biome/arctic/entities/decoration/wild_cattle_rug/wild_cattle_rug_2.qb",
+		"/trapper_plus/entities/decoration/wild_cattle_rug/wild_cattle_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/wild_cattle_rug/wild_cattle_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/wild_cattle_rug/wild_cattle_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/wild_cattle_rug/wild_cattle_rug.png",
+		
+		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug.qb": "/trapper_plus/data/biome/arctic/entities/decoration/cougar_rug/cougar_rug.qb",
+		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug_iconic.qb": "/trapper_plus/data/biome/arctic/entities/decoration/cougar_rug/cougar_rug_iconic.qb",
+		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug.png": "/trapper_plus/data/biome/arctic/entities/decoration/cougar_rug/cougar_rug.png"
+	}
+}
