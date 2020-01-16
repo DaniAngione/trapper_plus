@@ -44,13 +44,13 @@ Finally, the Trapper can now create a nice and cosy campfire with a pot for impr
 Trapper+ requires the following mods:
 
 	Dani's Core Mod
-	https://steamcommunity.com/sharedfiles/filedetails/?id=1403214892
+https://steamcommunity.com/sharedfiles/filedetails/?id=1403214892
 	
 Trapper+ has cross-functionality with the following mods:
 
-	- Stonehearth ACE : New recipes are available if ACE is present (related to ACE's resources, pelts and meats); All the visuals for fresh pelts, hats and carpets are changed according to the biome just like ACE's animals. There are also some new functionalities like Smokeries and Tanning Tubs requiring refueling every now and then; you can craft Fur piles that will keep track of the furs inside; Specific filters are included.
-	- Archipelago Biome : You can smoke and work with fish; Specific filters are included.
-	- LostEms : Certain recipes are adapted to use some of the new Trapper+ resources.
+- Stonehearth ACE : New recipes are available if ACE is present (related to ACE's resources, pelts and meats); All the visuals for fresh pelts, hats and carpets are changed according to the biome just like ACE's animals. There are also some new functionalities like Smokeries and Tanning Tubs requiring refueling every now and then; you can craft Fur piles that will keep track of the furs inside; Specific filters are included.
+- Archipelago Biome : You can smoke and work with fish; Specific filters are included.
+- LostEms : Certain recipes are adapted to use some of the new Trapper+ resources.
 	
 ## COMPATIBILITY
 
