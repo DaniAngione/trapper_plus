@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 36,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.armor.boiled_leather_cuirass.display_name)",
+   "description": "i18n(trapper_plus:entities.armor.boiled_leather_cuirass.description)",
+   "flavor": "",
+   "portrait": "/trapper_plus/entities/armor/boiled_leather_cuirass/boiled_leather_cuirass.png",
+	"level_requirement": 4,
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:refined:boiled_leather",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:armor:boiled_leather_cuirass"
+      }
+   ]
+}

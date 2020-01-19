@@ -8,7 +8,7 @@
    "portrait": "/trapper_plus/entities/food/animal_fat_rendered_tallow/animal_fat_rendered_tallow.png",
    "workshop": "trapper_plus:trapper:campfire_pot",
    "work_effect": "fiddle",
-   "level_requirement": 5,
+   "level_requirement": 4,
    "ingredients": [
       {
          "uri": "trapper_plus:resources:animal_fat",

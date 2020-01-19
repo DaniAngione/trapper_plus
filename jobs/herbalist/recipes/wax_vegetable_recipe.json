@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 25,
+   "work_units": 7,
+   "recipe_name": "i18n(trapper_plus:entities.resources.wax.wax_vegetable.display_name)",
+   "description": "i18n(trapper_plus:entities.resources.wax.wax_vegetable.description)",
+   "flavor": "i18n(trapper_plus:entities.resources.wax.wax_vegetable.flavor)",
+   "portrait": "/trapper_plus/entities/resources/wax/wax_vegetable/wax_vegetable.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wax_source",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:resources:wax:wax_vegetable"
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+{
+   "components": {
+      "stonehearth:resource_node": {
+         "resource_loot_table": {
+            "entries": {
+               "beeswax": {
+                  "num_rolls": {
+                     "min": 0,
+                     "max": 1
+                  },
+                  "items": {
+                     "beeswax": {
+                        "uri": "trapper_plus:resources:wax:beeswax",
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

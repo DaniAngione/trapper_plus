@@ -52,6 +52,52 @@
             }
          }
       },
+      "cloth": {
+         "categories": {
+            "leather": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:data.constants.leather_resource_name)",
+               "icon": "/trapper_plus/entities/refined/any_leather.png",
+               "filter": "leather resource"
+            },
+            "leather_small": {
+               "ordinal": 3.1,
+               "display_name": "i18n(trapper_plus:data.constants.leather_resource_small_name)",
+               "icon": "/trapper_plus/entities/refined/small_leather.png",
+               "filter": "leather resource small"
+            },
+            "leather_bolt": {
+               "ordinal": 3.2,
+               "display_name": "i18n(trapper_plus:data.constants.leather_resource_bolt_name)",
+               "icon": "/trapper_plus/entities/refined/bolt_leather.png",
+               "filter": "leather resource bolt"
+            },
+            "boiled_leather": {
+               "ordinal": 3.3,
+               "display_name": "i18n(trapper_plus:data.constants.leather_resource_boiled_name)",
+               "icon": "/trapper_plus/entities/refined/boiled_leather/boiled_leather.png",
+               "filter": "leather resource boiled"
+            },
+            "wax": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:data.constants.wax_resource_name)",
+               "icon": "/trapper_plus/entities/resources/wax/any_wax_resource.png",
+               "filter": "wax resource"
+            },
+            "wax_poor": {
+               "ordinal": 10.1,
+               "display_name": "i18n(trapper_plus:data.constants.wax_poor_resource_name)",
+               "icon": "/trapper_plus/entities/resources/wax/wax_poor_resource.png",
+               "filter": "wax poor resource"
+            },
+            "wax_fine": {
+               "ordinal": 10.2,
+               "display_name": "i18n(trapper_plus:data.constants.wax_fine_resource_name)",
+               "icon": "/trapper_plus/entities/resources/wax/wax_fine_resource.png",
+               "filter": "wax fine resource"
+            }
+         }
+      },
       "raw_foods": {
          "categories": {
             "raw_meat": {

@@ -1,0 +1,26 @@
+{
+	"craftable_recipes": {
+	  "weapons": {
+			"recipes": {
+				"boiled_leather_cuirass": {
+					"recipe": "/trapper_plus/jobs/weaver/recipes/boiled_leather_cuirass_recipe.json"
+				},
+				"boiled_leather_helmet": {
+					"recipe": "/trapper_plus/jobs/weaver/recipes/boiled_leather_helmet_recipe.json"
+				},
+				"boiled_leather_shield": {
+					"recipe": "/trapper_plus/jobs/weaver/recipes/boiled_leather_shield_recipe.json"
+				}
+			}
+	  },
+	  "clothing_armor": {
+			"recipes": {
+				"mixintypes": {
+					"boiled_leather_cuirass": "remove",
+					"boiled_leather_helmet": "remove",
+					"boiled_leather_shield": "remove"
+				}
+         }
+	   }
+   }
+}

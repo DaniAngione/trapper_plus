@@ -51,6 +51,9 @@
 				},
 				"trapper_tannin": {
 					"recipe": "file(trapper_tannin_recipe.json)"
+				},
+				"boiled_leather": {
+					"recipe": "file(boiled_leather_recipe.json)"
 				}
 			}
 		},
@@ -104,6 +107,9 @@
 				},
 				"pemmican": {
 					"recipe": "file(pemmican_recipe.json)"
+				},
+				"wax_wool": {
+					"recipe": "file(wax_wool_recipe.json)"
 				}
 			}
 		},

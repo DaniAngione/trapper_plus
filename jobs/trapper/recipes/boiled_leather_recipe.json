@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.boiled_leather.display_name)",
+   "description": "i18n(trapper_plus:entities.boiled_leather.description)",
+   "flavor": "",
+   "portrait": "/trapper_plus/entities/refined/boiled_leather/boiled_leather.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "work_effect": "fiddle",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "material": "leather resource bolt",
+         "count": 1
+      },
+		{
+         "material": "wax resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:refined:boiled_leather"
+      }
+   ]
+}

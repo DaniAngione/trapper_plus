@@ -7,10 +7,32 @@
 				}
 			}
 		},
+		"storage": {
+			"recipes": {
+				"boiled_leather_chest_small": {
+					"recipe": "file(boiled_leather_chest_small_recipe.json)"
+				},
+				"boiled_leather_chest": {
+					"recipe": "file(boiled_leather_chest_recipe.json)"
+				},
+				"input_bin_boiled_leather": {
+					"recipe": "file(input_bin_boiled_leather_recipe.json)"
+				}
+         }
+	   },
 		"clothing_armor": {
 			"recipes": {
 				"scaly_leather_boots": {
 					"recipe": "file(scaly_leather_boots_recipe.json)"
+				},
+				"boiled_leather_cuirass": {
+					"recipe": "file(boiled_leather_cuirass_recipe.json)"
+				},
+				"boiled_leather_helmet": {
+					"recipe": "file(boiled_leather_helmet_recipe.json)"
+				},
+				"boiled_leather_shield": {
+					"recipe": "file(boiled_leather_shield_recipe.json)"
 				}
          }
 	   },

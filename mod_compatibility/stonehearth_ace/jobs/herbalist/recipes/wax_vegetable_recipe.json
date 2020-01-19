@@ -1,0 +1,16 @@
+{
+   "workshop": "stonehearth_ace:herbalist:cauldron",
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "wax_source",
+         "count": 2
+      },
+		{
+			"material": "low_fuel",
+			"count": 1
+		}
+   ]
+}

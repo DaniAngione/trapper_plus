@@ -1,0 +1,67 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(boiled_leather_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(boiled_leather_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(boiled_leather_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "helmet",
+         "render_type": "merge_with_model",
+         "ilevel": 6,
+         "required_job_level": 2,
+         "roles": [
+            "plate_wearer"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 27,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.armor.boiled_leather_helmet.display_name)",
+         "description": "i18n(trapper_plus:entities.armor.boiled_leather_helmet.description)",
+         "icon": "file(boiled_leather_helmet.png)",
+         "category": "armor",
+         "material_tags": [
+            "boiled_leather",
+            "ascendancy_made",
+            "boiled_leather_helmet",
+            "stockpile_equipment",
+            "armor",
+            "helmet",
+            "medium_armor"
+         ]
+      }
+   }
+}

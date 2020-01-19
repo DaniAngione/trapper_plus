@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(input_bin_boiled_leather.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.5, "y": 0, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "/stonehearth/data/rigs/entities/containers/input_bin/input_bin.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.containers.input_bin_boiled_leather.display_name)",
+         "description": "i18n(trapper_plus:entities.containers.input_bin_boiled_leather.description)",
+         "icon": "file(input_bin_boiled_leather.png)",
+         "category": "storage",
+         "material_tags": [
+            "boiled_leather",
+            "containers",
+            "crafted",
+            "furniture",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

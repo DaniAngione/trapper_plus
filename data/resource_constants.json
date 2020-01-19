@@ -74,6 +74,26 @@
          "name": "i18n(trapper_plus:data.constants.leather_resource_bolt_name)",
          "icon": "/trapper_plus/entities/refined/bolt_leather.png",
          "default_resource": "stonehearth:refined:leather_bolt"
+      },
+      "wax_source": {
+         "name": "i18n(trapper_plus:data.constants.wax_source_resource_name)",
+         "icon": "/trapper_plus/entities/resources/wax/wax_source_resource.png",
+         "default_resource": "stonehearth:plants:wax_plant:green"
+      },
+      "wax resource": {
+         "name": "i18n(trapper_plus:data.constants.wax_resource_name)",
+         "icon": "/trapper_plus/entities/resources/wax/any_wax_resource.png",
+         "default_resource": "trapper_plus:resources:wax:wax_vegetable"
+      },
+      "wax poor resource": {
+         "name": "i18n(trapper_plus:data.constants.wax_poor_resource_name)",
+         "icon": "/trapper_plus/entities/resources/wax/wax_poor_resource.png",
+         "default_resource": "trapper_plus:resources:wax:wax_vegetable"
+      },
+      "wax fine resource": {
+         "name": "i18n(trapper_plus:data.constants.wax_fine_resource_name)",
+         "icon": "/trapper_plus/entities/resources/wax/wax_fine_resource.png",
+         "default_resource": "trapper_plus:resources:wax:beeswax"
       }
    }
 }

@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "refinement_ingredients" : {
+			"ordinal": 31,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.refined_name)",
+			"recipes" : {
+				"wax_vegetable" : {
+					"recipe" : "file(wax_vegetable_recipe.json)"
+				}
+			}
+		}
+   }
+}

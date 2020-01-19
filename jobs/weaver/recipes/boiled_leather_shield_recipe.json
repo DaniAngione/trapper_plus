@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 22,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.armor.boiled_leather_shield.display_name)",
+   "description": "i18n(trapper_plus:entities.armor.boiled_leather_shield.description)",
+   "flavor": "",
+   "portrait": "/trapper_plus/entities/armor/boiled_leather_shield/boiled_leather_shield.png",
+	"level_requirement": 4,
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:refined:boiled_leather",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:armor:boiled_leather_shield"
+      }
+   ]
+}

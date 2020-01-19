@@ -226,7 +226,12 @@
          "leather_resource_name": "Any Leather",
          "fish_resource_name": "Any Whole Fish",
          "salt_resource_name": "Any Cooking Salt",
-         "seasoning_resource_name": "Any Seasoning"
+         "seasoning_resource_name": "Any Seasoning",
+         "wax_resource_name": "Any Wax",
+         "wax_poor_resource_name": "Any Poor Wax",
+         "wax_fine_resource_name": "Any Fine Wax",
+         "leather_resource_boiled_name": "Boiled Leather",
+         "wax_source_resource_name": "Any Waxy Plant"
       },
       "filters": {
          "meat_types": "Food Types",
@@ -441,6 +446,24 @@
             "description": "Can be harvested for up to 6 fur pelts.",
             "iconic_description": "Place it so it can be harvested for fur pelts.",
             "flavor": "Very useful for stockpiling pelts or simply trading them in bulk"
+         },
+         "input_bin_boiled_leather": {
+				"display_name": "Boiled Leather Supply Crate",
+            "description": "A supply container, for quicker crafting.",
+				"recipe_description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+				"flavor": "Very fancy and decorated"
+         },
+         "boiled_leather_chest": {
+				"display_name": "Boiled Leather Chest",
+            "description": "Stores up to 32 items",
+				"recipe_description": "For beautifully storing up to 32 items.",
+				"flavor": "Very intricately hardened"
+         },
+         "boiled_leather_chest_small": {
+				"display_name": "Boiled Leather Case",
+            "description": "Stores up to 16 items",
+				"recipe_description": "For beautifully storing up to 16 items.",
+				"flavor": ""     
          }
       },
       "food": {
@@ -537,6 +560,47 @@
                "display_name": "Salt Vein",
                "description": "Provides rock salt when mined."
             }
+         }
+      },
+      "resources": {
+         "wax": {
+            "beeswax": {
+               "display_name": "Beeswax",
+               "description": "Malleable yet tough, the incredible work of bees. Can be used as a fine wax."
+            },
+            "wax_vegetable": {
+               "display_name": "Vegetable Wax",
+               "description": "A soft and easy to mold organic product. Can be used as a poor wax.",
+               "flavor": "Waxy plants are common in the desert or dry regions"
+            },
+            "wax_wool": {
+               "display_name": "Lanolin",
+               "description": "Greasy and firm wax boiled from the wooly coat of a sheep. Can be used as fine wax.",
+               "flavor": "The waxy grease of sheep wool helps them keep warm and dry"
+            }
+         },
+         "fiber": {
+            "dwarfsbeard_bundle": {
+               "description": "Very tangled, greasy and rough. Can be used as thatching, fiber or a source of wax."
+            }
+         }
+      },
+      "boiled_leather": {
+         "display_name": "Boiled Leather",
+         "description": "Able to harden and quite resistant, this leather can be intricately molded."
+      },
+      "armor": {
+         "boiled_leather_cuirass": {
+            "display_name": "Boiled Leather Cuirass",
+            "description": "A durable yet lighter alternative for a knight's armor of choice."
+         },
+         "boiled_leather_helmet": {
+            "display_name": "Boiled Leather Helm",
+            "description": "Resistant and fashionable, perfect for a knight."
+         },
+         "boiled_leather_shield": {
+            "display_name": "Boiled Leather Shield",
+            "description": "Tough and reliable, a nice shield for a footman."
          }
       }
    },
@@ -1186,6 +1250,17 @@
          "worn_description": "Warm and cozy, keeps the cold away...",
          "description": "Workers can wear this to fight off the cold in snowy days.",
          "flavor": ""
+      }
+   },
+   "ui": {
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filters": {
+                  "tooltip_wax": "Waxes"
+               }
+            }
+         }
       }
    }
 }

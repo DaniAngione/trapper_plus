@@ -1,0 +1,24 @@
+{
+   "components": {
+      "stonehearth:renewable_resource_node": {
+         "resource_loot_table": {
+            "entries": {
+               "optional": {
+                  "num_rolls": {
+                     "max": 3
+                  },
+                  "items": {
+                     "extra_honey": {
+								"weight": 1
+                     },
+							"beeswax": {
+                        "uri": "trapper_plus:resources:wax:beeswax",
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

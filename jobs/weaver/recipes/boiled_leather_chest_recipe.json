@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 21,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:entities.containers.boiled_leather_chest.display_name)",
+   "description": "i18n(trapper_plus:entities.containers.boiled_leather_chest.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.containers.boiled_leather_chest.flavor)",
+   "portrait": "/trapper_plus/entities/containers/boiled_leather_chest/boiled_leather_chest.png",
+	"level_requirement": 5,
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "uri": "trapper_plus:refined:boiled_leather",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:containers:boiled_leather_chest"
+      }
+   ]
+}

@@ -44,7 +44,7 @@ Finally, the Trapper can now create a nice and cosy campfire with a pot for impr
 Trapper+ requires the following mods:
 
 	Dani's Core Mod
-https://steamcommunity.com/sharedfiles/filedetails/?id=1403214892
+	https://steamcommunity.com/sharedfiles/filedetails/?id=1403214892
 	
 Trapper+ has cross-functionality with the following mods:
 
@@ -67,6 +67,7 @@ DaniAngione#3266
 
 Mod created by Daniel Angione (DaniAngione#3266 on Discord; daniangi@gmail.com)
 Stonehearth created by Radiant Entertainment (https://stonehearth.net)
+My Modding Corner (https://discourse.stonehearth.net/t/danis-modding-corner/36452)
 
 Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibility and the tool to easily translate to PT-BR.
 
@@ -74,7 +75,7 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 
 ## CHANGELOG
 
-### January 15th, 2020 - v1.2
+### January 19th, 2020 - v1.2
 - The mod structure has been completely re-organized to mirror the Stonehearth mod structure. It should be much easier to explore (and learn) from Trapper+ now!
 - All recipes that replaced existing recipes are now mixins rather than overrides.
 - All the images and icons in the mod now have the same contour for a nicer, standard visual.
@@ -121,6 +122,8 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 - A new type of vein will now generate on all biomes, called Salt Vein. Salt Veins can be mined for Clumps 'o Rock Salt, which can then be refined by a level 1 Cook and turned into Sacks of Salt.
 - Salt can be used as a seasoning but also for preserving and curing meats.
 - Salt can also be bought from new traders, Salt Mine Merchants.
+- Boiled Leather, a new resource - and Boiled Leather stuff like a small and normal chest, an input box and a new set of armor. Made from bolts of leather and any wax.
+- Waxes can now be crafted by the Herbalist from certain plants or by the Trapper from wool.
 - Salt Box, container. Use it for salting your curables, similarly to how smokehouses work but with longer lasting results. Salted goods can then be smoked, creating even better products.
 - Fixed an issue that made it so pets would get into a weird loop trying to eat raw meat and would end up starving to death without ever eating.
 - All Building Templates have been tweaked and now contain the new campfire & pot and storage options.
@@ -134,6 +137,7 @@ ACE Compatibility:
 - Rendered Animal Fat can be used as a grease in cooking.
 - Lard can be used as "Any Butter".
 - Bucket of Tallow, alternative animal fat rendered from steak. Can be used as grease, cooking oil or poor wax.
+- Beeswax will now be obtained when harvesting bee nests or skeps.
 - There is a recipe for slicing Steak, it provides two pieces of raw meat.
 - There is a couple of new recipes for fur bundles, large (48) and small (6). Fur bundles are like other piles, but they're restricted to ACE to benefit from the ACE Pile component that allows a crafted pile to remember the individual items used to make it, so you can get exactly the same pelts back.
 - Bug Meat Soup provides the "Warm Belly" buff.

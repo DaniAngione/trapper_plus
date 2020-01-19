@@ -1,0 +1,14 @@
+{
+   "stockpile": {
+      "resources": {
+         "categories": {
+            "wax": {
+               "ordinal": 5.5,
+               "display_name": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filters.tooltip_wax)",
+               "icon": "/trapper_plus/ui/game/modes/zones_mode/stockpile/images/taxonomy/wax.png",
+               "filter": "stockpile_wax"
+            }
+         }
+      }
+   }
+}

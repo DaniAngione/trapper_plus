@@ -1,0 +1,42 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wax_wool.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 9,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.resources.wax.wax_wool.display_name)",
+         "description": "i18n(trapper_plus:entities.resources.wax.wax_wool.description)",
+         "icon": "file(wax_wool.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "stockpile_wax",
+            "wax",
+            "fine",
+            "wax_wool",
+            "resource"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      }
+   }
+}

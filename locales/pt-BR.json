@@ -226,7 +226,12 @@
 			"leather_resource_name": "Qualquer Couro",
 			"fish_resource_name": "Qualquer Peixe Inteiro",
 			"salt_resource_name": "Qualquer Sal de Cozinha",
-			"seasoning_resource_name": "Qualquer Tempero"
+			"seasoning_resource_name": "Qualquer Tempero",
+         "wax_resource_name": "Qualquer Cera",
+         "wax_poor_resource_name": "Qualquer Cera Simples",
+         "wax_fine_resource_name": "Qualquer Cera Fina",
+         "leather_resource_boiled_name": "Couro Endurecido",
+         "wax_source_resource_name": "Qualquer Planta de Cera"
 		},
 		"filters": {
 			"meat_types": "Tipos de Comida",
@@ -441,7 +446,25 @@
 				"description": "Pode ser colhido para obter até 6 peles.",
 				"iconic_description": "Coloque-o no mundo para que possa ser colhido por peles.",
 				"flavor": "Muito útil para armazenar peles ou vendê-las em peso"
-			}
+			},
+         "input_bin_boiled_leather": {
+				"display_name": "Caixa de Suprimentos de Couro Endurecido",
+            "description": "Uma caixa de suprimentos para agilizar a manufatura.",
+				"recipe_description": "Seus cidadãos tentarão manter essa caixa cheia e seus artesãos poderão continuar trabalhando!",
+				"flavor": "Muito bonita e decorada"         
+         },
+         "boiled_leather_chest": {
+				"display_name": "Baú de Couro Endurecido",
+            "description": "Armazena até 32 itens",
+				"recipe_description": "Para armazenar belamente 32 itens",
+				"flavor": "Endurecido com muitos detalhes"
+         },
+         "boiled_leather_chest_small": {
+				"display_name": "Baú Pequeno de Couro Endurecido",
+            "description": "Armazena até 16 itens",
+				"recipe_description": "Para armazenar belamente 16 itens",
+				"flavor": ""    
+         }
 		},
 		"food": {
 			"salt": {
@@ -538,7 +561,48 @@
 					"description": "Provém nacos de pedra de sal quando minerado."
 				}
 			}
-		}
+		},
+      "resources": {
+         "wax": {
+            "beeswax": {
+               "display_name": "Cera de Abelha",
+               "description": "Maleável porém resistente, o incrível trabalho das abelhas. Serve como cera fina."
+            },
+            "wax_vegetable": {
+               "display_name": "Cera Vegetal",
+               "description": "Um produto orgânico macio e moldável. Serve como cera simples.",
+					"flavor": "Plantas de cera são comuns no deserto ou em regiões secas"
+            },
+            "wax_wool": {
+               "display_name": "Lanolina",
+               "description": "Uma cera firme e gordurosa obtida da lã de ovelhas. Serve como cera fina.",
+					"flavor": "A gordura cerosa da lã de ovelha as mantém quentinhas e secas"
+            }
+         },
+         "fiber": {
+            "dwarfsbeard_bundle": {
+               "description": "Enrolado, gorduroso e áspero. Pode ser usado como palha, fibra ou planta de cera."
+            }
+         }
+      },
+      "boiled_leather": {
+         "display_name": "Couro Endurecido",
+         "description": "Duro e resistente, este couro é capaz de ser moldado em formas complexas."
+      },
+      "armor": {
+         "boiled_leather_cuirass": {
+            "display_name": "Peitoral de Couro Endurecido",
+            "description": "Uma alternativa durável e leve para a armadura de um cavaleiro."
+         },
+         "boiled_leather_helmet": {
+            "display_name": "Elmo de Couro Endurecido",
+            "description": "Resistente e estiloso, perfeito para um cavaleiro."
+         },
+         "boiled_leather_shield": {
+            "display_name": "Escudo de Couro Endurecido",
+            "description": "Duro e confiável, um belo escudo para um soldado."
+         }
+      }
 	},
 	"buffs": {
 		"wolf_spirit": {
@@ -798,11 +862,11 @@
 			"flavor": "Insetos fervidos, insetos cozidos e... Mais insetos fervidos!"
 		},
 		"pemmican": {
-			"display_name": "Pemicão",
+			"display_name": "Pemmican",
 			"description": "Não muito saboroso mas extremamente nutritivo e duradouro.",
-			"recipe_name": "Pemicão (x3)",
+			"recipe_name": "Pemmican (x3)",
 			"recipe_description": "Carne seca e moída com frutinhas e gordura processada. Um alimento nutritivo e duradouro para sobreviver ao mundo selvagem.",
-			"flavor": "Preservado em pequenos saquinhos de pele crua, Pemicão pode durar anos."
+			"flavor": "Preservado em pequenos saquinhos de pele crua, Pemmican pode durar anos."
 		},
 		"raw_bear_meat": {
 			"display_name": "Carne Crua de Urso"
@@ -1187,5 +1251,16 @@
 			"description": "Trabalhadores podem utilizar esse casaco para se manterem quentes em dias frios.",
 			"flavor": ""
 		}
-	}
+	},
+   "ui": {
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filters": {
+                  "tooltip_wax": "Ceras"
+               }
+            }
+         }
+      }
+   }
 }

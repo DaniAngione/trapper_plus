@@ -4,7 +4,8 @@
       "stonehearth:catalog": {
          "material_tags": [
             "leather_bolt",
-				"bolt"
+				"bolt",
+				"refined_leather"
          ]
       }
    }

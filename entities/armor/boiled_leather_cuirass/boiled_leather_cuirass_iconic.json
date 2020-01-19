@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(boiled_leather_cuirass_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "render_info": {
+         "scale": 0.085
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(boiled_leather_cuirass.png)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}
