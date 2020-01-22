@@ -54,6 +54,12 @@
       },
       "cloth": {
          "categories": {
+            "tannin": {
+               "ordinal": 2.99,
+               "display_name": "i18n(trapper_plus:entities.tannin.display_name)",
+               "icon": "/trapper_plus/entities/resources/tannin/tannin.png",
+               "filter": "tannin"
+            },
             "leather": {
                "ordinal": 3,
                "display_name": "i18n(trapper_plus:data.constants.leather_resource_name)",

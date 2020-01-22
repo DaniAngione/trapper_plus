@@ -50,6 +50,7 @@
          "auto_request": true,
          "transform_effect": "stonehearth:effects:item_created",
          "worker_required_job": {
+            "stonehearth:jobs:worker": true,
             "stonehearth:jobs:trapper": true
          }
       },

@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v1.2 for Stonehearth 1.1+
+v1.2.1 for Stonehearth 1.1+
 https://stonehearth.net/ 
 
 ## DESCRIPTION
@@ -74,6 +74,14 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### January 22th, 2020 - v1.2.1
+- There is now an Input Bin filter for Pinch of Tannin.
+- Out of fuel smokehouses, watered tanning tubs and dirty salt boxes can all now be fixed by workers as well. This was changed mostly because the Trapper is already quite busy as it is and there were cases where they could take a couple of days before having time to do such things. This change only affects your game if you also use ACE.
+- The Fish Trap Limit issue has been fixed and the trapper can now once again unlock fish trap slots for your town.
+- A bug that caused ACE fish fillets to be smoked directly into jerky has been fixed.
+- A game impairing bug that prevented raw meat from being recognized and usable by cooks has also been fixed.
+- A very weird bug that caused all the biome-unique visuals for Trapper+ Hats and Rugs when using ACE to not be changed correctly if NOT using Archipelago Biome mod has been fixed.
 
 ### January 19th, 2020 - v1.2
 - The mod structure has been completely re-organized to mirror the Stonehearth mod structure. It should be much easier to explore (and learn) from Trapper+ now!
