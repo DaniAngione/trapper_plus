@@ -9,11 +9,12 @@
             "min": 6,
             "max": 10
          },
-         "cool_entity_alias": "stonehearth_ace:food:fish_meat:trout",
-         "proper_cool_entity_alias": "trapper_plus:fish_trout_jerky",
+         "proper_cool_entity_alias": "trapper_plus:food:smoked_fish_trout_meat",
          "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
          "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse",
+         "alternative_cool_entity_alias": "trapper_plus:food:salted_fish_trout_meat",
+         "alternative_cooler_alias": "trapper_plus:trapper:salt_box"
       }
    }
 }

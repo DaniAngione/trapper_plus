@@ -10,6 +10,17 @@ radiant.mixin(TrapperPlusClass, CraftingJob)
 if AceTrapperClass then
 	radiant.mixin(TrapperPlusClass, AceTrapperClass)
 end
+
+function TrapperPlusClass:activate()
+   CraftingJob.activate(self)
+	self._sv.max_num_siege_weapons = {}
+
+   if self._sv.is_current_class then
+      self:_register_with_town()
+   end
+
+   self.__saved_variables:mark_changed()
+end
 	
 -- These functions need to be redeclared for the trapper to earn experience by both crafting and field work activity	
 function TrapperPlusClass:_create_listeners()
@@ -37,6 +48,29 @@ function TrapperPlusClass:_remove_listeners()
    if self._set_trap_listener then
       self._set_trap_listener:destroy()
       self._set_trap_listener = nil
+   end
+end
+
+function TrapperPlusClass:promote(json_path, options)
+   CraftingJob.promote(self, json_path, options)
+   self._sv.max_num_siege_weapons = self._job_json.initial_num_siege_weapons or { trap = 0 }
+   if next(self._sv.max_num_siege_weapons) then
+      self:_register_with_town()
+   end
+   self.__saved_variables:mark_changed()
+end
+
+function TrapperPlusClass:increase_max_placeable_traps(args)
+   self._sv.max_num_siege_weapons = args.max_num_siege_weapons
+   self:_register_with_town()
+   self.__saved_variables:mark_changed()
+end
+
+function TrapperPlusClass:_register_with_town()
+   local player_id = radiant.entities.get_player_id(self._sv._entity)
+   local town = stonehearth.town:get_town(player_id)
+   if town then
+      town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_siege_weapons)
    end
 end
 

@@ -53,6 +53,7 @@
             "stockpile_cooking_ingredient",
             "animal_ingredient",
             "meat",
+            "bits",
             "raw",
             "cooking_ingredient",
             "white"

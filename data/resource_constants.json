@@ -1,7 +1,7 @@
 {
    "type": "index",
    "resources": {
-      "food meat raw": {
+      "bits meat raw": {
          "name": "i18n(trapper_plus:data.constants.food_meat_raw_resource_name)",
          "default_resource": "trapper_plus:raw_red_fox_meat",
          "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_raw.png"
@@ -21,12 +21,12 @@
          "icon": "/trapper_plus/entities/food/any_seasoning.png",
          "default_resource": "trapper_plus:food:salt_smoked"
       },
-      "small food meat raw": {
+      "small meat raw": {
          "name": "i18n(trapper_plus:data.constants.small_food_meat_raw_resource_name)",
          "default_resource": "trapper_plus:raw_squirrel_meat",
          "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png"
       },
-      "large food meat raw": {
+      "large meat raw": {
          "name": "i18n(trapper_plus:data.constants.large_food_meat_raw_resource_name)",
          "default_resource": "trapper_plus:raw_boar_meat",
          "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png"

@@ -12,7 +12,7 @@
 	"ace_smart_crafter_ignore": true,
    "ingredients": [
       {
-         "material": "large food meat raw",
+         "material": "large meat raw",
          "count": 1
       }
    ],
