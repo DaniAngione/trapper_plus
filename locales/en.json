@@ -448,22 +448,22 @@
             "flavor": "Very useful for stockpiling pelts or simply trading them in bulk"
          },
          "input_bin_boiled_leather": {
-				"display_name": "Boiled Leather Supply Crate",
+            "display_name": "Boiled Leather Supply Crate",
             "description": "A supply container, for quicker crafting.",
-				"recipe_description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
-				"flavor": "Very fancy and decorated"
+            "recipe_description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+            "flavor": "Very fancy and decorated"
          },
          "boiled_leather_chest": {
-				"display_name": "Boiled Leather Chest",
+            "display_name": "Boiled Leather Chest",
             "description": "Stores up to 32 items",
-				"recipe_description": "For beautifully storing up to 32 items.",
-				"flavor": "Very intricately hardened"
+            "recipe_description": "For beautifully storing up to 32 items.",
+            "flavor": "Very intricately hardened"
          },
          "boiled_leather_chest_small": {
-				"display_name": "Boiled Leather Case",
+            "display_name": "Boiled Leather Case",
             "description": "Stores up to 16 items",
-				"recipe_description": "For beautifully storing up to 16 items.",
-				"flavor": ""     
+            "recipe_description": "For beautifully storing up to 16 items.",
+            "flavor": ""
          }
       },
       "food": {
@@ -602,6 +602,12 @@
             "display_name": "Boiled Leather Shield",
             "description": "Tough and reliable, a nice shield for a footman."
          }
+      },
+      "backpack_boiled_leather": {
+         "display_name": "Boiled Leather Worker's Backpack",
+         "description": "Allows Workers to be much more efficient when hauling and restocking.",
+			"recipe_description": "Craft a very useful accessory that will allow Workers to be much more efficient at hauling.",
+			"flavor": "As efficient as a leather backpack but with alternative and cheaper materials"
       }
    },
    "buffs": {

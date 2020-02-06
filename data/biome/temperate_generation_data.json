@@ -11,6 +11,15 @@
 		},
 		"winter" : {
 			"salt": "#EBE6DB"
+		},
+		"dry" : {
+			"salt": "#EBE6DB"
+		},
+		"hurricane" : {
+			"salt": "#EBE6DB"
+		},
+		"wet" : {
+			"salt": "#EBE6DB"
 		}
 	}
 }

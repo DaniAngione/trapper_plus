@@ -1,19 +1,25 @@
 local TrapperClass = require 'stonehearth.jobs.trapper.trapper'
-local CraftingJob = require 'stonehearth.jobs.crafting_job'
+local BaseJob = require 'stonehearth.jobs.crafting_job'
 
 -- Compatibility with ACE
 local AceTrapperClass = require 'stonehearth_ace.monkey_patches.ace_trapper'
 
 local TrapperPlusClass = class()
 local log = radiant.log.create_logger('trapper_plus')
-radiant.mixin(TrapperPlusClass, CraftingJob)
+radiant.mixin(TrapperPlusClass, BaseJob)
 if AceTrapperClass then
 	radiant.mixin(TrapperPlusClass, AceTrapperClass)
 end
 
+-- Override this function to make trap limits work
+function TrapperPlusClass:initialize()
+   BaseJob.initialize(self)
+   self._sv._tame_beast_percent_chance = 0
+   self._sv.max_num_siege_weapons = {}
+end
+
 function TrapperPlusClass:activate()
-   CraftingJob.activate(self)
-	self._sv.max_num_siege_weapons = {}
+   BaseJob.activate(self)
 
    if self._sv.is_current_class then
       self:_register_with_town()
@@ -52,7 +58,7 @@ function TrapperPlusClass:_remove_listeners()
 end
 
 function TrapperPlusClass:promote(json_path, options)
-   CraftingJob.promote(self, json_path, options)
+   BaseJob.promote(self, json_path, options)
    self._sv.max_num_siege_weapons = self._job_json.initial_num_siege_weapons or { trap = 0 }
    if next(self._sv.max_num_siege_weapons) then
       self:_register_with_town()

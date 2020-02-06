@@ -28,12 +28,11 @@
       },
       "core_dani:cooling": {
          "initial_cooling": {
-            "min": 4,
-            "max": 8
+            "min": 12,
+            "max": 20
          },
          "cool_entity_alias": "trapper_plus:resources:fresh_rabbit_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:rabbit_pelt",
-         "proper_cooler_alias": "trapper_plus:trapper:small_drying_frame"
+         "proper_cool_entity_alias": "stonehearth:resources:rabbit_pelt"
       }
    }
 }

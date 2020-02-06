@@ -37,6 +37,13 @@
       },
       "stonehearth:appeal": {
          "appeal": -12
+      },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 24,
+            "max": 36
+         },
+         "proper_cooler_alias": "trapper_plus:trapper:drying_frame"
       }
    }
 }

@@ -11,14 +11,7 @@
          ]
       },
       "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 6,
-            "max": 12
-         },
-         "proper_cool_entity_alias": "stonehearth:red_fox_jerky",
-         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
-         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+         "proper_cool_entity_alias": "stonehearth:red_fox_jerky"
       }
    }
 }

@@ -602,6 +602,12 @@
             "display_name": "Escudo de Couro Endurecido",
             "description": "Duro e confiável, um belo escudo para um soldado."
          }
+      },
+      "backpack_boiled_leather": {
+         "display_name": "Mochila de Couro Endurecido do Trabalhador",
+         "description": "Permite que seus Trabalhadores sejam muito mais eficientes transportando coisas.",
+			"recipe_description": "Crie um objeto que permitirá aos seus Trabalhadores serem muito mais eficientes.",
+			"flavor": "Tão boa quanto uma mochila de couro mas com materiais alternativos mais baratos"
       }
 	},
 	"buffs": {

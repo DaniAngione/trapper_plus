@@ -19,6 +19,9 @@
 					"boiled_leather_cuirass": "remove",
 					"boiled_leather_helmet": "remove",
 					"boiled_leather_shield": "remove"
+				},
+				"backpack_leather_boiled": {
+					"recipe": "/trapper_plus/jobs/weaver/recipes/backpack_leather_boiled_recipe.json"
 				}
          }
 	   }

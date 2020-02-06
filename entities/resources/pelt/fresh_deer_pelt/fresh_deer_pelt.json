@@ -27,13 +27,8 @@
          ]
       },
       "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 10,
-            "max": 16
-         },
          "cool_entity_alias": "trapper_plus:resources:fresh_deer_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:deer_pelt",
-         "proper_cooler_alias": "trapper_plus:trapper:drying_frame"
+         "proper_cool_entity_alias": "stonehearth:resources:deer_pelt"
       }
    }
 }

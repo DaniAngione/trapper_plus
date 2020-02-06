@@ -1,6 +1,16 @@
 {
    "type": "index",
    "stockpile": {
+		"resources": {
+         "categories": {
+            "rock_salt": {
+               "ordinal": 4.5,
+               "display_name": "i18n(trapper_plus:entities.clump_of_rock_salt.display_name)",
+               "icon": "/trapper_plus/entities/resources/salt/clump_of_rock_salt/clump_of_rock_salt.png",
+               "filter": "clump_of_rock_salt"
+            }
+         }
+      },
       "animal_parts": {
          "categories": {
             "any_fresh_pelt": {
@@ -20,6 +30,12 @@
                "display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
                "icon": "/trapper_plus/entities/resources/fresh_large_pelt.png",
                "filter": "large fresh_pelt"
+            },
+				"animal_fat": {
+               "ordinal": 0.5,
+               "display_name": "i18n(trapper_plus:entities.animal_fat.display_name)",
+               "icon": "/trapper_plus/entities/resources/animal_fat/animal_fat.png",
+               "filter": "animal_fat resource"
             },
             "pelts": {
                "ordinal": 1,
@@ -119,14 +135,44 @@
             "mixintypes": {
                "any_raw_meat": "remove"
             },
+				"any_rendered_fat": {
+               "ordinal": 2.45,
+               "display_name": "i18n(trapper_plus:data.constants.animal_fat_rendered_resource_name)",
+               "icon": "/trapper_plus/entities/food/animal_fat_rendered/animal_fat_rendered_icon.png",
+               "filter": "animal_fat_rendered cooking_ingredient"
+            },
+				"rendered_fat": {
+               "ordinal": 2.451,
+               "display_name": "i18n(trapper_plus:food.animal_fat_rendered.display_name)",
+               "icon": "/trapper_plus/entities/food/animal_fat_rendered/animal_fat_rendered.png",
+               "filter": "animal_fat_rendered standard"
+            },
+				"rendered_fat_lard": {
+               "ordinal": 2.452,
+               "display_name": "i18n(trapper_plus:food.animal_fat_rendered_lard.display_name)",
+               "icon": "/trapper_plus/entities/food/animal_fat_rendered_lard/animal_fat_rendered_lard.png",
+               "filter": "animal_fat_rendered lard"
+            },
             "any_salt": {
-               "ordinal": 2.5,
+               "ordinal": 2.51,
                "display_name": "i18n(trapper_plus:data.constants.salt_resource_name)",
                "icon": "/trapper_plus/entities/food/any_salt.png",
                "filter": "cooking_ingredient salt"
             },
+				"salt": {
+               "ordinal": 2.52,
+               "display_name": "i18n(trapper_plus:entities.food.salt.display_name)",
+               "icon": "/trapper_plus/entities/food/salt/salt.png",
+               "filter": "cooking_ingredient salt smokehouse_curable"
+            },
+				"smoked_salt": {
+               "ordinal": 2.53,
+               "display_name": "i18n(trapper_plus:entities.food.salt_smoked.display_name)",
+               "icon": "/trapper_plus/entities/food/salt_smoked/salt_smoked.png",
+               "filter": "cooking_ingredient salt smoked"
+            },
             "seasoning": {
-               "ordinal": 2.51,
+               "ordinal": 2.54,
                "display_name": "i18n(trapper_plus:data.constants.seasoning_resource_name)",
                "icon": "/trapper_plus/entities/food/any_seasoning.png",
                "filter": "seasoning"

@@ -36,8 +36,8 @@
       },
       "core_dani:cooling": {
          "initial_cooling": {
-            "min": 18,
-            "max": 24
+            "min": 22,
+            "max": 28
          },
          "cool_entity_alias": "trapper_plus:resources:rawskin",
          "proper_cool_entity_alias": "trapper_plus:refined:scaly_leather",

@@ -39,6 +39,7 @@
             "salt",
             "seasoning",
             "other_ingredient",
+            "other_fluid",
             "smokehouse_curable"
          ]
       },

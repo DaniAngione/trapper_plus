@@ -43,6 +43,15 @@
          },
          "rotten_entity_alias": "trapper_plus:food:rotten:salted_meat_small"
       },
+      "core_dani:cooling": {
+         "initial_cooling": {
+            "min": 24,
+            "max": 32
+         },
+         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
+         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
+         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.salted_meat_small.display_name)",
          "description": "i18n(trapper_plus:food.salted_meat_small.description)",

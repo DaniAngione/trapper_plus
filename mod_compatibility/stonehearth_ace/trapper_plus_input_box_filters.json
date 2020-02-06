@@ -1,0 +1,15 @@
+{
+   "type": "index",
+   "stockpile": {
+      "cooking_ingredients": {
+         "categories": {
+				"rendered_fat_tallow": {
+               "ordinal": 2.453,
+               "display_name": "i18n(trapper_plus:food.animal_fat_rendered_tallow.display_name)",
+               "icon": "/trapper_plus/entities/food/animal_fat_rendered_tallow/animal_fat_rendered_tallow.png",
+               "filter": "animal_fat_rendered tallow"
+            }
+         }
+      }
+   }
+}

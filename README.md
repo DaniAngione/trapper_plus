@@ -51,6 +51,7 @@ Trapper+ has cross-functionality with the following mods:
 - Stonehearth ACE : New recipes are available if ACE is present (related to ACE's resources, pelts and meats); All the visuals for fresh pelts, hats and carpets are changed according to the biome just like ACE's animals. There are also some new functionalities like Smokeries and Tanning Tubs requiring refueling every now and then; you can craft Fur piles that will keep track of the furs inside; Specific filters are included.
 - Archipelago Biome : You can smoke and work with fish; Specific filters are included.
 - LostEms : Certain recipes are adapted to use some of the new Trapper+ resources.
+- Home Sweet Home : Certain recipes are adapted to use some of the new Trapper+ resources.
 	
 ## COMPATIBILITY
 
@@ -74,6 +75,16 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### February 6th, 2020 - v1.2.2
+- Added a new boiled leather craftable item: Boiled Leather Worker's Backpack! This item will only be present if using ACE.
+- Added new and improved filters for certain containers. Input bins (Supply baskets, supply tables, etc...) can now hold Clumps o' Rock Salt, Salt, Smoked Salt (and not just any salt), Cuts of Animal Fat and Any Rendered Animal Fat or the specific types.
+- If using ACE, you'll now be able to put the different kinds of rendered animal fat, salt and rock salt in barrels or supply casks. Additionally, output tuns will accept salt as a dry good and rendered fats as other fluids.
+- The transformation times of all items in the mod have been tweaked slightly. Should now be a bit more challenging in the early game and you probably won't drown on pelts and jerky by the end game. This change only affects the transformation time and not the dropping rates - which means you can achieve the same production if you just increase the amount of transformation tools (drying racks, smokehouses, salt boxes, etc.)
+- Really fixed (this time for real!) a bug that caused the Fish Trap limit to reset. (Only for ACE users)
+- Fixed an issue that didn't allow the player to craft the Rayya's Children exclusive cooking recipe "Meat Tagine".
+- Trapper+ is now officially compatible with the "Home Sweet Home" mod and it is now possible to craft its "Ingredients Pantry" item using Trapper+'s meat.
+- Trapper+ is also now compatible with lots of biome mods so that they can display the proper colors for salt nodes. These are: Canyon (already worked by default), Archipelago, Lorki's Biome, Plains, Meadow, Midgard Forest, Taiga (both versions), Rocky Mountains, Sacred Grove, Savannah, Seasonal Forest, Swamp, The Coast, Pale Peaks, Silent Woods and White Cliffs.
 
 ### January 22th, 2020 - v1.2.1
 - There is now an Input Bin filter for Pinch of Tannin.

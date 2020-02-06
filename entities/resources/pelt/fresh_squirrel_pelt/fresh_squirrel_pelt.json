@@ -27,13 +27,8 @@
          ]
       },
       "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 4,
-            "max": 8
-         },
          "cool_entity_alias": "trapper_plus:resources:fresh_squirrel_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:squirrel_pelt",
-         "proper_cooler_alias": "trapper_plus:trapper:small_drying_frame"
+         "proper_cool_entity_alias": "stonehearth:resources:squirrel_pelt"
       }
    }
 }

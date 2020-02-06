@@ -52,8 +52,8 @@
       },
       "core_dani:cooling": {
          "initial_cooling": {
-            "min": 8,
-            "max": 16
+            "min": 36,
+            "max": 44
          },
          "proper_cool_entity_alias": "trapper_plus:food:jerky_mutton",
          "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
