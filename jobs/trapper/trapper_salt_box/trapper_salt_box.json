@@ -26,6 +26,7 @@
       "stonehearth:storage": {
          "type": "input_crate",
          "capacity": 16,
+         "priority": 2,
          "render_contents": true,
          "filter_list": "trapper_plus:input_box:salt_box_filters",
          "is_single_filter": true,

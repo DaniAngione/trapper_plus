@@ -31,6 +31,7 @@
       "stonehearth:storage": {
          "type": "input_crate",
          "capacity": 20,
+         "priority": 2,
          "render_contents": true,
          "filter_list": "trapper_plus:input_box:pelt_small_rack_filters",
          "is_single_filter": true,

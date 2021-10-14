@@ -1,11 +1,7 @@
 {
    "craftable_recipes": {
 		"workbenches": {
-         "recipes": {
-            "fish_trap": {
-               "recipe": "file(fish_trap_recipe.json)"
-            }
-         }
+         "recipes": {}
 		},
 		"tannery": {
 			"recipes": {

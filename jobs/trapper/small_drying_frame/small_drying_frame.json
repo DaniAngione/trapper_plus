@@ -30,6 +30,7 @@
       "stonehearth:storage": {
          "type": "input_crate",
          "capacity": 8,
+         "priority": 3,
          "render_contents": true,
          "filter_list": "trapper_plus:input_box:small_drying_frame_filters",
          "default_filter": [

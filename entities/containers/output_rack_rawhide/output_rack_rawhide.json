@@ -26,6 +26,7 @@
       "stonehearth:storage": {
          "type": "output_crate",
          "capacity": 20,
+         "priority": 2,
          "render_contents": true,
          "reposition_items": "shift",
          "filter_list": "trapper_plus:output_box:rawhide_rack_filters",

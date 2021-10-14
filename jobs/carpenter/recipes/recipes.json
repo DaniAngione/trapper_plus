@@ -2,9 +2,6 @@
    "craftable_recipes": {
       "utility": {
 			"recipes": {
-				"mixintypes": {
-					"fish_trap": "remove"
-				},
 				"oak_tannin": {
 					"recipe": "file(oak_tannin_recipe.json)"
 				},

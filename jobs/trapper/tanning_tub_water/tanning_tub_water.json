@@ -26,6 +26,7 @@
       "stonehearth:storage": {
          "type": "input_crate",
          "capacity": 9,
+         "priority": 3,
          "render_contents": false,
          "reposition_items": "shift",
          "filter_list": "trapper_plus:input_box:tanning_tub_filters",
