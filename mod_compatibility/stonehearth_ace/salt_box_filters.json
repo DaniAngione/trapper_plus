@@ -1,14 +1,8 @@
 {
    "stockpile": {
-      "food_types": {
-        "categories": {
-            "all_fish": {
-               "ordinal": 10,
-               "display_name": "i18n(trapper_plus:food.fish_smoked.all_raw_display_name)",
-               "icon": "/trapper_plus/mod_compatibility/stonehearth_ace/all_fish.png",
-               "filter": "fish_meat"
-            }
-         }
+      "mixintypes": {
+         "all_salt_box": "remove",
+         "food_types": "remove"
       },
 	  "specific_foods": {
 			"categories": {
