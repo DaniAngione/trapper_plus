@@ -1,0 +1,14 @@
+{
+   "stockpile": {
+      "production": {
+         "categories": {
+            "trapper": {
+               "ordinal": 7.5,
+               "display_name": "i18n(stonehearth:jobs.trapper.trapper_description.display_name)",
+               "icon": "/stonehearth/jobs/trapper/images/icon.png",
+               "filter": "trapper"
+            }
+         }
+      }
+   }
+}

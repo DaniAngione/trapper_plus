@@ -576,6 +576,7 @@
       "stonehearth_ace/entities/critters/beehive_dead/beehive_dead.json": "file(entities/critters/beehive_dead/beehive_dead.json)",
       "stonehearth_ace/jobs/herbalist/herbalist_bee_skep/herbalist_bee_skep.json": "file(jobs/herbalist/herbalist_bee_skep/herbalist_bee_skep.json)",
       "stonehearth_ace:ui:input_cask:filters": "file(mod_compatibility/stonehearth_ace/trapper_plus_input_cask_filters.json)",
+      "stonehearth_ace:ui:output_box:filters": "file(mod_compatibility/stonehearth_ace/trapper_plus_output_box_filters.json)",
       "stonehearth_ace:ui:stockpile:filters:fluids": "file(mod_compatibility/stonehearth_ace/trapper_plus_stockpile_filters_fluids.json)",
       "trapper_plus:trapper:tanning_tub": "/stonehearth_ace/tanning_tub.json",
       "trapper_plus:trapper:smokehouse": "/stonehearth_ace/smokehouse.json",
@@ -596,7 +597,7 @@
       "trapper_plus:armor:boiled_leather_helmet": "stonehearth_ace:mixins:armor:medium_armor_helmet",
       "trapper_plus:armor:boiled_leather_shield": "stonehearth_ace:mixins:armor:light_shield",
 		"homesweethome/jobs/cook/recipes/pantry_cook_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_recipe.json)",
-		"homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json)",
+		"homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json)"
    },
    "overrides": {
       "stonehearth/ai/task_groups/trapping_task_group.lua": "file(ai/task_groups/trapping_task_group.lua)",
