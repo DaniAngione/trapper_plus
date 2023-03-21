@@ -1,0 +1,27 @@
+{
+   "type": "index",
+   "stockpile": {
+      "mixintypes": {
+         "resources": "remove"
+      },
+      "resource_types": {
+         "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "rawhide": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:entities.thin_leather.display_name)",
+               "icon": "/trapper_plus/entities/refined/thin_leather/thin_leather.png",
+               "filter": "leather resource thin_leather"
+            },
+            "raw_skin": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:entities.scaly_leather.display_name)",
+               "icon": "/trapper_plus/entities/refined/scaly_leather/scaly_leather.png",
+               "filter": "leather resource scaly_leather"
+            }
+         }
+      }
+   }
+}

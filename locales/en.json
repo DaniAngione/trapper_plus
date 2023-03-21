@@ -61,7 +61,7 @@
          "flavor": ""
       },
       "input_rack_thin_leather": {
-         "recipe_display_name": "Fresh Leather Stockpile",
+         "recipe_display_name": "Thin Leather Stockpile",
          "recipe_description": "Provide your tannery with a special stockpile for recently finished leather.",
          "flavor": "Holds up to 20 sheets of thin leather"
       },
@@ -159,15 +159,15 @@
                      "tier_1_shops": {
                         "salt_mine_shop_1": {
                            "shop_info": {
-                              "name": "Salt Mine Workers",
-                              "title": "Some workers from a local salt mine have arrived"
+                              "name": "Uphilling Salt Mines",
+                              "title": "A worker from a local salt mine has arrived"
                            }
                         }
                      },
                      "tier_2_shops": {
                         "salt_mine_shop_2": {
                            "shop_info": {
-                              "name": "Salt Mines of Angor",
+                              "name": "Angor & Angst Salt Mines",
                               "title": "A trader from a big salt mine has arrived"
                            }
                         }
@@ -175,7 +175,7 @@
                      "tier_3_shops": {
                         "salt_mine_shop_3": {
                            "shop_info": {
-                              "name": "Cirdain's Salt Quarry",
+                              "name": "Cirdain's Whip Salt Mines",
                               "title": "A caravan from a famous salt mine is here for business"
                            }
                         }
@@ -428,7 +428,7 @@
             "description": "A wall-mounted rack for small pelts to be easily stored."
          },
          "input_rack_thin_leather": {
-            "display_name": "Fresh Leather Stockpile",
+            "display_name": "Thin Leather Stockpile",
             "description": "A resting place for your thin leather as soon as it leaves the tub."
          },
          "output_rack_rawhide": {
@@ -606,8 +606,16 @@
       "backpack_boiled_leather": {
          "display_name": "Boiled Leather Worker's Backpack",
          "description": "Allows Workers to be much more efficient when hauling and restocking.",
-			"recipe_description": "Craft a very useful accessory that will allow Workers to be much more efficient at hauling.",
-			"flavor": "As efficient as a leather backpack but with alternative and cheaper materials"
+         "recipe_description": "Craft a very useful accessory that will allow Workers to be much more efficient at hauling.",
+         "flavor": "As efficient as a leather backpack but with alternative and cheaper materials"
+      },
+      "consumables": {
+         "soap": {
+            "display_name": "Bar of Soap",
+            "description": "Used for efficiently treating infections of any severity but also good for cleaning any cuts or piercing wounds.",
+            "recipe_description": "Used by Herbalists to efficiently treat infections of any severity and cutting or piercing wounds of low severity.",
+            "flavor": "BATH TIME!"
+         }
       }
    },
    "buffs": {
@@ -870,7 +878,7 @@
       "pemmican": {
          "display_name": "Pemmican",
          "description": "Not really tasty but very nutritious and long lasting survivalist food.",
-         "recipe_name": "Pemmican (x3)",
+         "recipe_name": "Pemmican (x6)",
          "recipe_description": "Dried meat ground alongside berries and rendered fat provide a long lasting and nutritious meal for enduring the wilderness.",
          "flavor": "Conserved in small rawhide sacks, well made pemmican can last years"
       },

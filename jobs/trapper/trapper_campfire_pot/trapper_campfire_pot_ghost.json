@@ -16,7 +16,7 @@
          "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
       },
       "effect_list": {
-         "default": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle.json"
+         "default": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle_unlit.json"
       }
    },
    "entity_data": {

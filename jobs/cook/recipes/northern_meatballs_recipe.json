@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "small meat raw",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:food:sweet_potato:sweet_potato_basket",
+         "count": 2
+      },     
+		{
+         "uri": "stonehearth_ace:food:preserves:jam_lingonberry",
+         "count": 1
+      },
+      {
+         "material": "seasoning",
+         "count": 1
+      }
+   ]
+}

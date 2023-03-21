@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 1,
+   "recipe_name": "i18n(trapper_plus:entities.consumables.soap.display_name)",
+   "description": "i18n(trapper_plus:entities.consumables.soap.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.consumables.soap.flavor)",
+   "portrait": "/trapper_plus/entities/consumables/soap/soap.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "level_requirement": 5,
+   "ingredients": [
+		{
+         "material": "animal_fat_rendered cooking_ingredient",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth_ace:resources:coal:piece_of_charcoal",
+         "count": 1
+      },
+      {
+         "material": "clay resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:consumable:soap"
+      }
+   ]
+}

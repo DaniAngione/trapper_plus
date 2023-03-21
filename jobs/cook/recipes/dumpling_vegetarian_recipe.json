@@ -4,12 +4,16 @@
 	},
    "ingredients": [
       {
-         "uri": "stonehearth_ace:food:batter",
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:egg",
          "count": 1
       },
       {
          "material": "food_container raw_food vegetable",
-         "count": 2
+         "count": 1
       },
       {
          "material": "seasoning",

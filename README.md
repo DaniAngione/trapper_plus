@@ -76,6 +76,31 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 
 ## CHANGELOG
 
+### - v1.3
+- Trappers will verify their trapping grounds less often, however they can now place up to 6 traps per field (and the traps can be closer to each other); This should give them some extra crafting time without compromising their efficiency.
+- Removed the "Tannery" trait from Trappers (I mean, it wasn't really needed for anything)
+- Filters for the smokehouse and salt box have been adjusted.
+- The fish trap recipe has been removed from the Carpenter.
+- The "Pemmican" recipe now produces 6 items instead of 3.
+- The "Trapper's Campfire & Pot" recipe now requires an ingot of Iron.
+- Removed the filters for fresh pelts in priority storage (these were preventing the drying racks from being used). The filters are still present with ACE since it allows different priority on different storage.
+- (ACE) This requirement is "any hard metal" when using ACE.
+- The "Trapper's Campfire & Pot" will no longer have fire and light when in ghost form (still unplaced)
+- The "Tanning Tub" will no longer have its fumes when in ghost form (still unplaced)
+- The "Fresh Leather Stockpile" has been renamed "Thin Leather Stockpile" to avoid confusion with all the other "Fresh" stuff like pelts.
+- (ACE) Added "Bar of Soap", a new healing item for infections of any severity and cuts and pierce wounds of low severity. Made by the Trapper using rendered fat, charcoal and clay.
+- (ACE) "Slice" recipes will be ignored by the ACE Smart Crafter.
+- (ACE) Specific filters for ACE (and removal of "single item restrictions") for all drying racks.
+- (ACE) Adjusted the Supply containers filters to not include general categories anymore since ACE allows multiple selections.
+- (ACE) Priority has been adjusted for all the containers.
+- (ACE) Warm-Wolf will now be crafted on a Cook's Table if using ACE.
+- (ACE) Fixed lots of recipes that were broken because of resource changes and also added some Trapper+ stuff to some of the new ACE recipes.
+- (ACE) Fuel has been removed from all recipes that previously used fuel.
+- (ACE) There's now "Trapper" support for the "Finished Work Shelf" output containers.
+- (ACE) The Trapper can split firewood now.
+- Sausages now require a cut of animal fat.
+- Carpets have been slightly lowered into the ground so they look thinner.
+
 ### February 6th, 2020 - v1.2.2
 - Added a new boiled leather craftable item: Boiled Leather Worker's Backpack! This item will only be present if using ACE.
 - Added new and improved filters for certain containers. Input bins (Supply baskets, supply tables, etc...) can now hold Clumps o' Rock Salt, Salt, Smoked Salt (and not just any salt), Cuts of Animal Fat and Any Rendered Animal Fat or the specific types.

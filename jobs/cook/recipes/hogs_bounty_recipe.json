@@ -1,0 +1,27 @@
+{
+   "mixintypes": {
+      "ingredients": "override"
+    },
+   "ingredients": [
+      {
+         "material": "large meat raw",
+         "count": 3
+      },
+	   {
+         "uri": "stonehearth:food:egg_large",
+         "count": 2
+      },
+	   {
+         "material": "butter cooking_ingredient",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:food:salt_smoked",
+         "count": 1
+      },
+		{
+			"uri": "stonehearth_ace:food:rare_truffle:rare_truffle_basket",
+			"count": 1
+		}
+   ]
+}

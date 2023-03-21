@@ -8,6 +8,7 @@
    "portrait": "/trapper_plus/entities/resources/raw_meat/2x_raw_small_meat.png",
    "workshop": "trapper_plus:trapper:block",
    "work_effect": "fiddle",
+   "ace_smart_crafter_ignore": true,
    "level_requirement": 2,
    "ingredients": [
       {

@@ -4,7 +4,11 @@
    },
    "ingredients": [
       {
-         "uri": "stonehearth_ace:food:batter",
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:egg",
          "count": 1
       },
       {

@@ -1,0 +1,19 @@
+{
+	"mixintypes": {
+		"ingredients": "override"
+	},
+   "ingredients": [
+      {
+         "material": "egg small cooking_ingredient",
+         "count": 2
+      },
+      {
+         "material": "raw_food vegetable",
+         "count": 1
+      },
+      {
+         "material": "small meat raw",
+         "count": 1
+      }
+   ]
+}

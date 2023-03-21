@@ -3,12 +3,12 @@
 		"ingredients": "override"
 	},
    "ingredients": [
-	  {
+		{
          "uri": "stonehearth:food:poyo_meat",
          "count": 1
       },
 		{
-			"material": "grain_flour cooking_ingredient",
+			"material": "flour hard cooking_ingredient",
 			"count": 1
 		},
 		{

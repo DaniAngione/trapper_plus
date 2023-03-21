@@ -7,8 +7,12 @@
          "material": "bits meat raw",
          "count": 3
       },
-      {
+	   {
          "material": "seasoning",
+         "count": 2
+      },
+	   {
+         "material": "fiber resource",
          "count": 1
       }
    ]

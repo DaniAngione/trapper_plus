@@ -27,17 +27,5 @@
       "craft_level_6": 11
    },
    "max_level": 6,
-   "level_data": {
-      "1": {
-         "perks": [
-            {
-               "name": "i18n(trapper_plus:trapper.perks.l1_display_name)",
-               "id": "crafter_recipe_unlock_1",
-               "icon": "file(images/l1_perk.png)",
-               "description": "i18n(trapper_plus:trapper.perks.l1_description)",
-               "level": 1
-            }
-         ]
-      }
-   }
+   "level_data": {}
 }

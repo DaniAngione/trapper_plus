@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+      "ingredients": "override"
+    },
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:venison",
+         "count": 1
+      },
+		{
+         "uri": "stonehearth_ace:food:vinegar",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:food:salt_smoked",
+         "count": 1
+      },
+	   {
+         "material": "raw_food fruit",
+         "count": 3
+      }
+   ]
+}

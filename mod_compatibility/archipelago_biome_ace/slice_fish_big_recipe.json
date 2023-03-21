@@ -9,6 +9,7 @@
    "workshop": "trapper_plus:trapper:block",
    "work_effect": "fiddle",
    "level_requirement": 3,
+   "ace_smart_crafter_ignore": true,
    "ingredients": [
       {
          "uri": "archipelago_biome:food:big_fish",

@@ -31,6 +31,7 @@
          "capacity": 32,
          "priority": 3,
          "render_contents": false,
+         "allow_default": false,
          "filter_list": "trapper_plus:input_box:smokehouse_filters",
          "default_filter": [
             "smokehouse_curable"

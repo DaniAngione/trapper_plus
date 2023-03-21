@@ -1,0 +1,27 @@
+{
+   "mixintypes": {
+      "ingredients": "override"
+    },
+   "ingredients": [
+      {
+         "uri": "stonehearth_ace:food:rice:raw_rice",
+         "count": 1
+      },
+	   {
+         "uri": "stonehearth_ace:food:dairy:cheese_aged",
+         "count": 1
+      },
+	   {
+         "material": "seasoning",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:food:salt_smoked",
+         "count": 1
+      },
+		{
+			"uri": "stonehearth_ace:food:rare_truffle:rare_truffle_basket",
+			"count": 1
+		}
+   ]
+}

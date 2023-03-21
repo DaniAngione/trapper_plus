@@ -31,6 +31,7 @@
       "commands:transform:salt_box": "file(data/commands/transform/salt_box.json)",
       "commands:transform:smokehouse": "file(data/commands/transform/smokehouse.json)",
       "commands:transform:tanning_tub": "file(data/commands/transform/tanning_tub.json)",
+      "consumables:soap": "file(entities/consumables/soap/soap.json)",
       "containers:boiled_leather_chest": "file(entities/containers/boiled_leather_chest/boiled_leather_chest.json)",
       "containers:boiled_leather_chest_small": "file(entities/containers/boiled_leather_chest_small/boiled_leather_chest_small.json)",
       "containers:fur_pile": "file(entities/containers/fur_pile/fur_pile.json)",
@@ -315,23 +316,23 @@
          "stonehearth_ace/data/loadouts/ace_loadouts.json"
       ],
       "northern_alliance/data/loadouts/loadouts.json": "trapper_plus:loadouts:northern_alliance",
-      "stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",		
-		"archipelago_biome/data/biome/archipelago_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"lorki_biome/data/biome/lorki_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"plains_biome/data/biome/plains_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"ems_biome_meadow/data/biome/meadow_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"nordlingmod/data/biome/forest_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"norsehearth/data/biome/norsehearth_biome_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"ems_biome_rckymtns/data/biome/rocky_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"grove_biome/data/biome/grove_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"ems_biome_savanna/data/biome/savanna_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"ems_biome_seasonalforest/data/biome/seasonal_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"swamp_goblins/data/biome/swamp_generation.json": "file(data/biome/temperate_generation_data.json)",
-		"taiga_biome/data/biome/taiga_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"serene_league/data/biome/coast_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"pale_peaks/data/biome/pale_peaks_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"silent_woods/data/biome/silent_woods_generation_data.json": "file(data/biome/temperate_generation_data.json)",
-		"white_cliffs_biome/data/biome/white_cliffs_generation_data.json": "file(data/biome/temperate_generation_data.json)",		
+      "stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "archipelago_biome/data/biome/archipelago_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "lorki_biome/data/biome/lorki_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "plains_biome/data/biome/plains_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "ems_biome_meadow/data/biome/meadow_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "nordlingmod/data/biome/forest_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "norsehearth/data/biome/norsehearth_biome_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "ems_biome_rckymtns/data/biome/rocky_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "grove_biome/data/biome/grove_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "ems_biome_savanna/data/biome/savanna_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "ems_biome_seasonalforest/data/biome/seasonal_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "swamp_goblins/data/biome/swamp_generation.json": "file(data/biome/temperate_generation_data.json)",
+      "taiga_biome/data/biome/taiga_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "serene_league/data/biome/coast_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "pale_peaks/data/biome/pale_peaks_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "silent_woods/data/biome/silent_woods_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+      "white_cliffs_biome/data/biome/white_cliffs_generation_data.json": "file(data/biome/temperate_generation_data.json)",
       "stonehearth/data/biome/arctic_generation_data.json": "file(data/biome/arctic_generation_data.json)",
       "stonehearth/data/biome/desert_generation_data.json": "file(data/biome/desert_generation_data.json)",
       "stonehearth:mining:base_loot_table": "trapper_plus:mining:base_loot_table",
@@ -354,6 +355,7 @@
       "stonehearth_ace:resources:fiber:dwarfsbeard_bundle": "file(entities/resources/fiber/dwarfsbeard_bundle/dwarfsbeard_bundle.json)",
       "stonehearth/jobs/trapper/trapper_abilities/trapper_abilities.json": "file(jobs/trapper/trapper_abilities/trapper_abilities.json)",
       "stonehearth/jobs/trapper/trapper_description.json": "file(jobs/trapper/trapper_description.json)",
+      "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json": "file(jobs/trapper/trapping_grounds/trapping_grounds.json)",
       "stonehearth/jobs/blacksmith/recipes/long_sword_recipe.json": "file(jobs/blacksmith/recipes/long_sword_recipe.json)",
       "stonehearth/jobs/blacksmith/recipes/short_sword_recipe.json": "file(jobs/blacksmith/recipes/short_sword_recipe.json)",
       "stonehearth/jobs/blacksmith/recipes/two_handed_sword_recipe.json": "file(jobs/blacksmith/recipes/two_handed_sword_recipe.json)",
@@ -387,42 +389,41 @@
       "stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
       "stonehearth/jobs/cook/recipes/dumpling_vegetarian_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/dumpling_vegetarian_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/dumpling_vegetarian_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/fried_eggs_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/fried_eggs_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/fried_eggs_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/fried_eggs_large_recipe.json": [
-         "/trapper_plus/jobs/cook/recipes/fried_eggs_large_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/jobs/cook/recipes/fried_eggs_large_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/meat_stew_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/meat_stew_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/meat_stew_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/omelette_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/omelette_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/omelette_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/bacon_and_eggs_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/bacon_and_eggs_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/bacon_and_eggs_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/dumpling_meat_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/dumpling_meat_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/dumpling_meat_recipe.json"
       ],
       "northern_alliance/jobs/cook/recipes/na_meat_stew_recipe.json": [
-         "/trapper_plus/jobs/cook/recipes/na_meat_stew_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/jobs/cook/recipes/na_meat_stew_recipe.json"
       ],
-		"rayyas_children/jobs/cook/recipes/meat_tagine_recipe.json": [
+      "rayyas_children/jobs/cook/recipes/meat_tagine_recipe.json": [
          "/trapper_plus/jobs/cook/recipes/meat_tagine_recipe.json",
-         "/stonehearth_ace/cooking_fuel_adder.json"
+         "/trapper_plus/mod_compatibility/stonehearth_ace/jobs/cook/recipes/meat_tagine_recipe.json"
       ],
       "stonehearth/jobs/cook/recipes/sausage_recipe.json": "file(jobs/cook/recipes/sausage_recipe.json)",
-      "stonehearth_ace/jobs/cook/recipes/dumpling_salmon_recipe.json": "file(jobs/cook/recipes/dumpling_salmon_recipe.json)",
+      "stonehearth_ace/jobs/cook/recipes/veggie_roll_recipe.json": "file(jobs/cook/recipes/veggie_roll_recipe.json)",
+      "stonehearth_ace/jobs/cook/recipes/northern_meatballs_recipe.json": "file(jobs/cook/recipes/northern_meatballs_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/fish_fingers_recipe.json": "file(jobs/cook/recipes/fish_fingers_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/glazed_pork_ribs_recipe.json": "file(jobs/cook/recipes/glazed_pork_ribs_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/imperial_salad_recipe.json": "file(jobs/cook/recipes/imperial_salad_recipe.json)",
@@ -432,9 +433,12 @@
       "stonehearth_ace/jobs/cook/recipes/poyo_nuggets_recipe.json": "file(jobs/cook/recipes/poyo_nuggets_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/seared_meat_veggies_recipe.json": "file(jobs/cook/recipes/seared_meat_veggies_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/broth_recipe.json": "file(jobs/cook/recipes/broth_recipe.json)",
-      "stonehearth_ace/jobs/cook/recipes/buttered_bulbs_recipe.json": "file(jobs/cook/recipes/buttered_bulbs_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/cooked_rice_recipe.json": "file(jobs/cook/recipes/cooked_rice_recipe.json)",
-      "stonehearth_ace/jobs/cook/recipes/curdling_mixture_recipe.json": "file(jobs/cook/recipes/curdling_mixture_recipe.json)",
+      "stonehearth_ace/jobs/cook/recipes/truffled_risotto_recipe.json": "file(jobs/cook/recipes/truffled_risotto_recipe.json)",
+      "stonehearth_ace/jobs/cook/recipes/huntsman_banquet_recipe.json": "file(jobs/cook/recipes/huntsman_banquet_recipe.json)",
+      "stonehearth_ace/jobs/cook/recipes/hogs_bounty_recipe.json": "file(jobs/cook/recipes/hogs_bounty_recipe.json)",
+      "trapper_plus/jobs/cook/recipes/warm_wolf_recipe.json": "/stonehearth_ace/jobs/cook/recipes/ace_warm_wolf_recipe.json",
+      "stonehearth_ace/jobs/shepherd/recipes/curdling_mixture_recipe.json": "file(jobs/shepherd/recipes/curdling_mixture_recipe.json)",
       "stonehearth_ace/jobs/weaver/recipes/chitin_shield_recipe.json": "file(jobs/weaver/recipes/chitin_shield_recipe.json)",
       "stonehearth_ace/jobs/weaver/recipes/simple_quiver_bolts_recipe.json": "file(jobs/weaver/recipes/simple_quiver_bolts_recipe.json)",
       "stonehearth_ace/jobs/weaver/recipes/backpack_leather_recipe.json": "file(jobs/weaver/recipes/backpack_leather_recipe.json)",
@@ -505,8 +509,23 @@
       "stonehearth/entities/resources/skin/varanus_skin/varanus_skin.json": "file(entities/resources/skin/varanus_skin/varanus_skin.json)",
       "stonehearth/entities/resources/skin/zilla_skin/zilla_skin.json": "file(entities/resources/skin/zilla_skin/zilla_skin.json)",
       "stonehearth/entities/refined/leather_bolt/leather_bolt.json": "file(entities/refined/leather_bolt/leather_bolt.json)",
+      "trapper_plus/ui/data/rawhide_rack_filters.json": [
+         "/stonehearth_ace/ui/data/rawhide_rack_filters.json"
+      ],
+      "trapper_plus/ui/data/tanning_tub_filters.json": [
+         "/stonehearth_ace/ui/data/tanning_tub_filters.json"
+      ],
+      "trapper_plus/ui/data/thin_leather_rack_filters.json": [
+         "/stonehearth_ace/ui/data/thin_leather_rack_filters.json"
+      ],
+      "trapper_plus/ui/data/pelt_small_rack_filters.json": [
+         "/stonehearth_ace/ui/data/pelt_small_rack_filters.json"
+      ],
       "trapper_plus/ui/data/drying_frame_filters.json": [
          "/stonehearth_ace/ui/data/drying_frame_filters.json"
+      ],
+      "trapper_plus/ui/data/small_drying_frame_filters.json": [
+         "/stonehearth_ace/ui/data/small_drying_frame_filters.json"
       ],
       "trapper_plus/ui/data/pelt_large_rack_filters.json": [
          "/stonehearth_ace/ui/data/pelt_large_rack_filters.json"
@@ -528,6 +547,7 @@
       "northern_alliance/jobs/weaver/recipes/rug_pelt_wolf_recipe.json": "file(entities/decoration/na_wolf_rug/na_wolf_rug_recipe.json)",
       "northern_alliance/entities/decoration/rug_pelt_wolf/rug_pelt_wolf_ghost.json": "file(entities/decoration/na_wolf_rug/na_wolf_rug_ghost.json)",
       "stonehearth_ace/data/biome/highlands_generation_data.json": "file(data/biome/highlands_generation_data.json)",
+      "stonehearth_ace/data/mercantile/merchants/resources.json": "file(mod_compatibility/stonehearth_ace/data/mercantile/merchants/resources.json)",
       "stonehearth_ace/entities/food/fish_meat/fish_meat.json": "file(entities/food/fish_meat/fish_meat.json)",
       "stonehearth_ace/entities/food/fish_carp_meat/fish_carp_meat.json": "file(entities/food/fish_carp_meat/fish_carp_meat.json)",
       "stonehearth_ace/entities/food/fish_catfish_meat/fish_catfish_meat.json": "file(entities/food/fish_catfish_meat/fish_catfish_meat.json)",
@@ -575,9 +595,17 @@
       "stonehearth_ace/entities/monsters/forest/wolf/wolf_cub.json": "file(entities/monsters/forest/wolf/wolf_cub.json)",
       "stonehearth_ace/entities/critters/beehive_dead/beehive_dead.json": "file(entities/critters/beehive_dead/beehive_dead.json)",
       "stonehearth_ace/jobs/herbalist/herbalist_bee_skep/herbalist_bee_skep.json": "file(jobs/herbalist/herbalist_bee_skep/herbalist_bee_skep.json)",
+      "stonehearth_ace/ui/data/storage_filter_presets.json": "file(ui/data/storage_filter_presets.json)",
       "stonehearth_ace:ui:input_cask:filters": "file(mod_compatibility/stonehearth_ace/trapper_plus_input_cask_filters.json)",
       "stonehearth_ace:ui:output_box:filters": "file(mod_compatibility/stonehearth_ace/trapper_plus_output_box_filters.json)",
       "stonehearth_ace:ui:stockpile:filters:fluids": "file(mod_compatibility/stonehearth_ace/trapper_plus_stockpile_filters_fluids.json)",
+      "trapper_plus:trapper:drying_frame": "/stonehearth_ace/drying_frame.json",
+      "trapper_plus:trapper:small_drying_frame": "/stonehearth_ace/small_drying_frame.json",
+      "trapper_plus:containers:input_rack:pelt_large": "/stonehearth_ace/input_rack_pelt_large.json",
+      "trapper_plus:containers:input_rack:pelt_small": "/stonehearth_ace/input_rack_pelt_small.json",
+      "trapper_plus:containers:input_rack:thin_leather": "/stonehearth_ace/input_rack_thin_leather.json",
+      "trapper_plus:containers:output_rack:rawhide": "/stonehearth_ace/output_rack_rawhide.json",
+      "trapper_plus:containers:input_bin:boiled_leather": "/stonehearth_ace/input_bin_boiled_leather.json",
       "trapper_plus:trapper:tanning_tub": "/stonehearth_ace/tanning_tub.json",
       "trapper_plus:trapper:smokehouse": "/stonehearth_ace/smokehouse.json",
       "trapper_plus:trapper:rc_smokehouse": "/stonehearth_ace/rc_smokehouse.json",
@@ -590,14 +618,15 @@
       "trapper_plus:trapper:hat:rabbit": "/stonehearth_ace/jobs/trapper/rabbit_hat/rabbit_hat.json",
       "trapper_plus:trapper:hat:wolf": "/stonehearth_ace/jobs/trapper/wolf_hat/wolf_hat.json",
       "trapper_plus:trapper:hat:cougar": "/stonehearth_ace/jobs/trapper/cougar_hat/cougar_hat.json",
+      "trapper_plus/jobs/trapper/recipes/trapper_campfire_pot_recipe.json": "/stonehearth_ace/jobs/trapper/recipes/ace_trapper_campfire_pot_recipe.json",
       "stonehearth_ace/jobs/trapper/na_trapper_description.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/na_trapper_description.json)",
       "stonehearth_ace/jobs/trapper/rc_trapper_description.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/rc_trapper_description.json)",
       "trapper_plus/jobs/weaver/recipes/recipes.json": "stonehearth_ace/jobs/weaver/recipes/trapper_plus_recipes.json",
       "trapper_plus:armor:boiled_leather_cuirass": "stonehearth_ace:mixins:armor:medium_armor_torso",
       "trapper_plus:armor:boiled_leather_helmet": "stonehearth_ace:mixins:armor:medium_armor_helmet",
       "trapper_plus:armor:boiled_leather_shield": "stonehearth_ace:mixins:armor:light_shield",
-		"homesweethome/jobs/cook/recipes/pantry_cook_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_recipe.json)",
-		"homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json)"
+      "homesweethome/jobs/cook/recipes/pantry_cook_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_recipe.json)",
+      "homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json": "file(mod_compatibility/homesweethome/jobs/cook/recipes/pantry_cook_rayya_recipe.json)"
    },
    "overrides": {
       "stonehearth/ai/task_groups/trapping_task_group.lua": "file(ai/task_groups/trapping_task_group.lua)",
@@ -605,14 +634,29 @@
       "stonehearth_ace/data/loadouts/ace_loadouts.json": "file(mod_compatibility/stonehearth_ace/ace_loadouts.json)",
       "stonehearth_ace/jobs/trapper/fish_trap/fish_trap.png": "file(mod_compatibility/stonehearth_ace/fish_trap.png)",
       "stonehearth_ace/jobs/trapper/recipes/ace_recipes.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/recipes/ace_recipes.json)",
+      "stonehearth_ace/jobs/trapper/recipes/ace_trapper_campfire_pot_recipe.json": "file(mod_compatibility/stonehearth_ace/jobs/trapper/recipes/ace_trapper_campfire_pot_recipe.json)",
+      "stonehearth_ace/jobs/cook/recipes/ace_warm_wolf_recipe.json": "file(mod_compatibility/stonehearth_ace/jobs/cook/recipes/warm_wolf_recipe.json)",
       "stonehearth_ace/jobs/herbalist/recipes/wax_vegetable_recipe.json": "file(mod_compatibility/stonehearth_ace/jobs/herbalist/recipes/wax_vegetable_recipe.json)",
       "stonehearth_ace/ui/data/trapper_plus_input_box_filters.json": "file(mod_compatibility/stonehearth_ace/trapper_plus_input_box_filters.json)",
       "stonehearth_ace/ui/data/smokehouse_filters.json": "file(mod_compatibility/stonehearth_ace/smokehouse_filters.json)",
       "stonehearth_ace/ui/data/salt_box_filters.json": "file(mod_compatibility/stonehearth_ace/salt_box_filters.json)",
       "stonehearth_ace/ui/data/drying_frame_filters.json": "file(mod_compatibility/stonehearth_ace/drying_frame_filters.json)",
+      "stonehearth_ace/ui/data/small_drying_frame_filters.json": "file(mod_compatibility/stonehearth_ace/small_drying_frame_filters.json)",
       "stonehearth_ace/ui/data/pelt_large_rack_filters.json": "file(mod_compatibility/stonehearth_ace/pelt_large_rack_filters.json)",
+      "stonehearth_ace/ui/data/rawhide_rack_filters.json": "file(mod_compatibility/stonehearth_ace/rawhide_rack_filters.json)",
+      "stonehearth_ace/ui/data/tanning_tub_filters.json": "file(mod_compatibility/stonehearth_ace/tanning_tub_filters.json)",
+      "stonehearth_ace/ui/data/thin_leather_rack_filters.json": "file(mod_compatibility/stonehearth_ace/thin_leather_rack_filters.json)",
+      "stonehearth_ace/ui/data/pelt_small_rack_filters.json": "file(mod_compatibility/stonehearth_ace/pelt_small_rack_filters.json)",
+      "stonehearth_ace/entities/food/ace_seasoning.png": "file(mod_compatibility/stonehearth_ace/ace_seasoning.png)",
+      "trapper_plus/entities/food/any_seasoning.png": "stonehearth_ace/entities/food/ace_seasoning.png",
       "stonehearth_ace/harvest_beast_loot_table_remover.json": "file(mod_compatibility/stonehearth_ace/harvest_beast_loot_table_remover.json)",
-      "stonehearth_ace/cooking_fuel_adder.json": "file(mod_compatibility/stonehearth_ace/cooking_fuel_adder.json)",
+      "stonehearth_ace/drying_frame.json": "file(mod_compatibility/stonehearth_ace/drying_frame.json)",
+      "stonehearth_ace/small_drying_frame.json": "file(mod_compatibility/stonehearth_ace/small_drying_frame.json)",
+      "stonehearth_ace/output_rack_rawhide.json": "file(mod_compatibility/stonehearth_ace/output_rack_rawhide.json)",
+      "stonehearth_ace/input_rack_thin_leather.json": "file(mod_compatibility/stonehearth_ace/input_rack_thin_leather.json)",
+      "stonehearth_ace/input_rack_pelt_small.json": "file(mod_compatibility/stonehearth_ace/input_rack_pelt_small.json)",
+      "stonehearth_ace/input_rack_pelt_large.json": "file(mod_compatibility/stonehearth_ace/input_rack_pelt_large.json)",
+      "stonehearth_ace/input_bin_boiled_leather.json": "file(mod_compatibility/stonehearth_ace/input_bin_boiled_leather.json)",
       "stonehearth_ace/tanning_tub.json": "file(mod_compatibility/stonehearth_ace/tanning_tub.json)",
       "stonehearth_ace/smokehouse.json": "file(mod_compatibility/stonehearth_ace/smokehouse.json)",
       "stonehearth_ace/rc_smokehouse.json": "file(mod_compatibility/stonehearth_ace/rc_smokehouse.json)",

@@ -28,6 +28,7 @@
          "capacity": 20,
          "priority": 2,
          "render_contents": true,
+         "allow_default": false,
          "reposition_items": "shift",
          "filter_list": "trapper_plus:input_box:pelt_large_rack_filters",
          "is_single_filter": true,

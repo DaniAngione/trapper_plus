@@ -4,15 +4,15 @@
 	},
    "ingredients": [
       {
-         "material": "raw_food fungi",
+         "material": "raw_food vegetable",
          "count": 1
       },
-	  {
-         "material": "butter cooking_ingredient",
+      {
+         "material": "food_container raw_food vegetable hearty",
          "count": 1
       },
-	  {
-         "material": "seasoning",
+      {
+         "material": "small meat raw",
          "count": 1
       }
    ]

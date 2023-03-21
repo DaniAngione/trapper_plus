@@ -13,24 +13,6 @@
       },
       "animal_parts": {
          "categories": {
-            "any_fresh_pelt": {
-               "ordinal": 0.2,
-               "display_name": "i18n(trapper_plus:entities.any_fresh_pelt.display_name)",
-               "icon": "/trapper_plus/entities/resources/any_fresh_pelt.png",
-               "filter": "fresh_pelt"
-            },
-            "fresh_small_pelt": {
-               "ordinal": 0.3,
-               "display_name": "i18n(trapper_plus:entities.fresh_small_pelt.display_name)",
-               "icon": "/trapper_plus/entities/resources/fresh_small_pelt.png",
-               "filter": "small fresh_pelt"
-            },
-            "fresh_pelt": {
-               "ordinal": 0.4,
-               "display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
-               "icon": "/trapper_plus/entities/resources/fresh_large_pelt.png",
-               "filter": "large fresh_pelt"
-            },
 				"animal_fat": {
                "ordinal": 0.5,
                "display_name": "i18n(trapper_plus:entities.animal_fat.display_name)",
@@ -53,12 +35,6 @@
                "display_name": "i18n(trapper_plus:data.filters.large_pelt)",
                "icon": "/trapper_plus/entities/resources/large_pelt.png",
                "filter": "large pelt"
-            },
-            "fresh_skin": {
-               "ordinal": 1.99,
-               "display_name": "i18n(trapper_plus:data.filters.fresh_skin)",
-               "icon": "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png",
-               "filter": "fresh_skin"
             },
             "hard_pelts": {
                "ordinal": 2,

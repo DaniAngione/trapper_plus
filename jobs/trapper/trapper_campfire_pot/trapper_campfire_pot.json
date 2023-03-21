@@ -35,6 +35,9 @@
       "stonehearth:workshop": {
          "job_alias": "stonehearth:jobs:trapper",
          "workshop_effect": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/work.json"
+      },
+      "effect_list": {
+         "default": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle.json"
       }
    },
    "entity_data": {

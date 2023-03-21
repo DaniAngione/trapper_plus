@@ -1,0 +1,15 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "egg small cooking_ingredient",
+         "count": 2
+      },
+      {
+         "material": "cooking_ingredient salt",
+         "count": 1
+      }
+   ]
+}

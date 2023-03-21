@@ -8,11 +8,11 @@
          "count": 3
       },
       {
-         "material": "cooking_ingredient salt",
+         "uri": "stonehearth_ace:food:vinegar",
          "count": 1
       },
       {
-         "material": "herb resource",
+         "material": "cooking_ingredient salt",
          "count": 1
       }
    ]

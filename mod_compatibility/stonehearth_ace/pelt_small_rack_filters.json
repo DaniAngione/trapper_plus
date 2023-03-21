@@ -1,0 +1,33 @@
+{
+   "type": "index",
+   "stockpile": {
+      "mixintypes": {
+         "resources": "remove"
+      },
+      "resource_types": {
+         "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "rabbit_pelt": {
+               "ordinal": 1,
+               "display_name": "i18n(stonehearth:entities.resources.pelt.rabbit_pelt.display_name)",
+               "icon": "/stonehearth/entities/resources/pelt/rabbit_pelt/rabbit_pelt.png",
+               "filter": "pelt rabbit"
+            },
+            "racoon_pelt": {
+               "ordinal": 2,
+               "display_name": "i18n(stonehearth:entities.resources.pelt.racoon_pelt.display_name)",
+               "icon": "/stonehearth/entities/resources/pelt/racoon_pelt/racoon_pelt.png",
+               "filter": "pelt racoon"
+            },
+            "squirrel_pelt": {
+               "ordinal": 3,
+               "display_name": "i18n(stonehearth:entities.resources.pelt.squirrel_pelt.display_name)",
+               "icon": "/stonehearth/entities/resources/pelt/squirrel_pelt/squirrel_pelt.png",
+               "filter": "pelt squirrel"
+            }
+         }
+      }
+   }
+}

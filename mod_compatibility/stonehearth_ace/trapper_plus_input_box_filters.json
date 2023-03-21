@@ -1,9 +1,113 @@
 {
-   "type": "index",
    "stockpile": {
+      "animal_parts": {
+         "categories": {
+            "mixintypes": {
+               "pelts": "remove"
+            },
+            "animal_fat": {
+               "ordinal": 0.01
+            },
+            "fresh_small_pelt": {
+               "ordinal": 0.02,
+               "display_name": "i18n(trapper_plus:entities.fresh_small_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/fresh_small_pelt.png",
+               "filter": "small fresh_pelt"
+            },
+            "fresh_pelt": {
+               "ordinal": 0.03,
+               "display_name": "i18n(trapper_plus:entities.fresh_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/fresh_large_pelt.png",
+               "filter": "large fresh_pelt"
+            },
+            "fresh_skin": {
+               "ordinal": 0.04,
+               "display_name": "i18n(trapper_plus:data.filters.fresh_skin)",
+               "icon": "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png",
+               "filter": "fresh_skin"
+            },
+            "small_pelt": {
+               "ordinal": 0.05
+            },
+            "large_pelt": {
+               "ordinal": 0.06
+            }
+         }
+      },
+      "cloth": {
+         "categories": {
+            "mixintypes": {
+               "leather_small": "remove",
+               "leather_bolt": "remove",
+               "wax": "remove",
+               "wax_poor": "remove",
+               "wax_fine": "remove"
+            },
+            "tannin": {
+               "ordinal": 2.97
+            },
+            "thin_leather": {
+               "ordinal": 2.98,
+               "display_name": "i18n(trapper_plus:entities.thin_leather.display_name)",
+               "icon": "/trapper_plus/entities/refined/thin_leather/thin_leather.png",
+               "filter": "leather resource thin_leather"
+            },
+            "thin_scaly_leather": {
+               "ordinal": 2.99,
+               "display_name": "i18n(trapper_plus:entities.scaly_leather.display_name)",
+               "icon": "/trapper_plus/entities/refined/scaly_leather/scaly_leather.png",
+               "filter": "leather resource scaly_leather"
+            },
+            "leather": {
+               "ordinal": 3,
+               "display_name": "i18n(stonehearth:entities.refined.leather_bolt.display_name)",
+               "icon": "/stonehearth_ace/entities/refined/leather_bolt/leather_bolt.png",
+               "filter": "resource refined_leather leather standard"
+            },
+            "leather_scaly": {
+               "ordinal": 3.2,
+               "display_name": "i18n(trapper_plus:entities.scaly_leather_bolt.display_name)",
+               "icon": "/trapper_plus/entities/refined/scaly_leather_bolt/scaly_leather_bolt.png",
+               "filter": "resource scaly_leather_bolt"
+            },
+            "beeswax": {
+               "ordinal": 7.95,
+               "display_name": "i18n(trapper_plus:entities.resources.wax.beeswax.display_name)",
+               "icon": "/trapper_plus/entities/resources/wax/beeswax/beeswax.png",
+               "filter": "resource wax beeswax"
+            },
+            "wax_vegetable": {
+               "ordinal": 7.96,
+               "display_name": "i18n(trapper_plus:entities.resources.wax.wax_vegetable.display_name)",
+               "icon": "/trapper_plus/entities/resources/wax/wax_vegetable/wax_vegetable.png",
+               "filter": "resource wax wax_vegetable"
+            },
+            "wax_wool": {
+               "ordinal": 7.97,
+               "display_name": "i18n(trapper_plus:entities.resources.wax.wax_wool.display_name)",
+               "icon": "/trapper_plus/entities/resources/wax/wax_wool/wax_wool.png",
+               "filter": "resource wax wax_wool"
+            }
+         }
+      },
+      "healing_items": {
+         "categories": {
+            "soap": {
+               "ordinal": 14.2,
+               "display_name": "i18n(trapper_plus:entities.consumables.soap.display_name)",
+               "icon": "/trapper_plus/entities/consumables/soap/soap.png",
+               "filter": "soap healing_item"
+            }
+         }
+      },
       "cooking_ingredients": {
          "categories": {
-				"rendered_fat_tallow": {
+            "mixintypes": {
+               "any_rendered_fat": "remove",
+               "any_salt": "remove",
+               "seasoning": "remove"
+            },
+            "rendered_fat_tallow": {
                "ordinal": 2.453,
                "display_name": "i18n(trapper_plus:food.animal_fat_rendered_tallow.display_name)",
                "icon": "/trapper_plus/entities/food/animal_fat_rendered_tallow/animal_fat_rendered_tallow.png",

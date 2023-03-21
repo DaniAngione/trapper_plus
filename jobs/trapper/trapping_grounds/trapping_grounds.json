@@ -1,0 +1,9 @@
+{
+   "components": {
+      "stonehearth:trapping_grounds": {
+         "max_traps": 6,
+         "min_distance_between_traps": 6,
+         "check_traps_interval": "12h+6h"
+      }
+   }
+}

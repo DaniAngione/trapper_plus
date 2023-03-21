@@ -1,0 +1,261 @@
+{
+   "merchants": {
+      "salt_mine_shop_1": {
+         "category": "resources",
+         "population_role": "merchant",
+         "use_shop_description": true,
+         "equipment": [
+            "stonehearth_ace:outfits:merchant:labor_outfit",
+            "stonehearth_ace:outfits:merchant:labor_outfit:hat"
+         ],
+         "min_city_tier": 1,
+         "weight": 3,
+         "cooldown": 3,
+         "stall_model": "salt_mine_shop",
+         "shop": "/trapper_plus/data/gm/campaigns/trader/arcs/encounters/tier_1_shops/salt_mine_shop_1.json",
+         "shoptions": {
+            "max_wanted_items": 4,
+            "wanted_items": [
+               {
+                  "material": "containers furniture",
+                  "price_factor": 1.2,
+                  "max_quantity": 12,
+                  "chance": 0.9
+               },
+               {
+                  "material": "wood resource",
+                  "price_factor": 1.5,
+                  "max_quantity": 16,
+                  "chance": 0.6
+               },
+               {
+                  "uri": "stonehearth:containers:small_crate",
+                  "price_factor": 1.4,
+                  "max_quantity": 8,
+                  "chance": 0.4
+               },
+               {
+                  "material": "prepared_food",
+                  "price_factor": 1.4,
+                  "max_quantity": 18,
+                  "chance": 0.6
+               },
+               {
+                  "material": "healing_item",
+                  "price_factor": 1.25,
+                  "max_quantity": 10,
+                  "chance": 0.5
+               },
+               {
+                  "material": "summer_hat field_work_outfit civillian_equipment",
+                  "price_factor": 1.2,
+                  "max_quantity": 3,
+                  "chance": 0.6
+               },
+               {
+                  "material": "freezing_outfit field_work_outfit civillian_equipment",
+                  "price_factor": 1.2,
+                  "max_quantity": 3,
+                  "chance": 0.5
+               }
+            ]
+         },
+         "forbidden_weather": {
+            "stonehearth_ace:weather:sandy:drifts": true,
+            "stonehearth_ace:weather:snow:drifts": true,
+            "stonehearth_ace:weather:snow:early": true,
+            "stonehearth_ace:weather:snow:late": true,
+            "stonehearth:weather:snow": true,
+            "stonehearth:weather:snow:sunny": true
+         }
+      },
+      "salt_mine_shop_2": {
+         "category": "resources",
+         "population_role": "merchant",
+         "use_shop_description": true,
+         "equipment": [
+            "stonehearth_ace:outfits:merchant:labor_outfit",
+            "stonehearth_ace:outfits:merchant:miner_outfit:hat"
+         ],
+         "min_city_tier": 2,
+         "weight": 4,
+         "cooldown": 6,
+         "stall_model": "salt_mine_shop",
+         "shop": "/trapper_plus/data/gm/campaigns/trader/arcs/encounters/tier_2_shops/salt_mine_shop_2.json",
+         "shoptions": {
+            "rarity_weights": {
+               "common": 4
+            },
+            "max_wanted_items": 5,
+            "wanted_items": [
+               {
+                  "material": "containers furniture",
+                  "price_factor": 1.3,
+                  "max_quantity": 8,
+                  "chance": 0.9
+               },
+               {
+                  "material": "wood resource",
+                  "price_factor": 2,
+                  "max_quantity": 24,
+                  "chance": 0.6
+               },
+               {
+                  "uri": "stonehearth:containers:large_crate",
+                  "price_factor": 1.5,
+                  "max_quantity": 4,
+                  "chance": 0.4
+               },
+               {
+                  "uri": "stonehearth:containers:input_bin:iron",
+                  "price_factor": 1.8,
+                  "max_quantity": 6,
+                  "chance": 0.5
+               },
+               {
+                  "material": "prepared_food",
+                  "price_factor": 1.5,
+                  "max_quantity": 16,
+                  "chance": 0.6
+               },
+               {
+                  "material": "prepared_food baked",
+                  "price_factor": 1.65,
+                  "max_quantity": 4,
+                  "chance": 0.5
+               },
+               {
+                  "uri": "stonehearth_ace:tools:worker_tools_iron",
+                  "price_factor": 1.7,
+                  "max_quantity": 6,
+                  "chance": 0.5
+               },
+               {
+                  "material": "healing_item",
+                  "price_factor": 1.25,
+                  "max_quantity": 8,
+                  "chance": 0.5
+               },
+               {
+                  "material": "ingot hard_metal",
+                  "price_factor": 1.7,
+                  "max_quantity": 2,
+                  "chance": 0.6
+               },
+               {
+                  "material": "cloth resource",
+                  "price_factor": 1.5,
+                  "max_quantity": 12,
+                  "chance": 0.6
+               },
+               {
+                  "material": "summer_hat field_work_outfit civillian_equipment",
+                  "price_factor": 1.3,
+                  "max_quantity": 8,
+                  "chance": 0.6
+               },
+               {
+                  "material": "freezing_outfit field_work_outfit civillian_equipment",
+                  "price_factor": 1.2,
+                  "max_quantity": 8,
+                  "chance": 0.5
+               }
+            ]
+         }
+      },
+      "salt_mine_shop_3": {
+         "category": "resources",
+         "population_role": "merchant",
+         "use_shop_description": true,
+         "equipment": [
+            "stonehearth_ace:outfits:merchant:miner_outfit",
+            "stonehearth_ace:outfits:merchant:tier_3:outfit:hat"
+         ],
+         "min_city_tier": 3,
+         "weight": 5,
+         "cooldown": 14,
+         "stall_model": "salt_mine_shop",
+         "shop": "/trapper_plus/data/gm/campaigns/trader/arcs/encounters/tier_3_shops/salt_mine_shop_3.json",
+         "shoptions": {
+            "rarity_weights": {
+               "common": 3
+            },
+            "max_wanted_items": 6,
+            "wanted_items": [
+               {
+                  "material": "containers furniture",
+                  "price_factor": 1.4,
+                  "max_quantity": 16,
+                  "chance": 0.9
+               },
+               {
+                  "material": "wood resource",
+                  "price_factor": 2.5,
+                  "max_quantity": 18,
+                  "chance": 0.6
+               },
+               {
+                  "uri": "stonehearth:containers:large_crate",
+                  "price_factor": 1.6,
+                  "max_quantity": 10,
+                  "chance": 0.4
+               },
+               {
+                  "uri": "stonehearth:containers:input_bin:iron",
+                  "price_factor": 1.9,
+                  "max_quantity": 8,
+                  "chance": 0.5
+               },
+               {
+                  "material": "prepared_food",
+                  "price_factor": 1.6,
+                  "max_quantity": 12,
+                  "chance": 0.6
+               },
+               {
+                  "material": "prepared_food baked",
+                  "price_factor": 1.8,
+                  "max_quantity": 8,
+                  "chance": 0.5
+               },
+               {
+                  "uri": "stonehearth_ace:tools:worker_tools_iron",
+                  "price_factor": 1.8,
+                  "max_quantity": 4,
+                  "chance": 0.5
+               },
+               {
+                  "material": "healing_item",
+                  "price_factor": 1.25,
+                  "max_quantity": 6,
+                  "chance": 0.5
+               },
+               {
+                  "material": "ingot hard_metal",
+                  "price_factor": 1.8,
+                  "max_quantity": 4,
+                  "chance": 0.6
+               },
+               {
+                  "material": "cloth resource",
+                  "price_factor": 1.65,
+                  "max_quantity": 6,
+                  "chance": 0.6
+               },
+               {
+                  "material": "summer_hat field_work_outfit civillian_equipment",
+                  "price_factor": 1.4,
+                  "max_quantity": 6,
+                  "chance": 0.6
+               },
+               {
+                  "material": "freezing_outfit field_work_outfit civillian_equipment",
+                  "price_factor": 1.3,
+                  "max_quantity": 6,
+                  "chance": 0.5
+               }
+            ]
+         }
+      }
+   }
+}

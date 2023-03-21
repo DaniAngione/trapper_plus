@@ -5,6 +5,9 @@
 		},
 		"tannery": {
 			"recipes": {
+				"bundle_of_firewood": {
+					"recipe": "file(bundle_of_firewood_recipe.json)"
+				},
 				"trapper_tannin_chestnut": {
 					"recipe": "file(trapper_tannin_chestnut_recipe.json)"
 				}
@@ -34,6 +37,9 @@
 				},
 				"pemmican": {
 					"recipe": "file(pemmican_recipe.json)"
+				},
+				"soap": {
+					"recipe": "file(soap_recipe.json)"
 				}
 			}
 		},

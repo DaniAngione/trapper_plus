@@ -1,0 +1,7 @@
+{
+   "mixins": "/stonehearth_ace/jobs/carpenter/recipes/bundle_of_firewood_recipe.json",
+   "workshop":  "trapper_plus:trapper:block",
+   "work_effect": "chop_block",
+   "level_requirement": 0,
+   "ordinal": 0
+}

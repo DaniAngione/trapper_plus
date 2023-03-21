@@ -8,11 +8,15 @@
          "count": 1
       },
 		{
+         "uri": "stonehearth_ace:food:mayonnaise",
+         "count": 1
+      },
+		{
          "material": "honey cooking_ingredient",
          "count": 1
       },
 		{
-         "material": "seasoning",
+         "uri": "trapper_plus:food:salt_smoked",
          "count": 1
       }
    ]

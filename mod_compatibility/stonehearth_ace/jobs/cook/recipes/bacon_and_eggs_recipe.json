@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+	  "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "egg small cooking_ingredient",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:food:pork",
+         "count": 1
+      },
+		{
+         "material": "grease cooking_ingredient",
+         "count": 1
+      },
+      {
+         "material": "cooking_ingredient salt",
+         "count": 1
+      }
+   ]
+}

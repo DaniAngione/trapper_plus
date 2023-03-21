@@ -1,0 +1,27 @@
+{
+   "type": "index",
+   "stockpile": {
+      "mixintypes": {
+         "resources": "remove"
+      },
+      "resource_types": {
+         "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "rawhide": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:entities.rawhide.display_name)",
+               "icon": "/trapper_plus/entities/resources/rawhide/rawhide.png",
+               "filter": "needs_tanning rawhide"
+            },
+            "raw_skin": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:entities.raw_skin.display_name)",
+               "icon": "/trapper_plus/entities/resources/rawskin/rawskin.png",
+               "filter": "needs_tanning rawskin"
+            }
+         }
+      }
+   }
+}
