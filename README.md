@@ -83,8 +83,8 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 - The fish trap recipe has been removed from the Carpenter.
 - The "Pemmican" recipe now produces 6 items instead of 3.
 - The "Trapper's Campfire & Pot" recipe now requires an ingot of Iron.
-- Removed the filters for fresh pelts in priority storage (these were preventing the drying racks from being used). The filters are still present with ACE since it allows different priority on different storage.
 - (ACE) This requirement is "any hard metal" when using ACE.
+- Removed the filters for fresh pelts in priority storage (these were preventing the drying racks from being used). The filters are still present with ACE since it allows different priority on different storage.
 - The "Trapper's Campfire & Pot" will no longer have fire and light when in ghost form (still unplaced)
 - The "Tanning Tub" will no longer have its fumes when in ghost form (still unplaced)
 - The "Fresh Leather Stockpile" has been renamed "Thin Leather Stockpile" to avoid confusion with all the other "Fresh" stuff like pelts.

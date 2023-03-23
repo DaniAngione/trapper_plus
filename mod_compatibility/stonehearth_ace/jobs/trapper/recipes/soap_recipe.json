@@ -24,7 +24,7 @@
    ],
    "produces": [
       {
-         "item": "trapper_plus:consumable:soap"
+         "item": "trapper_plus:consumables:soap"
       }
    ]
 }
