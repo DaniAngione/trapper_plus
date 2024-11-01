@@ -390,6 +390,8 @@
          "stonehearth_ace/data/loadouts/ace_loadouts.json"
       ],
       "northern_alliance/data/loadouts/loadouts.json": "trapper_plus:loadouts:northern_alliance",
+      "swamp_goblins/data/loadouts/loadouts.json": "file(mod_compatibility/swamp_goblins/data/loadouts/loadouts.json)",
+      "kingdom_ex/data/loadouts/cp_loadouts.json": "file(mod_compatibility/kingdom_ex/data/loadouts/cp_loadouts.json)",
       "stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
       "archipelago_biome/data/biome/archipelago_generation_data.json": "file(data/biome/desert_generation_data.json)",
       "canyon_biome/data/biome/canyon_generation_data.json": "file(data/biome/desert_generation_data.json)",

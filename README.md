@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v2.0 for Stonehearth 1.1+
+v2.0.1 for Stonehearth 1.1+
 Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
@@ -52,6 +52,8 @@ Trapper+ has cross-functionality with the following mods:
 - Archipelago Biome : You can smoke and work with fish; Specific filters are included.
 - LostEms : Certain recipes are adapted to use some of the new Trapper+ resources.
 - Home Sweet Home : Certain recipes are adapted to use some of the new Trapper+ resources.
+- Swamp Biome + Firefly Clan + Beast Tamer : Updated the loadouts to not have jerky.
+- Church of Plenty : Updated the loadouts to not have jerky.
 	
 ## COMPATIBILITY
 
@@ -76,12 +78,20 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 
 ## CHANGELOG
 
+### November 1st, 2024 - v2.0.1
+- Fixed issue with broken "Any Thin Leather" resource on recipes.
+- Changed some recipes that previously specifically required Thin Leather to accept any Thin Leather.
+- Improved the icons for some leather resources on recipes.
+- Added support to the initial loadouts for "Firefly Clan" and "Church of Plenty"; They will no longer contain Jerky.
+- Fixed an issue that could be triggered when starting a game with Jerky.
+- Changed the regular bolt of leather to require non-scaly thin leather instead of any thin leather.
+
 ### October 31st, 2024 - v2.0
 #### KNOWN ISSUES
 - PT-BR translation is currently outdated and will remain so until some other features are updated. Sorry about that!
 - A couple of previously teased/mentioned features were proving to be difficult and didn't make the cut. They'll be here on an upcoming update: Sundrying, Drying Beams, Drying Racks.
 
-#### Changes
+#### CHANGES
 - This is a huge update for the mod, so we're calling it version 2.0! Many of the changes are unlisted here due to simply getting lost across complete reworks; The major points, however, are listed below.
 - The mod now utilizes the reworked and much more advanced/flexible "PASSIVE TRANSFORMER" component from Dani's Core Mod.
 - Added Snakes! This new creature will show up as a trappable animal but also as a possible foe from the "Forest" faction. Snakes have an unique poison effect that require special treatment provided by the Herbalist...

@@ -33,7 +33,7 @@
          "filter_list": "trapper_plus:input_box:thin_leather_rack_filters",
          "is_single_filter": true,
          "default_filter": [
-            "leather resource small"
+            "leather resource thin"
          ]
       },
       "effect_list": {

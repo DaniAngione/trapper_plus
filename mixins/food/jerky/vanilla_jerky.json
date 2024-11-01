@@ -17,7 +17,9 @@
             "min": 1,
             "max": 1
          },
-         "rotten_entity_alias": ""
+         "mixintypes": {
+            "rotten_entity_alias": "remove"
+         }
       },
       "stonehearth:catalog": {
          "display_name": "[Item Removed]",

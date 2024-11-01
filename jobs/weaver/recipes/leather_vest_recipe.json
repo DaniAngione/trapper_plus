@@ -7,7 +7,7 @@
 	},
    "ingredients": [
       {
-         "uri": "trapper_plus:refined:thin_leather",
+         "material": "leather resource thin",
          "count": 3
       },
       {
