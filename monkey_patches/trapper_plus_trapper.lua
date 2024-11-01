@@ -1,11 +1,14 @@
 local TrapperClass = require 'stonehearth.jobs.trapper.trapper'
 local BaseJob = require 'stonehearth.jobs.crafting_job'
+local log = radiant.log.create_logger('trapper_plus')
 
 -- Compatibility with ACE
 local AceTrapperClass = require 'stonehearth_ace.monkey_patches.ace_trapper'
 
 local TrapperPlusClass = class()
-local log = radiant.log.create_logger('trapper_plus')
+
+local TRAPPER_PLUS_HELPER_RECIPES = radiant.resources.load_json('trapper_plus:jobs:trapper:helper_recipes')
+
 radiant.mixin(TrapperPlusClass, BaseJob)
 if AceTrapperClass then
 	radiant.mixin(TrapperPlusClass, AceTrapperClass)
@@ -77,6 +80,17 @@ function TrapperPlusClass:_register_with_town()
    local town = stonehearth.town:get_town(player_id)
    if town then
       town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_siege_weapons)
+   end
+
+   -- Unlock recipes for other classes used by the trapper.
+   local helper_recipes = TRAPPER_PLUS_HELPER_RECIPES[stonehearth.population:get_population(player_id):get_kingdom()] or TRAPPER_PLUS_HELPER_RECIPES['stonehearth:kingdoms:ascendancy']
+   for job, recipe_keys in pairs(helper_recipes) do
+      local job_info = stonehearth.job:get_job_info(player_id, job)
+      for recipe_key, value in pairs(recipe_keys) do
+         if value then
+            job_info:manually_unlock_recipe(recipe_key, true)
+         end
+      end
    end
 end
 

@@ -6,6 +6,11 @@
             "models": [
                "file(trapper_campfire_pot.qb)"
             ]
+         },
+         "no_fuel": {
+            "models": [
+               "file(trapper_campfire_pot_no_fuel.qb)"
+            ]
          }
       },
       "render_info": {

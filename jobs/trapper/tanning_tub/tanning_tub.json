@@ -50,6 +50,9 @@
          "items": [
             "trapper_plus:equipment:tanning_tub"
          ]
+      },
+      "core_dani:passive_transformer": {
+         "type": "tanning_tub"
       }
    },
    "entity_data": {

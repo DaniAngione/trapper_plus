@@ -1,0 +1,34 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured_serving",
+      "trapper_plus:mixins:food:wild_meat_serving"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_varanus_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 68
+         },
+         "default": {
+            "satisfaction": 45
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_varanus_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "cured_varanus_serving"
+         ],
+         "subject_override": "trapper_plus:food:cured_varanus"
+      }
+   }
+}

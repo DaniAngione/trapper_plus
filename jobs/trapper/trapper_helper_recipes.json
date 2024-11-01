@@ -1,0 +1,17 @@
+{
+    "stonehearth:kingdoms:ascendancy": {
+        "stonehearth:jobs:trapper": {
+            "processors:smokehouse": true
+        }
+    },
+    "rayyas_children:kingdoms:rayyas_children": {
+        "stonehearth:jobs:trapper": {
+            "processors:rc_smokehouse": true
+        }
+    },
+    "northern_alliance:kingdoms:northern_alliance": {
+        "stonehearth:jobs:trapper": {
+            "processors:na_smokehouse": true
+        }
+    }
+}

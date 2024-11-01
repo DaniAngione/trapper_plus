@@ -6,7 +6,7 @@
    "description": "i18n(trapper_plus:trapper.campfire_pot.recipe_description)",
    "flavor": "i18n(trapper_plus:trapper.campfire_pot.flavor)",
    "portrait": "/trapper_plus/jobs/trapper/trapper_campfire_pot/trapper_campfire_pot.png",
-	"level_requirement": 2,
+	"level_requirement": 3,
    "work_effect": "work",
    "ingredients": [
 		{

@@ -1,0 +1,63 @@
+{
+   "type": "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "idle.json",
+         "loop": true
+      },
+      "base": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/smoking_pit/smoking_pit_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "embers": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/smoking_pit/smoking_pit_embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "base_embers": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/smoking_pit/smoking_pit_base_embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.1, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "smoke": {
+         "type": "cubemitter",
+         "loop" : true,
+         "cubemitter": "/trapper_plus/data/horde/particles/smoking_pit/smoking_pit_smoke.cubemitter.json",
+         "transforms": {
+            "x":0,
+            "y": 0,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 40,
+         "falloff": 2.5,
+         "volume": 30,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      }
+   }
+}

@@ -1,0 +1,97 @@
+{
+   "type": "entity",
+   "mixins": [
+      "file(smokehouse_simple_ghost.json)"
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(smokehouse_simple_unlit_iconic.json)",
+         "ghost_form": "file(smokehouse_simple_unlit_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": 0, "y": 0, "z": -2 },
+               "max": { "x": 1, "y": 2, "z": 2 }
+            }
+         ],
+         "adjacency_flags": [
+            "back"
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 5, "z": 2 }
+            }
+         ]
+      },
+      "model_variants": {
+         "selected": {
+            "models": [
+               "file(smokehouse_simple_selected.qb)"
+            ]
+         }
+      },
+      "stonehearth:storage": {
+         "type": "input_crate",
+         "capacity": 12,
+         "priority": 3,
+         "render_contents": true,
+         "allow_default": false,
+         "filter_list": "trapper_plus:input_box:smokehouse_filters",
+         "is_single_filter": false
+      },
+      "sensor_list": {
+         "sensors": {
+            "door_sensor": {
+               "type": "sensor",
+               "radius": 3
+            }
+         }
+      },
+      "core_dani:opening_container": {
+         "sensor": "door_sensor"
+      },
+      "core_dani:passive_transformer": {
+         "type": "smokehouse_simple",
+         "paused": true
+      },
+      "core_dani:entity_cutaway": {},
+      "stonehearth_ace:transform": {}
+   },
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "transform_uri": "trapper_plus:trapper:smokehouse_simple",
+         "command": "trapper_plus:commands:transform:smokehouse",
+         "request_action": "stonehearth_ace:transform",
+         "request_action_overlay_effect": "trapper_plus:effects:transform_trapper_overlay_effect",
+         "transform_ingredient_material": "common_fuel",
+         "transforming_worker_effect": "light_fire",
+         "transforming_worker_effect_times": 1,
+         "auto_request": true,
+         "transform_effect": "stonehearth:effects:item_created",
+         "worker_required_job": {
+            "stonehearth:jobs:worker": true,
+            "stonehearth:jobs:trapper": true
+         },
+         "transform_script": "core_dani:scripts:ace_transform_lib_additions"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

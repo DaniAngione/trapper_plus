@@ -1,12 +1,50 @@
 {
-   "mixins": "trapper_plus:mixins:food:smoked_fish_meat",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked",
+      "trapper_plus:mixins:food:fish_meat"
+   ],
    "type": "entity",
-   "components": {},
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_fish_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(smoked_fish_meat_rotting.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      }
+   },
    "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:smoked_fish_meat:smoked_fish_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:fish_meat"
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.smoked_fish_meat.display_name)",
+         "description": "i18n(trapper_plus:food.smoked_fish_meat.description)",
+         "icon": "file(smoked_fish_meat.png)",
          "material_tags": [
-            "fish"
+            "fish_meat",
+            "cooking_ingredient"
          ]
       }
    }

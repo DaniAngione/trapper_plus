@@ -1,0 +1,107 @@
+{
+   "components": {
+      "stonehearth_ace:market_stall": {
+         "stall_models": {          
+            "salt_mine_shop_3": {
+               "model_data": [
+                  {
+                     "model": "file(shop/signs/salt_mine.qb)",
+                     "matrix": "Tier3",
+                     "scale": 0.1,
+                     "offset": { "x": -9, "y": -14, "z": 30 }
+                  },
+                  {
+                     "model": "file(shop/tier_3/salt_mine_shop.qb)",
+                     "matrix": "Shop",
+                     "scale": 0.1,
+                     "offset": { "x": 28, "y": 0, "z": 26 }
+                  }
+               ],
+               "entity_points": [
+                  {
+                     "bone_name": "goodsFrontRow3"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow4"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow5"
+                  },
+                  {
+                     "bone_name": "goodsMidRow3"
+                  },
+                  {
+                     "bone_name": "goodsMidRow4"
+                  }
+               ]
+            },
+            "salt_mine_shop_2": {
+               "model_data": [
+                  {
+                     "model": "file(shop/signs/salt_mine.qb)",
+                     "matrix": "Tier2",
+                     "scale": 0.1,
+                     "offset": { "x": -10, "y": -16, "z": 30 }
+                  },
+                  {
+                     "model": "file(shop/tier_3/salt_mine_shop.qb)",
+                     "matrix": "Shop",
+                     "scale": 0.1,
+                     "offset": { "x": 28, "y": 0, "z": 26 }
+                  }
+               ],
+               "entity_points": [
+                  {
+                     "bone_name": "goodsFrontRow3"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow4"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow5"
+                  },
+                  {
+                     "bone_name": "goodsMidRow3"
+                  },
+                  {
+                     "bone_name": "goodsMidRow4"
+                  }
+               ]
+            },
+            "salt_mine_shop_1": {
+               "model_data": [
+                  {
+                     "model": "file(shop/signs/salt_mine.qb)",
+                     "matrix": "Tier1",
+                     "scale": 0.1,
+                     "offset": { "x": -11, "y": -18, "z": 30 }
+                  },
+                  {
+                     "model": "file(shop/tier_3/salt_mine_shop.qb)",
+                     "matrix": "Shop",
+                     "scale": 0.1,
+                     "offset": { "x": 28, "y": 0, "z": 26 }
+                  }
+               ],
+               "entity_points": [
+                  {
+                     "bone_name": "goodsFrontRow3"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow4"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow5"
+                  },
+                  {
+                     "bone_name": "goodsMidRow3"
+                  },
+                  {
+                     "bone_name": "goodsMidRow4"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

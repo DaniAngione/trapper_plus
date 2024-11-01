@@ -1,0 +1,49 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(saltbush_bundle_dry.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 120
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle_dry.display_name)",
+         "description": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle_dry.description)",
+         "icon": "file(saltbush_bundle_dry.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "thatch",
+            "resource",
+            "plant",
+            "saltbush",
+            "dry",
+            "stockpile_plant"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -3
+      }
+   }
+}

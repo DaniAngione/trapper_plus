@@ -1,5 +1,5 @@
 {
-   "mixins": "trapper_plus:mixins:resources:fresh_small_pelt",
+   "mixins": "trapper_plus:mixins:resources:fresh_pelt_small",
    "type": "entity",
    "components": {
       "mixintypes": {
@@ -21,14 +21,16 @@
          "display_name": "i18n(trapper_plus:entities.fresh_squirrel_pelt.display_name)",
          "icon": "file(fresh_squirrel_pelt.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
             "squirrel"
          ]
       },
-      "core_dani:cooling": {
-         "cool_entity_alias": "trapper_plus:resources:fresh_squirrel_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:squirrel_pelt"
+      "core_dani:passive_transform": {
+         "processes": {
+            "pelt_drying": {
+               "result": "stonehearth:resources:squirrel_pelt"
+            }
+         }
       }
    }
 }

@@ -1,0 +1,25 @@
+{
+   "entity_data": {
+      "stonehearth:catalog": {
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": [
+            "archipelago_made",
+				"mermaid_radar",
+				"stockpile_cooking_ingredient",
+				"cooking_ingredient",
+				"meat",
+				"raw",
+				"animal_ingredient",
+				"meat_ingredient",
+            "hangable",
+            "smokehouse_curable",
+            "salt_box_curable",
+            "fish",
+            "piece",
+            "whole"
+         ]     
+      }
+   }
+}

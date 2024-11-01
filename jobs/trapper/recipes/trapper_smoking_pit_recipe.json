@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:trapper.smoking_pit.recipe_display_name)",
+   "description": "i18n(trapper_plus:trapper.smoking_pit.recipe_description)",
+   "flavor": "i18n(trapper_plus:trapper.smoking_pit.flavor)",
+   "portrait": "/trapper_plus/jobs/trapper/trapper_smoking_pit/trapper_smoking_pit.png",
+	"level_requirement": 1,
+   "work_effect": "work",
+   "ingredients": [
+		{
+         "material": "stone resource",
+         "count": 2
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+		{
+         "material": "fiber resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:trapper:smoking_pit"
+      }
+   ]
+}

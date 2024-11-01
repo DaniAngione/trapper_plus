@@ -1,7 +1,14 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "override"
+         },
+         "default_filter": [
+            "leather resource thin_leather",
+            "leather resource scaly_leather"
+         ]
       }
    },
    "entity_data": {}

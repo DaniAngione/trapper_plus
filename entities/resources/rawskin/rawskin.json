@@ -34,14 +34,17 @@
             "raw_skin"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 22,
-            "max": 28
-         },
-         "cool_entity_alias": "trapper_plus:resources:rawskin",
-         "proper_cool_entity_alias": "trapper_plus:refined:scaly_leather",
-         "proper_cooler_alias": "trapper_plus:trapper:tanning_tub"
+      "core_dani:passive_transform": {
+         "type": "rawskin",
+         "processes": {
+            "leather_tanning": {
+               "result": "trapper_plus:refined:scaly_leather",
+               "progress_required": {
+                  "min": 23,
+                  "max": 28
+               }
+            }
+         }
       },
       "stonehearth:appeal": {
          "appeal": -3

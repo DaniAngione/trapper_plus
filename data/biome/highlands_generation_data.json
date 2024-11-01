@@ -12,5 +12,28 @@
 		"winter" : {
 			"salt": "#EBE6DB"
 		}
+	},
+	"landscape": {
+      "placement_table": {
+         "trapper_plus:plants:saltbush": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.3,
+               "exclusion_radius": 2
+            }
+         }
+      },
+		"scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.45
+                  }
+               }
+            }
+         }
+      }
 	}
 }

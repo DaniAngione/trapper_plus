@@ -3,6 +3,14 @@
    "task_groups": [
       "stonehearth:task_groups:crafting"
    ],
+   "proficiency_category_stats": {
+      "frontier": "trapper_frontier",
+      "boiling": "trapper_refiner",
+      "curing": "trapper_refiner",
+      "butchery": "trapper_refiner",
+      "tanning": "trapper_refiner",
+      "decorations": "decorations"
+   },
    "crafter": {
       "work_effect": "fiddle",
       "recipe_list": "/trapper_plus/jobs/trapper/recipes/recipes.json"

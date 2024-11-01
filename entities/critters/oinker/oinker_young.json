@@ -1,0 +1,47 @@
+{
+   "components": {
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_oinker_meat",
+                     "weight": 1
+                  },
+                  "skin": {
+                     "uri": "trapper_plus:resources:fresh_oinker_pelt",
+                     "weight": 1
+                  },
+                  "fat": {
+                     "roll_type": "some_of",
+                     "num_rolls": {
+                        "min": 0,
+                        "max": 1
+                     },
+                     "items": {
+                        "meat": {
+                           "uri": "trapper_plus:resources:animal_fat",
+                           "weight": 1
+                        }
+                     }
+                  },
+                  "bacon": {
+                     "roll_type": "some_of",
+                     "num_rolls": {
+                        "min": 0,
+                        "max": 1
+                     },
+                     "items": {
+                        "meat": {
+                           "uri": "trapper_plus:raw_bacon",
+                           "weight": 1
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {}
+}

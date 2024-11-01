@@ -28,9 +28,10 @@
          "category": "refined",
          "material_tags": [
             "leather",
-            "small",
-            "scaly_leather",
+            "thin",
+            "scaly",
             "resource",
+            "refined",
             "refined_leather",
             "stockpile_refined_weaver"
          ]

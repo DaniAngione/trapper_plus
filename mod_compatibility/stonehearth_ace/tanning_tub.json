@@ -1,14 +1,22 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "override"
+         },
+         "default_filter": [
+            "needs_tanning rawhide",
+            "needs_tanning raw_skin",
+            "needs_tanning pelt oinker"
+         ]
       },
       "stonehearth:evolve": {}
    },
    "entity_data": {
       "stonehearth:evolve_data": {
          "next_stage": "trapper_plus:trapper:tanning_tub:water",
-         "evolve_time": "1d+36h"
+         "evolve_time": "2d+6h"
       }
    }
 }

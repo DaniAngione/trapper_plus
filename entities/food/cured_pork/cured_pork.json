@@ -1,0 +1,51 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured",
+      "trapper_plus:mixins:food:red_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_pork.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:cured_pork:cured_pork_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 19,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_pork.display_name)",
+         "description": "i18n(trapper_plus:food.cured_pork.description)",
+         "icon": "file(cured_pork.png)",
+         "material_tags": [
+            "cured_pork"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth:food:rotten:pork_meat"
+      }
+   }
+}

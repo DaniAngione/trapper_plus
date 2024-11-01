@@ -3,7 +3,18 @@
       "stonehearth:trapping_grounds": {
          "max_traps": 6,
          "min_distance_between_traps": 6,
-         "check_traps_interval": "12h+6h"
+         "check_traps_interval": "20h+6h",
+         "trappable_animal_weights": {
+				"critters": {
+               "trapper_plus:monsters:forest:snake": 60
+            },
+            "medium": {
+					"trapper_plus:monsters:forest:snake": 40
+            },
+            "exotic": {
+               "trapper_plus:monsters:forest:snake": 85
+            }
+         }
       }
    }
 }

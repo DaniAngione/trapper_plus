@@ -1,7 +1,23 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "override"
+         },
+         "default_filter": [
+            "pelt red_fox",
+            "pelt boar",
+            "pelt cougar",
+            "pelt deer",
+            "pelt wolf",
+            "pelt varanus",
+            "pelt zilla",
+            "pelt moomoo",
+            "pelt wild_cattle",
+            "pelt bear",
+            "pelt oinker"
+         ]
       }
    },
    "entity_data": {}

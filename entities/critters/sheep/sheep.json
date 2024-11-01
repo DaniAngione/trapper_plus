@@ -2,6 +2,7 @@
    "components": {
       "stonehearth:resource_node": {
          "resource_spawn_effect": "stonehearth:effects:gib_effect",
+         "harvestable_by_harvest_tool": false,
          "resource_loot_table": {
             "entries": {
                "jerky": {

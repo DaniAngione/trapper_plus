@@ -1,0 +1,37 @@
+{
+   "type": "recipe",
+   "effort": 45,
+   "work_units": 5,
+   "recipe_name": "i18n(trapper_plus:entities.consumables.antidote_snake.recipe_name)",
+   "description": "i18n(trapper_plus:entities.consumables.antidote_snake.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.consumables.antidote_snake.recipe_flavor)",
+   "portrait": "/trapper_plus/entities/consumables/antidote_snake/antidote_snake.png",
+   "workshop": "stonehearth_ace:herbalist:cauldron",
+	"work_effect": "fiddle",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "trapper_plus:resources:bone:fang_snake",
+         "count": 1
+      },
+      {
+         "material": "herb noxious resource",
+         "count": 1
+      },
+		{
+         "material": "herb mild resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:consumables:antidote_snake"
+      },
+      {
+         "item": "trapper_plus:consumables:antidote_snake"
+      },
+      {
+         "item": "trapper_plus:consumables:antidote_snake"
+      }
+   ]
+}

@@ -1,0 +1,38 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(trapper_smoking_pit.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "animation_table": "/trapper_plus/data/rigs/jobs/trapper/smoking_pit/smoking_pit.json"
+      },
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "effect_list": {
+         "effects": [
+            "/trapper_plus/data/rigs/jobs/trapper/smoking_pit/effects/idle_unlit.json"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.smoking_pit.display_name)",
+         "description": "i18n(trapper_plus:trapper.smoking_pit.unlit_description)",
+         "icon": "file(trapper_smoking_pit.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool",
+            "passive_transformer",
+            "smoking_pit"
+         ]
+      }
+   }
+}

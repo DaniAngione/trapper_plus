@@ -1,5 +1,7 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked_serving"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -11,27 +13,20 @@
       }
    },
    "entity_data": {
-      "stonehearth:item": {
-         "category": "food",
-         "destroy_on_uncarry": true
-      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 50
          },
          "default": {
             "satisfaction": 40
-         },
-         "quality": 4
+         }
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:entities.food.smoked_nuts_serving.display_name)",
          "description": "",
          "material_tags": [
-            "food",
             "nuts",
-            "vegetarian",
-            "dinner_time"
+            "vegetarian"
          ],
          "subject_override": "trapper_plus:food:smoked_nuts_basket"
       }

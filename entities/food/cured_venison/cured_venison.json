@@ -1,0 +1,51 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured",
+      "trapper_plus:mixins:food:wild_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_venison.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:cured_venison:cured_venison_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 17,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_venison.display_name)",
+         "description": "i18n(trapper_plus:food.cured_venison.description)",
+         "icon": "file(cured_venison.png)",
+         "material_tags": [
+            "cured_venison"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth:food:rotten:venison_meat"
+      }
+   }
+}

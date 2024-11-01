@@ -1,0 +1,50 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:smoked",
+      "trapper_plus:mixins:food:fish_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_big_fish.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:smoked_big_fish:smoked_big_fish_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 12,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_big_fish.display_name)",
+         "description": "i18n(trapper_plus:food.smoked_big_fish.description)",
+         "icon": "file(smoked_big_fish.png)",
+         "material_tags": [
+            "big",
+            "big_fish_cooked",
+            "smoked_big_fish"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "archipelago_biome:food:big_fish:rotten"
+      }
+   }
+}

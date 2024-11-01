@@ -28,8 +28,9 @@
          "category": "refined",
          "material_tags": [
             "leather",
-            "small",
-            "thin_leather",
+            "thin",
+            "standard",
+            "refined",
             "resource",
             "refined_leather",
             "stockpile_refined_weaver"

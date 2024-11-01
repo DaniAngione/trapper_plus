@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": "trapper_plus:mixins:food:smoked",
    "type": "entity",
    "components": {
       "model_variants": {
@@ -13,14 +13,12 @@
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       },
       "stonehearth:stacks": {
-         "max_stacks": 2
+         "max_stacks": 3
       }
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:almond:smoked_almond_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:almond:smoked_almond_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 10,
@@ -34,20 +32,14 @@
          "display_name": "i18n(trapper_plus:entities.food.almond.smoked_almond_basket.display_name)",
          "description": "i18n(trapper_plus:entities.food.almond.smoked_almond_basket.description)",
          "icon": "file(smoked_almond_basket.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "stockpile_prepared_food",
-            "prepared_food",
-            "smoked",
+            "vegetarian",
             "almond",
-            "nuts",
-            "dinner_time"
+            "nuts"
          ]
       },
-      "stonehearth:appeal": {
-         "appeal": 4
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:basket_nuts"
       }
    }
 }

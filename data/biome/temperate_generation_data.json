@@ -21,5 +21,41 @@
 		"wet" : {
 			"salt": "#EBE6DB"
 		}
+	},
+	"landscape": {
+      "placement_table": {
+         "trapper_plus:plants:saltbush": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.2,
+               "exclusion_radius": 3
+            }
+         }
+      },
+		"scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.5
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.9
+                  },
+                  "2": {
+                     "trapper_plus:plants:saltbush": 0.6
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.1
+                  }
+               }
+            }
+         }
+      }
 	}
 }

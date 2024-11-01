@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:data.buffs.red_meat.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.red_meat.description)",
+   "icon": "file(red_meat_buff.png)",
+   "duration": "12h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "willpower": {
+         "multiply": 1.1
+      },
+      "courage": {
+         "multiply": 1.1
+      }
+   }
+}

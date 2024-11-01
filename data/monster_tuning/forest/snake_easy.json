@@ -1,0 +1,32 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 1,
+   "scale": 0.12,
+   "attributes": {
+      "max_health": 75,
+      "muscle": 3,
+      "menace": 46,
+      "courage": 80,
+      "speed": 48,
+      "additive_armor_modifier": 1,
+      "exp_reward": 11
+   },
+   "equipment": {
+      "weapon": [
+         "trapper_plus:weapons:animals:weak_snake_teeth"
+      ]
+   },
+   "stonehearth:loot_drops": {
+      "entries": {
+         "default": {
+            "items": {
+               "skin": {
+                  "type": "bag",
+                  "uri": "trapper_plus:loot_bag:snake_default",
+                  "weight": 1
+               }
+            }
+         }
+      }
+   }
+}

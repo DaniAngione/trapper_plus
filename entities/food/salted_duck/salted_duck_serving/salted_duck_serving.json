@@ -1,0 +1,34 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:salted_serving",
+      "trapper_plus:mixins:food:white_meat_serving"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(salted_duck_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 55
+         },
+         "default": {
+            "satisfaction": 40
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.salted_duck_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "salted_duck_serving"
+         ],
+         "subject_override": "trapper_plus:food:salted_duck"
+      }
+   }
+}

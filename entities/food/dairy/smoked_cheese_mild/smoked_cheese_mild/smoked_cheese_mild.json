@@ -1,5 +1,7 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -18,9 +20,7 @@
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:dairy:smoked_cheese_mild:smoked_cheese_mild_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:dairy:smoked_cheese_mild:smoked_cheese_mild_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 38,
@@ -34,24 +34,20 @@
          "display_name": "i18n(trapper_plus:entities.food.dairy.smoked_cheese_mild.smoked_cheese_mild.display_name)",
          "description": "i18n(trapper_plus:entities.food.dairy.smoked_cheese_mild.smoked_cheese_mild.description)",
          "icon": "file(smoked_cheese_mild.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "prepared_food",
             "cheese_mild",
-            "smoked",
             "dairy",
-            "cheese",
-            "stockpile_prepared_food",
-            "dinner_time"
+            "cheese"
          ]
       },
       "stonehearth:appeal": {
          "appeal": 9
       },
-      "stonehearth:item_quality": {
-         "variable_quality": true
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 700,
+            "max": 900
+         }
       }
    }
 }

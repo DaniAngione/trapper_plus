@@ -32,8 +32,9 @@
          "category": "refined",
          "material_tags": [
             "leather",
-            "scaly_leather_bolt",
+            "scaly",
             "bolt",
+            "refined",
             "resource",
             "refined_leather",
             "stockpile_refined_weaver"

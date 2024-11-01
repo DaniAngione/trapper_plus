@@ -1,0 +1,34 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "category": "consumption_preservation",
+   "unique_in_category": true,
+   "rank": 1,
+   "display_name": "i18n(trapper_plus:data.buffs.salty_flavors.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.salty_flavors.description)",
+   "icon": "file(salty_flavors_buff.png)",
+   "duration": "6h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "inspiration": {
+         "add": -2
+      },
+      "willpower": {
+         "add": 20
+      },
+      "stamina": {
+         "add": 20
+      },
+      "drink_satiety_loss_multiplier": {
+         "multiply": 1.2
+      }
+   },
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": 0.03,
+      "pulse": "30m",
+      "pulse_immediately": false,
+      "pulse_on_destroy": true,
+      "is_percentage": true
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "components": {
+      "stonehearth:resource_node": {
+         "category": "plucking"
+      }
+   },
+   "entity_data": {
+      "stonehearth_ace:replant_data": {
+         "seed_alias": "trapper_plus:plants:saltbush:seed"
+      }
+   }
+}

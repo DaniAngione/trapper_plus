@@ -1,4 +1,5 @@
 {
+   "recipe_name": "i18n(trapper_plus:food.sausage.cook_recipe_name)",
    "mixintypes": {
 		"ingredients": "override"
 	},
@@ -7,13 +8,28 @@
          "material": "bits meat raw",
          "count": 3
       },
+		{
+         "material": "animal_fat_rendered cooking_ingredient",
+         "count": 1
+      },
 	   {
          "material": "seasoning",
-         "count": 2
+         "count": 1
       },
 	   {
          "material": "fiber resource",
          "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:sausage"
+      },
+      {
+         "item": "stonehearth:food:sausage"
+      },
+      {
+         "item": "stonehearth:food:sausage"
       }
    ]
 }

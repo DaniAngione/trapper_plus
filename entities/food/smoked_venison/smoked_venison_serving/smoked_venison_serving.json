@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked_serving",
+      "trapper_plus:mixins:food:wild_meat_serving"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -11,27 +14,19 @@
       }
    },
    "entity_data": {
-      "stonehearth:item": {
-         "category": "food",
-         "destroy_on_uncarry": true
-      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 80
          },
          "default": {
             "satisfaction": 70
-         },
-         "quality": 5
+         }
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.smoked_venison.serving_display_name)",
          "description": "",
          "material_tags": [
-            "food",
-            "smoked_venison_serving",
-            "meat",
-            "lunch_time"
+            "smoked_venison_serving"
          ],
          "subject_override": "trapper_plus:food:smoked_venison"
       }

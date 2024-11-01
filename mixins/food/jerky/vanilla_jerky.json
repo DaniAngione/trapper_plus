@@ -1,0 +1,33 @@
+{
+   "type": "data",
+   "entity_data": {
+      "mixintypes": {
+         "stonehearth:food": "remove"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 1,
+            "max": 1
+         },
+         "rotten_entity_alias": ""
+      },
+      "stonehearth:catalog": {
+         "display_name": "[Item Removed]",
+         "description": "",
+         "is_item": true,
+         "category": "uncategorized",
+         "mixintypes": {
+            "material_tags": "override"
+         },
+         "material_tags": []
+      }
+   }
+}

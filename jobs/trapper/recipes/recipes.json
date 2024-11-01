@@ -21,9 +21,21 @@
             },
 				"trapper_campfire_pot": {
                "recipe": "file(trapper_campfire_pot_recipe.json)"
-            },
+            }
+         }
+      },
+		"processors": {
+         "ordinal": 2,
+         "name": "i18n(trapper_plus:trapper.recipes.processors_name)",
+         "recipes": {
+				"trapper_smoking_pit": {
+					"recipe": "file(trapper_smoking_pit_recipe.json)"
+				},
 				"smokehouse": {
 					"recipe": "file(smokehouse_recipe.json)"
+				},
+				"smokehouse_simple": {
+					"recipe": "file(smokehouse_simple_recipe.json)"
 				},
 				"rc_smokehouse": {
 					"recipe": "file(rc_smokehouse_recipe.json)"
@@ -36,8 +48,23 @@
 				}
          }
       },
-		"tannery": {
+		"frontier": {
 			"ordinal": 5,
+			"name": "i18n(trapper_plus:trapper.recipes.frontier_name)",
+			"recipes": {
+				"bug_meat_soup": {
+					"recipe": "file(bug_meat_soup_recipe.json)"
+				},
+				"pemmican": {
+					"recipe": "file(pemmican_recipe.json)"
+				},
+				"sausage_recipe": {
+					"recipe": "file(sausage_recipe.json)"
+				}
+			}
+		},
+		"tannery": {
+			"ordinal": 6,
 			"name": "i18n(trapper_plus:trapper.recipes.tannery_name)",
 			"recipes": {
 				"clean_pelt": {
@@ -58,7 +85,7 @@
 			}
 		},
 		"butchering": {
-			"ordinal": 6,
+			"ordinal": 7,
 			"name": "i18n(trapper_plus:trapper.recipes.butchering_name)",
 			"recipes": {
 				"slice_venison": {
@@ -79,42 +106,36 @@
 				"slice_varanus": {
 					"recipe": "file(slice_varanus_recipe.json)"
 				},
-				"sausage_recipe": {
-					"recipe": "file(sausage_recipe.json)"
-				},
 				"slice_animal_fat": {
 					"recipe": "file(slice_animal_fat_recipe.json)"
 				}
 			}
 		},	
 		"curing": {
-			"ordinal": 7,
+			"ordinal": 8,
 			"name": "i18n(trapper_plus:trapper.recipes.curing_name)",
 			"recipes": {}
 		},
 		"boiling": {
-			"ordinal": 8,
+			"ordinal": 9,
 			"name": "i18n(trapper_plus:trapper.recipes.boiling_name)",
 			"recipes": {
-				"bug_meat_soup": {
-					"recipe": "file(bug_meat_soup_recipe.json)"
-				},
 				"rendered_animal_fat": {
 					"recipe": "file(rendered_animal_fat_recipe.json)"
 				},
 				"rendered_animal_fat_lard": {
 					"recipe": "file(rendered_animal_fat_lard_recipe.json)"
 				},
-				"pemmican": {
-					"recipe": "file(pemmican_recipe.json)"
-				},
 				"wax_wool": {
 					"recipe": "file(wax_wool_recipe.json)"
+				},
+				"fine_salt": {
+					"recipe": "file(fine_salt_recipe.json)"
 				}
 			}
 		},
       "storage": {
-         "ordinal": 10,
+         "ordinal": 15,
          "name": "i18n(trapper_plus:trapper.recipes.storage_name)",
          "recipes": {
 				"input_rack_pelt_large": {

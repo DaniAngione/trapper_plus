@@ -1,7 +1,8 @@
 {
    "static": {
       "scenarios": [
-         "file(static/terrain/rock_salt_vein)"
+         "file(static/terrain/rock_salt_vein)",
+         "file(static/snake_nest)"
       ],
       "categories": {}
    },

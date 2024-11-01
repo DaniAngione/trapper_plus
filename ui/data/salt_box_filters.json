@@ -8,7 +8,7 @@
             "everything": {
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:data.filters.everything)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_all_curables.png",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_all_curables.png",
                "filter": "salt_box_curable"
             }
          }
@@ -21,25 +21,25 @@
             "raw_small_meat": {
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_small)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_small_raw.png",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_small_raw.png",
                "filter": "small meat raw salt_box_curable"
             },
             "raw_big_meat": {
                "ordinal": 2,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_big_raw.png",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_big_raw.png",
                "filter": "large meat raw salt_box_curable"
             },
             "sausages": {
                "ordinal": 3,
                "display_name": "i18n(trapper_plus:data.filters.raw_sausage)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_raw_sausage.png",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_raw_sausage.png",
                "filter": "sausage salt_box_curable"
             },
             "raw_meat_piece": {
                "ordinal": 4,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat_piece)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/stockpile_piece_raw.png",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_piece_raw.png",
                "filter": "piece meat raw salt_box_curable"
             }
          }
@@ -49,137 +49,143 @@
          "filter": "resources",
          "ordinal": 3,
          "categories": {
-            "mutton_meat": {
-               "ordinal": 9,
-               "display_name": "i18n(trapper_plus:food.raw_mutton_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
-               "filter": "mutton raw_jerky"
-            },
-            "pork_meat": {
-               "ordinal": 10,
-               "display_name": "i18n(trapper_plus:food.raw_pork_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
-               "filter": "pork raw_jerky"
-            },
-            "poultry_meat": {
-               "ordinal": 7,
-               "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
-               "filter": "poultry raw_jerky"
-            },
-            "poyo_meat": {
-               "ordinal": 6,
-               "display_name": "i18n(trapper_plus:food.raw_poyo_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
-               "filter": "poyo raw_jerky"
-            },
-            "ostrich_meat": {
-               "ordinal": 5,
-               "display_name": "i18n(trapper_plus:food.raw_ostrich_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
-               "filter": "ostrich raw_jerky"
-            },
-            "duckduck_meat": {
-               "ordinal": 4,
-               "display_name": "i18n(trapper_plus:food.raw_duckduck_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_white_meat/raw_white_meat.png",
-               "filter": "duckduck raw_jerky"
-            },
-            "boar_meat": {
-               "ordinal": 11,
-               "display_name": "i18n(trapper_plus:food.raw_boar_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
-               "filter": "boar raw_jerky"
-            },
-            "deer_meat": {
-               "ordinal": 12,
-               "display_name": "i18n(trapper_plus:food.raw_deer_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
-               "filter": "deer raw_jerky"
-            },
-            "rabbit_meat": {
-               "ordinal": 2,
-               "display_name": "i18n(trapper_plus:food.raw_rabbit_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
-               "filter": "rabbit raw_jerky"
-            },
-            "racoon_meat": {
-               "ordinal": 3,
-               "display_name": "i18n(trapper_plus:food.raw_racoon_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
-               "filter": "racoon raw_jerky"
-            },
-            "red_fox_meat": {
-               "ordinal": 8,
-               "display_name": "i18n(trapper_plus:food.raw_red_fox_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
-               "filter": "fox raw_jerky"
-            },
-            "wolf_meat": {
-               "ordinal": 11.1,
-               "display_name": "i18n(trapper_plus:food.raw_wolf_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
-               "filter": "wolf raw_jerky"
-            },
-            "squirrel_meat": {
+            "raw_squirrel_meat": {
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:food.raw_squirrel_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
-               "filter": "squirrel raw_jerky"
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_squirrel_meat/raw_squirrel_meat.png",
+               "filter": "salt_box_curable squirrel raw meat"
             },
-            "varanus_meat": {
+            "raw_rabbit_meat": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:food.raw_rabbit_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_rabbit_meat/raw_rabbit_meat.png",
+               "filter": "salt_box_curable rabbit standard raw meat"
+            },
+            "raw_racoon_meat": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:food.raw_racoon_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_racoon_meat/raw_racoon_meat.png",
+               "filter": "salt_box_curable racoon raw meat"
+            },
+            "raw_red_fox_meat": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:food.raw_red_fox_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_fox_meat/raw_red_fox_meat.png",
+               "filter": "salt_box_curable fox raw meat"
+            },
+            "raw_domestic_sheep_meat": {
+               "ordinal": 12,
+               "display_name": "i18n(trapper_plus:food.raw_domestic_sheep_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_domestic_sheep_meat/raw_domestic_sheep_meat.png",
+               "filter": "salt_box_curable sheep domestic raw meat"
+            },
+            "raw_duckduck_meat": {
                "ordinal": 13,
-               "display_name": "i18n(trapper_plus:food.raw_varanus_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_small_meat/raw_small_meat.png",
-               "filter": "varanus raw_jerky"
+               "display_name": "i18n(trapper_plus:food.raw_duckduck_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_duckduck_meat/raw_duckduck_meat.png",
+               "filter": "salt_box_curable duckduck raw meat"
             },
-            "venison_meat": {
+            "raw_ostrich_meat": {
                "ordinal": 14,
-               "display_name": "i18n(trapper_plus:food.raw_venison_meat.display_name)",
-               "icon": "/trapper_plus/mixins/resources/raw_meat/raw_meat.png",
-               "filter": "venison raw_jerky"
+               "display_name": "i18n(trapper_plus:food.raw_ostrich_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_ostrich_meat/raw_ostrich_meat.png",
+               "filter": "salt_box_curable ostrich raw meat"
             },
-            "mutton": {
-               "ordinal": 30,
-               "display_name": "i18n(stonehearth:entities.food.mutton.display_name)",
-               "icon": "/stonehearth/entities/food/mutton/mutton.png",
-               "filter": "raw piece mutton"
+            "raw_deer_meat": {
+               "ordinal": 15,
+               "display_name": "i18n(trapper_plus:food.raw_deer_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_deer_meat/raw_deer_meat.png",
+               "filter": "salt_box_curable deer raw meat"
             },
-            "pork": {
+            "raw_boar_meat": {
+               "ordinal": 16,
+               "display_name": "i18n(trapper_plus:food.raw_boar_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_boar_meat/raw_boar_meat.png",
+               "filter": "salt_box_curable boar raw meat"
+            },
+            "raw_wolf_meat": {
                "ordinal": 31,
-               "display_name": "i18n(stonehearth:entities.food.pork.display_name)",
-               "icon": "/stonehearth/entities/food/pork/pork.png",
-               "filter": "raw piece pork"
+               "display_name": "i18n(trapper_plus:food.raw_wolf_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wolf_meat/raw_wolf_meat.png",
+               "filter": "salt_box_curable wolf raw meat"
             },
-            "poultry_large": {
-               "ordinal": 32,
-               "display_name": "i18n(stonehearth:entities.food.poultry_large.display_name)",
-               "icon": "/stonehearth/entities/food/poultry_large/poultry_large.png",
-               "filter": "raw piece poultry"
-            },
-            "whole_poyo_meat": {
-               "ordinal": 33,
+            "poyo_meat": {
+               "ordinal": 50,
                "display_name": "i18n(stonehearth:entities.food.poyo_meat.display_name)",
                "icon": "/stonehearth/entities/food/poyo_meat/poyo_meat.png",
-               "filter": "raw piece poyo_meat"
+               "filter": "salt_box_curable raw piece poyo_meat"
             },
-            "whole_varanus_meat": {
-               "ordinal": 34,
-               "display_name": "i18n(stonehearth:entities.food.varanus_meat.display_name)",
-               "icon": "/stonehearth/entities/food/varanus_meat/varanus_meat.png",
-               "filter": "raw piece varanus_meat"
+            "raw_poyo_meat": {
+               "ordinal": 51,
+               "display_name": "i18n(trapper_plus:food.raw_poyo_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
+               "filter": "salt_box_curable poyo raw meat butchered"
+            },
+            "poultry_large": {
+               "ordinal": 54,
+               "display_name": "i18n(stonehearth:entities.food.poultry_large.display_name)",
+               "icon": "/stonehearth/entities/food/poultry_large/poultry_large.png",
+               "filter": "salt_box_curable raw piece poultry"
+            },
+            "raw_poultry_meat": {
+               "ordinal": 55,
+               "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
+               "filter": "salt_box_curable poultry raw meat butchered"
+            },
+            "mutton": {
+               "ordinal": 56,
+               "display_name": "i18n(stonehearth:entities.food.mutton.display_name)",
+               "icon": "/stonehearth/entities/food/mutton/mutton.png",
+               "filter": "salt_box_curable raw piece mutton"
+            },
+            "raw_mutton_meat": {
+               "ordinal": 57,
+               "display_name": "i18n(trapper_plus:food.raw_mutton_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_meat_small_butchered.png",
+               "filter": "salt_box_curable mutton raw meat butchered"
             },
             "venison": {
-               "ordinal": 35,
+               "ordinal": 58,
                "display_name": "i18n(stonehearth:entities.food.venison.display_name)",
                "icon": "/stonehearth/entities/food/venison/venison.png",
-               "filter": "raw piece venison"
+               "filter": "salt_box_curable raw piece venison"
+            },
+            "raw_venison_meat": {
+               "ordinal": 59,
+               "display_name": "i18n(trapper_plus:food.raw_venison_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wild_meat_small_butchered.png",
+               "filter": "salt_box_curable venison raw meat butchered"
+            },
+            "pork": {
+               "ordinal": 60,
+               "display_name": "i18n(stonehearth:entities.food.pork.display_name)",
+               "icon": "/stonehearth/entities/food/pork/pork.png",
+               "filter": "salt_box_curable raw piece pork"
+            },
+            "raw_pork_meat": {
+               "ordinal": 61,
+               "display_name": "i18n(trapper_plus:food.raw_pork_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_meat_butchered.png",
+               "filter": "salt_box_curable pork raw meat butchered"
+            },
+            "varanus_meat": {
+               "ordinal": 64,
+               "display_name": "i18n(stonehearth:entities.food.varanus_meat.display_name)",
+               "icon": "/stonehearth/entities/food/varanus_meat/varanus_meat.png",
+               "filter": "salt_box_curable raw piece varanus_meat"
+            },
+            "raw_varanus_meat": {
+               "ordinal": 65,
+               "display_name": "i18n(trapper_plus:food.raw_varanus_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wild_meat_small_butchered.png",
+               "filter": "salt_box_curable varanus raw meat butchered"
             },
             "sausage": {
-               "ordinal": 40,
+               "ordinal": 70,
                "display_name": "i18n(stonehearth:entities.food.sausage.display_name)",
                "icon": "/stonehearth/entities/food/sausage/sausage.png",
-               "filter": "raw sausage"
+               "filter": "salt_box_curable raw sausage"
             }
          }
       }

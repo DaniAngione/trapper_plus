@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": [
+      "trapper_plus:mixins:food:salted",
+      "trapper_plus:mixins:food:white_meat"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -21,9 +24,7 @@
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:salted_poultry:salted_poultry_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:salted_poultry:salted_poultry_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 14,
@@ -37,40 +38,24 @@
          "display_name": "i18n(trapper_plus:food.salted_poultry.display_name)",
          "description": "i18n(trapper_plus:food.salted_poultry.description)",
          "icon": "file(salted_poultry.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "prepared_food",
             "salted_poultry",
-            "salted",
-            "stockpile_prepared_food",
-            "meat",
-            "lunch_time",
             "smokehouse_curable"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 32,
-            "max": 40
-         },
-         "proper_cool_entity_alias": "trapper_plus:food:jerky_poultry",
-         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
-         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
-      },
-      "stonehearth:appeal": {
-         "appeal": 4
-      },
-      "stonehearth:item_quality": {
-         "variable_quality": true
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:cured_poultry",
+               "progress_required": {
+                  "min": 20,
+                  "max": 24
+               }
+            }
+         }
       },
       "stonehearth:food_decay": {
-         "initial_decay": {
-            "min": 384,
-            "max": 480
-         },
          "rotten_entity_alias": "stonehearth:food:rotten:poultry_large_meat"
       }
    }

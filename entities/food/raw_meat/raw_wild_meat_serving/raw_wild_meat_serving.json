@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "/trapper_plus/mixins/food/raw_meat/wild_meat/raw_wild_meat_small.qb"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 90
+         },
+         "default": {
+            "satisfaction": 90
+         },
+         "quality": 3
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_wild_meat.serving_display_name)",
+         "icon": "/trapper_plus/mixins/food/raw_meat/wild_meat/raw_wild_meat_small.png",
+         "material_tags": [
+            "pet_food",
+            "meat"
+         ]
+      }
+   }
+}

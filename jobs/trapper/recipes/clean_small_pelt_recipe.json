@@ -5,9 +5,10 @@
    "recipe_name": "i18n(trapper_plus:entities.rawhide.small_recipe_display_name)",
    "description": "i18n(trapper_plus:entities.rawhide.small_recipe_description)",
    "flavor": "i18n(trapper_plus:entities.rawhide.flavor)",
-   "portrait": "/trapper_plus/entities/resources/rawhide/small_rawhide.png",
+   "portrait": "/trapper_plus/entities/resources/rawhide/rawhide.png",
    "workshop": "trapper_plus:trapper:block",
    "work_effect": "fiddle",
+   "proficiency_gain": 0.5,
    "level_requirement": 2,
    "ingredients": [
       {

@@ -1,6 +1,7 @@
 {
    "components": {
       "stonehearth:resource_node": {
+         "harvestable_by_harvest_tool": false,
          "resource_loot_table": {
             "entries": {
                "jerky": {

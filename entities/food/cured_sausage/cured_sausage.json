@@ -1,0 +1,48 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_sausage.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:cured_sausage:cured_sausage_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 18,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_sausage.display_name)",
+         "description": "i18n(trapper_plus:food.cured_sausage.description)",
+         "icon": "file(cured_sausage.png)",
+         "material_tags": [
+            "cured_sausage",
+            "meat"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth:food:rotten:sausage_meat"
+      }
+   }
+}

@@ -1,7 +1,7 @@
 {
    "entity_data": {
       "stonehearth:catalog": {
-         "material_tags":["large"]
+         "material_tags":["large", "red_fox"]
       }
    }
 }

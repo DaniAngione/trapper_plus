@@ -29,7 +29,7 @@
                "ordinal": 2,
                "display_name": "i18n(trapper_plus:entities.raw_skin.display_name)",
                "icon": "/trapper_plus/entities/resources/rawskin/rawskin.png",
-               "filter": "needs_tanning rawskin"
+               "filter": "needs_tanning raw_skin"
             }
          }
       }

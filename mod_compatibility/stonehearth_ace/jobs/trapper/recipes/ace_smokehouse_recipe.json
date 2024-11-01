@@ -1,0 +1,23 @@
+{
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 6
+      },
+	   {
+         "material": "stone resource",
+         "count": 2
+      },
+	   {
+         "uri": "stonehearth_ace:refined:metal_bits:hard",
+         "count": 2
+      },
+	   {
+         "material": "thread resource",
+         "count": 2
+      }
+   ]
+}

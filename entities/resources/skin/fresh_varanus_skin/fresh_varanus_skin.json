@@ -1,5 +1,5 @@
 {
-   "mixins": "trapper_plus:mixins:resources:fresh_pelt",
+   "mixins": "trapper_plus:mixins:resources:fresh_skin",
    "type": "entity",
    "components": {
       "mixintypes": {
@@ -18,19 +18,19 @@
          "value_in_gold": 4
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(trapper_plus:entities.fresh_varanus_pelt.display_name)",
-         "description": "i18n(trapper_plus:entities.fresh_varanus_pelt.description)",
+         "display_name": "i18n(trapper_plus:entities.fresh_varanus_skin.display_name)",
          "icon": "file(fresh_varanus_skin.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
-            "varanus",
-            "fresh_skin"
+            "varanus"
          ]
       },
-      "core_dani:cooling": {
-         "cool_entity_alias": "trapper_plus:resources:fresh_varanus_skin",
-         "proper_cool_entity_alias": "stonehearth:resources:varanus_skin"
+      "core_dani:passive_transform": {
+         "processes": {
+            "skin_drying": {
+               "result": "stonehearth:resources:varanus_skin"
+            }
+         }
       }
    }
 }

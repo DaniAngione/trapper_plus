@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": [
+      "trapper_plus:mixins:food:salted_serving",
+      "trapper_plus:mixins:food:white_meat_serving"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -17,27 +20,19 @@
       }
    },
    "entity_data": {
-      "stonehearth:item": {
-         "category": "food",
-         "destroy_on_uncarry": true
-      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 60
          },
          "default": {
             "satisfaction": 40
-         },
-         "quality": 4
+         }
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.salted_poyo_serving.display_name)",
          "description": "",
          "material_tags": [
-            "food",
-            "salted_poyo_serving",
-            "meat",
-            "lunch_time"
+            "salted_poyo_serving"
          ],
          "subject_override": "trapper_plus:food:salted_poyo"
       }

@@ -43,6 +43,22 @@
                "filter": "animal_fat_rendered tallow"
             }
          }
+      },
+      "potions": {
+         "categories": {
+            "antidote_snake": {
+               "ordinal": 1.81,
+               "display_name": "i18n(trapper_plus:entities.consumables.antidote_snake.display_name)",
+               "icon": "/trapper_plus/entities/consumables/antidote_snake/antidote_snake.png",
+               "filter": "antidote snake healing_item"
+            },
+            "snake_juice": {
+               "ordinal": 12,
+               "display_name": "i18n(trapper_plus:entities.consumables.snake_juice.display_name)",
+               "icon": "/trapper_plus/entities/consumables/snake_juice/snake_juice.png",
+               "filter": "snake_juice"
+            }
+         }
       }
    }
 }

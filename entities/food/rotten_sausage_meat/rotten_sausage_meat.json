@@ -1,0 +1,23 @@
+{
+   "components": {
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": -0.05 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(rotten_sausage_meat.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(rotten_sausage_meat.png)"
+      }
+   }
+}

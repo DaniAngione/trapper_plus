@@ -1,0 +1,34 @@
+{
+   "type": "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "idle.json",
+         "loop": true
+      },
+      "activity_overlay_effect": {
+         "type": "activity_overlay_effect",
+         "material": {
+            "name": "/stonehearth/data/horde/materials/overlay.material.json",
+            "samplers": [
+               {
+                  "name": "foregroundMap",
+                  "map": "/stonehearth_ace/data/horde/materials/requires_fuel_overlay/fuel.png"
+               }
+            ]
+         },
+         "y_offset": -40
+      },
+      "sound": {
+         "type": "sound_effect",
+         "loop": false,
+         "start_time": 0,
+         "duration": 2000,
+         "min_distance": 40,
+         "falloff": 3,
+         "volume": 60,
+         "track": "stonehearth_ace:sounds:fuel:running_out"
+      }
+   }
+}

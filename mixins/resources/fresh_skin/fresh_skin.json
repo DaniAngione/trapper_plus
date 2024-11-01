@@ -1,0 +1,52 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fresh_skin.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.fresh_skin.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_skin.description)",
+         "icon": "file(fresh_skin.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "stockpile_animal_part",
+            "resource",
+            "animal_part",
+            "large",
+            "fresh_skin"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -15
+      },
+      "core_dani:passive_transform": {
+         "type": "fresh_skin",
+         "processes": {
+            "skin_drying": {
+               "progress_required": {
+                  "min": 38,
+                  "max": 42
+               }
+            }
+         }
+      }
+   }
+}

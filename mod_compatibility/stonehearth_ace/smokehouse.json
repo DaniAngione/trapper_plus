@@ -1,14 +1,18 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "remove"
+         }
       },
       "stonehearth:evolve": {}
    },
    "entity_data": {
       "stonehearth:evolve_data": {
          "next_stage": "trapper_plus:trapper:smokehouse:unlit",
-         "evolve_time": "36h+12h"
+         "evolve_time": "3d+12h",
+         "transform_script": "core_dani:scripts:ace_transform_lib_additions"
       }
    }
 }

@@ -1,0 +1,29 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "category": "consumption_preservation",
+   "unique_in_category": true,
+   "rank": 2,
+   "display_name": "i18n(trapper_plus:data.buffs.sundry_flavors.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.sundry_flavors.description)",
+   "icon": "file(sundry_flavors_buff.png)",
+   "duration": "8h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "speed": {
+         "add": 15
+      },
+      "curiosity": {
+         "add": 25
+      },
+      "diligence": {
+         "add": 15
+      },
+      "inspiration": {
+         "add": 6
+      },
+      "muscle": {
+         "multiply": 0.9
+      }
+   }
+}

@@ -7,6 +7,7 @@
    "flavor": "i18n(trapper_plus:entities.resources.wax.wax_wool.flavor)",
    "portrait": "/trapper_plus/entities/resources/wax/wax_wool/wax_wool.png",
    "workshop": "trapper_plus:trapper:campfire_pot",
+	"ace_smart_crafter_ignore": true,
    "level_requirement": 5,
    "ingredients": [
       {

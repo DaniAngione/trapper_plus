@@ -1,7 +1,16 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "type": "input_crate",
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "override"
+         },
+         "default_filter": [
+            "needs_tanning rawhide",
+            "needs_tanning rawskin",
+            "needs_tanning pelt oinker"
+         ]
       }
    },
    "entity_data": {}

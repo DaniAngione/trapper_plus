@@ -8,6 +8,7 @@
    "portrait": "/trapper_plus/entities/food/animal_fat_rendered_lard/animal_fat_rendered_lard.png",
    "workshop": "trapper_plus:trapper:campfire_pot",
    "work_effect": "fiddle",
+	"ace_smart_crafter_ignore": true,
    "level_requirement": 4,
    "ingredients": [
       {

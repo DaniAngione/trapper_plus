@@ -1,0 +1,58 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:smoked",
+      "trapper_plus:mixins:food:red_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "mob": {
+         "model_origin": { "x": -0.04, "y": 0, "z": -0.05 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_red_meat_small.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(smoked_red_meat_small_rotting.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.085
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:smoked_red_meat:smoked_red_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "trapper_plus:food:rotten:meat_small"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_red_meat_small.display_name)",
+         "description": "i18n(trapper_plus:food.smoked_red_meat_small.description)",
+         "icon": "file(smoked_red_meat_small.png)",
+         "material_tags": [
+            "cooking_ingredient",
+            "small"
+         ]
+      }
+   }
+}

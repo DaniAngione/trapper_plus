@@ -1,0 +1,50 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured",
+      "trapper_plus:mixins:food:fish_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_fish_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(cured_fish_meat_rotting.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 2
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:cured_fish_meat:cured_fish_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 5,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:fish_meat"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_fish_meat.display_name)",
+         "description": "i18n(trapper_plus:food.cured_fish_meat.description)",
+         "icon": "file(cured_fish_meat.png)",
+         "material_tags": [
+            "fish_meat"
+         ]
+      }
+   }
+}

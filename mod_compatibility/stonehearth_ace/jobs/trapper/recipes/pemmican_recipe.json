@@ -5,7 +5,7 @@
    "recipe_name": "i18n(trapper_plus:food.pemmican.recipe_name)",
    "description": "i18n(trapper_plus:food.pemmican.recipe_description)",
    "flavor": "i18n(trapper_plus:food.pemmican.flavor)",
-   "portrait": "/trapper_plus/entities/food/pemmican/pemmican/pemmican_x3.png",
+   "portrait": "/trapper_plus/entities/food/pemmican/pemmican_x3.png",
    "workshop": "trapper_plus:trapper:campfire_pot",
    "level_requirement": 6,
    "ingredients": [

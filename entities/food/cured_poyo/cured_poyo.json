@@ -1,0 +1,49 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured",
+      "trapper_plus:mixins:food:white_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_poyo.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 2
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:cured_poyo:cured_poyo_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 12,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_poyo.display_name)",
+         "description": "i18n(trapper_plus:food.cured_poyo.description)",
+         "icon": "file(cured_poyo.png)",
+         "material_tags": [
+            "cured_poyo"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth:food:rotten:poyo_meat"
+      }
+   }
+}

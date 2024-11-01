@@ -1,0 +1,44 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "rarity": "common",
+   "in_edge": "snake_raid_large",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 60,
+         "max": 250
+      },
+      "on_searcher_failure": {
+         "destroy_tree": {
+            "root": "generate_random_raiding_party",
+            "destroy_root": false
+         }
+      },
+      "mission": {
+         "npc_player_id": "forest",
+         "role": "pillage",
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "pillage_radius": {
+            "min": 0,
+            "max": 100
+         },
+         "ctx_entity_registration_path": "snake_raid_large",
+         "sighted_bulletin": {
+            "title": "i18n(trapper_plus:data.gm.campaigns.ambient_threats.snake_attack.mission.sighted_bulletin.title_hard)"
+         },
+         "members": {
+            "snakes": {
+               "from_population": {
+                  "role": "snake",
+                  "location": { "x": 0, "z": 0 },
+                  "range": 20,
+                  "min": 4,
+                  "max": 10
+               },
+               "tuning": "trapper_plus:monster_tuning:forest:snake_hard"
+            }
+         }
+      }
+   }
+}

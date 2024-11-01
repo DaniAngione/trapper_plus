@@ -1,7 +1,7 @@
 # Trapper+
 ### by Daniel Angione
-v1.2.1 for Stonehearth 1.1+
-https://stonehearth.net/ 
+v2.0 for Stonehearth 1.1+
+Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
 
@@ -76,30 +76,59 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 
 ## CHANGELOG
 
-### - v1.3
+### October 31st, 2024 - v2.0
+#### KNOWN ISSUES
+- PT-BR translation is currently outdated and will remain so until some other features are updated. Sorry about that!
+- A couple of previously teased/mentioned features were proving to be difficult and didn't make the cut. They'll be here on an upcoming update: Sundrying, Drying Beams, Drying Racks.
+
+#### Changes
+- This is a huge update for the mod, so we're calling it version 2.0! Many of the changes are unlisted here due to simply getting lost across complete reworks; The major points, however, are listed below.
+- The mod now utilizes the reworked and much more advanced/flexible "PASSIVE TRANSFORMER" component from Dani's Core Mod.
+- Added Snakes! This new creature will show up as a trappable animal but also as a possible foe from the "Forest" faction. Snakes have an unique poison effect that require special treatment provided by the Herbalist...
+- (ACE) The Trapper can also create a new Tonic called Snake Juice to prevent infections.
+- Snakes have their own pelt and meat (white, small).
+- Added Saltbush, a new type of shrub that can be harvested for fiber. Saltbush bundles can also be dried on a small drying rack (Crafted by the Trapper) and then used in a special crafting recipe to obtain salt.
+- (ACE) Saltbush can be learned as a farming crop when using ACE.
+- All raw meats have been remade and follow a new, more streamlined structure. There are now 4 types of raw meat: Red, White, Game and Fish (if using ACE and/or Archipelago Biome). Each meat type has associated buffs and unique appearance. Additionally, raw meats will now display the animal they come from on their icons.
+- The buffs mentioned above will also combine with the 3 different buffs from the ways meat can be preserved/processed: Smoked, Salted or Cured (which is Salted + Smoked, in that order). Cured meat pieces will become Jerky.
+- Added Smoking Pit, a very simple new structure used to smoke raw meats. Will reduce the quality of items it preserves.
+- Added Simple Smokery, a new structure that can be used to smoke your raw and salted goods on the mid-game.
+- The Smokehouse will now increase the quality of items it preserves.
+- The visuals of Smokehouses has been reworked and they look much nicer now!
+- The visuals of many other items/facilities has been tweaked/polished.
+- Smokehouses will now use the new "ENTITY CUTAWAY" component from Dani's Core Mod, allowing you to peek into their contents when selected.
+- Added Bacon! Bacon is a (very delicious!) food that is made by smoking Raw Bacon. Raw Bacon can be obtained by the Trapper as a second choice of butchering for Raw Pork. It might also sometimes drop from Boars. Unlike other meats, bacon does not need to be salted and will be smoked straight into "Cured" form, its best possible state.
+- (ACE) Raw Bacon will also more commonly drop from Oinkers!
 - Trappers will verify their trapping grounds less often, however they can now place up to 6 traps per field (and the traps can be closer to each other); This should give them some extra crafting time without compromising their efficiency.
-- Removed the "Tannery" trait from Trappers (I mean, it wasn't really needed for anything)
+- Removed the "Tannery" trait from Trappers (it wasn't really needed for anything)
 - Filters for the smokehouse and salt box have been adjusted.
 - The fish trap recipe has been removed from the Carpenter.
 - The "Pemmican" recipe now produces 6 items instead of 3.
+- Sausage recipes have been similarly buffed, producing more than before.
+- Sausages now require a cut of animal fat.
 - The "Trapper's Campfire & Pot" recipe now requires an ingot of Iron.
 - (ACE) This requirement is "any hard metal" when using ACE.
 - Removed the filters for fresh pelts in priority storage (these were preventing the drying racks from being used). The filters are still present with ACE since it allows different priority on different storage.
 - The "Trapper's Campfire & Pot" will no longer have fire and light when in ghost form (still unplaced)
 - The "Tanning Tub" will no longer have its fumes when in ghost form (still unplaced)
 - The "Fresh Leather Stockpile" has been renamed "Thin Leather Stockpile" to avoid confusion with all the other "Fresh" stuff like pelts.
+- Carpets have been slightly lowered into the ground so they look thinner.
+- Merchants have been updated to offer the new meats from Trapper+
+- (ACE) This includes the ACE Pasture and Hunting merchants.
+- (ACE) Added support for ACE's ducks.
+- (ACE) Added support for Oinker's pelt. They will work as rawhide straight away when dried, not needing to be cleaned!
+- (ACE) The Trapper's crafting UI has been updated to work with the new ACE update.
 - (ACE) Added "Bar of Soap", a new healing item for infections of any severity and cuts and pierce wounds of low severity. Made by the Trapper using rendered fat, charcoal and clay.
 - (ACE) "Slice" recipes will be ignored by the ACE Smart Crafter.
 - (ACE) Specific filters for ACE (and removal of "single item restrictions") for all drying racks.
 - (ACE) Adjusted the Supply containers filters to not include general categories anymore since ACE allows multiple selections.
 - (ACE) Priority has been adjusted for all the containers.
+- The Warm-Wolf recipe will produce two units instead of one.
 - (ACE) Warm-Wolf will now be crafted on a Cook's Table if using ACE.
 - (ACE) Fixed lots of recipes that were broken because of resource changes and also added some Trapper+ stuff to some of the new ACE recipes.
 - (ACE) Fuel has been removed from all recipes that previously used fuel.
 - (ACE) There's now "Trapper" support for the "Finished Work Shelf" output containers.
 - (ACE) The Trapper can split firewood now.
-- Sausages now require a cut of animal fat.
-- Carpets have been slightly lowered into the ground so they look thinner.
 
 ### February 6th, 2020 - v1.2.2
 - Added a new boiled leather craftable item: Boiled Leather Worker's Backpack! This item will only be present if using ACE.

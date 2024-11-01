@@ -1,0 +1,56 @@
+{
+   "shop_info": {
+      "inventory": {
+         "entries": [
+            {
+               "items_matching": {
+                  "meat": {
+                     "category": [
+                        "cooking_ingredient"
+                     ],
+                     "material": [
+                        "meat",
+                        "raw",
+                        "bits",
+                        "red",
+                        "small"
+                     ],
+                     "exclude_material": [
+                        "fish"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 2,
+                  "max": 6,
+                  "max_unique": 2
+               }
+            },
+            {
+               "items_matching": {
+                  "meat": {
+                     "category": [
+                        "cooking_ingredient"
+                     ],
+                     "material": [
+                        "meat",
+                        "raw",
+                        "bits",
+                        "white",
+                        "small"
+                     ],
+                     "exclude_material": [
+                        "fish", "snake", "duckduck", "ostrich", "poultry"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 4,
+                  "max": 8,
+                  "max_unique": 1
+               }
+            }
+         ]
+      }
+   }
+}

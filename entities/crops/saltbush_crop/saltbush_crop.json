@@ -1,0 +1,120 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "/trapper_plus/entities/plants/saltbush/saltbush.qb"
+            ]
+         },
+         "saltbush_1": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "/stonehearth/entities/plants/dirt_pile/dirt_pile_1.qb",
+                     "/stonehearth/entities/plants/dirt_pile/dirt_pile_2.qb",
+                     "/stonehearth/entities/plants/dirt_pile/dirt_pile_3.qb"
+                  ]
+               }
+            ]
+         },
+         "saltbush_2": {
+            "models": [
+               "file(saltbush_2.qb)"
+            ]
+         },
+         "saltbush_3": {
+            "models": [
+               "/trapper_plus/entities/plants/saltbush/stem/saltbush_stem.qb"
+            ]
+         },
+         "saltbush_4": {
+            "models": [
+               "/trapper_plus/entities/plants/saltbush/bud/saltbush_bud.qb"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": -0.1, "z": 0 },
+         "mob_collision_type": "clutter"
+      },
+      "stonehearth:crop": {
+         "megacrop_chance": 0,
+         "auto_harvest": "place",
+         "resource_pairings": {
+            "default": "trapper_plus:crops:saltbush_crop:final"
+         },
+         "preferred_seasons": {
+            "stonehearth:biome:temperate": [
+               "spring"
+            ],
+            "stonehearth:biome:desert": [
+               "spring"
+            ],
+            "stonehearth:biome:arctic": [
+               "spring"
+            ],
+            "stonehearth_ace:biome:highlands": [
+               "spring"
+            ]
+         }
+      },
+      "stonehearth:growing": {
+         "growth_period": "1d+6h",
+         "preferred_climate": "desert_easy",
+         "growth_stages": [
+            {
+               "model_name": "saltbush_1",
+               "name": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.000.name)",
+               "description": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "saltbush_2",
+               "name": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.001.name)",
+               "description": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "saltbush_3",
+               "name": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.002.name)",
+               "description": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "saltbush_4",
+               "name": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.003.name)",
+               "description": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.003.description)"
+            },
+            {
+               "model_name": "default",
+               "name": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.003.name)",
+               "description": "i18n(trapper_plus:entities.crops.saltbush_crop.growth_stage.003.description)"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.crops.saltbush_crop.display_name)",
+         "description": "i18n(trapper_plus:entities.crops.saltbush_crop.description)",
+         "icon": "/trapper_plus/entities/plants/saltbush/saltbush.png",
+         "material_tags": [
+            "crop",
+            "saltbush_sapling"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}

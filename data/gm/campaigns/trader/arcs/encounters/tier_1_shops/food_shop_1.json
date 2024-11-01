@@ -1,0 +1,24 @@
+{
+   "shop_info": {
+      "inventory": {
+         "entries": [
+            {
+               "items_matching": {
+                  "food": {
+                     "material": [
+                        "meat",
+                        "raw",
+                        "bits",
+                        "small"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 0,
+                  "max": 3
+               }
+            }
+         ]
+      }
+   }
+}

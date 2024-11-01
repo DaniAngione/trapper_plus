@@ -1,0 +1,14 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_red_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_beef_meat.display_name)",
+         "icon": "file(raw_beef_meat.png)",
+         "material_tags": [
+            "beef"
+         ]
+      }
+   }
+}

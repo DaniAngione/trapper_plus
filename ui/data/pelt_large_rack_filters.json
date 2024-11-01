@@ -50,16 +50,16 @@
                "filter": "pelt wolf"
             },
             "varanus_pelt": {
-               "ordinal": 9,
+               "ordinal": 11,
                "display_name": "i18n(stonehearth:entities.resources.skin.varanus_skin.display_name)",
                "icon": "/stonehearth/entities/resources/skin/varanus_skin/varanus_skin.png",
-               "filter": "pelt varanus"
+               "filter": "skin varanus"
             },
             "zilla_pelt": {
-               "ordinal": 10,
+               "ordinal": 12,
                "display_name": "i18n(stonehearth:entities.resources.skin.zilla_skin.display_name)",
                "icon": "/stonehearth/entities/resources/skin/zilla_skin/zilla_skin.png",
-               "filter": "pelt zilla"
+               "filter": "skin zilla"
             }
          }
       }

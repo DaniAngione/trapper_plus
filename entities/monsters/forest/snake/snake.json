@@ -1,0 +1,122 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:monster"
+   ],
+   "player_id": "forest",
+   "components": {
+      "render_info": {
+         "animation_table": "/trapper_plus/data/rigs/entities/critters/snake",
+         "scale": 0.1
+      },
+      "sensor_list": {
+         "sensors": {
+            "sight": {
+               "type": "sensor",
+               "radius": 8
+            }
+         }
+      },
+      "stonehearth:equipment": {
+         "items": [
+            "trapper_plus:weapons:animals:weak_snake_teeth"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(snake.qb)"
+            ]
+         }
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 60
+         },
+         "muscle": {
+            "type": "basic",
+            "value": 2
+         },
+         "menace": {
+            "type": "basic",
+            "value": 40
+         },
+         "courage": {
+            "type": "basic",
+            "value": 70
+         },
+         "speed": {
+            "type": "basic",
+            "value": 48
+         },
+         "exp_reward": {
+            "type": "basic",
+            "value": 6
+         }
+      },
+      "stonehearth:loot_drops": {
+         "entries": {
+            "default": {
+               "items": {
+                  "skin": {
+                     "type": "bag",
+                     "uri": "trapper_plus:loot_bag:snake_default",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entity_data": {
+      "mixintypes": {
+         "stonehearth:idle_effects": "override"
+      },
+      "stonehearth:idle_effects": {
+         "effects": [
+            {
+               "name": "idle_breathe",
+               "weight": 3
+            },
+            {
+               "name": "idle_look_around",
+               "weight": 1
+            }
+         ]
+      },
+      "stonehearth:bait_trap": {
+         "can_trap": true,
+         "catch_chance": 0.5,
+         "trigger_trap_on_failure_chance": 0.2
+      },
+      "stonehearth:portrait": {
+         "portrait_types": {
+            "headshot": {
+               "camera": {
+                  "pos": [
+                     17,
+                     0.2,
+                     -11
+                  ],
+                  "look_at": [
+                     -1,
+                     0.2,
+                     0
+                  ],
+                  "fov": 45
+               }
+            }
+         }
+      },
+      "stonehearth:catalog": {
+         "player_id": "forest",
+         "display_name": "i18n(trapper_plus:entities.monsters.forest.snake.display_name)",
+         "description": "i18n(trapper_plus:entities.monsters.forest.snake.description)",
+         "icon": "file(snake.png)"
+      },
+      "stonehearth:diet": {
+         "food_material": "meat"
+      }
+   }
+}

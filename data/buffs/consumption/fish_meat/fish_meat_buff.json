@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:data.buffs.fish_meat.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.fish_meat.description)",
+   "icon": "file(fish_meat_buff.png)",
+   "duration": "12h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "curiosity": {
+         "multiply": 1.1
+      },
+      "compassion": {
+         "multiply": 1.1
+      }
+   }
+}

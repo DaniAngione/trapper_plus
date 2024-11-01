@@ -1,0 +1,14 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_wild_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_boar_meat.display_name)",
+         "icon": "file(raw_boar_meat.png)",
+         "material_tags": [
+            "boar"
+         ]
+      }
+   }
+}

@@ -1,0 +1,51 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured",
+      "trapper_plus:mixins:food:red_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cured_mutton.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:cured_mutton:cured_mutton_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 16,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_mutton.display_name)",
+         "description": "i18n(trapper_plus:food.cured_mutton.description)",
+         "icon": "file(cured_mutton.png)",
+         "material_tags": [
+            "mutton"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:mutton"
+      }
+   }
+}

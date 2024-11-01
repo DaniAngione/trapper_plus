@@ -28,9 +28,12 @@
          "display_name": "i18n(trapper_plus:trapper.salt_box.display_name)",
          "description": "i18n(trapper_plus:trapper.salt_box.dirty_description)",
          "icon": "file(trapper_salt_box_dirty.png)",
-         "category": "storage",
+         "category": "workshops",
          "material_tags": [
-            "stockpile_furniture"
+            "stockpile_tool",
+            "passive_transformer",
+            "salt_box",
+            "no_decay"
          ]
       }
    }

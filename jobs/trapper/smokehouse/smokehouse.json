@@ -1,76 +1,34 @@
 {
    "type": "entity",
-   "mixins": "file(smokehouse_ghost.json)",
+   "mixins": [
+      "file(smokehouse_ghost.json)",
+      "trapper_plus:mixins:jobs:trapper:smokehouse"
+   ],
    "components": {
       "stonehearth:entity_forms": {
          "iconic_form": "file(smokehouse_iconic.json)",
-         "ghost_form": "file(smokehouse_ghost.json)",
-         "placeable_on_ground": true
+         "ghost_form": "file(smokehouse_ghost.json)"
       },
-      "destination": {
-         "region": [
-            {
-               "min": { "x": -1, "y": 0, "z": -2 },
-               "max": { "x": 1, "y": 2, "z": 2 }
-            }
-         ],
-         "adjacency_flags": [
-            "front"
-         ]
-      },
-      "region_collision_shape": {
-         "region": [
-            {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 2, "y": 6, "z": 2 }
-            }
-         ]
-      },
-      "stonehearth:storage": {
-         "type": "input_crate",
-         "capacity": 32,
-         "priority": 3,
-         "render_contents": false,
-         "allow_default": false,
-         "filter_list": "trapper_plus:input_box:smokehouse_filters",
-         "default_filter": [
-            "smokehouse_curable"
-         ],
-         "is_single_filter": true
+      "model_variants": {
+         "selected": {
+            "models": [
+               "file(smokehouse_selected.qb)"
+            ]
+         }
       },
       "effect_list": {
          "effects": [
             "file(/data/rigs/jobs/trapper/smokehouse/effects/idle.json)"
          ]
-      },
-      "sensor_list": {
-         "sensors": {
-            "door_sensor": {
-               "type": "sensor",
-               "radius": 3
-            }
-         }
-      },
-      "core_dani:opening_container": {
-         "sensor": "door_sensor"
       }
    },
    "entity_data": {
       "stonehearth:net_worth": {
          "value_in_gold": 8,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": false,
-            "sellable": false,
-            "shopkeeper_level": 3,
-            "shopkeeper_type": "caravan"
-         }
+         "rarity": "common"
       },
       "stonehearth:appeal": {
-         "appeal": -2
-      },
-      "stonehearth:item_quality": {
-         "variable_quality": true
+         "appeal": 3
       }
    }
 }

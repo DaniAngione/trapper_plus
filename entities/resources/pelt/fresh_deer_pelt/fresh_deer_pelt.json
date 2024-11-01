@@ -21,14 +21,16 @@
          "display_name": "i18n(trapper_plus:entities.fresh_deer_pelt.display_name)",
          "icon": "file(fresh_deer_pelt.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
             "deer"
          ]
       },
-      "core_dani:cooling": {
-         "cool_entity_alias": "trapper_plus:resources:fresh_deer_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:deer_pelt"
+      "core_dani:passive_transform": {
+         "processes": {
+            "pelt_drying": {
+               "result": "stonehearth:resources:deer_pelt"
+            }
+         }
       }
    }
 }

@@ -1,0 +1,67 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_meat",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(raw_wild_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(raw_wild_meat_rotting.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
+      }
+   },
+   "entity_data": {
+      "stonehearth_ace:pet_food_container": {
+         "food": "trapper_plus:raw_wild_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 5,
+         "rarity": "common"
+      },
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:smoked_wild_meat",
+               "progress_required": {
+                  "min": 12,
+                  "max": 14.5
+               }
+            },
+            "salt_curing": {
+               "result": "trapper_plus:food:salted_wild_meat",
+               "progress_required": {
+                  "min": 98,
+                  "max": 104
+               }
+            }
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_wild_meat.display_name)",
+         "description": "i18n(trapper_plus:food.raw_wild_meat.description)",
+         "icon": "file(raw_wild_meat.png)",
+         "material_tags": [
+            "smokehouse_curable",
+            "salt_box_curable",
+            "bits",
+            "wild",
+            "standard"
+         ]
+      }
+   }
+}

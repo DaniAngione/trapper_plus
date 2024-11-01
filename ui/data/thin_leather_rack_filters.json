@@ -10,7 +10,7 @@
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:data.filters.small_leather)",
                "icon": "/trapper_plus/entities/refined/small_leather.png",
-               "filter": "leather resource small"
+               "filter": "leather resource thin"
             }
          }
       },
@@ -23,13 +23,13 @@
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:entities.thin_leather.display_name)",
                "icon": "/trapper_plus/entities/refined/thin_leather/thin_leather.png",
-               "filter": "leather resource thin_leather"
+               "filter": "leather resource thin standard"
             },
             "raw_skin": {
                "ordinal": 2,
                "display_name": "i18n(trapper_plus:entities.scaly_leather.display_name)",
                "icon": "/trapper_plus/entities/refined/scaly_leather/scaly_leather.png",
-               "filter": "leather resource scaly_leather"
+               "filter": "leather resource thin scaly"
             }
          }
       }

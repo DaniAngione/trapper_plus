@@ -6,17 +6,26 @@
    "description": "i18n(trapper_plus:trapper.smokehouse.recipe_description)",
    "flavor": "i18n(trapper_plus:trapper.smokehouse.flavor)",
    "portrait": "/trapper_plus/jobs/trapper/smokehouse/smokehouse.png",
-   "level_requirement": 2,
+   "level_requirement": 4,
+   "proficiency_gain": 2,
    "work_effect": "work",
 	"manual_unlock": true,
    "ingredients": [
       {
          "material": "wood resource",
-         "count": 4
+         "count": 6
       },
-	  {
+	   {
          "material": "stone resource",
+         "count": 2
+      },
+	   {
+         "uri": "stonehearth:refined:iron_ingot",
          "count": 1
+      },
+	   {
+         "material": "thread resource",
+         "count": 2
       }
    ],
    "produces": [

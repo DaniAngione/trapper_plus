@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": [
+      "trapper_plus:mixins:food:salted",
+      "trapper_plus:mixins:food:wild_meat"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -21,9 +24,7 @@
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:salted_varanus:salted_varanus_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:salted_varanus:salted_varanus_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 16,
@@ -37,40 +38,24 @@
          "display_name": "i18n(trapper_plus:food.salted_varanus.display_name)",
          "description": "i18n(trapper_plus:food.salted_varanus.description)",
          "icon": "file(salted_varanus.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "prepared_food",
             "salted_varanus",
-            "salted",
-            "stockpile_prepared_food",
-            "meat",
-            "lunch_time",
             "smokehouse_curable"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 36,
-            "max": 44
-         },
-         "proper_cool_entity_alias": "trapper_plus:food:jerky_varanus",
-         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
-         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
-      },
-      "stonehearth:appeal": {
-         "appeal": 4
-      },
-      "stonehearth:item_quality": {
-         "variable_quality": true
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:jerky_varanus",
+               "progress_required": {
+                  "min": 24,
+                  "max": 32
+               }
+            }
+         }
       },
       "stonehearth:food_decay": {
-         "initial_decay": {
-            "min": 384,
-            "max": 480
-         },
          "rotten_entity_alias": "stonehearth:food:rotten:varanus_meat"
       }
    }

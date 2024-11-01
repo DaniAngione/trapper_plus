@@ -1,0 +1,34 @@
+{
+   "type": "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "idle.json",
+         "loop": true
+      },
+      "embers": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/smoking_pit/smoking_pit_embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "smoke": {
+         "type": "cubemitter",
+         "loop" : true,
+         "cubemitter": "/trapper_plus/data/horde/particles/smoking_pit/smoking_pit_smoke_refuel.cubemitter.json",
+         "transforms": {
+            "x":0,
+            "y": 0,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      }
+   }
+}

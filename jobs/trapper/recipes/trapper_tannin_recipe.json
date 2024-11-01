@@ -7,6 +7,7 @@
    "flavor": "i18n(trapper_plus:entities.tannin.flavor)",
    "portrait": "/trapper_plus/entities/resources/tannin/tannin.png",
    "workshop": "trapper_plus:trapper:block",
+   "proficiency_gain": 0.5,
    "work_effect": "saw",
    "ingredients": [
       {

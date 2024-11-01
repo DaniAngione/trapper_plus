@@ -8,6 +8,7 @@
    "portrait": "/trapper_plus/entities/refined/boiled_leather/boiled_leather.png",
    "workshop": "trapper_plus:trapper:campfire_pot",
    "work_effect": "fiddle",
+   "proficiency_gain": 1.5,
    "level_requirement": 4,
    "ingredients": [
       {

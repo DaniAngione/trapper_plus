@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked_serving",
+      "trapper_plus:mixins:food:white_meat_serving"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -17,27 +20,19 @@
       }
    },
    "entity_data": {
-      "stonehearth:item": {
-         "category": "food",
-         "destroy_on_uncarry": true
-      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 70
          },
          "default": {
             "satisfaction": 55
-         },
-         "quality": 5
+         }
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.smoked_poyo.serving_display_name)",
          "description": "",
          "material_tags": [
-            "food",
-            "smoked_poyo_serving",
-            "meat",
-            "lunch_time"
+            "smoked_poyo_serving"
          ],
          "subject_override": "trapper_plus:food:smoked_poyo"
       }

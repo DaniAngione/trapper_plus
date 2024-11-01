@@ -1,5 +1,5 @@
 {
-   "mixins": "trapper_plus:mixins:resources:fresh_small_pelt",
+   "mixins": "trapper_plus:mixins:resources:fresh_pelt_small",
    "type": "entity",
    "components": {
       "mixintypes": {
@@ -19,20 +19,23 @@
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:entities.fresh_rabbit_pelt.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_rabbit_pelt.description)",
          "icon": "file(fresh_rabbit_pelt.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
             "rabbit"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 12,
-            "max": 20
-         },
-         "cool_entity_alias": "trapper_plus:resources:fresh_rabbit_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:rabbit_pelt"
+      "core_dani:passive_transform": {
+         "processes": {
+            "pelt_drying": {
+               "result": "stonehearth:resources:rabbit_pelt",
+               "progress_required": {
+                  "min": 12,
+                  "max": 14
+               }
+            }
+         }
       }
    }
 }

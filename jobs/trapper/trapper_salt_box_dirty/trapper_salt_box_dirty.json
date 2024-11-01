@@ -38,7 +38,11 @@
       "effect_list": {
          "default": "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/effects/idle.json"
       },
-      "stonehearth_ace:transform": {}
+      "stonehearth_ace:transform": {},
+      "core_dani:passive_transformer": {
+         "type": "salt_box",
+         "paused": true
+      }
    },
    "entity_data": {
       "stonehearth_ace:transform_data": {

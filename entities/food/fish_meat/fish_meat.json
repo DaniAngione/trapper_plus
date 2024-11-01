@@ -1,20 +1,50 @@
 {
-   "components": {},
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "decay_1": "override"
+         },
+         "default": {
+            "models": [
+               "file(fish_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(fish_meat_rotting.qb)"
+            ]
+         }
+      }
+   },
    "entity_data": {
       "stonehearth:catalog": {
-         "material_tags":["smokehouse_curable", "raw_jerky"]
+         "material_tags": [
+            "smokehouse_curable"
+         ]
       },
-		"core_dani:cooling": {
-         "initial_cooling": {
-            "min": 6,
-            "max": 10
-         },
-         "proper_cool_entity_alias": "trapper_plus:food:smoked_fish_meat",
-         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
-         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse",
-         "alternative_cool_entity_alias": "trapper_plus:food:salted_fish_meat",
-         "alternative_cooler_alias": "trapper_plus:trapper:salt_box"
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:smoked_fish_meat",
+               "progress_required": {
+                  "min": 7.5,
+                  "max": 11
+               }
+            },
+            "salt_curing": {
+               "result": "trapper_plus:food:salted_fish_meat",
+               "progress_required": {
+                  "min": 80,
+                  "max": 86
+               }
+            }
+         }
       }
    }
 }

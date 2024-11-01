@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "i18n(trapper_plus:data.buffs.snake_juice.snake_juice_worn_off_buff.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.snake_juice.snake_juice_worn_off_buff.description)",
+   "icon": "file(snake_juice_after_effect_buff.png)",
+   "duration": "6h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "willpower": {
+         "multiply": 0.6
+      }
+   },
+   "disallowed_categories": [
+      "snake_juice"
+   ]
+}

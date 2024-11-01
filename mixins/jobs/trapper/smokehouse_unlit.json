@@ -1,0 +1,39 @@
+{
+   "mixins": "trapper_plus:mixins:jobs:trapper:smokehouse",
+   "components": {
+      "destination": {
+         "mixintypes": {
+            "adjacency_flags": "override"
+         },
+         "adjacency_flags": [
+            "back"
+         ]
+      },
+      "stonehearth:storage": {
+         "mixintypes": {
+            "is_single_filter": "remove"
+         }
+      },
+      "core_dani:passive_transformer": {
+         "paused": true
+      },
+      "stonehearth_ace:transform": {}
+   },
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "command": "trapper_plus:commands:transform:smokehouse",
+         "request_action": "stonehearth_ace:transform",
+         "request_action_overlay_effect": "trapper_plus:effects:transform_trapper_overlay_effect",
+         "transform_ingredient_material": "common_fuel",
+         "transforming_worker_effect": "light_fire",
+         "transforming_worker_effect_times": 1,
+         "auto_request": true,
+         "transform_effect": "stonehearth:effects:item_created",
+         "worker_required_job": {
+            "stonehearth:jobs:worker": true,
+            "stonehearth:jobs:trapper": true
+         },
+         "transform_script": "core_dani:scripts:ace_transform_lib_additions"
+      }
+   }
+}

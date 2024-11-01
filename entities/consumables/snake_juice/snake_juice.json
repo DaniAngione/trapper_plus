@@ -1,0 +1,56 @@
+{
+   "mixins": "file(snake_juice_ghost.json)",
+   "type": "entity",
+   "components": {
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:use_consumable"
+         ]
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(snake_juice_iconic.json)",
+         "ghost_form": "file(snake_juice_ghost.json)",
+         "placeable_on_ground": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 9,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:consumable": {
+         "script": "stonehearth:consumables:scripts:buff_town",
+         "consumable_qualities": [
+            {
+               "buff": "trapper_plus:buffs:tonic:snake_juice"
+            },
+            {
+               "buff": "trapper_plus:buffs:tonic:snake_juice:fine"
+            },
+            {
+               "buff": "trapper_plus:buffs:tonic:snake_juice:excellent"
+            },
+            {
+               "buff": "trapper_plus:buffs:tonic:snake_juice:masterwork"
+            }
+         ]
+      },
+      "stonehearth:catalog": {
+         "material_tags": [
+            "snake_juice",
+            "tonic",
+            "consumable",
+            "stockpile_consumable"
+         ]
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

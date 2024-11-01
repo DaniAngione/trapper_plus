@@ -1,0 +1,7 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "invisible_to_player": true,
+   "duration": "5m",
+   "cooldown_buff": "trapper_plus:buffs:poison_snake"
+}

@@ -3,11 +3,24 @@
 		"workbenches": {
          "recipes": {}
 		},
-		"tannery": {
+		"frontier": {
 			"recipes": {
 				"bundle_of_firewood": {
 					"recipe": "file(bundle_of_firewood_recipe.json)"
 				},
+				"pemmican": {
+					"recipe": "file(pemmican_recipe.json)"
+				},
+				"soap": {
+					"recipe": "file(soap_recipe.json)"
+				},
+				"snake_juice": {
+					"recipe": "file(snake_juice_recipe.json)"
+				}
+			}
+		},
+		"tannery": {
+			"recipes": {
 				"trapper_tannin_chestnut": {
 					"recipe": "file(trapper_tannin_chestnut_recipe.json)"
 				}
@@ -27,6 +40,9 @@
 			"recipes": {
 				"slice_steak": {
 					"recipe": "file(slice_steak_recipe.json)"
+				},
+				"slice_duck": {
+					"recipe": "file(slice_duck_recipe.json)"
 				}
 			}
 		},	
@@ -34,12 +50,6 @@
 			"recipes": {
 				"rendered_animal_fat_tallow": {
 					"recipe": "file(rendered_animal_fat_tallow_recipe.json)"
-				},
-				"pemmican": {
-					"recipe": "file(pemmican_recipe.json)"
-				},
-				"soap": {
-					"recipe": "file(soap_recipe.json)"
 				}
 			}
 		},

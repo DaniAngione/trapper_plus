@@ -1,0 +1,57 @@
+{
+   "components": {
+      "stonehearth_ace:consumer": {
+         "fuel_settings": {
+            "fueled_buff": "stonehearth_ace:buffs:weather:warmth_source",
+            "no_fuel_effect": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle_no_fuel.json",
+            "fuel_per_use": 1,
+            "fuel_effect": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle.json",
+            "no_fuel_model_variant": "no_fuel"
+         }
+      },
+      "stonehearth:storage": {
+         "type": "input_crate",
+         "allow_default": false,
+         "drop_all_on_undeploy": true,
+         "prioritize_restocking_high_quality": false,
+         "priority": 3,
+         "capacity": 4,
+         "filter_list": "stonehearth_ace:ui:workbench_fuel:low_grade:filters",
+         "default_filter": [
+            "firewood low_fuel"
+         ]
+      },
+      "stonehearth:expendable_resources": {
+         "resources": {
+            "fuel_level": {
+               "min": {
+                  "value": 0
+               },
+               "max": {
+                  "value": 100
+               },
+               "initial_value": 0
+            },
+            "reserved_fuel_level": {
+               "min": {
+                  "value": 0
+               },
+               "max": {
+                  "value": 100
+               },
+               "initial_value": 0
+            }
+         }
+      },
+      "sensor_list": {
+         "sensors": {
+            "warmth": {
+               "radius": 6
+            }
+         }
+      },
+      "effect_list": {
+         "default": "/trapper_plus/data/rigs/jobs/trapper/campfire_pot/effects/idle_unlit.json"
+      }
+   }
+}

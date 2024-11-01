@@ -12,5 +12,44 @@
 		"winter" : {
 			"salt": "#EBE6DB"
 		}
+	},
+	"landscape": {
+      "placement_table": {
+         "trapper_plus:plants:saltbush": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 3,
+               "item_density": 0.3,
+               "exclusion_radius": 2
+            }
+         }
+      },
+		"scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.9
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.6
+                  },
+                  "2": {
+                     "trapper_plus:plants:saltbush": 0.4
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "trapper_plus:plants:saltbush": 0.2
+                  },
+                  "2": {
+                     "trapper_plus:plants:saltbush": 0.1
+                  }
+               }
+            }
+         }
+      }
 	}
 }

@@ -1,0 +1,7 @@
+{
+   "mixins": "trapper_plus:buffs:tonic:snake_juice",
+   "type": "buff",
+   "rank": 2,
+   "icon": "file(snake_juice_fine_buff.png)",
+   "duration": "4h"
+}

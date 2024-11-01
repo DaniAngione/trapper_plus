@@ -18,7 +18,12 @@
          "display_name": "i18n(trapper_plus:trapper.tanning_tub.display_name)",
          "description": "i18n(trapper_plus:trapper.tanning_tub.water_description)",
          "icon": "file(tanning_tub_water.png)",
-         "category": "workshops"
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool",
+            "passive_transformer",
+            "tanning_tub"
+         ]
       }
    }
 }

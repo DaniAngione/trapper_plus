@@ -1,5 +1,7 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -18,9 +20,7 @@
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:smoked_sausage:smoked_sausage_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:smoked_sausage:smoked_sausage_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 18,
@@ -36,26 +36,12 @@
          "display_name": "i18n(trapper_plus:food.smoked_sausage.display_name)",
          "description": "i18n(trapper_plus:food.smoked_sausage.description)",
          "icon": "file(smoked_sausage.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "prepared_food",
             "smoked_sausage",
-            "smoked",
-            "stockpile_prepared_food",
-            "meat",
-            "lunch_time"
+            "meat"
          ]
       },
-      "stonehearth:appeal": {
-         "appeal": 3
-      },
       "stonehearth:food_decay": {
-         "initial_decay": {
-            "min": 700,
-            "max": 720
-         },
          "rotten_entity_alias": "stonehearth:food:rotten:sausage_meat"
       }
    }

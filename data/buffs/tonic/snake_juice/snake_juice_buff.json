@@ -1,0 +1,25 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "category": "snake_juice",
+   "unique_in_category": true,
+   "rank": 1,
+   "display_name": "i18n(trapper_plus:data.buffs.snake_juice.snake_juice_buff.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.snake_juice.snake_juice_buff.description)",
+   "icon": "file(snake_juice_buff.png)",
+   "duration": "2h",
+   "repeat_add_action": "renew_duration",
+   "effect": "trapper_plus:effects:buff_snake_juice_added",
+   "cooldown_buff": "trapper_plus:buffs:tonic:snake_juice:worn_off",
+   "modifiers": {
+      "drink_satiety_loss_multiplier": {
+         "multiply": 1.3
+      },
+      "calorie_burn_multiplier": {
+         "multiply": 1.2
+      }
+   },
+   "disallowed_buffs": [
+      "trapper_plus:buffs:snake_bite"
+   ]
+}

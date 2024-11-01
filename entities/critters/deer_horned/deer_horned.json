@@ -2,6 +2,7 @@
 	"components": {
       "stonehearth:resource_node": {
 		 "resource": "trapper_plus:raw_deer_meat",
+       "harvestable_by_harvest_tool": false,
          "resource_loot_table": {
             "entries": {
                "pelt": {

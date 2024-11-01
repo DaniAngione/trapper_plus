@@ -7,6 +7,8 @@
    "flavor": "i18n(trapper_plus:trapper.small_drying_frame.flavor)",
    "portrait": "/trapper_plus/jobs/trapper/small_drying_frame/small_drying_frame.png",
    "work_effect": "work",
+   "level_requirement": 1,
+   "proficiency_gain": 0.5,
    "ingredients": [
       {
          "material": "wood resource",

@@ -36,7 +36,11 @@
          ],
          "is_single_filter": true
       },
-      "stonehearth_ace:transform": {}
+      "stonehearth_ace:transform": {},
+      "core_dani:passive_transformer": {
+         "type": "tanning_tub",
+         "paused": true
+      }
    },
    "entity_data": {
       "stonehearth_ace:transform_data": {

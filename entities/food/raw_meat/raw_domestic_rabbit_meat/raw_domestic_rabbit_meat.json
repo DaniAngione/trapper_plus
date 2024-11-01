@@ -1,0 +1,15 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_red_meat_small",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_domestic_rabbit_meat.display_name)",
+         "icon": "file(raw_domestic_rabbit_meat.png)",
+         "material_tags": [
+            "rabbit",
+            "domestic"
+         ]
+      }
+   }
+}

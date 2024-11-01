@@ -95,6 +95,13 @@
 		
 		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug.qb": "/trapper_plus/data/biome/highlands/entities/decoration/cougar_rug/cougar_rug.qb",
 		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug_iconic.qb": "/trapper_plus/data/biome/highlands/entities/decoration/cougar_rug/cougar_rug_iconic.qb",
-		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug.png": "/trapper_plus/data/biome/highlands/entities/decoration/cougar_rug/cougar_rug.png"
+		"/trapper_plus/entities/decoration/cougar_rug/cougar_rug.png": "/trapper_plus/data/biome/highlands/entities/decoration/cougar_rug/cougar_rug.png",
+
+		"/trapper_plus/entities/monsters/forest/snake/snake.qb": "file(entities/monsters/forest/snake/snake_highlands.qb)",
+      "/trapper_plus/entities/monsters/forest/snake/snake.png": "file(entities/monsters/forest/snake/snake_highlands.png)",
+      "/trapper_plus/entities/resources/skin/fresh_snake_skin/fresh_snake_skin.qb": "file(entities/resources/skin/fresh_snake_skin/fresh_snake_highlands_skin.qb)",
+      "/trapper_plus/entities/resources/skin/fresh_snake_skin/fresh_snake_skin.png": "file(entities/resources/skin/fresh_snake_skin/fresh_snake_highlands_skin.png)",
+      "/trapper_plus/entities/resources/skin/snake_skin/snake_skin.qb": "file(entities/resources/skin/snake_skin/snake_highlands_skin.qb)",
+      "/trapper_plus/entities/resources/skin/snake_skin/snake_skin.png": "file(entities/resources/skin/snake_skin/snake_highlands_skin.png)"
 	}
 }

@@ -1,0 +1,19 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_wild_meat_small",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_venison_meat.display_name)",
+         "icon": "file(../raw_wild_meat_small_butchered.png)",
+         "material_tags": [
+            "venison",
+            "butchered"
+         ]
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 5,
+         "rarity": "common"
+      }
+   }
+}

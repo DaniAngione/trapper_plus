@@ -1,0 +1,30 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "i18n(trapper_plus:data.buffs.poison_snake.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.poison_snake.description)",
+   "icon": "file(poison_snake.png)",
+   "duration": "16h+8h",
+   "repeat_add_action": "renew_duration",
+   "effect": "trapper_plus:effects:poison_snake",
+   "modifiers": {
+      "muscle": {
+         "multiply": 0.5
+      },
+      "diligence": {
+         "multiply": 0.5
+      },
+      "speed": {
+         "multiply": 0.8
+      }
+   },
+   "restore_effect": true,
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": -0.025,
+      "pulse": "30m",
+      "is_percentage": true,
+      "pulse_immediately": false,
+      "pulse_on_destroy": true
+   }
+}

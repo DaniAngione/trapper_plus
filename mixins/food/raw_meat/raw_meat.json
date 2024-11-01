@@ -1,0 +1,41 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {},
+   "entity_data": {
+      "stonehearth_ace:pet_food_container": {
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "shop_info": {
+            "buyable": true,
+            "sellable": false
+         }
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 160,
+            "max": 190
+         },
+         "decay_stages": {
+            "decay_1": {
+               "trigger_decay_value": 72,
+               "model_variant": "decay_1",
+               "description": "i18n(trapper_plus:food.raw_meat.decay_1_description)"
+            }
+         }
+      },
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "cooking_ingredient",
+         "material_tags": [
+            "stockpile_cooking_ingredient",
+            "meat_ingredient",
+            "meat",
+            "raw",
+            "cooking_ingredient",
+            "pet_food",
+            "food_container"
+         ]
+      }
+   }
+}

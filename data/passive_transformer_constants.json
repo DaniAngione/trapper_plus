@@ -1,0 +1,95 @@
+{
+   "constants": {
+      "passive_transformer": {
+         "TRANSFORMERS": [
+            {
+               "smoking_pit": {
+                  "smoke_curing": {
+                     "rate": 0.4,
+                     "quality": -1
+                  }
+               }
+            },
+            {
+               "smokehouse_simple": {
+                  "smoke_curing": {
+                     "rate": 0.9
+                  }
+               }
+            },
+            {
+               "smokehouse": {
+                  "smoke_curing": {
+                     "rate": 1,
+                     "quality": 1
+                  }
+               }
+            },
+            {
+               "smokehouse_advanced": {
+                  "smoke_curing": {
+                     "rate": 2,
+                     "quality": 2
+                  }
+               }
+            },
+            {
+               "salt_box": {
+                  "salt_curing": {
+                     "rate": 1.2,
+                     "quality": 1
+                  }
+               }
+            },
+            {
+               "sundrier": {
+                  "sun_curing": {
+                     "rate": 0.8,
+                     "sunlight_based": true
+                  }
+               }
+            },
+            {
+               "sun_tanner": {
+                  "pelt_drying": {
+                     "rate": 0.6,
+                     "sunlight_based": true,
+                     "quality": -1
+                  },
+                  "skin_drying": {
+                     "rate": 1.5,
+                     "sunlight_based": true
+                  },
+                  "leather_tanning": {
+                     "rate": 0.4,
+                     "sunlight_based": true,
+                     "quality": -1
+                  }
+               }
+            },
+            {
+               "drying_rack": {
+                  "pelt_drying": {
+                     "rate": 1
+                  },
+                  "skin_drying": {
+                     "rate": 0.8,
+                     "quality": -1
+                  },
+                  "herb_drying": {
+                     "rate": 1
+                  }
+               }
+            },
+            {
+               "tanning_tub": {
+                  "leather_tanning": {
+                     "rate": 1,
+                     "quality": 1
+                  }
+               }
+            }
+         ]
+      }
+   }
+}

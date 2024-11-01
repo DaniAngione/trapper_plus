@@ -1,0 +1,34 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:smoked_serving",
+      "trapper_plus:mixins:food:red_meat_serving"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smoked_red_meat_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 75
+         },
+         "default": {
+            "satisfaction": 60
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.smoked_red_meat.serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "smoked_red_meat_serving"
+         ],
+         "subject_override": "trapper_plus:food:smoked_red_meat"
+      }
+   }
+}

@@ -5,7 +5,7 @@
          "content": {
             "jerky": {
                "display_name": "i18n(trapper_plus:data.loadouts.items.meat)",
-               "uri": "trapper_plus:food:smoked_rabbit_meat",
+               "uri": "trapper_plus:food:smoked_red_meat_small",
                "icon": "file(images/items/meat.png)"
             }
          }
@@ -14,7 +14,7 @@
          "content": {
             "jerky": {
                "display_name": "i18n(trapper_plus:data.loadouts.items.meat)",
-               "uri": "trapper_plus:food:smoked_racoon_meat",
+               "uri": "trapper_plus:food:smoked_red_meat_small",
                "icon": "file(images/items/meat.png)"
             }
          }

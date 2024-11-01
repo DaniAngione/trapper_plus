@@ -50,16 +50,16 @@
                "filter": "fresh_pelt wolf"
             },
             "fresh_varanus_pelt": {
-               "ordinal": 9,
-               "display_name": "i18n(trapper_plus:entities.fresh_varanus_pelt.display_name)",
+               "ordinal": 11,
+               "display_name": "i18n(trapper_plus:entities.fresh_varanus_skin.display_name)",
                "icon": "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png",
-               "filter": "fresh_pelt varanus"
+               "filter": "fresh_skin varanus"
             },
             "fresh_zilla_pelt": {
-               "ordinal": 10,
-               "display_name": "i18n(trapper_plus:entities.fresh_zilla_pelt.display_name)",
+               "ordinal": 12,
+               "display_name": "i18n(trapper_plus:entities.fresh_zilla_skin.display_name)",
                "icon": "/trapper_plus/entities/resources/skin/fresh_zilla_skin/fresh_zilla_skin.png",
-               "filter": "fresh_pelt zilla"
+               "filter": "fresh_skin zilla"
             }
          }
       }

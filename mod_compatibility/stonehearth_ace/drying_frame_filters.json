@@ -13,17 +13,29 @@
                "icon": "/trapper_plus/entities/resources/pelt/fresh_bear_pelt/fresh_bear_pelt.png",
                "filter": "fresh_pelt bear"
             },
+            "fresh_oinker_pelt": {
+               "ordinal": 8,
+               "display_name": "i18n(trapper_plus:entities.fresh_oinker_pelt.display_name)",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_oinker_pelt/fresh_oinker_pelt.png",
+               "filter": "fresh_pelt oinker"
+            },
             "fresh_moomoo_pelt": {
-               "ordinal": 7,
+               "ordinal": 8,
                "display_name": "i18n(trapper_plus:entities.fresh_moomoo_pelt.display_name)",
-               "icon": "/stonehearth_ace/entities/resources/pelt/moomoo_pelt/moomoo_pelt.png",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_moomoo_pelt/fresh_moomoo_pelt.png",
                "filter": "fresh_pelt moomoo"
             },
             "fresh_wild_cattle_pelt": {
-               "ordinal": 8,
+               "ordinal": 9,
                "display_name": "i18n(trapper_plus:entities.fresh_wild_cattle_pelt.display_name)",
-               "icon": "/stonehearth_ace/entities/resources/pelt/wild_cattle_pelt/wild_cattle_pelt.png",
+               "icon": "/trapper_plus/entities/resources/pelt/fresh_wild_cattle_pelt/fresh_wild_cattle_pelt.png",
                "filter": "fresh_pelt wild_cattle"
+            },
+            "fresh_snake_skin": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:entities.fresh_snake_skin.display_name)",
+               "icon": "/trapper_plus/entities/resources/skin/fresh_snake_skin/fresh_snake_skin.png",
+               "filter": "fresh_skin snake"
             }
          }
       }

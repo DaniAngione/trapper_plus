@@ -1,7 +1,10 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "remove"
+         }
       },
       "stonehearth:evolve": {}
    },

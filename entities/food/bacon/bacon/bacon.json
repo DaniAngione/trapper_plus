@@ -1,0 +1,57 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured",
+      "trapper_plus:mixins:food:red_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bacon.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": -0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 2
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:bacon:bacon_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 7,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.bacon.display_name)",
+         "description": "i18n(trapper_plus:food.bacon.description)",
+         "icon": "file(bacon.png)",
+         "material_tags": [
+            "bacon"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 7
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth:food:rotten:jerky"
+      }
+   }
+}

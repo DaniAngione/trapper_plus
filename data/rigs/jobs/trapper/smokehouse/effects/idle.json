@@ -1,14 +1,24 @@
 {
    "type" : "effect",
    "tracks": {  
+      "base": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/smokehouse/smokehouse_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
       "fire_light": {
          "type": "light",
          "light": "/trapper_plus/data/horde/animatedlights/smokehouse/smokehouse_light.animatedlight.json",
 		 "shadows": true,
          "transforms": {
-            "x":-0.2,
+            "x":0,
             "y": 1.6,
-            "z":1.9,
+            "z":0,
             "rx":90,
             "ry":0,
             "rz":0
@@ -19,9 +29,9 @@
          "light": "/trapper_plus/data/horde/animatedlights/smokehouse/smokehouse_light.animatedlight.json",
 			"shadows": true,
          "transforms": {
-            "x":-0.2,
+            "x":0,
             "y": 3.9,
-            "z":0.5,
+            "z":-1.4,
             "rx":90,
             "ry":0,
             "rz":0
@@ -32,9 +42,9 @@
          "loop" : true,
          "cubemitter": "/trapper_plus/data/horde/particles/smokehouse/smokehouse_inner_smoke.cubemitter.json",
          "transforms": {
-            "x":-0.2,
+            "x":0,
             "y": 1,
-            "z":1.9,
+            "z":0,
             "rx":90,
             "ry":0,
             "rz":0
@@ -45,9 +55,9 @@
          "loop" : true,
          "cubemitter": "/trapper_plus/data/horde/particles/smokehouse/smokehouse_top_smoke.cubemitter.json",
          "transforms": {
-            "x":-0.2,
+            "x":0,
             "y":5.4,
-            "z":1.9,
+            "z":0,
             "rx":90,
             "ry":0,
             "rz":0

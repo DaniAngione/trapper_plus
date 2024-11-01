@@ -6,7 +6,7 @@
    "emission": {
       "rate": {
          "kind": "CONSTANT",
-         "values": [85]
+         "values": [120]
       },
       "angle": {
          "kind": "CONSTANT",
@@ -14,20 +14,20 @@
       },
       "origin": {
          "surface": "RECTANGLE",
-         "values": [2.2, 2.2, 0, 0]
+         "values": [2.5, 2.5, 0, 0]
       }
    },
    "particle": {
       "lifetime": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [1700, 2800]
+            "values": [1700, 3000]
          }
       },
       "speed": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [1, 1.4]
+            "values": [0.9, 1.2]
          }
       },
       "rotation": {
@@ -39,7 +39,7 @@
       "scale": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [0.1, 0.6]
+            "values": [0.1, 0.5]
          },
          "over_lifetime": {
             "kind": "RANDOM_BETWEEN_CURVES",
@@ -64,7 +64,7 @@
             "kind": "CURVE",
             "values": [
                [0, 0.3],
-               [0.8, 0.2],
+               [0.99, 0.5],
                [1, 0]
             ]
          }

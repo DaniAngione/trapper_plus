@@ -2,13 +2,13 @@
    "type": "recipe",
    "effort": 8,
    "work_units": 3,
-   "recipe_name": "i18n(trapper_plus:food.raw_meat.recipes.mutton_display_name)",
-   "description": "i18n(trapper_plus:food.raw_meat.recipes.mutton_description)",
-   "flavor": "i18n(trapper_plus:food.raw_meat.recipes.mutton_flavor)",
-   "portrait": "/trapper_plus/entities/resources/raw_meat/2x_raw_small_meat.png",
+   "recipe_name": "i18n(trapper_plus:trapper.recipes.butchering.mutton_display_name)",
+   "description": "i18n(trapper_plus:trapper.recipes.butchering.mutton_description)",
+   "flavor": "i18n(trapper_plus:trapper.recipes.butchering.mutton_flavor)",
+   "portrait": "/trapper_plus/entities/food/raw_meat/raw_red_meat_small_butchered.png",
    "workshop": "trapper_plus:trapper:block",
    "work_effect": "fiddle",
-   "ace_smart_crafter_ignore": true,
+	"ace_smart_crafter_ignore": true,
    "level_requirement": 2,
    "ingredients": [
       {

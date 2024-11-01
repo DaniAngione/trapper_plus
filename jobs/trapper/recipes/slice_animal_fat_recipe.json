@@ -5,14 +5,15 @@
    "recipe_name": "i18n(trapper_plus:entities.animal_fat.display_name)",
    "description": "i18n(trapper_plus:entities.animal_fat.recipe_description)",
    "flavor": "i18n(trapper_plus:entities.animal_fat.flavor)",
-   "portrait": "/trapper_plus/entities/resources/animal_fat/animal_fat.png",
+   "portrait": "/trapper_plus/entities/resources/animal_fat/animal_fat_butchered.png",
    "workshop": "trapper_plus:trapper:block",
    "work_effect": "fiddle",
-   "level_requirement": 3,
+   "level_requirement": 2,
+   "proficiency_gain": 0.5,
 	"ace_smart_crafter_ignore": true,
    "ingredients": [
       {
-         "material": "large meat raw",
+         "material": "bits large meat raw",
          "count": 1
       }
    ],

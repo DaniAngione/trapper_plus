@@ -1,0 +1,29 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+            "type": "animation_effect",
+            "speed": 0.5,
+            "start_time": 0,
+            "animation": "idle_look_around.json",
+            "loop": true
+      },
+      "sound": {
+        "type": "sound_effect",
+        "duration": 1000,
+        "start_time": 800,
+        "min_distance": 30,
+        "max_instances": 2,
+        "falloff" : 5,
+        "volume": 36,
+        "track" : {
+           "type": "one_of",
+           "items": [
+              "trapper_plus:sounds:snake_idle_01",
+              "trapper_plus:sounds:snake_idle_02",
+              "trapper_plus:sounds:snake_idle_03"
+           ]
+        }
+     }  
+   }
+}

@@ -1,0 +1,47 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_meat",
+   "type": "entity",
+   "components": {
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": -0.05 }
+      },
+      "mixintypes": {
+         "model_variants": "override"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(raw_bacon.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_decay": {
+         "mixintypes": {
+            "decay_stages": "remove"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_bacon.display_name)",
+         "description": "i18n(trapper_plus:food.raw_bacon.description)",
+         "icon": "file(raw_bacon.png)",
+         "material_tags": [
+            "smokehouse_curable",
+            "bacon"
+         ]
+      },
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:bacon",
+               "progress_required": {
+                  "min": 28,
+                  "max": 32
+               }
+            }
+         }
+      }
+   }
+}

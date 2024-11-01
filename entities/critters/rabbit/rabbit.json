@@ -33,6 +33,7 @@
       },
       "stonehearth:resource_node": {
 		 "resource": "trapper_plus:raw_rabbit_meat",
+       "harvestable_by_harvest_tool": false,
          "resource_loot_table": {
             "entries": {
                "pelt": {

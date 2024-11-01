@@ -1,0 +1,41 @@
+{
+   "mixins": "trapper_plus:mixins:resources:fresh_skin",
+   "type": "entity",
+   "components": {
+      "mixintypes": {
+         "model_variants": "override"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fresh_snake_skin.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 4
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.fresh_snake_skin.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_snake_skin.description)",
+         "icon": "file(fresh_snake_skin.png)",
+         "is_item": true,
+         "material_tags": [
+            "snake"
+         ]
+      },
+      "core_dani:passive_transform": {
+         "processes": {
+            "skin_drying": {
+               "result": "trapper_plus:resources:snake_skin",
+               "progress_required": {
+                  "min": 29,
+                  "max": 32
+               }
+            }
+         }
+      }
+   }
+}

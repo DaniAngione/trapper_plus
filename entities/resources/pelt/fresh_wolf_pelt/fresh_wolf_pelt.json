@@ -21,14 +21,16 @@
          "display_name": "i18n(trapper_plus:entities.fresh_wolf_pelt.display_name)",
          "icon": "file(fresh_wolf_pelt.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
             "wolf"
          ]
       },
-      "core_dani:cooling": {
-         "cool_entity_alias": "trapper_plus:resources:fresh_wolf_pelt",
-         "proper_cool_entity_alias": "stonehearth:resources:wolf_pelt"
+      "core_dani:passive_transform": {
+         "processes": {
+            "pelt_drying": {
+               "result": "stonehearth:resources:wolf_pelt"
+            }
+         }
       }
    }
 }

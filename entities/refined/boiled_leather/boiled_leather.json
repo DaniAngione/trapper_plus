@@ -32,9 +32,10 @@
          "category": "refined",
          "material_tags": [
             "leather",
-            "boiled_leather",
+            "refined",
+            "undesirable_ingredient",
             "boiled",
-            "resource",
+            "bolt",
             "refined_leather",
             "stockpile_refined_weaver"
          ]

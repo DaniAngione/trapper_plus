@@ -1,0 +1,41 @@
+{
+   "type": "monster_tuning",
+   "estimated_difficulty": 3,
+   "scale": 0.13,
+   "attributes": {
+      "max_health": 90,
+      "muscle": 5,
+      "menace": 60,
+      "courage": 90,
+      "speed": 52,
+      "additive_armor_modifier": 2,
+      "exp_reward": 24
+   },
+   "equipment": {
+      "weapon": [
+         "trapper_plus:weapons:animals:snake_teeth"
+      ]
+   },
+   "unit_info": {
+      "display_name": "i18n(trapper_plus:data.monster_tuning.forest.snake_regular.display_name)",
+      "description": "i18n(trapper_plus:data.monster_tuning.forest.snake_regular.description)"
+   },
+   "stonehearth:loot_drops": {
+      "entries": {
+         "default": {
+            "roll_type": "some_of",
+            "num_rolls": {
+               "min": 2,
+               "max": 2
+            },
+            "items": {
+               "skin": {
+                  "type": "bag",
+                  "uri": "trapper_plus:loot_bag:snake_default",
+                  "weight": 1
+               }
+            }
+         }
+      }
+   }
+}

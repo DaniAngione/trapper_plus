@@ -1,5 +1,7 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -18,9 +20,7 @@
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:walnut:smoked_walnut_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:walnut:smoked_walnut_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 11,
@@ -34,20 +34,14 @@
          "display_name": "i18n(trapper_plus:entities.food.walnut.smoked_walnut_basket.display_name)",
          "description": "i18n(trapper_plus:entities.food.walnut.smoked_walnut_basket.description)",
          "icon": "file(smoked_walnut_basket.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "stockpile_prepared_food",
-            "prepared_food",
-            "smoked",
             "walnut",
-            "nuts",
-            "dinner_time"
+            "vegetarian",
+            "nuts"
          ]
       },
-      "stonehearth:appeal": {
-         "appeal": 4
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:basket_nuts"
       }
    }
 }

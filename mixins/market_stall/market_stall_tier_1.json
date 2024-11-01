@@ -1,0 +1,27 @@
+{
+   "components": {
+      "stonehearth_ace:market_stall": {
+         "stall_models": {
+            "salt_mine_shop_1": {
+               "model_data": {
+                  "model": "file(shop/tier_1/salt_mine_shop.qb)",
+                  "matrix": "Shop",
+                  "scale": 0.1,
+                  "offset": { "x": 24, "y": 0, "z": 18 }
+               },
+               "entity_points": [
+                  {
+                     "bone_name": "goodsFrontRow2"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow4"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow5"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

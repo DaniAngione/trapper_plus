@@ -18,6 +18,13 @@
       "/trapper_plus/entities/decoration/fox_rug/fox_rug_iconic.qb": "file(entities/decoration/fox_rug/fox_rug_fennec_iconic.qb)",
 
       "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.qb": "file(entities/resources/skin/fresh_varanus_skin/fresh_varanus_bonehide_skin.qb)",
-      "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png": "file(entities/resources/skin/fresh_varanus_skin/fresh_varanus_bonehide_skin.png)"
+      "/trapper_plus/entities/resources/skin/fresh_varanus_skin/fresh_varanus_skin.png": "file(entities/resources/skin/fresh_varanus_skin/fresh_varanus_bonehide_skin.png)",
+
+      "/trapper_plus/entities/monsters/forest/snake/snake.qb": "file(entities/monsters/forest/snake/snake_desert.qb)",
+      "/trapper_plus/entities/monsters/forest/snake/snake.png": "file(entities/monsters/forest/snake/snake_desert.png)",
+      "/trapper_plus/entities/resources/skin/fresh_snake_skin/fresh_snake_skin.qb": "file(entities/resources/skin/fresh_snake_skin/fresh_snake_desert_skin.qb)",
+      "/trapper_plus/entities/resources/skin/fresh_snake_skin/fresh_snake_skin.png": "file(entities/resources/skin/fresh_snake_skin/fresh_snake_desert_skin.png)",
+      "/trapper_plus/entities/resources/skin/snake_skin/snake_skin.qb": "file(entities/resources/skin/snake_skin/snake_desert_skin.qb)",
+      "/trapper_plus/entities/resources/skin/snake_skin/snake_skin.png": "file(entities/resources/skin/snake_skin/snake_desert_skin.png)"
    }
 }

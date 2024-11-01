@@ -1,0 +1,9 @@
+{
+   "constants": {
+      "healing": {
+         "SPECIAL_ATTENTION_CONDITIONS": {
+            "poison_snake": 1
+         }
+      }
+   }
+}

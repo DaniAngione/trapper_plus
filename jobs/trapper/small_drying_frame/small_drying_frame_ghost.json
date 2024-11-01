@@ -22,7 +22,12 @@
          "display_name": "i18n(trapper_plus:trapper.small_drying_frame.display_name)",
          "description": "i18n(trapper_plus:trapper.small_drying_frame.description)",
          "icon": "file(small_drying_frame.png)",
-         "category": "workshops"
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool",
+            "passive_transformer",
+            "drying_frame"
+         ]
       }
    }
 }

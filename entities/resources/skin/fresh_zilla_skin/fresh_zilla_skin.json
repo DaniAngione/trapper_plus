@@ -1,5 +1,5 @@
 {
-   "mixins": "trapper_plus:mixins:resources:fresh_pelt",
+   "mixins": "trapper_plus:mixins:resources:fresh_skin",
    "type": "entity",
    "components": {
       "mixintypes": {
@@ -18,23 +18,24 @@
          "value_in_gold": 5
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(trapper_plus:entities.fresh_zilla_pelt.display_name)",
-         "description": "i18n(trapper_plus:entities.fresh_zilla_pelt.description)",
+         "display_name": "i18n(trapper_plus:entities.fresh_zilla_skin.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_zilla_skin.description)",
          "icon": "file(fresh_zilla_skin.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
-            "zilla",
-            "fresh_skin"
+            "zilla"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 36,
-            "max": 44
-         },
-         "cool_entity_alias": "trapper_plus:resources:fresh_zilla_skin",
-         "proper_cool_entity_alias": "stonehearth:resources:zilla_skin"
+      "core_dani:passive_transform": {
+         "processes": {
+            "skin_drying": {
+               "result": "stonehearth:resources:zilla_skin",
+               "progress_required": {
+                  "min": 56,
+                  "max": 60
+               }
+            }
+         }
       }
    }
 }

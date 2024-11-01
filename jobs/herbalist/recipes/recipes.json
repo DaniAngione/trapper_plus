@@ -8,6 +8,13 @@
 					"recipe" : "file(wax_vegetable_recipe.json)"
 				}
 			}
+		},
+		"refinement": {
+			"recipes": {
+				"saltbush_transmute": {
+					"recipe": "file(saltbush_transmute_recipe.json)"
+				}
+			}
 		}
    }
 }

@@ -20,6 +20,12 @@
                "display_name": "i18n(trapper_plus:entities.raw_skin.display_name)",
                "icon": "/trapper_plus/entities/resources/rawskin/rawskin.png",
                "filter": "needs_tanning rawskin"
+            },            
+            "oinker_pelt": {
+               "ordinal": 3,
+               "display_name": "i18n(stonehearth_ace:entities.resources.pelt.oinker_pelt.display_name)",
+               "icon": "/stonehearth_ace/entities/resources/pelt/oinker_pelt/oinker_pelt.png",
+               "filter": "needs_tanning pelt oinker"
             }
          }
       }

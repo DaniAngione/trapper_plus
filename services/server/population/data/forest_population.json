@@ -1,0 +1,11 @@
+{
+   "roles": {
+      "snake": {
+         "male": {
+            "uri": [
+               "trapper_plus:monsters:forest:snake"
+            ]
+         }
+      }
+   }
+}

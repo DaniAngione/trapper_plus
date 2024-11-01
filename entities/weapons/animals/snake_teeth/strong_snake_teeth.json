@@ -1,0 +1,32 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "none"
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "trapper_plus:buffs:snake_bite",
+               "chance": 0.5
+            }
+         }
+      },
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 15,
+         "reach": 2
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "snake_bite",
+            "effect": "bite",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}

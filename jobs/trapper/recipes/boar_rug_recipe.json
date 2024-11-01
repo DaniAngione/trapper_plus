@@ -7,6 +7,7 @@
    "flavor": "i18n(trapper_plus:decorations.boar_rug.flavor)",
    "portrait": "/trapper_plus/entities/decoration/boar_rug/boar_rug.png",
    "workshop": "trapper_plus:trapper:block",
+   "proficiency_gain": 1.5,
    "level_requirement": 4,
    "ingredients": [
       {

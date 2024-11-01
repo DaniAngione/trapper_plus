@@ -1,0 +1,46 @@
+{
+   "shop_info": {
+      "inventory": {
+         "entries": [
+            {
+               "items_matching": {
+                  "meat": {
+                     "category": [
+                        "cooking_ingredient"
+                     ],
+                     "material": [
+                        "meat",
+                        "raw",
+                        "bits",
+                        "wild"
+                     ],
+                     "exclude_material": [
+                        "fish"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 3,
+                  "max": 10,
+                  "max_unique": 4
+               },
+               "fine_item_chance": 0.2
+            },
+            {
+               "items": [
+                  "trapper_plus:raw_snake_meat",
+                  "trapper_plus:raw_ostrich_meat",
+                  "trapper_plus:raw_duckduck_meat",
+                  "trapper_plus:raw_duck_meat"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 8,
+                  "max_unique": 2
+               },
+               "fine_item_chance": 0.1
+            }
+         ]
+      }
+   }
+}

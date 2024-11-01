@@ -1,7 +1,15 @@
 {
    "components": {
       "stonehearth:storage": {
-         "is_single_filter": false
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "override"
+         },
+         "default_filter": [
+            "fresh_pelt rabbit",
+            "fresh_pelt racoon",
+            "fresh_pelt squirrel"
+         ]
       }
    },
    "entity_data": {}

@@ -1,0 +1,34 @@
+{
+   "mixins": [
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(smokehouse_simple.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.smokehouse_simple.display_name)",
+         "description": "i18n(trapper_plus:trapper.smokehouse_simple.unlit_description)",
+         "icon": "file(smokehouse_simple.png)",
+         "category": "construction",
+         "material_tags": [
+            "stockpile_construction",
+            "passive_transformer",
+            "smokehouse",
+            "simple",
+            "wood",
+            "crafted"
+         ]
+      }
+   }
+}

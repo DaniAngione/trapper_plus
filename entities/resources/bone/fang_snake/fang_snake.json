@@ -1,0 +1,53 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(fang_snake.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.resources.bone.fang_snake.display_name)",
+         "description": "i18n(trapper_plus:entities.resources.bone.fang_snake.description)",
+         "icon": "file(fang_snake.png)",
+         "is_item": true,
+         "category": "resources_animal",
+         "material_tags": [
+            "stockpile_bone",
+            "animal_part",
+            "edible",
+            "bone",
+            "fang",
+            "snake",
+            "resource",
+            "undesirable_ingredient"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -3
+      }
+   }
+}

@@ -2,13 +2,14 @@
    "type": "recipe",
    "effort": 18,
    "work_units": 4,
-   "recipe_name": "i18n(stonehearth:entities.food.sausage.display_name)",
-   "description": "i18n(trapper_plus:food.sausage.description)",
+   "recipe_name": "i18n(trapper_plus:food.sausage.trapper_recipe_name)",
+   "description": "i18n(trapper_plus:food.sausage.trapper_recipe_description)",
    "flavor": "i18n(stonehearth:entities.food.sausage.description)",
    "portrait": "/stonehearth/entities/food/sausage/sausage.png",
    "workshop": "trapper_plus:trapper:block",
    "work_effect": "fiddle",
-   "level_requirement": 4,
+   "proficiency_gain": 0.5,
+   "level_requirement": 2,
    "ingredients": [
       {
          "material": "bits meat raw",
@@ -24,6 +25,9 @@
       }
    ],
    "produces": [
+      {
+         "item": "stonehearth:food:sausage"
+      },
       {
          "item": "stonehearth:food:sausage"
       }

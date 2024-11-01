@@ -12,7 +12,11 @@
          "count": 1
       },
       {
-         "material": "small meat raw",
+         "material": "bits small meat raw",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth_ace:landmark:terrain:water_bucket",
          "count": 1
       }
    ]

@@ -37,6 +37,9 @@
       },
       "effect_list": {
          "default": "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/effects/idle.json"
+      },
+      "core_dani:passive_transformer": {
+         "type": "salt_box"
       }
    },
    "entity_data": {

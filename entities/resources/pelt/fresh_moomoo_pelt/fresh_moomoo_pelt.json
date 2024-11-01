@@ -19,20 +19,23 @@
       },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:entities.fresh_moomoo_pelt.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_moomoo_pelt.description)",
          "icon": "file(fresh_moomoo_pelt.png)",
          "is_item": true,
-         "category": "resources",
          "material_tags": [
             "moomoo"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 18,
-            "max": 26
-         },
-         "cool_entity_alias": "trapper_plus:resources:fresh_moomoo_pelt",
-         "proper_cool_entity_alias": "stonehearth_ace:resources:moomoo_pelt"
+      "core_dani:passive_transform": {
+         "processes": {
+            "pelt_drying": {
+               "result": "stonehearth_ace:resources:moomoo_pelt",
+               "progress_required": {
+                  "min": 16.5,
+                  "max": 18
+               }
+            }
+         }
       }
    }
 }

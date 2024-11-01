@@ -1,3 +1,9 @@
 {
-   "workshop": "stonehearth_ace:cook:table"
+   "workshop": "stonehearth_ace:cook:table",
+   "ingredients": [
+      {
+         "uri": "stonehearth_ace:food:condiment",
+         "count": 1
+      }
+   ]
 }

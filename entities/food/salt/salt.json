@@ -18,7 +18,7 @@
    },
    "entity_data": {
       "stonehearth:net_worth": {
-         "value_in_gold": 7,
+         "value_in_gold": 4,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
@@ -40,18 +40,21 @@
             "seasoning",
             "other_ingredient",
             "other_fluid",
+            "undesirable_ingredient",
             "smokehouse_curable"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 84,
-            "max": 120
-         },
-         "proper_cool_entity_alias": "trapper_plus:food:salt_smoked",
-         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
-         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-         "proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:salt_smoked",
+               "progress_required": {
+                  "min": 86,
+                  "max": 92
+               }
+            }
+         }
       },
       "stonehearth:appeal": {
          "appeal": 0

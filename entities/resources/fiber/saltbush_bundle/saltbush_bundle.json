@@ -1,0 +1,74 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(saltbush_bundle.qb)"
+            ]
+         },
+         "drying": {
+            "models": [
+               "file(saltbush_bundle_drying.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle.display_name)",
+         "description": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle.description)",
+         "icon": "file(saltbush_bundle.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "fiber",
+            "spinnable",
+            "resource",
+            "plant",
+            "saltbush",
+            "standard",
+            "stockpile_plant"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -2
+      },
+      "core_dani:passive_transform": {
+         "type": "fresh_herb",
+         "processes": {
+            "herb_drying": {
+               "result": "trapper_plus:resources:fiber:saltbush_bundle_dry",
+               "progress_required": {
+                  "min": 20,
+                  "max": 24
+               },
+               "visual_steps": {
+                  "drying": {
+                     "progress_trigger": 12,
+                     "model_variant": "drying",
+                     "description": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle.drying_description)"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

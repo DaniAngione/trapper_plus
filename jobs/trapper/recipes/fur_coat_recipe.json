@@ -1,6 +1,6 @@
 {
    "type": "recipe",
-   "effort": 40,
+   "effort": 75,
    "work_units": 5,
    "recipe_name": "i18n(trapper_plus:worker.fur_coat.display_name)",
    "description": "i18n(trapper_plus:worker.fur_coat.description)",
@@ -12,11 +12,11 @@
    "ingredients": [
       {
          "material": "large pelt resource",
-         "count": 1
+         "count": 2
       },
 		{
          "material": "small pelt resource",
-         "count": 1
+         "count": 2
       },
 	  {
          "uri": "trapper_plus:refined:thin_leather",

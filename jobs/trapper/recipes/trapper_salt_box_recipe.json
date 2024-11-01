@@ -7,7 +7,7 @@
    "flavor": "i18n(trapper_plus:trapper.salt_box.flavor)",
    "portrait": "/trapper_plus/jobs/trapper/trapper_salt_box/trapper_salt_box.png",
    "work_effect": "work",
-	"level_requirement": 2,
+	"level_requirement": 3,
    "ingredients": [
       {
          "material": "wood resource",

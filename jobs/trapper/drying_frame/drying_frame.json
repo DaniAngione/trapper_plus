@@ -22,7 +22,11 @@
          "region": [
             {
                "min": { "x": -1, "y": 0, "z": -1 },
-               "max": { "x": 2, "y": 3, "z": 1 }
+               "max": { "x": 2, "y": 3, "z": 0 }
+            },
+            {
+               "min": { "x": -1, "y": 0, "z": 0 },
+               "max": { "x": 0.5, "y": 3, "z": 1 }
             }
          ]
       },
@@ -40,6 +44,9 @@
       },
       "effect_list": {
          "default": "file(/data/rigs/jobs/trapper/drying_frame/effects/idle.json)"
+      },
+      "core_dani:passive_transformer": {
+         "type": "drying_rack"
       }
    },
    "entity_data": {

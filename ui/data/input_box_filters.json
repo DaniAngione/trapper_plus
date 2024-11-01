@@ -1,7 +1,7 @@
 {
    "type": "index",
    "stockpile": {
-		"resources": {
+      "resources": {
          "categories": {
             "rock_salt": {
                "ordinal": 4.5,
@@ -13,7 +13,7 @@
       },
       "animal_parts": {
          "categories": {
-				"animal_fat": {
+            "animal_fat": {
                "ordinal": 0.5,
                "display_name": "i18n(trapper_plus:entities.animal_fat.display_name)",
                "icon": "/trapper_plus/entities/resources/animal_fat/animal_fat.png",
@@ -44,6 +44,22 @@
             }
          }
       },
+      "plants": {
+         "categories": {
+            "saltbush": {
+               "ordinal": 4.25,
+               "display_name": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle.display_name)",
+               "icon": "/trapper_plus/entities/resources/fiber/saltbush_bundle/saltbush_bundle.png",
+               "filter": "resource plant saltbush standard"
+            },
+            "saltbush_dry": {
+               "ordinal": 4.26,
+               "display_name": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle_dry.display_name)",
+               "icon": "/trapper_plus/entities/resources/fiber/saltbush_bundle_dry/saltbush_bundle_dry.png",
+               "filter": "resource plant saltbush dry"
+            }
+         }
+      },
       "cloth": {
          "categories": {
             "tannin": {
@@ -62,7 +78,7 @@
                "ordinal": 3.1,
                "display_name": "i18n(trapper_plus:data.constants.leather_resource_small_name)",
                "icon": "/trapper_plus/entities/refined/small_leather.png",
-               "filter": "leather resource small"
+               "filter": "leather resource thin"
             },
             "leather_bolt": {
                "ordinal": 3.2,
@@ -111,19 +127,19 @@
             "mixintypes": {
                "any_raw_meat": "remove"
             },
-				"any_rendered_fat": {
+            "any_rendered_fat": {
                "ordinal": 2.45,
                "display_name": "i18n(trapper_plus:data.constants.animal_fat_rendered_resource_name)",
                "icon": "/trapper_plus/entities/food/animal_fat_rendered/animal_fat_rendered_icon.png",
                "filter": "animal_fat_rendered cooking_ingredient"
             },
-				"rendered_fat": {
+            "rendered_fat": {
                "ordinal": 2.451,
                "display_name": "i18n(trapper_plus:food.animal_fat_rendered.display_name)",
                "icon": "/trapper_plus/entities/food/animal_fat_rendered/animal_fat_rendered.png",
                "filter": "animal_fat_rendered standard"
             },
-				"rendered_fat_lard": {
+            "rendered_fat_lard": {
                "ordinal": 2.452,
                "display_name": "i18n(trapper_plus:food.animal_fat_rendered_lard.display_name)",
                "icon": "/trapper_plus/entities/food/animal_fat_rendered_lard/animal_fat_rendered_lard.png",
@@ -135,13 +151,13 @@
                "icon": "/trapper_plus/entities/food/any_salt.png",
                "filter": "cooking_ingredient salt"
             },
-				"salt": {
+            "salt": {
                "ordinal": 2.52,
                "display_name": "i18n(trapper_plus:entities.food.salt.display_name)",
                "icon": "/trapper_plus/entities/food/salt/salt.png",
                "filter": "cooking_ingredient salt smokehouse_curable"
             },
-				"smoked_salt": {
+            "smoked_salt": {
                "ordinal": 2.53,
                "display_name": "i18n(trapper_plus:entities.food.salt_smoked.display_name)",
                "icon": "/trapper_plus/entities/food/salt_smoked/salt_smoked.png",

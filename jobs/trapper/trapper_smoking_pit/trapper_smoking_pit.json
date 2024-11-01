@@ -1,0 +1,68 @@
+{
+   "type": "entity",
+   "mixins": "file(trapper_smoking_pit_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "ghost_form": "file(trapper_smoking_pit_ghost.json)",
+         "iconic_form": "file(trapper_smoking_pit_iconic.json)",
+         "placeable_on_ground": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 1, "z": 1 }
+            }
+         ],
+         "adjacency_flags": [
+            "front",
+            "back"
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 5, "z": 1 }
+            }
+         ]
+      },
+      "effect_list": {
+         "effects": [
+            "/trapper_plus/data/rigs/jobs/trapper/smoking_pit/effects/idle.json"
+         ]
+      },
+      "stonehearth:storage": {
+         "type": "input_crate",
+         "capacity": 8,
+         "priority": 3,
+         "render_contents": true,
+         "allow_default": false,
+         "filter_list": "trapper_plus:input_box:smoking_pit_filters",
+         "default_filter": [
+            "raw_big_meat"
+         ],
+         "is_single_filter": true
+      },
+      "core_dani:passive_transformer": {
+         "type": "smoking_pit"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

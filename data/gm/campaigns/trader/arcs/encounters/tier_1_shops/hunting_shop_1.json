@@ -1,0 +1,43 @@
+{
+   "shop_info": {
+      "inventory": {
+         "entries": [
+            {
+               "items_matching": {
+                  "meat": {
+                     "category": [
+                        "cooking_ingredient"
+                     ],
+                     "material": [
+                        "meat",
+                        "raw",
+                        "bits",
+                        "wild",
+                        "small"
+                     ],
+                     "exclude_material": [
+                        "fish"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 2,
+                  "max": 6,
+                  "max_unique": 3
+               }
+            },
+            {
+               "items": [
+                  "trapper_plus:raw_snake_meat",
+                  "trapper_plus:raw_duck_meat"
+               ],
+               "quantity": {
+                  "min": 1,
+                  "max": 4,
+                  "max_unique": 1
+               }
+            }
+         ]
+      }
+   }
+}

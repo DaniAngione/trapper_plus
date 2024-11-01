@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 28,
+   "work_units": 1,
+   "recipe_name": "i18n(trapper_plus:entities.consumables.snake_juice.recipe_name)",
+   "description": "i18n(trapper_plus:entities.consumables.snake_juice.recipe_description)",
+   "flavor": "i18n(trapper_plus:entities.consumables.snake_juice.recipe_flavor)",
+   "portrait": "/trapper_plus/entities/consumables/snake_juice/snake_juice.png",
+   "workshop": "trapper_plus:trapper:campfire_pot",
+   "level_requirement": 3,
+   "ingredients": [
+		{
+         "uri": "trapper_plus:resources:bone:fang_snake",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:food:salt",
+         "count": 1
+      },
+		{
+         "material": "grease cooking_ingredient",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:consumables:snake_juice"
+      }
+   ]
+}

@@ -1,0 +1,62 @@
+{
+   "components": {
+      "stonehearth_ace:market_stall": {
+         "stall_models": {           
+            "salt_mine_shop_2": {
+               "model_data": [
+                  {
+                     "model": "file(shop/signs/salt_mine.qb)",
+                     "matrix": "Tier2",
+                     "scale": 0.1,
+                     "offset": { "x": -15, "y": -20, "z": 17 }
+                  },
+                  {
+                     "model": "file(shop/tier_2/salt_mine_shop.qb)",
+                     "matrix": "Shop",
+                     "scale": 0.1,
+                     "offset": { "x": 22, "y": 0, "z": 18 }
+                  }
+               ],
+               "entity_points": [
+                  {
+                     "bone_name": "goodsFrontRow2"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow1"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow3"
+                  }
+               ]
+            },
+            "salt_mine_shop_1": {
+               "model_data": [
+                  {
+                     "model": "file(shop/signs/salt_mine.qb)",
+                     "matrix": "Tier1",
+                     "scale": 0.1,
+                     "offset": { "x": -16, "y": -22, "z": 17 }
+                  },
+                  {
+                     "model": "file(shop/tier_2/salt_mine_shop.qb)",
+                     "matrix": "Shop",
+                     "scale": 0.1,
+                     "offset": { "x": 22, "y": 0, "z": 18 }
+                  }
+               ],
+               "entity_points": [
+                  {
+                     "bone_name": "goodsFrontRow2"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow1"
+                  },
+                  {
+                     "bone_name": "goodsFrontRow3"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

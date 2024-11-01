@@ -38,6 +38,19 @@
                "filter": "fresh_pelt squirrel"
             }
          }
+      },
+      "misc": {
+         "display_name": "i18n(trapper_plus:data.filters.resource_misc)",
+         "filter": "resources",
+         "ordinal": 3,
+         "categories": {
+            "saltbush": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:entities.resources.fiber.saltbush_bundle.display_name)",
+               "icon": "/trapper_plus/entities/resources/fiber/saltbush_bundle/saltbush_bundle.png",
+               "filter": "resource saltbush standard"
+            }
+         }
       }
    }
 }

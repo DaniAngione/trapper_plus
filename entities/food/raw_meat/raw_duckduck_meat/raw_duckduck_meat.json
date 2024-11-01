@@ -1,0 +1,14 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_white_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_duckduck_meat.display_name)",
+         "icon": "file(raw_duckduck_meat.png)",
+         "material_tags": [
+            "duckduck"
+         ]
+      }
+   }
+}

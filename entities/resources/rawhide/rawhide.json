@@ -31,17 +31,21 @@
             "resource",
             "animal_part",
             "needs_tanning",
-            "rawhide"
+            "rawhide",
+            "standard"
          ]
       },
-      "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 22,
-            "max": 28
-         },
-         "cool_entity_alias": "trapper_plus:resources:rawhide",
-         "proper_cool_entity_alias": "trapper_plus:refined:thin_leather",
-         "proper_cooler_alias": "trapper_plus:trapper:tanning_tub"
+      "core_dani:passive_transform": {
+         "type": "rawhide",
+         "processes": {
+            "leather_tanning": {
+               "result": "trapper_plus:refined:thin_leather",
+               "progress_required": {
+                  "min": 22,
+                  "max": 26
+               }
+            }
+         }
       },
       "stonehearth:appeal": {
          "appeal": -3

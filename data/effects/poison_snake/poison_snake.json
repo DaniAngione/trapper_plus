@@ -1,0 +1,28 @@
+{
+   "type": "effect",
+   "tracks": {
+      "poison_snake_breath": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/poison_snake/poison_snake.cubemitter.json",
+         "start_time": 0,
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+      "skulls": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/poison_snake/poison_snake_skulls.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      }
+   }
+}

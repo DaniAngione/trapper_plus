@@ -1,0 +1,41 @@
+{
+   "mixins": "trapper_plus:mixins:resources:fresh_pelt",
+   "type": "entity",
+   "components": {
+      "mixintypes": {
+         "model_variants": "override"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fresh_oinker_pelt.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.fresh_oinker_pelt.display_name)",
+         "description": "i18n(trapper_plus:entities.fresh_oinker_pelt.description)",
+         "icon": "file(fresh_oinker_pelt.png)",
+         "is_item": true,
+         "material_tags": [
+            "oinker"
+         ]
+      },
+      "core_dani:passive_transform": {
+         "processes": {
+            "pelt_drying": {
+               "result": "stonehearth_ace:resources:oinker_pelt",
+               "progress_required": {
+                  "min": 28,
+                  "max": 32
+               }
+            }
+         }
+      }
+   }
+}

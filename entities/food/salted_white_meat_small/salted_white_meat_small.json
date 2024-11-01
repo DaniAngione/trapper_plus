@@ -1,0 +1,69 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:salted",
+      "trapper_plus:mixins:food:white_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "mob": {
+         "model_origin": { "x": -0.04, "y": 0, "z": -0.05 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(salted_white_meat_small.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(salted_white_meat_small_rotting.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.085
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:salted_white_meat:salted_white_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 4,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "trapper_plus:food:rotten:meat_small"
+      },
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:cured_white_meat_small",
+               "progress_required": {
+                  "min": 12,
+                  "max": 17
+               }
+            }
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.salted_white_meat_small.display_name)",
+         "description": "i18n(trapper_plus:food.salted_white_meat_small.description)",
+         "icon": "file(salted_white_meat_small.png)",
+         "material_tags": [
+            "smokehouse_curable",
+            "cooking_ingredient",
+            "small"
+         ]
+      }
+   }
+}

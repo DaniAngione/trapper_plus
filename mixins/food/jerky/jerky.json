@@ -1,26 +1,37 @@
 {
+   "mixins": "stonehearth:mixins:food_decay",
    "components": {},
    "entity_data": {
-      "stonehearth:food": {
-         "stonehearth:sitting_on_chair": {
-            "satisfaction": 80
-         },
-         "default": {
-            "satisfaction": 70
-         },
-         "applied_buffs": [
-            "trapper_plus:buffs:consumption:smoky_flavors"
-         ],
-         "quality": 5
-      },
-      "stonehearth:net_worth": {
-         "value_in_gold": 7
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "stacks_per_serving": 1
       },
       "stonehearth:catalog": {
-         "mixintypes": {
-				"material_tags": "override"
-			},
-         "material_tags": ["stockpile_cooking_ingredient", "stockpile_prepared_food", "food", "meat", "prepared_food", "cooking_ingredient", "jerky"]
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "preserved",
+            "cooking_ingredient",
+            "meat_ingredient",
+            "jerky",
+            "stockpile_prepared_food",
+            "lunch_time",
+            "undesirable_ingredient"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 1440,
+            "max": 1488
+         }
       }
    }
 }

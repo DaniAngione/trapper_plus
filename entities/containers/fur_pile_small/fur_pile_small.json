@@ -47,6 +47,9 @@
       },
       "stonehearth_ace:replant_data": {
          "seed_alias": "trapper_plus:containers:fur_pile_small"
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": false
       }
    }
 }

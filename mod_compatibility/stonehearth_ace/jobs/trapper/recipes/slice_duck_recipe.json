@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 7,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:trapper.recipes.butchering.duck_display_name)",
+   "description": "i18n(trapper_plus:trapper.recipes.butchering.duck_description)",
+   "flavor": "i18n(trapper_plus:trapper.recipes.butchering.duck_flavor)",
+   "portrait": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
+   "workshop": "trapper_plus:trapper:block",
+   "work_effect": "fiddle",
+   "ace_smart_crafter_ignore": true,
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth_ace:food:duck_meat",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:raw_duck_meat"
+      },
+		{
+         "item": "trapper_plus:raw_duck_meat"
+      }
+   ]
+}

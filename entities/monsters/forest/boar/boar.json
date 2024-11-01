@@ -1,21 +1,21 @@
 {
 	"components": {
-      "stonehearth:loot_drops": {
-            "entries": {
-               "pelt": {
-                  "items": {
-                     "skin": {
-                        "uri": "trapper_plus:resources:fresh_boar_pelt"
-                     }
-                  }
-               },
-			   "meat": {
+		"stonehearth:loot_drops": {
+			"entries": {
+				"pelt": {
 					"items": {
-					"meat": {
-                     "uri": "trapper_plus:raw_boar_meat"
-                  }
-               }
-			   },
+						"skin": {
+							"uri": "trapper_plus:resources:fresh_boar_pelt"
+						}
+					}
+				},
+				"meat": {
+					"items": {
+						"meat": {
+							"uri": "trapper_plus:raw_boar_meat"
+						}
+					}
+				},
 				"fat": {
 					"roll_type": "some_of",
 					"num_rolls": {
@@ -28,11 +28,24 @@
 							"weight": 1
 						}
 					}
+				},
+				"bacon": {
+					"roll_type": "some_of",
+					"num_rolls": {
+						"min": 0,
+						"max": 1
+					},
+					"items": {
+						"meat": {
+							"uri": "trapper_plus:raw_bacon",
+							"weight": 1
+						}
+					}
 				}
-         }
-      },
-	  "stonehearth:resource_node": {
-         "resource": "stonehearth:food:pork"
-      }
-    }
+			}
+		},
+		"stonehearth:resource_node": {
+			"resource": "stonehearth:food:pork"
+		}
+	}
 }

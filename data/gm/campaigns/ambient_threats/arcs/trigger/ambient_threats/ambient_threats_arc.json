@@ -1,0 +1,11 @@
+{
+   "encounters": {
+		"pack_of_snakes": "file(encounters/pack_of_snakes.json)",
+		"wait_for_snake_pack_killed": "file(encounters/wait_for_snake_pack_killed.json)",
+		"snake_pack_killed": "file(encounters/snake_pack_killed.json)",
+	
+      "snake_raid_small": "file(encounters/trash_mobs/snake_raid_small.json)",
+	   "snake_raid_regular": "file(encounters/trash_mobs/snake_raid_regular.json)",
+	   "snake_raid_large": "file(encounters/trash_mobs/snake_raid_large.json)"
+   }
+}

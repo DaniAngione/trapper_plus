@@ -1,18 +1,50 @@
 {
-	"entity_data": {
-	  "stonehearth:catalog": {
-		 "material_tags":["smokehouse_curable", "stockpile_cooking_ingredient", "cooking_ingredient", "meat", "raw", "sausage"]
-	  },
-	  "core_dani:cooling": {
-         "initial_cooling": {
-            "min": 14,
-            "max": 28
+   "components": {
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": -0.05 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
          },
-         "cool_entity_alias": "stonehearth:food:sausage",
-         "proper_cool_entity_alias": "trapper_plus:food:smoked_sausage",
-         "proper_cooler_alias": "trapper_plus:trapper:smokehouse",
-         "proper_cooler_alias_2": "trapper_plus:trapper:rc_smokehouse",
-			"proper_cooler_alias_3": "trapper_plus:trapper:na_smokehouse"
+         "default": {
+            "models": [
+               "file(sausage.qb)"
+            ]
+         }
       }
-	}
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(sausage.png)",
+         "material_tags": [
+            "smokehouse_curable",
+            "stockpile_cooking_ingredient",
+            "cooking_ingredient",
+            "meat",
+            "raw",
+            "sausage"
+         ]
+      },
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:smoked_sausage",
+               "progress_required": {
+                  "min": 14,
+                  "max": 17
+               }
+            },
+            "salt_curing": {
+               "result": "trapper_plus:food:salted_sausage",
+               "progress_required": {
+                  "min": 90,
+                  "max": 96
+               }
+            }
+         }
+      }
+   }
 }

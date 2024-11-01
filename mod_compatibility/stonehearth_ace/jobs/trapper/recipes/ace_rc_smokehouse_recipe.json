@@ -1,0 +1,27 @@
+{
+   "mixintypes": {
+      "ingredients": "override"
+   },
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 5
+      },
+      {
+          "material": "wood resource",
+          "count": 1
+      },
+	   {
+         "uri": "stonehearth:construction:clay_bricks",
+         "count": 2
+      },
+	   {
+         "uri": "stonehearth_ace:refined:metal_bits:hard",
+         "count": 2
+      },
+	   {
+         "material": "thread resource",
+         "count": 2
+      }
+   ]
+}

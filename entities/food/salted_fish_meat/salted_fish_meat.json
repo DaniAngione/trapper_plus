@@ -1,17 +1,62 @@
 {
-   "mixins": "trapper_plus:mixins:food:salted_fish_meat",
+   "mixins": [
+      "trapper_plus:mixins:food:salted",
+      "trapper_plus:mixins:food:fish_meat"
+   ],
    "type": "entity",
-   "components": {},
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(salted_fish_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(salted_fish_meat_rotting.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      }
+   },
    "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:salted_fish_meat:salted_fish_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:fish_meat"
+      },
+      "core_dani:passive_transform": {
+         "type": "curable_food",
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:cured_fish_meat",
+               "progress_required": {
+                  "min": 15,
+                  "max": 22
+               }
+            }
+         }
+      },
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:food.salted_fish_meat.display_name)",
+         "description": "i18n(trapper_plus:food.salted_fish_meat.description)",
+         "icon": "file(salted_fish_meat.png)",
          "material_tags": [
-            "fish",
-            "smokehouse_curable"
+            "smokehouse_curable",
+            "fish_meat",
+            "cooking_ingredient"
          ]
-      },
-      "core_dani:cooling": {
-         "proper_cool_entity_alias": "trapper_plus:fish_jerky"
       }
    }
 }

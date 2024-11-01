@@ -1,0 +1,36 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(saltbush_plant_seed_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 168,
+            "max": 168
+         },
+         "any_storage_modifier": 0
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:entities.plants.saltbush_seed_ghost.display_name)",
+         "description": "i18n(trapper_plus:entities.plants.saltbush_seed_ghost.iconic_description)",
+         "is_item": true,
+         "category": "seed",
+         "mixintypes": {
+            "material_tags": "remove"
+         }
+      }
+   }
+}

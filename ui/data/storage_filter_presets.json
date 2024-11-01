@@ -1,5 +1,4 @@
 {
-   "default_preset_list": "stonehearth:ui:stockpile:filters",
    "presets": {
 		"stonehearth:ui:input_box:filters": {
 			"mixintypes": {
@@ -12,16 +11,17 @@
 				"wood resource",
 				"thatch_bale resource",
 				"fine_stuffing refined",
+				"gold_flakes refined",
 				"resource wax beeswax",
-				"resource wax wax_vegetable",
-				"resource wax wax_wool",
-				"gold_flakes resource",
 				"resource refined_cloth cloth standard",
-				"resource refined_leather leather standard"
+				"resource refined_leather leather standard",
+				"resource wax wax_vegetable",
+				"resource wax wax_wool"
 			],
 			"supply_mason" : [
 				"common stone resource",
 				"bone resource standard",
+				"bone resource humanoid",
 				"large pelt",
 				"small pelt",
 				"thatch_bale resource",
@@ -29,19 +29,20 @@
 				"bone resource skull",
 				"bone resource ancient",
 				"bone resource horn",
-				"bone resource ogre_bone",
+				"bone resource ogre",
 				"fine_stuffing refined",
 				"marble stone resource"
 			],
 			"supply_weaver" : [
 				"yarn resource",
 				"fine_stuffing refined",
+				"resource mega_silkweed_thread",
 				"resource refined_cloth cloth standard",
 				"resource refined_cloth cloth amberstone",
 				"resource refined_cloth cloth silk",
+				"resource refined_cloth thread standard",
 				"resource refined_cloth thread silk",
 				"resource refined_cloth fiber silk",
-				"resource refined_cloth thread standard",
 				"resource refined_leather leather standard",
 				"leather resource scaly_leather",
 				"leather resource boiled",
@@ -54,24 +55,25 @@
 				"small pelt",
 				"resource animal_part feather",
 				"resource animal_part chitin",
+				"resource animal_part pelt",
 				"resource animal_part skin",
 				"pelt bear",
 				"pelt wolf",
 				"pelt rabbit"
 			],
 			"supply_metalworker" : [
+				"metal_bits hard",
+				"metal_bits soft",
 				"copper ingot refined",
 				"tin ingot refined",
 				"bronze ingot refined",
 				"iron ingot refined",
 				"steel ingot refined",
-				"bronze gear resource",
-				"iron gear resource",
 				"leather resource thin_leather",
-				"lock resource",
 				"resource refined_leather leather standard",
-				"brass plate resource",
-				"steel plate resource"
+				"brass plate refined",
+				"steel plate refined",
+				"starsteel ingot refined"
 			]
 		}
    }

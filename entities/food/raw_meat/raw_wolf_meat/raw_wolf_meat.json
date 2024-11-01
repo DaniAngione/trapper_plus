@@ -1,0 +1,18 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_wild_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_wolf_meat.display_name)",
+         "icon": "file(raw_wolf_meat.png)",
+         "material_tags": [
+            "wolf"
+         ]
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 6,
+         "rarity": "common"
+      }
+   }
+}

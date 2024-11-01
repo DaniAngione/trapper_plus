@@ -8,10 +8,10 @@
             "animal_fat": {
                "ordinal": 0.01
             },
-            "fresh_small_pelt": {
+            "fresh_pelt_small": {
                "ordinal": 0.02,
-               "display_name": "i18n(trapper_plus:entities.fresh_small_pelt.display_name)",
-               "icon": "/trapper_plus/entities/resources/fresh_small_pelt.png",
+               "display_name": "i18n(trapper_plus:entities.fresh_pelt_small.display_name)",
+               "icon": "/trapper_plus/entities/resources/fresh_pelt_small.png",
                "filter": "small fresh_pelt"
             },
             "fresh_pelt": {
@@ -31,6 +31,12 @@
             },
             "large_pelt": {
                "ordinal": 0.06
+            },
+            "bone_fang_snake": {
+               "ordinal": 4.1,
+               "display_name": "i18n(trapper_plus:entities.resources.bone.fang_snake.display_name)",
+               "icon": "/trapper_plus/entities/resources/bone/fang_snake/fang_snake.png",
+               "filter": "bone resource fang snake"
             }
          }
       },

@@ -1,0 +1,40 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:cured_serving",
+      "trapper_plus:mixins:food:white_meat_serving"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(cured_poyo_serving.qb)",
+                     "file(cured_poyo_serving_2.qb)"
+                  ]
+               }
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 120
+         },
+         "default": {
+            "satisfaction": 80
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.cured_poyo_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "cured_poyo_serving"
+         ],
+         "subject_override": "trapper_plus:food:cured_poyo"
+      }
+   }
+}

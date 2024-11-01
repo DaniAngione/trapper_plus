@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "components": {},
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+            "prepared_food",
+            "preserved",
+            "cured",
+            "stockpile_prepared_food",
+            "lunch_time",
+            "dinner_time",
+            "undesirable_ingredient"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 6
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:food_decay": {
+         "initial_decay": {
+            "min": 960,
+            "max": 1008
+         }
+      }
+   }
+}

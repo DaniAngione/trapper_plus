@@ -1,0 +1,127 @@
+{
+   "type": "index",
+   "stockpile": {
+      "food_types": {
+         "display_name": "i18n(trapper_plus:data.filters.meat_types)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "raw_small_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_small)",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_small_raw.png",
+               "filter": "small meat raw smokehouse_curable"
+            },
+            "raw_big_meat": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_big_raw.png",
+               "filter": "large meat raw smokehouse_curable"
+            }
+         }
+      },
+      "specific_foods": {
+         "display_name": "i18n(trapper_plus:data.filters.specific_foods)",
+         "filter": "resources",
+         "ordinal": 3,
+         "categories": {
+            "raw_squirrel_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:food.raw_squirrel_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_squirrel_meat/raw_squirrel_meat.png",
+               "filter": "smokehouse_curable squirrel raw meat"
+            },
+            "raw_rabbit_meat": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:food.raw_rabbit_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_rabbit_meat/raw_rabbit_meat.png",
+               "filter": "smokehouse_curable rabbit standard raw meat"
+            },
+            "raw_racoon_meat": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:food.raw_racoon_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_racoon_meat/raw_racoon_meat.png",
+               "filter": "smokehouse_curable racoon raw meat"
+            },
+            "raw_red_fox_meat": {
+               "ordinal": 10,
+               "display_name": "i18n(trapper_plus:food.raw_red_fox_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_fox_meat/raw_red_fox_meat.png",
+               "filter": "smokehouse_curable fox raw meat"
+            },
+            "raw_domestic_sheep_meat": {
+               "ordinal": 12,
+               "display_name": "i18n(trapper_plus:food.raw_domestic_sheep_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_domestic_sheep_meat/raw_domestic_sheep_meat.png",
+               "filter": "smokehouse_curable sheep domestic raw meat"
+            },
+            "raw_duckduck_meat": {
+               "ordinal": 13,
+               "display_name": "i18n(trapper_plus:food.raw_duckduck_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_duckduck_meat/raw_duckduck_meat.png",
+               "filter": "smokehouse_curable duckduck raw meat"
+            },
+            "raw_ostrich_meat": {
+               "ordinal": 14,
+               "display_name": "i18n(trapper_plus:food.raw_ostrich_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_ostrich_meat/raw_ostrich_meat.png",
+               "filter": "smokehouse_curable ostrich raw meat"
+            },
+            "raw_deer_meat": {
+               "ordinal": 15,
+               "display_name": "i18n(trapper_plus:food.raw_deer_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_deer_meat/raw_deer_meat.png",
+               "filter": "smokehouse_curable deer raw meat"
+            },
+            "raw_boar_meat": {
+               "ordinal": 16,
+               "display_name": "i18n(trapper_plus:food.raw_boar_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_boar_meat/raw_boar_meat.png",
+               "filter": "smokehouse_curable boar raw meat"
+            },
+            "raw_wolf_meat": {
+               "ordinal": 31,
+               "display_name": "i18n(trapper_plus:food.raw_wolf_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wolf_meat/raw_wolf_meat.png",
+               "filter": "smokehouse_curable wolf raw meat"
+            },
+            "raw_poyo_meat": {
+               "ordinal": 51,
+               "display_name": "i18n(trapper_plus:food.raw_poyo_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
+               "filter": "smokehouse_curable poyo raw meat butchered"
+            },
+            "raw_poultry_meat": {
+               "ordinal": 55,
+               "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
+               "filter": "smokehouse_curable poultry raw meat butchered"
+            },
+            "raw_mutton_meat": {
+               "ordinal": 57,
+               "display_name": "i18n(trapper_plus:food.raw_mutton_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_meat_small_butchered.png",
+               "filter": "smokehouse_curable mutton raw meat butchered"
+            },
+            "raw_venison_meat": {
+               "ordinal": 59,
+               "display_name": "i18n(trapper_plus:food.raw_venison_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wild_meat_small_butchered.png",
+               "filter": "smokehouse_curable venison raw meat butchered"
+            },
+            "raw_pork_meat": {
+               "ordinal": 61,
+               "display_name": "i18n(trapper_plus:food.raw_pork_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_meat_butchered.png",
+               "filter": "smokehouse_curable pork raw meat butchered"
+            },
+            "raw_varanus_meat": {
+               "ordinal": 65,
+               "display_name": "i18n(trapper_plus:food.raw_varanus_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wild_meat_small_butchered.png",
+               "filter": "smokehouse_curable varanus raw meat butchered"
+            }
+         }
+      }
+   }
+}

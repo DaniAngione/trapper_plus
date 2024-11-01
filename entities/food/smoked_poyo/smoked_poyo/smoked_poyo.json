@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:mixins:food_decay",
+   "mixins": [
+      "trapper_plus:mixins:food:smoked",
+      "trapper_plus:mixins:food:white_meat"
+   ],
    "type": "entity",
    "components": {
       "model_variants": {
@@ -21,9 +24,7 @@
    },
    "entity_data": {
       "stonehearth:food_container": {
-         "effect": "fiddle",
-         "food": "trapper_plus:food:smoked_poyo:smoked_poyo_serving",
-         "stacks_per_serving": 1
+         "food": "trapper_plus:food:smoked_poyo:smoked_poyo_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 12,
@@ -37,29 +38,11 @@
          "display_name": "i18n(trapper_plus:food.smoked_poyo.display_name)",
          "description": "i18n(trapper_plus:food.smoked_poyo.description)",
          "icon": "file(smoked_poyo.png)",
-         "is_item": true,
-         "category": "food",
          "material_tags": [
-            "food_container",
-            "prepared_food",
-            "smoked_poyo",
-            "smoked",
-            "stockpile_prepared_food",
-            "meat",
-            "lunch_time"
+            "smoked_poyo"
          ]
       },
-      "stonehearth:appeal": {
-         "appeal": 4
-      },
-      "stonehearth:item_quality": {
-         "variable_quality": true
-      },
       "stonehearth:food_decay": {
-         "initial_decay": {
-            "min": 384,
-            "max": 480
-         },
          "rotten_entity_alias": "stonehearth:food:rotten:poyo_meat"
       }
    }

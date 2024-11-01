@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(trapper_plus:data.buffs.wild_meat.display_name)",
+   "description": "i18n(trapper_plus:data.buffs.wild_meat.description)",
+   "icon": "file(wild_meat_buff.png)",
+   "duration": "12h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "stamina": {
+         "multiply": 1.1
+      },
+      "muscle": {
+         "multiply": 1.1
+      }
+   }
+}

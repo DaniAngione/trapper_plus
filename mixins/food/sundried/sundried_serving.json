@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {},
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "quality": 3,
+         "applied_buffs": [
+            "trapper_plus:buffs:consumption:sundry_flavors"
+         ]
+      },
+      "stonehearth:catalog": {
+         "material_tags": [
+            "food",
+            "sundried",
+            "lunch_time"
+         ]
+      }
+   }
+}

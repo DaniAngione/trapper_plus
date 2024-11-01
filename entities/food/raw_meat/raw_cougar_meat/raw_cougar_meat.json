@@ -1,0 +1,17 @@
+{
+   "mixins": "trapper_plus:mixins:food:raw_wild_meat",
+   "type": "entity",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.raw_cougar_meat.display_name)",
+         "icon": "file(raw_cougar_meat.png)",
+         "material_tags": [
+            "big_cat"
+         ]
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 6
+      }
+   }
+}
