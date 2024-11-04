@@ -3,19 +3,24 @@
       "inventory": {
          "entries": [
             {
-               "items_matching": {
-                  "food": {
-                     "material": [
-                        "meat",
-                        "raw",
-                        "bits"
-                     ]
-                  }
+               "items": [
+                  "trapper_plus:food:salt"
+               ],
+               "quantity": {
+                  "min": 6,
+                  "max": 12
                },
+               "price_multiplier": 1.5
+            },
+            {
+               "items": [
+                  "trapper_plus:food:salt_smoked"
+               ],
                "quantity": {
                   "min": 0,
-                  "max": 5
-               }
+                  "max": 4
+               },
+               "price_multiplier": 1.6
             }
          ]
       }

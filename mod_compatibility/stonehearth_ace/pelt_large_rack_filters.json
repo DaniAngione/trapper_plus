@@ -33,7 +33,7 @@
             },
             "snake_skin": {
                "ordinal": 10,
-               "display_name": "i18n(trapper_plus:entities.resources.pelt.snake_skin.display_name)",
+               "display_name": "i18n(trapper_plus:entities.resources.snake_skin.display_name)",
                "icon": "/trapper_plus/entities/resources/skin/snake_skin/snake_skin.png",
                "filter": "skin snake"
             }

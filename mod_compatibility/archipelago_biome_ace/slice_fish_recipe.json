@@ -12,7 +12,7 @@
    "level_requirement": 1,
    "ingredients": [
       {
-         "material": "cooking_ingredient hangable fish_meat",
+         "material": "cooking_ingredient hangable fish",
          "count": 1
       }
    ],

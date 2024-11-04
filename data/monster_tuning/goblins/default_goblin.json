@@ -1,0 +1,23 @@
+{
+   "type": "monster_tuning",
+   "loot_drops": {
+      "entries": {
+         "default": {
+            "items": {
+               "rabbit_jerky": {
+                  "uri": "trapper_plus:food:smoked_wild_meat_small"
+               },
+               "squirrel_jerky": {
+                  "uri": "trapper_plus:food:smoked_white_meat_small"
+               },
+               "racoon_jerky": {
+                  "uri": "trapper_plus:food:smoked_fish_meat"
+               },
+               "red_fox_jerky": {
+                  "uri": "trapper_plus:food:smoked_wild_meat"
+               }
+            }
+         }
+      }
+   }
+}

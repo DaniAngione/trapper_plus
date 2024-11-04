@@ -11,7 +11,7 @@
             "fresh_pelt_small": {
                "ordinal": 0.02,
                "display_name": "i18n(trapper_plus:entities.fresh_pelt_small.display_name)",
-               "icon": "/trapper_plus/entities/resources/fresh_pelt_small.png",
+               "icon": "/trapper_plus/entities/resources/fresh_small_pelt.png",
                "filter": "small fresh_pelt"
             },
             "fresh_pelt": {

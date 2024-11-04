@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v2.0.1 for Stonehearth 1.1+
+v2.0.2 for Stonehearth 1.1+
 Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
@@ -77,6 +77,15 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### November 4th, 2024 - v2.0.2
+- Added salt to food merchants.
+- Fixed some extra instances of vanilla jerky being dropped (Goblins, Loot Chests)
+- Fixed (properly) the missing ingredient for the "Slice Fish" recipe
+- Fixed some missing resource icons or localizations on different storage filters
+- Fixed some localization issues
+- (ACE) Smoked, Salted and Cured meats will now count as "Food (Prepared)"
+- (ACE) Added some filter presets for Smokeries, Smoking Pits and Salt Boxes
 
 ### November 1st, 2024 - v2.0.1
 - Fixed issue with broken "Any Thin Leather" resource on recipes.

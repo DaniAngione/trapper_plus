@@ -1428,7 +1428,7 @@
          "description": "Nom nom nom! It's bacon!"
       },
       "raw_wild_meat": {
-         "serving_display_name": "Portion of Raw Wild Game Meat",
+         "serving_display_name": "Portion of Raw Game Meat",
          "display_name": "Raw Game Meat",
          "description": "Not good for consumption, needs curing in a smokery or usage in cooking!"
       },
@@ -1626,6 +1626,11 @@
       "smoked_wild_meat_small": {
          "display_name": "Smoked Game Meat (Small)",
          "description": "A small bit of wild, lean meat. A bit stringy but very flavorful!"
+      },
+      "raw_white_meat": {
+         "description": "Not good for consumption, needs curing in a smokery or usage in cooking!",
+         "display_name": "Raw White Meat",
+         "serving_display_name": "Portion of Raw White Meat"
       }
    },
    "worker": {
@@ -1639,6 +1644,18 @@
    "ui": {
       "game": {
          "zones_mode": {
+            "filter_presets": {
+               "default_presets": {
+                  "small_meats": "Small Meat Bits (Default)",
+                  "large_meats": "Meat Bits (Default)",
+                  "red_meats": "Red Meat Bits (Default)",
+                  "white_meats": "White Meat Bits (Default)",
+                  "wild_meats": "Game Meat Bits (Default)",
+                  "fish_meats": "Fish Meat (Default)",
+                  "meat_pieces": "Whole Meat Pieces (Default)",
+                  "nuts_cheese": "Nuts & Cheese (Default)"
+               }
+            },
             "stockpile": {
                "filters": {
                   "tooltip_wax": "Waxes"

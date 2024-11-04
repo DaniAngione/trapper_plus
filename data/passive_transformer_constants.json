@@ -61,7 +61,7 @@
                      "sunlight_based": true
                   },
                   "leather_tanning": {
-                     "rate": 0.4,
+                     "rate": 0.3,
                      "sunlight_based": true,
                      "quality": -1
                   }

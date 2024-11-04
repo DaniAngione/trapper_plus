@@ -55,7 +55,6 @@
 				"small pelt",
 				"resource animal_part feather",
 				"resource animal_part chitin",
-				"resource animal_part pelt",
 				"resource animal_part skin",
 				"pelt bear",
 				"pelt wolf",
@@ -74,6 +73,252 @@
 				"brass plate refined",
 				"steel plate refined",
 				"starsteel ingot refined"
+			]
+		},
+		"trapper_plus:input_box:salt_box_filters": {
+			"small_meats": [
+				"salt_box_curable squirrel raw meat",
+				"salt_box_curable rabbit standard raw meat",
+				"salt_box_curable rabbit domestic raw meat",
+				"salt_box_curable racoon raw meat",
+				"salt_box_curable snake raw meat",
+				"salt_box_curable fox raw meat",
+				"salt_box_curable sheep standard raw meat",
+				"salt_box_curable sheep domestic raw meat",
+				"salt_box_curable poyo raw meat butchered",
+				"salt_box_curable duck raw meat butchered",
+				"salt_box_curable poultry raw meat butchered",
+				"salt_box_curable mutton raw meat butchered",
+				"salt_box_curable venison raw meat butchered",
+				"salt_box_curable varanus raw meat butchered"
+			],
+			"large_meats": [
+				"salt_box_curable duckduck raw meat",
+				"salt_box_curable ostrich raw meat",
+				"salt_box_curable deer raw meat",
+				"salt_box_curable boar raw meat",
+				"salt_box_curable boar domestic raw meat",
+				"salt_box_curable beef standard raw meat",
+				"salt_box_curable beef domestic raw meat",
+				"salt_box_curable big_cat raw meat",
+				"salt_box_curable wolf raw meat",
+				"salt_box_curable bear raw meat",
+				"salt_box_curable pork raw meat butchered",
+				"salt_box_curable steak raw meat butchered"
+			],
+			"red_meats": [
+				"salt_box_curable rabbit domestic raw meat",
+				"salt_box_curable sheep domestic raw meat",
+				"salt_box_curable mutton raw meat butchered",
+				"salt_box_curable boar domestic raw meat",
+				"salt_box_curable beef domestic raw meat",
+				"salt_box_curable pork raw meat butchered",
+				"salt_box_curable steak raw meat butchered"
+			],
+			"white_meats": [
+				"salt_box_curable snake raw meat",
+				"salt_box_curable poyo raw meat butchered",
+				"salt_box_curable duck raw meat butchered",
+				"salt_box_curable poultry raw meat butchered",
+				"salt_box_curable duckduck raw meat",
+				"salt_box_curable ostrich raw meat",
+				"salt_box_curable venison raw meat butchered",
+				"salt_box_curable varanus raw meat butchered"
+			],
+			"wild_meats": [
+				"salt_box_curable squirrel raw meat",
+				"salt_box_curable rabbit standard raw meat",
+				"salt_box_curable racoon raw meat",
+				"salt_box_curable fox raw meat",
+				"salt_box_curable sheep standard raw meat",
+				"salt_box_curable deer raw meat",
+				"salt_box_curable boar raw meat",
+				"salt_box_curable beef standard raw meat",
+				"salt_box_curable big_cat raw meat",
+				"salt_box_curable wolf raw meat",
+				"salt_box_curable bear raw meat"
+			],
+			"fish_meats": [
+				"salt_box_curable raw fish standard meat",
+				"salt_box_curable raw fish carp meat",
+				"salt_box_curable raw fish salmon meat",
+				"salt_box_curable raw fish catfish meat",
+				"salt_box_curable raw fish trout meat"
+			],
+			"meat_pieces": [
+				"salt_box_curable raw piece poyo_meat",
+				"salt_box_curable raw piece duck_meat",
+				"salt_box_curable raw piece poultry",
+				"salt_box_curable raw piece mutton",
+				"salt_box_curable raw piece venison",
+				"salt_box_curable raw piece pork",
+				"salt_box_curable raw piece steak",
+				"salt_box_curable raw piece varanus_meat",
+				"salt_box_curable raw sausage"
+			]
+		},
+		"trapper_plus:input_box:smoking_pit_filters": {
+			"small_meats": [
+				"smokehouse_curable squirrel raw meat",
+				"smokehouse_curable rabbit standard raw meat",
+				"smokehouse_curable rabbit domestic raw meat",
+				"smokehouse_curable racoon raw meat",
+				"smokehouse_curable snake raw meat",
+				"smokehouse_curable fox raw meat",
+				"smokehouse_curable sheep standard raw meat",
+				"smokehouse_curable sheep domestic raw meat",
+				"smokehouse_curable poyo raw meat butchered",
+				"smokehouse_curable duck raw meat butchered",
+				"smokehouse_curable poultry raw meat butchered",
+				"smokehouse_curable mutton raw meat butchered",
+				"smokehouse_curable venison raw meat butchered",
+				"smokehouse_curable varanus raw meat butchered"
+			],
+			"large_meats": [
+				"smokehouse_curable duckduck raw meat",
+				"smokehouse_curable ostrich raw meat",
+				"smokehouse_curable deer raw meat",
+				"smokehouse_curable boar raw meat",
+				"smokehouse_curable boar domestic raw meat",
+				"smokehouse_curable beef standard raw meat",
+				"smokehouse_curable beef domestic raw meat",
+				"smokehouse_curable big_cat raw meat",
+				"smokehouse_curable wolf raw meat",
+				"smokehouse_curable bear raw meat",
+				"smokehouse_curable pork raw meat butchered",
+				"smokehouse_curable steak raw meat butchered"
+			],
+			"red_meats": [
+				"smokehouse_curable rabbit domestic raw meat",
+				"smokehouse_curable sheep domestic raw meat",
+				"smokehouse_curable mutton raw meat butchered",
+				"smokehouse_curable boar domestic raw meat",
+				"smokehouse_curable beef domestic raw meat",
+				"smokehouse_curable pork raw meat butchered",
+				"smokehouse_curable steak raw meat butchered"
+			],
+			"white_meats": [
+				"smokehouse_curable snake raw meat",
+				"smokehouse_curable poyo raw meat butchered",
+				"smokehouse_curable duck raw meat butchered",
+				"smokehouse_curable poultry raw meat butchered",
+				"smokehouse_curable duckduck raw meat",
+				"smokehouse_curable ostrich raw meat",
+				"smokehouse_curable venison raw meat butchered",
+				"smokehouse_curable varanus raw meat butchered"
+			],
+			"wild_meats": [
+				"smokehouse_curable squirrel raw meat",
+				"smokehouse_curable rabbit standard raw meat",
+				"smokehouse_curable racoon raw meat",
+				"smokehouse_curable fox raw meat",
+				"smokehouse_curable sheep standard raw meat",
+				"smokehouse_curable deer raw meat",
+				"smokehouse_curable boar raw meat",
+				"smokehouse_curable beef standard raw meat",
+				"smokehouse_curable big_cat raw meat",
+				"smokehouse_curable wolf raw meat",
+				"smokehouse_curable bear raw meat"
+			],
+			"fish_meats": [
+				"smokehouse_curable raw fish standard meat",
+				"smokehouse_curable raw fish carp meat",
+				"smokehouse_curable raw fish salmon meat",
+				"smokehouse_curable raw fish catfish meat",
+				"smokehouse_curable raw fish trout meat"
+			]
+		},
+		"trapper_plus:input_box:smokehouse_filters": {
+			"small_meats": [
+				"smokehouse_curable squirrel raw meat",
+				"smokehouse_curable rabbit standard raw meat",
+				"smokehouse_curable rabbit domestic raw meat",
+				"smokehouse_curable racoon raw meat",
+				"smokehouse_curable snake raw meat",
+				"smokehouse_curable fox raw meat",
+				"smokehouse_curable sheep standard raw meat",
+				"smokehouse_curable sheep domestic raw meat",
+				"smokehouse_curable poyo raw meat butchered",
+				"smokehouse_curable duck raw meat butchered",
+				"smokehouse_curable poultry raw meat butchered",
+				"smokehouse_curable mutton raw meat butchered",
+				"smokehouse_curable venison raw meat butchered",
+				"smokehouse_curable varanus raw meat butchered"
+			],
+			"large_meats": [
+				"smokehouse_curable duckduck raw meat",
+				"smokehouse_curable ostrich raw meat",
+				"smokehouse_curable deer raw meat",
+				"smokehouse_curable boar raw meat",
+				"smokehouse_curable boar domestic raw meat",
+				"smokehouse_curable beef standard raw meat",
+				"smokehouse_curable beef domestic raw meat",
+				"smokehouse_curable big_cat raw meat",
+				"smokehouse_curable wolf raw meat",
+				"smokehouse_curable bear raw meat",
+				"smokehouse_curable pork raw meat butchered",
+				"smokehouse_curable steak raw meat butchered"
+			],
+			"red_meats": [
+				"smokehouse_curable rabbit domestic raw meat",
+				"smokehouse_curable sheep domestic raw meat",
+				"smokehouse_curable mutton raw meat butchered",
+				"smokehouse_curable boar domestic raw meat",
+				"smokehouse_curable beef domestic raw meat",
+				"smokehouse_curable pork raw meat butchered",
+				"smokehouse_curable steak raw meat butchered"
+			],
+			"white_meats": [
+				"smokehouse_curable snake raw meat",
+				"smokehouse_curable poyo raw meat butchered",
+				"smokehouse_curable duck raw meat butchered",
+				"smokehouse_curable poultry raw meat butchered",
+				"smokehouse_curable duckduck raw meat",
+				"smokehouse_curable ostrich raw meat",
+				"smokehouse_curable venison raw meat butchered",
+				"smokehouse_curable varanus raw meat butchered"
+			],
+			"wild_meats": [
+				"smokehouse_curable squirrel raw meat",
+				"smokehouse_curable rabbit standard raw meat",
+				"smokehouse_curable racoon raw meat",
+				"smokehouse_curable fox raw meat",
+				"smokehouse_curable sheep standard raw meat",
+				"smokehouse_curable deer raw meat",
+				"smokehouse_curable boar raw meat",
+				"smokehouse_curable beef standard raw meat",
+				"smokehouse_curable big_cat raw meat",
+				"smokehouse_curable wolf raw meat",
+				"smokehouse_curable bear raw meat"
+			],
+			"fish_meats": [
+				"smokehouse_curable raw fish standard meat",
+				"smokehouse_curable raw fish carp meat",
+				"smokehouse_curable raw fish salmon meat",
+				"smokehouse_curable raw fish catfish meat",
+				"smokehouse_curable raw fish trout meat"
+			],
+			"meat_pieces": [
+				"smokehouse_curable raw piece poyo_meat",
+				"smokehouse_curable raw piece duck_meat",
+				"smokehouse_curable raw piece poultry",
+				"smokehouse_curable raw piece mutton",
+				"smokehouse_curable raw piece venison",
+				"smokehouse_curable raw piece pork",
+				"smokehouse_curable raw piece steak",
+				"smokehouse_curable raw piece varanus_meat",
+				"smokehouse_curable raw sausage",
+				"smokehouse_curable raw bacon"
+			],
+			"nuts_cheese": [
+				"smokehouse_curable nut_basket nuts",
+				"smokehouse_curable food_container almond",
+				"smokehouse_curable food_container walnut",
+				"smokehouse_curable food_container hazelnut",
+				"smokehouse_curable food_container chestnut",
+				"smokehouse_curable cheese_fresh cheese smokehouse_curable",
+				"smokehouse_curable cheese_mild cheese smokehouse_curable",
+				"smokehouse_curable cheese_aged cheese smokehouse_curable"
 			]
 		}
    }

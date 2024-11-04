@@ -117,8 +117,8 @@
             "raw_meat": {
                "ordinal": 0.1,
                "display_name": "i18n(trapper_plus:data.filters.raw_meat)",
-               "icon": "/trapper_plus/entities/resources/raw_meat/input_all_raw.png",
-               "filter": "raw meat"
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_all_raw.png",
+               "filter": "raw meat bits"
             }
          }
       },
