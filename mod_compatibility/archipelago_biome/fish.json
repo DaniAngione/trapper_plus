@@ -13,7 +13,7 @@
          "type": "curable_food",
          "processes": {
             "smoke_curing": {
-               "result": "trapper_plus:food:smoked_fish  ",
+               "result": "trapper_plus:food:smoked_fish",
                "progress_required": {
                   "min": 8,
                   "max": 13

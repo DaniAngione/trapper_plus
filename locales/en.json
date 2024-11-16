@@ -1017,10 +1017,10 @@
          "display_name": "Smoked Fish",
          "description": "Stringy and delicious cured white meat!"
       },
-      "smoked_big_Fish": {
+      "smoked_big_fish": {
          "raw_display_name": "Raw Big Fish",
          "display_name": "Smoked Big Fish",
-         "description": "Tasty and healthy, it is a delicious fruit of the labor of a fisherman.",
+         "description": "This large chunk of fish meat has been perfectly smoked! Tender and juicy!",
          "serving_display_name": "Serving of Smoked Big Fish"
       },
       "smoked_sausage": {
@@ -1561,13 +1561,6 @@
          "display_name": "Salted Game Meat",
          "description": "A hearty chunk of wild meat that has been preserved with salt."
       },
-      "smoked_big_fish": {
-         "display_name": "Smoked Big Fish",
-         "description": "This large chunk of fish meat has been perfectly smoked! Tender and juicy!",
-         "serving": {
-            "display_name": "Serving of Smoked Big Fish"
-         }
-      },
       "smoked_duck": {
          "display_name": "Smoked Duck",
          "description": "Smoked to crispy perfection. Very flavorful and exotic!",
@@ -1631,6 +1624,9 @@
          "description": "Not good for consumption, needs curing in a smokery or usage in cooking!",
          "display_name": "Raw White Meat",
          "serving_display_name": "Portion of Raw White Meat"
+      },
+      "raw_meat": {
+         "decay_1_description": "This meat is going bad. Must be consumed soon!"
       }
    },
    "worker": {

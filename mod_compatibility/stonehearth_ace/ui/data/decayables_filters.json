@@ -1,0 +1,13 @@
+{
+   "stockpile": {
+      "fluids": {
+         "categories": {
+            "mixintypes": {
+               "rendered_fat": "remove",
+               "rendered_fat_lard": "remove",
+               "rendered_fat_tallow": "remove"
+            }
+         }
+      }
+   }
+}

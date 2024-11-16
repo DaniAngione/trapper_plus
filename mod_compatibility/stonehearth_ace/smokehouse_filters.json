@@ -82,31 +82,31 @@
                "ordinal": 81,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_meat/fish_meat.png",
-               "filter": "smokehouse_curable raw fish standard meat"
+               "filter": "smokehouse_curable raw fish_meat standard meat"
             },
 				"fish_carp_meat": {
                "ordinal": 82,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_carp_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_carp_meat/fish_carp_meat.png",
-               "filter": "smokehouse_curable raw fish carp meat"
+               "filter": "smokehouse_curable raw fish_meat carp meat"
             },
 				"fish_catfish_meat": {
                "ordinal": 83,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_catfish_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_catfish_meat/fish_catfish_meat.png",
-               "filter": "smokehouse_curable raw fish catfish meat"
+               "filter": "smokehouse_curable raw fish_meat catfish meat"
             },
 				"fish_salmon_meat": {
                "ordinal": 84,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_salmon_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_salmon_meat/fish_salmon_meat.png",
-               "filter": "smokehouse_curable raw fish salmon meat"
+               "filter": "smokehouse_curable raw fish_meat salmon meat"
             },
 				"fish_trout_meat": {
                "ordinal": 85,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_trout_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_trout_meat/fish_trout_meat.png",
-               "filter": "smokehouse_curable raw fish trout meat"
+               "filter": "smokehouse_curable raw fish_meat trout meat"
             },
 				"nuts": {
                "ordinal": 90,
@@ -164,7 +164,7 @@
                "ordinal": 21,
                "display_name": "i18n(trapper_plus:food.salted_fish_meat.display_name)",
                "icon": "/trapper_plus/entities/food/salted_fish_meat/salted_fish_meat.png",
-               "filter": "smokehouse_curable salted fish meat standard"
+               "filter": "smokehouse_curable salted fish_meat meat standard"
             },
 				"steak": {
                "ordinal": 34.5,

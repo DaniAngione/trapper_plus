@@ -645,6 +645,10 @@
          "file(mod_compatibility/archipelago_biome/fish.json)",
          "/stonehearth_ace/archipelago_ace_fish.json"
       ],
+      "archipelago_biome/entities/food/tropical_fish/tropical_fish.json": [
+         "file(mod_compatibility/archipelago_biome/fish.json)",
+         "/stonehearth_ace/archipelago_ace_fish.json"
+      ],
       "archipelago_biome/jobs/cook/recipes/fish_cooked_recipe.json": "/stonehearth_ace/jobs/archipelago_ace_fish_recipe_replacer.json",
       "archipelago_biome/jobs/fisher/recipes/food/fish_cooked_recipe.json": "/stonehearth_ace/jobs/archipelago_ace_fish_recipe_replacer.json",
       "archipelago_biome/jobs/fisher/recipes/weapons/slap_fish_recipe.json": "/stonehearth_ace/jobs/archipelago_ace_fish_recipe_replacer.json",
@@ -708,6 +712,7 @@
       "stonehearth_ace/entities/critters/beehive_dead/beehive_dead.json": "file(entities/critters/beehive_dead/beehive_dead.json)",
       "stonehearth_ace/jobs/herbalist/herbalist_bee_skep/herbalist_bee_skep.json": "file(jobs/herbalist/herbalist_bee_skep/herbalist_bee_skep.json)",
       "stonehearth_ace/ui/data/storage_filter_presets.json": "file(ui/data/storage_filter_presets.json)",
+      "stonehearth_ace/ui/data/decayables_filters.json": "file(mod_compatibility/stonehearth_ace/ui/data/decayables_filters.json)",
       "stonehearth_ace:ui:output_box:filters": "file(mod_compatibility/stonehearth_ace/trapper_plus_output_box_filters.json)",
       "stonehearth_ace:ui:stockpile:filters:fluids": "file(mod_compatibility/stonehearth_ace/trapper_plus_stockpile_filters_fluids.json)",
       "stonehearth_ace:farmer:all_crops": "file(services/server/farming/data/all_crops.json)",

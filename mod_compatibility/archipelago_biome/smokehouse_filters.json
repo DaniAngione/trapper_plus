@@ -16,11 +16,11 @@
                "ordinal": 80,
                "display_name": "i18n(trapper_plus:food.fish_smoked.raw_display_name)",
                "icon": "/trapper_plus/mod_compatibility/archipelago_biome/fish.png",
-               "filter": "smokehouse_curable raw fish piece"
+               "filter": "smokehouse_curable raw fish whole hangable"
             },
 				"big_fish": {
                "ordinal": 89,
-               "display_name": "i18n(trapper_plus:food.big_fish_smoked.raw_display_name)",
+               "display_name": "i18n(trapper_plus:food.smoked_big_fish.raw_display_name)",
                "icon": "/trapper_plus/mod_compatibility/archipelago_biome/big_fish.png",
                "filter": "smokehouse_curable raw big_fish piece"
             }
