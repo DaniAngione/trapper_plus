@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v2.0.2 for Stonehearth 1.1+
+v2.0.3 for Stonehearth 1.1+
 Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
@@ -77,6 +77,12 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### November 16th, 2024 - v2.0.3
+- (ACE and/or Archipelago Biome) Fixed fish meats not being properly stored in smokehouses or salt boxes.
+- Fixed bounding boxes of drying racks and tanning tubs while using the builder
+- Fixed several missing text strings, lots of missing or wrong item names and some typos.
+- (ACE) Removed the repeated rendered fat filters from the Refrigerator filters.
 
 ### November 4th, 2024 - v2.0.2
 - Added salt to food merchants.
