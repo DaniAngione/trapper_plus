@@ -72,6 +72,10 @@ Mod created by Daniel Angione (DaniAngione#3266 on Discord; daniangi@gmail.com)
 Stonehearth created by Radiant Entertainment (https://stonehearth.net)
 My Modding Corner (https://discourse.stonehearth.net/t/danis-modding-corner/36452)
 
+Like what I do? Consider buying me a coffee! :)
+All support is greatly appreciated! <3
+(https://ko-fi.com/daniangione)
+
 Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibility and the tool to easily translate to PT-BR.
 
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
