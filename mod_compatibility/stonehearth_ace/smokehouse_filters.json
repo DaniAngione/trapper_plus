@@ -10,151 +10,151 @@
                "ordinal": 3,
                "display_name": "i18n(trapper_plus:food.raw_domestic_rabbit_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_domestic_rabbit_meat/raw_domestic_rabbit_meat.png",
-               "filter": "smokehouse_curable rabbit domestic raw meat"
+               "filter": "smoke_curable rabbit domestic raw meat"
             },
             "raw_snake_meat": {
                "ordinal": 8,
                "display_name": "i18n(trapper_plus:food.raw_snake_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_snake_meat/raw_snake_meat.png",
-               "filter": "smokehouse_curable snake raw meat"
+               "filter": "smoke_curable snake raw meat"
             },
             "raw_sheep_meat": {
                "ordinal": 11,
                "display_name": "i18n(trapper_plus:food.raw_sheep_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_sheep_meat/raw_sheep_meat.png",
-               "filter": "smokehouse_curable sheep standard raw meat"
+               "filter": "smoke_curable sheep standard raw meat"
             },
             "raw_oinker_meat": {
                "ordinal": 17,
                "display_name": "i18n(trapper_plus:food.raw_oinker_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_oinker_meat/raw_oinker_meat.png",
-               "filter": "smokehouse_curable boar domestic raw meat"
+               "filter": "smoke_curable boar domestic raw meat"
             },
             "raw_wild_cattle_meat": {
                "ordinal": 18,
                "display_name": "i18n(trapper_plus:food.raw_wild_cattle_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_wild_cattle_meat/raw_wild_cattle_meat.png",
-               "filter": "smokehouse_curable beef standard raw meat"
+               "filter": "smoke_curable beef standard raw meat"
             },
             "raw_beef_meat": {
                "ordinal": 19,
                "display_name": "i18n(trapper_plus:food.raw_beef_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_beef_meat/raw_beef_meat.png",
-               "filter": "smokehouse_curable beef domestic raw meat"
+               "filter": "smoke_curable beef domestic raw meat"
             },
             "raw_cougar_meat": {
                "ordinal": 30,
                "display_name": "i18n(trapper_plus:food.raw_cougar_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_cougar_meat/raw_cougar_meat.png",
-               "filter": "smokehouse_curable big_cat raw meat"
+               "filter": "smoke_curable big_cat raw meat"
             },
             "raw_bear_meat": {
                "ordinal": 40,
                "display_name": "i18n(trapper_plus:food.raw_bear_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_bear_meat/raw_bear_meat.png",
-               "filter": "smokehouse_curable bear raw meat"
+               "filter": "smoke_curable bear raw meat"
             },
             "duck_meat": {
                "ordinal": 52,
                "display_name": "i18n(stonehearth_ace:entities.food.duck_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/duck_meat/duck_meat.png",
-               "filter": "smokehouse_curable raw piece duck_meat"
+               "filter": "smoke_curable raw piece duck_meat"
             },
             "raw_duck_meat": {
                "ordinal": 53,
                "display_name": "i18n(trapper_plus:food.raw_duck_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
-               "filter": "smokehouse_curable duck raw meat butchered"
+               "filter": "smoke_curable duck raw meat butchered"
             },
             "steak": {
                "ordinal": 62,
                "display_name": "i18n(stonehearth_ace:entities.food.steak.display_name)",
                "icon": "/stonehearth_ace/entities/food/steak/steak.png",
-               "filter": "smokehouse_curable raw piece steak"
+               "filter": "smoke_curable raw piece steak"
             },
             "raw_steak_meat": {
                "ordinal": 63,
                "display_name": "i18n(trapper_plus:food.raw_steak_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_red_meat_butchered.png",
-               "filter": "smokehouse_curable steak raw meat butchered"
+               "filter": "smoke_curable steak raw meat butchered"
             },
             "fish_meat": {
                "ordinal": 81,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_meat/fish_meat.png",
-               "filter": "smokehouse_curable raw fish_meat standard meat"
+               "filter": "smoke_curable raw fish_meat standard meat"
             },
 				"fish_carp_meat": {
                "ordinal": 82,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_carp_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_carp_meat/fish_carp_meat.png",
-               "filter": "smokehouse_curable raw fish_meat carp meat"
+               "filter": "smoke_curable raw fish_meat carp meat"
             },
 				"fish_catfish_meat": {
                "ordinal": 83,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_catfish_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_catfish_meat/fish_catfish_meat.png",
-               "filter": "smokehouse_curable raw fish_meat catfish meat"
+               "filter": "smoke_curable raw fish_meat catfish meat"
             },
 				"fish_salmon_meat": {
                "ordinal": 84,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_salmon_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_salmon_meat/fish_salmon_meat.png",
-               "filter": "smokehouse_curable raw fish_meat salmon meat"
+               "filter": "smoke_curable raw fish_meat salmon meat"
             },
 				"fish_trout_meat": {
                "ordinal": 85,
                "display_name": "i18n(stonehearth_ace:entities.food.fish_trout_meat.display_name)",
                "icon": "/stonehearth_ace/entities/food/fish_trout_meat/fish_trout_meat.png",
-               "filter": "smokehouse_curable raw fish_meat trout meat"
+               "filter": "smoke_curable raw fish_meat trout meat"
             },
 				"nuts": {
                "ordinal": 90,
                "display_name": "i18n(stonehearth_ace:entities.food.nuts_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/nuts_basket/nuts_basket.png",
-               "filter": "smokehouse_curable nut_basket nuts"
+               "filter": "smoke_curable nut_basket nuts"
             },
             "chestnuts": {
                "ordinal": 91,
                "display_name": "i18n(stonehearth_ace:entities.food.chestnut.chestnut_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/chestnut/chestnut_basket/chestnut_basket.png",
-               "filter": "smokehouse_curable food_container chestnut"
+               "filter": "smoke_curable food_container chestnut"
             },
             "almonds": {
                "ordinal": 92,
                "display_name": "i18n(stonehearth_ace:entities.food.almond.almond_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/almond/almond_basket/almond_basket.png",
-               "filter": "smokehouse_curable food_container almond"
+               "filter": "smoke_curable food_container almond"
             },
             "walnuts": {
                "ordinal": 93,
                "display_name": "i18n(stonehearth_ace:entities.food.walnut.walnut_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/walnut/walnut_basket/walnut_basket.png",
-               "filter": "smokehouse_curable food_container walnut"
+               "filter": "smoke_curable food_container walnut"
             },
             "hazelnuts": {
                "ordinal": 94,
                "display_name": "i18n(stonehearth_ace:entities.food.hazelnut.hazelnut_basket.display_name)",
                "icon": "/stonehearth_ace/entities/food/hazelnut/hazelnut_basket/hazelnut_basket.png",
-               "filter": "smokehouse_curable food_container hazelnut"
+               "filter": "smoke_curable food_container hazelnut"
             },
             "cheese_fresh": {
                "ordinal": 100,
                "display_name": "i18n(stonehearth_ace:entities.food.dairy.cheese_fresh.cheese_fresh.display_name)",
                "icon": "/stonehearth_ace/entities/food/dairy/cheese_fresh/cheese_fresh/cheese_fresh.png",
-               "filter": "smokehouse_curable cheese_fresh cheese smokehouse_curable"
+               "filter": "smoke_curable cheese_fresh cheese smoke_curable"
             },
             "cheese_mild": {
                "ordinal": 101,
                "display_name": "i18n(stonehearth_ace:entities.food.dairy.cheese_mild.cheese_mild.display_name)",
                "icon": "/stonehearth_ace/entities/food/dairy/cheese_mild/cheese_mild/cheese_mild.png",
-               "filter": "smokehouse_curable cheese_mild cheese smokehouse_curable"
+               "filter": "smoke_curable cheese_mild cheese smoke_curable"
             },
             "cheese_aged": {
                "ordinal": 102,
                "display_name": "i18n(stonehearth_ace:entities.food.dairy.cheese_aged.cheese_aged.display_name)",
                "icon": "/stonehearth_ace/entities/food/dairy/cheese_aged/cheese_aged/cheese_aged.png",
-               "filter": "smokehouse_curable cheese_aged cheese smokehouse_curable"
+               "filter": "smoke_curable cheese_aged cheese smoke_curable"
             }
          }
 	  },
@@ -164,13 +164,13 @@
                "ordinal": 21,
                "display_name": "i18n(trapper_plus:food.salted_fish_meat.display_name)",
                "icon": "/trapper_plus/entities/food/salted_fish_meat/salted_fish_meat.png",
-               "filter": "smokehouse_curable salted fish_meat meat standard"
+               "filter": "smoke_curable salted fish_meat meat standard"
             },
 				"steak": {
                "ordinal": 34.5,
                "display_name": "i18n(trapper_plus:food.salted_steak.display_name)",
                "icon": "/trapper_plus/entities/food/salted_steak/salted_steak/salted_steak.png",
-               "filter": "smokehouse_curable salted piece steak"
+               "filter": "smoke_curable salted piece steak"
             }
          }
 	  }

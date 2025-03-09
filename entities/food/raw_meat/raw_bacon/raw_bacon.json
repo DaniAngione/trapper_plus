@@ -27,7 +27,7 @@
          "description": "i18n(trapper_plus:food.raw_bacon.description)",
          "icon": "file(raw_bacon.png)",
          "material_tags": [
-            "smokehouse_curable",
+            "smoke_curable",
             "bacon"
          ]
       },

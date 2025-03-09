@@ -40,7 +40,7 @@
          "icon": "file(salted_mutton.png)",
          "material_tags": [
             "salted_mutton",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

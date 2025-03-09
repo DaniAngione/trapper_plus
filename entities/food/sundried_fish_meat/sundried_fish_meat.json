@@ -1,0 +1,52 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:sundried",
+      "trapper_plus:mixins:food:fish_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sundried_fish_meat.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(sundried_fish_meat_rotting.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 2
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:sundried_fish_meat:sundried_fish_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:fish_meat"
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.sundried_fish_meat.display_name)",
+         "description": "i18n(trapper_plus:food.sundried_fish_meat.description)",
+         "icon": "file(sundried_fish_meat.png)",
+         "material_tags": [
+            "fish_meat",
+            "cooking_ingredient"
+         ]
+      }
+   }
+}

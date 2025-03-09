@@ -60,7 +60,7 @@
          "description": "i18n(trapper_plus:food.salted_white_meat.description)",
          "icon": "file(salted_white_meat.png)",
          "material_tags": [
-            "smokehouse_curable",
+            "smoke_curable",
             "cooking_ingredient",
             "large"
          ]

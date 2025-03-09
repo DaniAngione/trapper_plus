@@ -5,7 +5,7 @@
    "description": "i18n(trapper_plus:buffs.tanning_tub_stench.description)",
    "icon": "file(tanning_tub_stench_buff.png)",
    "script": "core_dani:buff_scripts:add_thought",
-   "duration": "6h",
+   "duration": "45m+30m",
    "repeat_add_action": "renew_duration",
    "thought": "stonehearth:thoughts:job:tanning_tub_stench",
    "modifiers": {

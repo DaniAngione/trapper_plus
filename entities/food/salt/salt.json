@@ -41,7 +41,7 @@
             "other_ingredient",
             "other_fluid",
             "undesirable_ingredient",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

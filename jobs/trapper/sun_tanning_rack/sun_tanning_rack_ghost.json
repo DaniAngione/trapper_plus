@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0.0, "y": 0, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": -0.5 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sun_tanning_rack.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "file(/data/rigs/jobs/trapper/sun_tanning_rack/sun_tanning_rack.json)"
+      },
+      "effect_list": {
+         "default": "file(/data/rigs/jobs/trapper/sun_tanning_rack/effects/idle.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.sun_tanning_rack.display_name)",
+         "description": "i18n(trapper_plus:trapper.sun_tanning_rack.description)",
+         "icon": "file(sun_tanning_rack.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool",
+            "passive_transformer",
+            "sun_tanning_rack"
+         ]
+      }
+   }
+}

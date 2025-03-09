@@ -14,8 +14,8 @@
 				"animal_ingredient",
 				"meat_ingredient",
             "hangable",
-            "smokehouse_curable",
-            "salt_box_curable",
+            "smoke_curable",
+            "salt_curable",
             "fish",
             "piece",
             "whole"

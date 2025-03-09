@@ -19,6 +19,9 @@
       },
       "render_info": {
          "scale": 0.09
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
       }
    },
    "entity_data": {
@@ -53,7 +56,7 @@
          "description": "i18n(trapper_plus:food.salted_fish_meat.description)",
          "icon": "file(salted_fish_meat.png)",
          "material_tags": [
-            "smokehouse_curable",
+            "smoke_curable",
             "fish_meat",
             "cooking_ingredient"
          ]

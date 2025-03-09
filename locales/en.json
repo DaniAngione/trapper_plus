@@ -45,6 +45,16 @@
             "fish_big_description": "Slice a piece of Big Fish Meat, producing three units of fish meat that can be used as meat in cooking, cured or smoked.",
             "fish_big_flavor": "No one will believe how big it was, after you slice it!"
          },
+         "pickles_recipe": {
+            "recipe_name": "Jar of Pickles (x3)",
+            "description": "Bold, spicy flavors. Not as efficient as a Cook's recipe, but it will do. Can replace 'Any Vegetable' in many recipes.",
+            "flavor": "Preserves are a good way to make raw foodstuffs last a lot longer than they usually would"
+         },
+         "jam_fruit_recipe": {
+            "recipe_name": "Jar of Fruit Jam (x3)",
+            "description": "Sweet and smooth. Not as efficient as a Cook's recipe, but it will do. Can replace 'Any Fruit' in many recipes.",
+            "flavor": "Preserves are a good way to make raw foodstuffs last a lot longer than they usually would"
+         },
          "workbenches_name": "Workbenches & Tools",
          "processors_name": "Tools: Food Preservation",
          "frontier_name": "Frontier Survival",
@@ -197,6 +207,20 @@
          "unlit_description": "It has run out of fuel and needs to be lit again before it can work!",
          "recipe_description": "A simple smokehouse that can be used to cure certain products like raw meats and sausages into edible, tasty foods.",
          "flavor": "Smokehouses can cure salted goods into their best form!"
+      },
+      "sundrying_beam": {
+         "display_name": "Sun-drying Beam",
+         "description": "A wooden beam for leaving meat pieces to be dried by the sun and a bit of salt.",
+         "empty_description": "The salt reserve is empty and needs to be refilled before it can be used again!",
+         "recipe_description": "Useful for drying some meats with salt and heat, creating unique and flavorful dried meat that provides their own bonuses.",
+         "flavor": "Takes longer than smoking or salting but shorter than proper curing, providing a reasonable middle ground"
+      },
+      "sun_tanning_rack": {
+         "display_name": "Sun-tanning Rack",
+         "description": "A special frame that can more efficiently dry skins and very slowly tan hides with some quality loss.",
+         "empty_description": "The salt reserve is empty and needs to be refilled before it can be used again!",
+         "recipe_description": "Uses salt and refracted heat to dry skins faster. It can also dry pelts and even tan hides into leather, but slowly and with the quality reduced by 1.",
+         "flavor": "A rudimentary technique"
       }
    },
    "data": {
@@ -364,7 +388,7 @@
             "description": "Mmmm! This was perfectly preserved. Hearty! Muscle, Willpower, Stamina and Diligence are increased.<ul><li>Crafting is quite faster</li></ul>"
          },
          "sundry_flavors": {
-            "display_name": "Sundried Flavors",
+            "display_name": "Sun-dried Flavors",
             "description": "A bit too dry but has an exquisite, curious taste! Speed, Curiosity, Diligence and Inspiration are increased, but Muscle is slightly decreased."
          },
          "red_meat": {
@@ -399,9 +423,9 @@
                "display_name": "Refuel",
                "description": "Order the Trapper to bring any common fuel and light this facility again. They must be able to access opening to light the fire. This command is automatically issued when needed."
             },
-            "salt_box": {
+            "add_salt": {
                "display_name": "Clean & Add Salt",
-               "description": "Order the Trapper to clean this salt box and replace the humid, dirty salt. This command will be issued automatically when needed."
+               "description": "Order the Trapper to clean this facility and replace the salt. This command will be issued automatically when needed."
             }
          }
       },
@@ -742,6 +766,9 @@
          "snake_skin": {
             "display_name": "Snake Skin",
             "description": "A long stretch of scaly, hard but supple skin."
+         },
+         "oinker_pelt": {
+            "description": "A thin and leathery hide with a very short fur. Can be directly used as rawhide."
          },
          "bone": {
             "fang_snake": {
@@ -1627,6 +1654,48 @@
       },
       "raw_meat": {
          "decay_1_description": "This meat is going bad. Must be consumed soon!"
+      },
+      "sundried_fish_meat": {
+         "display_name": "Sun-dried Fish Meat",
+         "description": "A peculiar taste for a refined palate!",
+         "serving": {
+            "display_name": "Serving of Sun-dried Fish Meat"
+         }
+      },
+      "sundried_red_meat": {
+         "display_name": "Sun-dried Red Meat",
+         "description": "Sliced and salted, under the sun for days.",
+         "serving": {
+            "display_name": "Serving of Sun-dried Red Meat"
+         }
+      },
+      "sundried_steak": {
+         "display_name": "Sun-dried Steak",
+         "description": "A large chunk of meat well dried by the sun.",
+         "serving": {
+            "display_name": "Serving of Sun-dried Steak"
+         }
+      },
+      "sundried_varanus": {
+         "display_name": "Sun-dried Varanus",
+         "description": "A big lizard that has been cured under the sun with some salt.",
+         "serving": {
+            "display_name": "Serving of Sun-dried Varanus"
+         }
+      },
+      "sundried_white_meat": {
+         "display_name": "Sun-dried White Meat",
+         "description": "Not so juicy anymore, a bit chewy, even.",
+         "serving": {
+            "display_name": "Serving of Sun-dried White Meat"
+         }
+      },
+      "sundried_wild_meat": {
+         "display_name": "Sun-dried Game Meat",
+         "description": "Very chewy and somewhat tough. But flavorful!",
+         "serving": {
+            "display_name": "Serving of Sun-dried Game Meat"
+         }
       }
    },
    "worker": {
@@ -1640,19 +1709,20 @@
    "ui": {
       "game": {
          "zones_mode": {
-            "filter_presets": {
-               "default_presets": {
-                  "small_meats": "Small Meat Bits (Default)",
-                  "large_meats": "Meat Bits (Default)",
-                  "red_meats": "Red Meat Bits (Default)",
-                  "white_meats": "White Meat Bits (Default)",
-                  "wild_meats": "Game Meat Bits (Default)",
-                  "fish_meats": "Fish Meat (Default)",
-                  "meat_pieces": "Whole Meat Pieces (Default)",
-                  "nuts_cheese": "Nuts & Cheese (Default)"
-               }
-            },
             "stockpile": {
+               "filter_presets": {
+                  "default_presets": {
+                     "supply_trapper": "Tannery Supplies (Trapper+ Default)",
+                     "small_meats": "Raw Meat (Small) (Trapper+ Default)",
+                     "large_meats": "Raw Meat (Trapper+ Default)",
+                     "red_meats": "Raw Red Meat (Trapper+ Default)",
+                     "white_meats": "Raw White Meat (Trapper+ Default)",
+                     "wild_meats": "Raw Game Meat (Trapper+ Default)",
+                     "fish_meats": "Raw Fish Meat (Trapper+ Default)",
+                     "meat_pieces": "Whole Meat Pieces (Trapper+ Default)",
+                     "nuts_cheese": "Nuts & Cheese (Trapper+ Default)"
+                  }
+               },
                "filters": {
                   "tooltip_wax": "Waxes"
                }

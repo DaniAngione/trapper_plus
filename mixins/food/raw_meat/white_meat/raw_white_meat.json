@@ -48,6 +48,13 @@
                   "min": 70,
                   "max": 76
                }
+            },
+            "sun_curing": {
+               "result": "trapper_plus:food:sundried_white_meat",
+               "progress_required": {
+                  "min": 40,
+                  "max": 43
+               }
             }
          }
       },
@@ -56,8 +63,9 @@
          "description": "i18n(trapper_plus:food.raw_white_meat.description)",
          "icon": "file(raw_white_meat.png)",
          "material_tags": [
-            "smokehouse_curable",
-            "salt_box_curable",
+            "smoke_curable",
+            "salt_curable",
+            "sun_curable",
             "bits",
             "white",
             "standard"

@@ -40,7 +40,7 @@
          "icon": "file(salted_varanus.png)",
          "material_tags": [
             "salted_varanus",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

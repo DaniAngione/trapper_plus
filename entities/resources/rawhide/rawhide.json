@@ -30,7 +30,7 @@
             "stockpile_animal_part",
             "resource",
             "animal_part",
-            "needs_tanning",
+            "tannable",
             "rawhide",
             "standard"
          ]

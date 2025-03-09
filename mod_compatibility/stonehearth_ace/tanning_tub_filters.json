@@ -13,19 +13,19 @@
                "ordinal": 1,
                "display_name": "i18n(trapper_plus:entities.rawhide.display_name)",
                "icon": "/trapper_plus/entities/resources/rawhide/rawhide.png",
-               "filter": "needs_tanning rawhide"
+               "filter": "tannable rawhide"
             },
             "raw_skin": {
                "ordinal": 2,
                "display_name": "i18n(trapper_plus:entities.raw_skin.display_name)",
                "icon": "/trapper_plus/entities/resources/rawskin/rawskin.png",
-               "filter": "needs_tanning raw_skin"
+               "filter": "tannable raw_skin"
             },
             "oinker_pelt": {
                "ordinal": 3,
                "display_name": "i18n(stonehearth_ace:entities.resources.pelt.oinker_pelt.display_name)",
                "icon": "/stonehearth_ace/entities/resources/pelt/oinker_pelt/oinker_pelt.png",
-               "filter": "needs_tanning pelt oinker"
+               "filter": "tannable pelt oinker"
             }
          }
       }

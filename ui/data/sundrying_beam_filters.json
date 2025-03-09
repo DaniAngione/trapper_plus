@@ -1,0 +1,73 @@
+{
+   "type": "index",
+   "stockpile": {
+      "food_types": {
+         "display_name": "i18n(trapper_plus:data.filters.meat_types)",
+         "filter": "resources",
+         "ordinal": 2,
+         "categories": {
+            "raw_big_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_big)",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_big_raw.png",
+               "filter": "large meat raw sun_curable"
+            },
+            "raw_meat_piece": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:data.filters.raw_meat_piece)",
+               "icon": "/trapper_plus/entities/food/raw_meat/stockpile_piece_raw.png",
+               "filter": "piece meat raw sun_curable"
+            }
+         }
+      },
+      "specific_foods": {
+         "display_name": "i18n(trapper_plus:data.filters.specific_foods)",
+         "filter": "resources",
+         "ordinal": 3,
+         "categories": {
+            "raw_duckduck_meat": {
+               "ordinal": 1,
+               "display_name": "i18n(trapper_plus:food.raw_duckduck_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_duckduck_meat/raw_duckduck_meat.png",
+               "filter": "sun_curable duckduck raw meat"
+            },
+            "raw_ostrich_meat": {
+               "ordinal": 2,
+               "display_name": "i18n(trapper_plus:food.raw_ostrich_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_ostrich_meat/raw_ostrich_meat.png",
+               "filter": "sun_curable ostrich raw meat"
+            },
+            "raw_deer_meat": {
+               "ordinal": 3,
+               "display_name": "i18n(trapper_plus:food.raw_deer_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_deer_meat/raw_deer_meat.png",
+               "filter": "sun_curable deer raw meat"
+            },
+            "raw_boar_meat": {
+               "ordinal": 4,
+               "display_name": "i18n(trapper_plus:food.raw_boar_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_boar_meat/raw_boar_meat.png",
+               "filter": "sun_curable boar raw meat"
+            },
+            "raw_wolf_meat": {
+               "ordinal": 9,
+               "display_name": "i18n(trapper_plus:food.raw_wolf_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_wolf_meat/raw_wolf_meat.png",
+               "filter": "sun_curable wolf raw meat"
+            },
+            "raw_pork_meat": {
+               "ordinal": 16,
+               "display_name": "i18n(trapper_plus:food.raw_pork_meat.display_name)",
+               "icon": "/trapper_plus/entities/food/raw_meat/raw_red_meat_butchered.png",
+               "filter": "sun_curable pork raw meat butchered"
+            },
+            "varanus_meat": {
+               "ordinal": 24,
+               "display_name": "i18n(stonehearth:entities.food.varanus_meat.display_name)",
+               "icon": "/stonehearth/entities/food/varanus_meat/varanus_meat.png",
+               "filter": "sun_curable raw piece varanus_meat"
+            }
+         }
+      }
+   }
+}

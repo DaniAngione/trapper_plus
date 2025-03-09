@@ -1,0 +1,75 @@
+{
+   "type": "entity",
+   "mixins": "file(sun_tanning_rack_empty_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sun_tanning_rack_empty_iconic.json)",
+         "ghost_form": "file(sun_tanning_rack_empty_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 2, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 2, "z": 2 }
+            }
+         ]
+      },
+      "stonehearth:storage": {
+         "type": "input_crate",
+         "capacity": 1,
+         "priority": 3,
+         "allow_default": false,
+         "render_contents": true,
+         "filter_list": "trapper_plus:input_box:sun_tanning_rack_filters"
+      },
+      "effect_list": {
+         "default": "file(/data/rigs/jobs/trapper/sun_tanning_rack/effects/idle.json)"
+      },
+      "core_dani:passive_transformer": {
+         "type": "sun_tanning_rack",
+         "paused": true
+      }
+   },
+   "entity_data": {
+      "stonehearth_ace:transform_data": {
+         "transform_uri": "trapper_plus:trapper:sun_tanning_rack",
+         "command": "trapper_plus:commands:transform:add_salt",
+         "request_action": "stonehearth_ace:transform",
+         "request_action_overlay_effect": "trapper_plus:effects:transform_trapper_overlay_effect",
+         "transform_ingredient_uri": "trapper_plus:food:salt",
+         "transforming_worker_effect": "fiddle",
+         "transforming_worker_effect_times": 1,
+         "auto_request": true,
+         "transform_effect": "stonehearth:effects:item_created",
+         "worker_required_job": {
+            "stonehearth:jobs:worker": true,
+            "stonehearth:jobs:trapper": true
+         }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 6,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": -9
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

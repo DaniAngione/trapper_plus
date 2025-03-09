@@ -1,0 +1,43 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 10,
+   "recipe_name": "i18n(trapper_plus:trapper.recipes.pickles_recipe.recipe_name)",
+   "description": "i18n(trapper_plus:trapper.recipes.pickles_recipe.description)",
+   "flavor": "i18n(trapper_plus:trapper.recipes.pickles_recipe.flavor)",
+   "portrait": "/stonehearth_ace/entities/food/preserves/pickles/pickles.png",
+   "workshop": "trapper_plus:trapper:block",
+   "level_requirement": 3,
+   "ace_smart_crafter_ignore": true,
+   "ingredients": [
+		{
+			"material": "food_container raw_food vegetable hearty",
+			"count": 4
+		},
+      {
+         "uri": "stonehearth_ace:food:vinegar",
+         "count": 1
+      },
+      {
+         "uri": "trapper_plus:food:salt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth_ace:food:preserves:pickles",
+         "produce_scripts": ["stonehearth_ace:craft_script:material_model_variant"],
+         "model_variant_material": "food_container raw_food vegetable hearty"
+      },
+      {
+         "item": "stonehearth_ace:food:preserves:pickles",
+         "produce_scripts": ["stonehearth_ace:craft_script:material_model_variant"],
+         "model_variant_material": "food_container raw_food vegetable hearty"
+      },
+      {
+         "item": "stonehearth_ace:food:preserves:pickles",
+         "produce_scripts": ["stonehearth_ace:craft_script:material_model_variant"],
+         "model_variant_material": "food_container raw_food vegetable hearty"
+      }
+   ]
+}

@@ -13,11 +13,55 @@
 	},
 	"trapper": {
 		"recipes": {
+			"butchering": {
+				"pork_display_name": "Corte Cru Suíno (x4)",
+				"pork_description": "Corte uma carne de porco, produzindo quatro unidades de Cortes Crus Suínos que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"pork_flavor": "Os Cortes Crus Suínos são considerados carne vermelha",
+				"duck_display_name": "Corte Cru de Pato (x2)",
+				"duck_description": "Corte uma carne de pato, produzindo duas unidades de Cortes Crus de Pato que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"duck_flavor": "Os Cortes Crus de Pato são considerados carne branca pequena",
+				"mutton_display_name": "Corte Cru de Cordeiro (x2)",
+				"mutton_description": "Corte uma carne de cordeiro, produzindo duas unidades de Cortes Crus de Cordeiro que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"mutton_flavor": "Os Cortes Crus de Cordeiro são considerados carne vermelha pequena",
+				"venison_display_name": "Corte Cru de Cervídeo (x3)",
+				"venison_description": "Corte uma carne de veado, produzindo três unidades de Cortes Crus de Cervídeo que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"venison_flavor": "Os Cortes Crus de Cervídeo são considerados carne de caça pequena",
+				"steak_display_name": "Corte Cru Bovino (x2)",
+				"steak_description": "Corte um bife, produzindo duas unidades de Cortes Crus Bovinos que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"steak_flavor": "Os Cortes Crus Bovinos são considerados carne vermelha",
+				"varanus_display_name": "Corte Cru de Varanus (x3)",
+				"varanus_description": "Corte uma carne de varanus, produzindo três unidades de Cortes Crus de Varanus que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"varanus_flavor": "Os Cortes Crus de Varanus são considerados carne de caça pequena",
+				"poyo_display_name": "Corte Cru de Poyo (x2)",
+				"poyo_description": "Corte uma carne de Poyo, produzindo duas unidades de Cortes Crus de Poyo que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"poyo_flavor": "Os Cortes Crus de Poyo são considerados carne branca pequena",
+				"poultry_display_name": "Corte Cru de Ave (x3)",
+				"poultry_description": "Corte uma carne de ave, produzindo três unidades de Cortes Crus de Ave que podem ser usados ​​como carne na culinária, curados ou defumados.",
+				"poultry_flavor": "Os Cortes Crus de Ave são considerados carne branca pequena",
+				"fish_display_name": "Filé de Peixe (x2)",
+				"fish_description": "Fatie um peixe inteiro, produzindo duas unidades de Filé de Peixe que podem ser usados como carne na culinária, curados ou defumados.",
+				"fish_flavor": "",
+				"fish_big_display_name": "Filé de Peixe (x3)",
+				"fish_big_description": "Fatie um grande pedaço de peixe, produzindo três unidades de Filé de Peixe que podem ser usados como carne na culinária, curados ou defumados.",
+				"fish_big_flavor": "Depois de fatiado, ninguém vai acreditar quão grande era!"
+			},
+			"pickles_recipe": {
+				"recipe_name": "Vidro de Picles (x3)",
+				"description": "Sabores fortes e picantes. Não tão eficiente quanto uma receita de Cozinheiro, mas serve. Pode substituir 'Qualquer Vegetal' em muitas receitas.",
+				"flavor": "As conservas são uma boa maneira de fazer com que os alimentos crus durem muito mais do que normalmente durariam"
+			},
+			"jam_fruit_recipe": {
+				"recipe_name": "Vidro de Geléia de Fruta (x3)",
+				"description": "Doce e suave. Não é tão eficiente quanto uma receita de Cozinheiro, mas serve. Pode substituir 'Qualquer Fruta' em muitas receitas.",
+				"flavor": "As conservas são uma boa maneira de fazer com que os alimentos crus durem muito mais do que normalmente durariam"
+			},
 			"workbenches_name": "Equipamentos & Ferramentas",
-			"tannery_name": "Couro & Curtição",
-			"butchering_name": "Açougue",
-			"curing_name": "Cura",
-			"boiling_name": "Cozimento",
+			"processors_name": "Ferramentas: Preservação de Alimentos",
+			"frontier_name": "Sobrevivência na Fronteira",
+			"tannery_name": "Refinament: Couro & Curtição",
+			"butchering_name": "Refinament: Açougue",
+			"curing_name": "Refinament: Cura",
+			"boiling_name": "Refinament: Cozimento",
 			"storage_name": "Armazenagem",
 			"clothing_name": "Roupas & Vestimentas",
 			"decorations_name": "Decorações"
@@ -148,6 +192,35 @@
 			"display_name": "Chapéu de Raposa",
 			"description": "Caçadores podem utilizar esse chapéu para um pequeno ganho em velocidade e disciplina.",
 			"flavor": "O que diz a raposa?"
+		},
+		"smoking_pit": {
+			"display_name": "Poço de Defumação",
+			"description": "Uma fogueira em um buraco raso para defumar lentamente cortes menores de carne. Reduz levemente a qualidade da carne.",
+			"recipe_display_name": "Poço de Defumação",
+			"recipe_description": "Pode ser usado para defumar lentamente cortes de carne, mas não pedaços inteiros nem produtos salgados. A qualidade das carnes defumadas será reduzida em 1.",
+			"flavor": "Uma maneira antiga, mas definitivamente funcional, de conservar alimentos!",
+			"unlit_description": "Ficou sem combustível para queimar e precisa de mais antes de poder funcionar novamente!"
+		},
+		"smokehouse_simple": {
+			"description": "Usado para defumar e curar produtos, tanto crus quanto salgados.",
+			"display_name": "Casa de Defumação Pequena",
+			"unlit_description": "Ficou sem combustível para queimar e precisa de mais antes de poder funcionar novamente!",
+			"recipe_description": "Um defumador simples que pode ser usado para curar certos produtos, como carnes cruas e salsichas, em alimentos comestíveis e saborosos.",
+			"flavor": "As casas de defumação podem curar produtos salgados até que fiquem em sua melhor forma!"
+		},
+		"sundrying_beam": {
+			"display_name": "Trave de Secagem",
+			"description": "Uma viga de madeira para deixar pedaços de carne secarem ao sol com um pouco de sal.",
+			"empty_description": "A reserva de sal está vazia e precisa ser reabastecida antes de poder ser usada novamente!",
+			"recipe_description": "Útil para secar algumas carnes com sal e calor, criando uma carne seca única e saborosa que oferece um bônus único.",
+			"flavor": "Demora mais do que defumar ou salgar, mas menos do que uma cura completa, proporcionando um meio-termo razoável"
+		},
+		"sun_tanning_rack": {
+			"display_name": "Prateleira de Curtição à Sol",
+			"description": "Uma estrutura especial que pode secar peles com mais eficiência e curtir couros muito lentamente, com alguma perda de qualidade.",
+			"empty_description": "A reserva de sal está vazia e precisa ser reabastecida antes de poder ser usada novamente!",
+			"recipe_description": "Usa sal e calor refratado para secar peles escamadas. Também seca outras peles e até mesmo curtir couro, mas lentamente e com a qualidade reduzida em 1.",
+			"flavor": "Uma técnica primitiva"
 		}
 	},
 	"data": {
@@ -179,6 +252,16 @@
 										"title": "Uma caravana de uma famosa mina de sal chegou para negócios"
 									}
 								}
+							}
+						}
+					}
+				},
+				"ambient_threats": {
+					"snake_attack": {
+						"mission": {
+							"sighted_bulletin": {
+								"title": "Cuidado, cobras perigosas!",
+								"title_hard": "Prepare-se para a batalha! Cobras gigantes!"
 							}
 						}
 					}
@@ -215,7 +298,8 @@
 			"small_pelt_resource_name": "Pele Pequena",
 			"skin_resource_name": "Pele Escamada",
 			"animal_fat_rendered_resource_name": "Qualquer Gordura Animal Processada",
-			"food_meat_jerky_name": "Carne Preparada",
+			"food_meat_preserved_name": "Qualquer Carne Preservada",
+			"food_meat_jerky_name": "Carne Curtida",
 			"any_pelt_resource_name": "Qualquer Pele",
 			"large_pelt_resource_name": "Pele (Grande)",
 			"small_food_meat_raw_resource_name": "Carne Crua (Pequena)",
@@ -227,11 +311,11 @@
 			"fish_resource_name": "Qualquer Peixe Inteiro",
 			"salt_resource_name": "Qualquer Sal de Cozinha",
 			"seasoning_resource_name": "Qualquer Tempero",
-         "wax_resource_name": "Qualquer Cera",
-         "wax_poor_resource_name": "Qualquer Cera Simples",
-         "wax_fine_resource_name": "Qualquer Cera Fina",
-         "leather_resource_boiled_name": "Couro Endurecido",
-         "wax_source_resource_name": "Qualquer Planta de Cera"
+			"wax_resource_name": "Qualquer Cera",
+			"wax_poor_resource_name": "Qualquer Cera Simples",
+			"wax_fine_resource_name": "Qualquer Cera Fina",
+			"leather_resource_boiled_name": "Couro Endurecido",
+			"wax_source_resource_name": "Qualquer Planta de Cera"
 		},
 		"filters": {
 			"meat_types": "Tipos de Comida",
@@ -248,10 +332,10 @@
 			"resource_types": "Específicos",
 			"large_fresh_pelt": "Pele Fresca (Grande)",
 			"small_fresh_pelt": "Pele Fresca (Pequena)",
-			"rawhide_raw_skin": "Pele Crua & Pele Escamosa Crua",
+			"rawhide_raw_skin": "Pele Crua & Pele Escamada Crua",
 			"large_pelt": "Pele (Grande)",
-			"hard_pelts": "Qualquer Pele Escamosa",
-			"fresh_skin": "Qualquer Pele Escamosa Fresca",
+			"hard_pelts": "Qualquer Pele Escamada",
+			"fresh_skin": "Qualquer Pele Escamada Fresca",
 			"small_leather": "Couro Fino",
 			"only_raw": "Apenas Produtos Crus",
 			"only_salted": "Apenas Produtos Salgados",
@@ -260,7 +344,8 @@
 			"salted_meat_small": "Carne Salgada (Pequena)",
 			"salted_meat_big": "Carne Salgada (Grande)",
 			"salted_meat_piece": "Partes Inteiras de Animais Salgadas",
-			"salted_foods": "Alimentos Salgados Específicos"
+			"salted_foods": "Alimentos Salgados Específicos",
+			"resource_misc": "Outros"
 		},
 		"happiness": {
 			"thoughts": {
@@ -278,6 +363,49 @@
 			"smoky_flavors": {
 				"display_name": "Sabores Esfumaçados",
 				"description": "Hmmm, estava perfeitamente defumado! Tão gostoso! Estamina, Coragem e Força melhoradas.<ul><li>Criação de itens é levemente acelerada</li></ul>"
+			},
+			"poison_snake": {
+				"display_name": "Veneno de Cobra",
+				"description": "Reduz muito a Força e a Diligência. Reduz levemente a Velocidade. Este cidadão sofrerá dano de 2,5% de sua saúde total a cada 30 minutos.",
+				"ace_description": "Um veneno natural perigoso. Pode durar alguns dias se não for tratado. Força e Diligência são bastante reduzidos, Velocidade é prejudicada.<ul><li>💬 Tipo e Gravidade: Veneno de Cobra (Grave)</li><li>💊 Este veneno precisa de vários tratamentos de Antídoto de Cobra para ser removido</li><li>🌡️ Grandes chances de desenvolver Febre Alta e Infecções enquanto não for tratado!</li><li>💜🔻 A saúde máxima efetiva é um pouco reduzida</li><li>🖤 Este veneno reduz muito o tempo que um cidadão tem para ser resgatado se ficar inconsciente</li></ul>"
+			},
+			"snake_juice": {
+				"snake_juice_worn_off_buff": {
+					"display_name": "Suco de Cobra (Efeito Colateral)",
+					"description": "O gosto ruim e o cheiro fétido deixaram esse cidadão um pouco abalado por um tempo.<ul><li>A Força de Vontade é bastante reduzida</li></ul>"
+				},
+				"snake_juice_buff": {
+					"display_name": "Suco de Cobra",
+					"description": "Eca! Blergh! Aumenta levemente a fome e a sede, mas protegerá contra picadas de cobra e seu veneno enquanto estiver ativo."
+				}
+			},
+			"salty_flavors": {
+				"display_name": "Sabores Salgados",
+				"description": "Ufa! Dá sede... Mas é bem gostoso! Força de Vontade e Resistência aumentam, mas Inspiração diminui um pouco."
+			},
+			"cured_flavors": {
+				"display_name": "Sabores Perfeitamente Curados",
+				"description": "Mmmm! Isso foi perfeitamente preservado. Gostoso! Força, Força de Vontade, Resistência e Diligência são aumentados.<ul><li>A criação de itens é bem mais rápida</li></ul>"
+			},
+			"sundry_flavors": {
+				"display_name": "Sabores Secos",
+				"description": "Um pouco seco demais, mas tem um gosto requintado e curioso! Velocidade, Curiosidade, Diligência e Inspiração são aumentadas, mas Força é ligeiramente diminuída."
+			},
+			"red_meat": {
+				"display_name": "Sabores de Carne Vermelha",
+				"description": "Recentemente apreciei um pouco de carne vermelha bem preservada! Coragem e Força de Vontade aumentam em 10%!"
+			},
+			"fish_meat": {
+				"display_name": "Sabores de Peixe",
+				"description": "Recentemente apreciei um pouco de carne de peixe bem preservada! Curiosidade e Compaixão aumentam em 10%!"
+			},
+			"white_meat": {
+				"display_name": "Sabores de Carne Branca",
+				"description": "Recentemente apreciei um pouco de carne branca bem preservada! Velocidade e Diligência aumentam em 10%!"
+			},
+			"wild_meat": {
+				"display_name": "Sabores de Carne de Caça",
+				"description": "Recentemente apreciei um pouco de carne de caça bem preservada! Estamina e Força aumentam em 10%!"
 			}
 		},
 		"loadouts": {
@@ -295,9 +423,45 @@
 					"display_name": "Reabastecer",
 					"description": "Ordene ao Caçador que traga qualquer combustível comum e acenda a casa de defumação novamente. A pessoa que o fizer deverá ser capaz de acessar a parte de trás da casa de defumação para fazê-lo. Esse comando será ativado automaticamente caso seja necessário."
 				},
-				"salt_box": {
+				"add_salt": {
 					"display_name": "Limpar & Adicionar Sal",
-					"description": "Ordene ao Caçador que limpe a caixa de sal e substitua o sal que está sujo e úmido. Esse comando será ativado automaticamente caso seja necessário."
+					"description": "Ordene ao Caçador que limpe esta ferramenta e substitua o sal. Este comando será emitido automaticamente quando necessário."
+				}
+			}
+		},
+		"population": {
+			"ascendancy": {
+				"titles": {
+					"proficient_category_trapper_frontier": {
+						"description": "Obtido ao atingir 100% de proficiência na categoria \"Sobrevivência na Fronteira\" como um Caçador.",
+						"display_name": "🍁 Proficiência: Sobrevivência na Fronteira",
+						"1_display_name": " o Regressor",
+						"1_description": "O domínio da sobrevivência à margem da sociedade, um verdadeiro conquistador da natureza!"
+					},
+					"proficient_category_trapper_refiner": {
+						"description": "Obtido ao atingir 100% de proficiência em qualquer categoria de \"Refinamento\" como um Caçador.",
+						"display_name": "🦊 Proficiência: Habilidades do Caçador",
+						"1_description": "Foram dominadas as habilidades de uma categoria de refinamento como um Caçador.",
+						"3_description": "Foram dominadas as habilidades de duas categorias de refinamento como um Caçador.",
+						"5_description": "Foram dominadas as habilidades de três categorias de refinamento como um Caçador.",
+						"9_description": "Foram dominadas as habilidades de todas as categorias de refinamento como um Caçador! Incrível!",
+						"1_display_name": ", Viajante Selvagem",
+						"3_display_name": ", Guardião do Ermo",
+						"5_display_name": ", Explorador da Fronteira",
+						"9_display_name": ", Mestre Curtidor"
+					}
+				}
+			}
+		},
+		"monster_tuning": {
+			"forest": {
+				"snake_regular": {
+					"display_name": "Cobra Grande",
+					"description": "Um pouco maior, um pouco mais mortal!"
+				},
+				"snake_hard": {
+					"display_name": "Cobra Gigante",
+					"description": "Cuidado com suas escamas endurecidas! Cuidado com seus dentes!"
 				}
 			}
 		}
@@ -306,8 +470,8 @@
 		"rawhide": {
 			"display_name": "Pele Crua",
 			"description": "Pele Crua pode ser curtida e transformada em couro numa bacia de curtição.",
-			"recipe_display_name": "Limpar Pele",
-			"small_recipe_display_name": "Limpar Pele Pequena",
+			"recipe_display_name": "Pele Crua (x2)",
+			"small_recipe_display_name": "Pele Crua",
 			"recipe_description": "Raspe e desengordure uma pele de animal para prepará-la para curtição. Produz duas unidades de pele crua.",
 			"small_recipe_description": "Raspe e desengordure uma pele de animal para prepará-la para curtição.",
 			"flavor": "Eca."
@@ -341,7 +505,8 @@
 			"display_name": "Pele Fresca de Cervo"
 		},
 		"fresh_rabbit_pelt": {
-			"display_name": "Pele Fresca de Coelho"
+			"display_name": "Pele Fresca de Coelho",
+			"description": "Recentemente esfolada, precisa ser seca antes de ser usada. Peles de coelho secam bem rápido!"
 		},
 		"fresh_racoon_pelt": {
 			"display_name": "Pele Fresca de Guaxinim",
@@ -356,13 +521,9 @@
 		"fresh_wolf_pelt": {
 			"display_name": "Pele Fresca de Lobo"
 		},
-		"fresh_varanus_pelt": {
-			"display_name": "Pele Fresca de Varanus",
-			"description": "Eww! Áspera e escamosa, requer secagem."
-		},
-		"fresh_zilla_pelt": {
+		"fresh_zilla_skin": {
 			"display_name": "Pele Fresca de Zilla",
-			"description": "Eww! Áspera, escamosa e ainda quente. Requer secagem."
+			"description": "Eca! Escamoso, áspero e um pouco quente ao toque... Requer bastate tempo para secar."
 		},
 		"thin_leather": {
 			"display_name": "Couro Fino",
@@ -404,13 +565,19 @@
 			"flavor": "Eww. Tem um cheiro ruim e um aspecto horrível!"
 		},
 		"fresh_moomoo_pelt": {
-			"display_name": "Pele Fresca de Mu-Mu"
+			"display_name": "Pele Fresca de Mu-Mu",
+			"description": "Recentemente esfolada, precisa ser seca antes de ser usada. Peles de Moo-Moo mais rapidamente do que a média."
+		},
+		"fresh_oinker_pelt": {
+			"display_name": "Pele Fresca de Oinker",
+			"description": "Recentemente esfolada, precisa ser seca antes de ser usada. Peles de Oinker demoram para secar mas podem ser usadas como Pele Crua."
 		},
 		"fresh_wild_cattle_pelt": {
 			"display_name": "Pele Fresca de Gado Selvagem"
 		},
 		"fresh_bear_pelt": {
-			"display_name": "Pele Fresca de Urso"
+			"display_name": "Pele Fresca de Urso",
+			"description": "Eww! Recentemente esfolada, precisa ser seca antes de ser usada. Peles de Urso demoram para secar."
 		},
 		"any_fresh_pelt": {
 			"display_name": "Qualquer Pele Fresca"
@@ -447,31 +614,34 @@
 				"iconic_description": "Coloque-o no mundo para que possa ser colhido por peles.",
 				"flavor": "Muito útil para armazenar peles ou vendê-las em peso"
 			},
-         "input_bin_boiled_leather": {
+			"input_bin_boiled_leather": {
 				"display_name": "Caixa de Suprimentos de Couro Endurecido",
-            "description": "Uma caixa de suprimentos para agilizar a manufatura.",
+				"description": "Uma caixa de suprimentos para agilizar a manufatura.",
 				"recipe_description": "Seus cidadãos tentarão manter essa caixa cheia e seus artesãos poderão continuar trabalhando!",
-				"flavor": "Muito bonita e decorada"         
-         },
-         "boiled_leather_chest": {
+				"flavor": "Muito bonita e decorada"
+			},
+			"boiled_leather_chest": {
 				"display_name": "Baú de Couro Endurecido",
-            "description": "Armazena até 32 itens",
+				"description": "Armazena até 32 itens",
 				"recipe_description": "Para armazenar belamente 32 itens",
 				"flavor": "Endurecido com muitos detalhes"
-         },
-         "boiled_leather_chest_small": {
+			},
+			"boiled_leather_chest_small": {
 				"display_name": "Baú Pequeno de Couro Endurecido",
-            "description": "Armazena até 16 itens",
+				"description": "Armazena até 16 itens",
 				"recipe_description": "Para armazenar belamente 16 itens",
-				"flavor": ""    
-         }
+				"flavor": ""
+			}
 		},
 		"food": {
 			"salt": {
 				"display_name": "Saca de Sal",
 				"description": "Um tempero comum também útil para preservação e curtição.",
+				"recipe_name": "Saca de Sal (x2)",
 				"recipe_description": "Ao moer pedras de sal, um tempero versátil e útil para curtição ou preservação é obtido.",
-				"flavor": "Preservação e curtição com sal é trabalho do Caçador"
+				"flavor": "Preservação e curtição com sal é trabalho do Caçador",
+				"recipe_trapper_description": "Ferva e extraia o sal das fibras vegetais secas. O sal é um tempero versátil que também é útil para preservar e curar.",
+				"flavor_trapper": "Não é a maneira mais eficiente, mas terá que servir"
 			},
 			"salt_smoked": {
 				"display_name": "Saca de Sal Defumado",
@@ -562,53 +732,175 @@
 				}
 			}
 		},
-      "resources": {
-         "wax": {
-            "beeswax": {
-               "display_name": "Cera de Abelha",
-               "description": "Maleável porém resistente, o incrível trabalho das abelhas. Serve como cera fina."
-            },
-            "wax_vegetable": {
-               "display_name": "Cera Vegetal",
-               "description": "Um produto orgânico macio e moldável. Serve como cera simples.",
+		"resources": {
+			"wax": {
+				"beeswax": {
+					"display_name": "Cera de Abelha",
+					"description": "Maleável porém resistente, o incrível trabalho das abelhas. Serve como cera fina."
+				},
+				"wax_vegetable": {
+					"display_name": "Cera Vegetal",
+					"description": "Um produto orgânico macio e moldável. Serve como cera simples.",
 					"flavor": "Plantas de cera são comuns no deserto ou em regiões secas"
-            },
-            "wax_wool": {
-               "display_name": "Lanolina",
-               "description": "Uma cera firme e gordurosa obtida da lã de ovelhas. Serve como cera fina.",
+				},
+				"wax_wool": {
+					"display_name": "Lanolina",
+					"description": "Uma cera firme e gordurosa obtida da lã de ovelhas. Serve como cera fina.",
 					"flavor": "A gordura cerosa da lã de ovelha as mantém quentinhas e secas"
-            }
-         },
-         "fiber": {
-            "dwarfsbeard_bundle": {
-               "description": "Enrolado, gorduroso e áspero. Pode ser usado como palha, fibra ou planta de cera."
-            }
-         }
-      },
-      "boiled_leather": {
-         "display_name": "Couro Endurecido",
-         "description": "Duro e resistente, este couro é capaz de ser moldado em formas complexas."
-      },
-      "armor": {
-         "boiled_leather_cuirass": {
-            "display_name": "Peitoral de Couro Endurecido",
-            "description": "Uma alternativa durável e leve para a armadura de um cavaleiro."
-         },
-         "boiled_leather_helmet": {
-            "display_name": "Elmo de Couro Endurecido",
-            "description": "Resistente e estiloso, perfeito para um cavaleiro."
-         },
-         "boiled_leather_shield": {
-            "display_name": "Escudo de Couro Endurecido",
-            "description": "Duro e confiável, um belo escudo para um soldado."
-         }
-      },
-      "backpack_boiled_leather": {
-         "display_name": "Mochila de Couro Endurecido do Trabalhador",
-         "description": "Permite que seus Trabalhadores sejam muito mais eficientes transportando coisas.",
+				}
+			},
+			"fiber": {
+				"dwarfsbeard_bundle": {
+					"description": "Enrolado, gorduroso e áspero. Pode ser usado como palha, fibra ou planta de cera."
+				},
+				"saltbush_bundle": {
+					"description": "Folhas salgadas e ásperas. Podem ser usadas como fibra, fiadas num carretel ou secas para ferver o sal.",
+					"display_name": "Feixe de Planta Salgada Fresca",
+					"drying_description": "A secagem está indo bem e em breve poderá ser fervido para obter sal fino."
+				},
+				"saltbush_bundle_dry": {
+					"display_name": "Feixe de Planta Salgada Seca",
+					"description": "Não mais utilizável como fibra, agora pode ser usado como material de cobertura ou fervido para obtenção de sal fino por um Caçador."
+				}
+			},
+			"snake_skin": {
+				"display_name": "Pele de Cobra",
+				"description": "Uma longa extensão de pele escamosa, dura, mas flexível."
+			},
+			"oinker_pelt": {
+				"description": "Uma pele fina e coriácea com pelo muito curto. Pode ser usada diretamente como couro cru."
+			},
+			"bone": {
+				"fang_snake": {
+					"display_name": "Peçonha de Cobra",
+					"description": "Nossa, ainda tem veneno pingando!"
+				}
+			}
+		},
+		"boiled_leather": {
+			"display_name": "Couro Endurecido",
+			"description": "Duro e resistente, este couro é capaz de ser moldado em formas complexas."
+		},
+		"armor": {
+			"boiled_leather_cuirass": {
+				"display_name": "Peitoral de Couro Endurecido",
+				"description": "Uma alternativa durável e leve para a armadura de um cavaleiro."
+			},
+			"boiled_leather_helmet": {
+				"display_name": "Elmo de Couro Endurecido",
+				"description": "Resistente e estiloso, perfeito para um cavaleiro."
+			},
+			"boiled_leather_shield": {
+				"display_name": "Escudo de Couro Endurecido",
+				"description": "Duro e confiável, um belo escudo para um soldado."
+			}
+		},
+		"backpack_boiled_leather": {
+			"display_name": "Mochila de Couro Endurecido do Trabalhador",
+			"description": "Permite que seus Trabalhadores sejam muito mais eficientes transportando coisas.",
 			"recipe_description": "Crie um objeto que permitirá aos seus Trabalhadores serem muito mais eficientes.",
 			"flavor": "Tão boa quanto uma mochila de couro mas com materiais alternativos mais baratos"
-      }
+		},
+		"consumables": {
+			"soap": {
+				"display_name": "Barra de Sabão",
+				"description": "Usado para tratar eficazmente infecções de qualquer gravidade, mas também é bom para limpar cortes ou feridas perfurantes.",
+				"recipe_description": "Usado por Herbalistas para tratar eficazmente infecções de qualquer gravidade e feridas cortantes ou perfurantes de baixa gravidade.",
+				"flavor": "HORA DO BANHO!"
+			},
+			"seeds": {
+				"saltbush_seeds": {
+					"display_name": "Sementes de Planta Salgada",
+					"description": "Aprenda a cultivar arbustos de planta salgada.",
+					"recipe_name": "Sementes de Planta Salgada",
+					"recipe_description": "Domestique arbustos de planta salgada e aprenda a cultivá-los.",
+					"recipe_flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item"
+				}
+			},
+			"antidote_snake": {
+				"display_name": "Antídoto de Veneno de Cobra",
+				"description": "Este medicamento especial é usado por Herbalistas para conter o veneno das picadas de cobra.",
+				"recipe_name": "Antídoto de Veneno de Cobra (x3)",
+				"recipe_description": "Aproveite o veneno da presa de uma cobra para criar três doses de antídoto que salva vidas.",
+				"recipe_flavor": "Veneno de cobra pode exigir vários tratamentos para ser removido"
+			},
+			"snake_juice": {
+				"display_name": "Suco de Cobra",
+				"description": "Protege a cidade do veneno de cobra, mas não cura pessoas que já estão infectadas. Beba antes de enfrentar cobras!",
+				"recipe_name": "Jarro de Suco de Cobra",
+				"recipe_description": "Um tônico especial para ser usado preventivamente, impedindo que o veneno se instale após uma mordida. Não curará cidadãos que já estejam infectados!",
+				"recipe_flavor": "Uma receita antiga da fronteira, e o sabor mais horrível que você irá experimentar"
+			}
+		},
+		"fresh_snake_skin": {
+			"display_name": "Pele Fresca de Cobra",
+			"description": "Eca! Recentemente esfolada, requer secagem antes de ser utilizável. Peles de cobra secam mais rápido do que a maioria das peles!"
+		},
+		"fresh_skin": {
+			"description": "Eca! Escamoso e áspero, requer secagem.",
+			"display_name": "Pele Fresca Escamada"
+		},
+		"fresh_varanus_skin": {
+			"display_name": "Pele Fresca de Varanus"
+		},
+		"monsters": {
+			"forest": {
+				"snake": {
+					"display_name": "Cobra",
+					"description": "Deslizando pela vegetação rasteira, cuidado com sua picada venenosa!"
+				}
+			}
+		},
+		"crops": {
+			"saltbush_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "Muda de Planta Salgada",
+						"description": "Crescerá e se tornará um arbusto salgado e fibroso!"
+					},
+					"001": {
+						"name": "Broto de Planta Salgada",
+						"description": "Veja subir!"
+					},
+					"002": {
+						"name": "Haste de Planta Salgada",
+						"description": "Começando a tomar forma!"
+					},
+					"003": {
+						"name": "Planta Salgada em Botão",
+						"description": "O sal já está começando a acumular em suas folhas!"
+					}
+				},
+				"display_name": "Planta Salgada",
+				"description": "Leva um bom tempo para crescer; pode ser colhida por sua fibra salgada"
+			}
+		},
+		"plants": {
+			"saltbush": {
+				"display_name": "Planta Salgada",
+				"description": "Fonte de fibras salgadas que podem ser fervidas para obter sal fino."
+			},
+			"saltbush_bud": {
+				"display_name": "Planta Salgada em Botão",
+				"description": "Quase lá, as folhas estão acumulando sal!"
+			},
+			"saltbush_sprout": {
+				"display_name": "Broto de Planta Salgada",
+				"description": "Ainda há um longo caminho a percorrer..."
+			},
+			"saltbush_stem": {
+				"display_name": "Haste de Planta Salgada",
+				"description": "Está crescendo bem agora!"
+			},
+			"saltbush_seed_ghost": {
+				"display_name": "Semente de Planta Salgada",
+				"description": "Crescerá e se tornará um arbusto que fornece fibras que podem ser fervidas para obter sal.",
+				"iconic_description": "Pode ser plantada para formar um arbusto que fornecerá fibras salgadas.",
+				"recipe_name": "Semente de Planta Salgada (x2)",
+				"recipe_description": "Separe as sementes da fibra",
+				"recipe_flavor": "Somente mãos habilidosas conseguem colher as sementes mais fracas, mas a fibra é destruída no processo"
+			}
+		}
 	},
 	"buffs": {
 		"wolf_spirit": {
@@ -703,52 +995,6 @@
 		}
 	},
 	"food": {
-		"raw_meat": {
-			"display_name": "Carne Crua",
-			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
-			"decay_1_description": "Está apodrecendo! Melhor utilizá-la antes que desapareça...",
-			"recipes": {
-				"pork_display_name": "Fatiar Carne Crua de Suíno",
-				"pork_description": "Produz quatro unidades de carne crua de suíno para serem utilizadas na cozinha ou curtidas.",
-				"pork_flavor": "",
-				"mutton_display_name": "Fatiar Carne Crua de Cordeiro",
-				"mutton_description": "Produz duas unidades de carne crua de cordeiro para serem utilizadas na cozinha ou curtidas.",
-				"mutton_flavor": "",
-				"venison_display_name": "Fatiar Carne Crua de Caça",
-				"venison_description": "Produz três unidades de carne crua de caça para serem utilizadas na cozinha ou curtidas.",
-				"venison_flavor": "",
-				"steak_display_name": "Fatiar Filé",
-				"steak_description": "Produz duas unidades de carne crua de bovino para serem utilizadas na cozinha ou curtidas.",
-				"steak_flavor": ""
-			}
-		},
-		"raw_small_meat": {
-			"display_name": "Carne Crua Pequena",
-			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
-			"recipes": {
-				"varanus_display_name": "Fatiar Carne de Varanus",
-				"varanus_description": "Produz três unidades de carne crua de varanus para serem utilizadas na cozinha ou curtidas.",
-				"varanus_flavor": ""
-			}
-		},
-		"raw_white_meat": {
-			"display_name": "Carne Branca Crua",
-			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
-			"recipes": {
-				"poyo_display_name": "Fatiar Carne de Poyo",
-				"poyo_description": "Produz duas unidades de carne crua de poyo para serem utilizadas na cozinha ou curtidas.",
-				"poyo_flavor": "",
-				"poultry_display_name": "Fatiar Carne de Ave",
-				"poultry_description": "Produz três unidades de carne crua de ave para serem utilizadas na cozinha ou curtidas.",
-				"poultry_flavor": "",
-				"fish_display_name": "Fatiar Peixe Fresco",
-				"fish_description": "Produz duas unidades de carne crua de peixe para serem utilizadas na cozinha ou curtidas.",
-				"fish_flavor": "",
-				"fish_big_display_name": "Fatiar Carne de Grande Peixe Fresco",
-				"fish_big_description": "Produz três unidades de carne crua de peixe para serem utilizadas na cozinha ou curtidas.",
-				"fish_big_flavor": "Ninguém acreditaria em quão grande ele era!"
-			}
-		},
 		"raw_boar_meat": {
 			"display_name": "Carne Crua de Javali"
 		},
@@ -759,10 +1005,10 @@
 			"display_name": "Carne Crua de PatoPato"
 		},
 		"raw_poultry_meat": {
-			"display_name": "Carne Crua de Ave"
+			"display_name": "Corte Cru de Ave"
 		},
 		"raw_poyo_meat": {
-			"display_name": "Carne Crua de Poyo"
+			"display_name": "Corte Cru de Poyo"
 		},
 		"raw_rabbit_meat": {
 			"display_name": "Carne Crua de Coelho"
@@ -775,34 +1021,19 @@
 			"display_name": "Carne Crua de Raposa"
 		},
 		"raw_mutton_meat": {
-			"display_name": "Carne Crua de Cordeiro"
+			"display_name": "Corte Cru de Cordeiro"
 		},
 		"raw_squirrel_meat": {
 			"display_name": "Carne Crua de Esquilo"
 		},
 		"raw_varanus_meat": {
-			"display_name": "Carne Crua de Varanus"
-		},
-		"mutton_jerky": {
-			"display_name": "Charque de Cordeiro"
-		},
-		"poultry_jerky": {
-			"display_name": "Charque de Ave"
-		},
-		"poyo_jerky": {
-			"display_name": "Charque de Poyo"
+			"display_name": "Corte Cru de Varanus"
 		},
 		"raw_pork_meat": {
-			"display_name": "Carne Crua Suína"
+			"display_name": "Corte Cru Suíno"
 		},
 		"raw_venison_meat": {
-			"display_name": "Carne Crua de Caça"
-		},
-		"pork_jerky": {
-			"display_name": "Charque Suíno"
-		},
-		"venison_jerky": {
-			"display_name": "Charque de Caça"
+			"display_name": "Corte Cru de Cervídeo"
 		},
 		"raw_ostrich_meat": {
 			"display_name": "Carne Crua de Avestruz"
@@ -813,11 +1044,11 @@
 			"display_name": "Peixe Defumado",
 			"description": "Fibrosa e deliciosa carne branca!"
 		},
-		"big_fish_smoked": {
-			"raw_display_name": "Grande Peixe Fresco",
-			"display_name": "Grande Peixe Defumado",
-			"description": "Um delicioso e saudável fruto do trabalho de um pescador.",
-			"serving_display_name": "Porção de Grande Peixe Defumado"
+		"smoked_big_fish": {
+			"raw_display_name": "Peixe Grande Cru",
+			"display_name": "Peixe Grande Defumado",
+			"description": "Este grande pedaço de carne de peixe foi perfeitamente defumado! Macio e suculento!",
+			"serving_display_name": "Porção de Peixe Grande Defumado"
 		},
 		"smoked_sausage": {
 			"serving_display_name": "Porção de Salsicha Defumada",
@@ -826,11 +1057,14 @@
 			"description": "Gostosa, fibrosa e crocante carne moída e defumada numa casa de defumação."
 		},
 		"sausage": {
-			"description": "O Caçador pode utilizar fibras para um encapsulamento mais rústico das salsichas."
+			"trapper_recipe_name": "Salsicha Crua (x2)",
+			"trapper_recipe_description": "O Caçador pode, embora com menos eficiência do que um Cozinheiro, embrulhar carne em salsichas.",
+			"cook_recipe_name": "Salsicha Crua (x4)"
 		},
 		"warm_wolf": {
 			"serving_display_name": "Porção de Lobo-Quente",
 			"serving_description": "",
+			"recipe_name": "Lobo-Quente (x2)",
 			"display_name": "Lobo-Quente",
 			"description": "Talvez uma das melhores ideias de todos os tempos foi colocar salsicha no pão.",
 			"flavor": "Agora precisamos de algum tipo de molho..."
@@ -868,9 +1102,9 @@
 			"flavor": "Insetos fervidos, insetos cozidos e... Mais insetos fervidos!"
 		},
 		"pemmican": {
-			"display_name": "Pemmican",
+			"display_name": "Pemican",
 			"description": "Não muito saboroso mas extremamente nutritivo e duradouro.",
-			"recipe_name": "Pemmican (x3)",
+			"recipe_name": "Pemican (x6)",
 			"recipe_description": "Carne seca e moída com frutinhas e gordura processada. Um alimento nutritivo e duradouro para sobreviver ao mundo selvagem.",
 			"flavor": "Preservado em pequenos saquinhos de pele crua, Pemmican pode durar anos."
 		},
@@ -883,25 +1117,12 @@
 		"raw_cougar_meat": {
 			"display_name": "Carne Crua de Felino"
 		},
-		"fish_jerky": {
-			"display_name": "Charque de Peixe",
-			"description": "Fino, crocante e borrachento. Tem um sabor peculiar."
-		},
-		"rotten_fish_jerky": {
-			"display_name": "Charque de Peixe Podre",
-			"description": "O cheiro é pior do que parece..."
-		},
-		"fish_carp_jerky": {
-			"display_name": "Charque de Carpa"
-		},
-		"fish_catfish_jerky": {
-			"display_name": "Charque de Peixe-Gato"
-		},
-		"fish_salmon_jerky": {
-			"display_name": "Charque de Salmão"
-		},
-		"fish_trout_jerky": {
-			"display_name": "Charque de Truta"
+		"cured_fish_meat": {
+			"display_name": "Filé de Peixe Curado",
+			"description": "Fino, crocante e fibroso. Tem um sabor peculiar.",
+			"serving": {
+				"display_name": "Porção de Filé de Peixe Curado"
+			}
 		},
 		"smoked_pork": {
 			"display_name": "Perna de Porco Defumada",
@@ -937,32 +1158,6 @@
 			"display_name": "Posta de Carne de Caça Defumada",
 			"description": "Deliciosa carne de caça, defumada perfeitamente.",
 			"serving_display_name": "Porção de Posta de Carne de Caça Defumada"
-		},
-		"smoked_meat": {
-			"display_name": "Carne Defumada",
-			"description": "Satisfatório corte de carne defumada."
-		},
-		"rotten": {
-			"smoked_meat": {
-				"display_name": "Carne Defumada Podre",
-				"description": "Ficou ruim e não há mais uso..."
-			},
-			"salted_meat": {
-				"description": "Ficou ruim e não há mais uso...",
-				"display_name": "Carne Salgada Podre"
-			}
-		},
-		"smoked_meat_small": {
-			"description": "Pequena e satisfatória porção de carne defumada.",
-			"display_name": "Carne Defumada Pequena"
-		},
-		"salted_meat": {
-			"display_name": "Carne Salgada",
-			"description": "Muito bem preservada, pode ser curada numa casa de defumação."
-		},
-		"salted_meat_small": {
-			"display_name": "Carne Salgada Pequena",
-			"description": "Pequenos e sequinhos pedaços de carne salgada. Pode ser curada numa casa de defumação."
 		},
 		"smoked_boar_meat": {
 			"display_name": "Carne de Javali Defumada"
@@ -1014,22 +1209,17 @@
 			"display_name": "Carne de Varanus Defumada"
 		},
 		"smoked_venison_meat": {
-			"display_name": "Carne de Caça Defumada"
+			"display_name": "Carne de Cervídeo Defumada"
 		},
 		"smoked_wolf_meat": {
 			"display_name": "Carne de Lobo Defumada"
 		},
 		"smoked_fish_meat": {
 			"display_name": "Filé de Peixe Defumado",
-			"description": "Nutritivo e borrachento, não muito saboroso..."
-		},
-		"rotten_smoked_fish_meat": {
-			"display_name": "Carne de Peixe Defumada Podre",
-			"description": "Não pode mais ser comida"
-		},
-		"rotten_salted_fish_meat": {
-			"display_name": "Carne de Peixe Salgada Podre",
-			"description": "Definitivamente lixo."
+			"description": "Nutritivo e borrachento, não muito saboroso...",
+			"serving": {
+				"display_name": "Porção de Filé de Peixe Defumado"
+			}
 		},
 		"salted_fish_meat": {
 			"display_name": "Filé de Peixe Salgado",
@@ -1047,12 +1237,12 @@
 		"smoked_fish_trout_meat": {
 			"display_name": "Filé de Truta Defumado"
 		},
-		"big_fish_salted": {
-			"display_name": "Grande Peixe Fresco Salgado",
-			"description": "Bem seco e salgadinho mas ainda suculento por dentro. Pode ser curado numa casa de defumação."
+		"salted_big_fish": {
+			"display_name": "Peixe Grande Salgado",
+			"description": "Muito seco e salgado, mas ainda suculento por dentro! Pode ser curado ainda mais em uma casa de defumação."
 		},
-		"big_fish_salted_serving": {
-			"display_name": "Porção de Grande Peixe Fresco Salgado"
+		"salted_big_fish_serving": {
+			"display_name": "Porção de Peixe Grande Salgado"
 		},
 		"fish_salted": {
 			"display_name": "Peixe Salgado",
@@ -1120,7 +1310,7 @@
 			"display_name": "Carne de Varanus Salgada"
 		},
 		"salted_venison_meat": {
-			"display_name": "Carne de Caça Salgada"
+			"display_name": "Carne de Cervídeo Salgada"
 		},
 		"salted_wolf_meat": {
 			"display_name": "Carne de Lobo Salgada"
@@ -1182,72 +1372,330 @@
 		"salted_venison_serving": {
 			"display_name": "Porção de Posta de Carne de Caça Salgada"
 		},
-		"big_fish_jerky": {
-			"display_name": "Grande Peixe Curado",
-			"description": "Delicioso e saboroso pedaço de peixe."
+		"cured_big_fish": {
+			"display_name": "Peixe Grande Curado",
+			"description": "Um pedaço de carne de peixe deliciosamente saboroso e defumado."
 		},
-		"big_fish_jerky_serving": {
-			"display_name": "Porção de Grande Peixe Curado"
+		"cured_big_fish_serving": {
+			"display_name": "Porção de Peixe Grande Curado"
 		},
-		"whole_fish_jerky": {
+		"cured_fish": {
 			"display_name": "Peixe Curado",
-			"description": "Borrachento e bem temperado, muito saboroso!"
+			"description": "Um peixe inteiro fibroso e salgado, muito saboroso!"
 		},
-		"jerky_mutton": {
+		"cured_mutton": {
 			"display_name": "Costela de Cordeiro Curada",
-			"description": "Perfeitamente salgada e defumada, pronta para ser comida!"
+			"description": "Costela perfeitamente salgada e defumada, pronta para ser comida!"
 		},
-		"jerky_mutton_serving": {
-			"display_name": "Porção de Costela de Cordeiro Defumada"
+		"cured_mutton_serving": {
+			"display_name": "Porção de Costela de Cordeiro Curada"
 		},
-		"jerky_pork": {
+		"cured_pork": {
 			"display_name": "Presunto Curado",
-			"description": "Saborosa, suculenta e grande peça de carne suína."
+			"description": "Um pedaço grande, suculento e saboroso de carne de porco defumada."
 		},
-		"jerky_pork_serving": {
+		"cured_pork_serving": {
 			"display_name": "Porção de Presunto Curado"
 		},
-		"jerky_poultry": {
+		"cured_poultry": {
 			"display_name": "Coxa de Ave Curada",
-			"description": "Bem temperada e defumada perfeitamente."
+			"description": "Carne de ave bem temperada e defumada."
 		},
-		"jerky_poultry_serving": {
+		"cured_poultry_serving": {
 			"display_name": "Porção de Coxa de Ave Curada"
 		},
-		"jerky_poyo": {
-			"display_name": "Poyo Curado",
-			"description": "Um refinado e saboroso peito de poyo com uma crocante casquinha salgada."
+		"cured_poyo": {
+			"display_name": "Peito de Poyo Curado",
+			"description": "Um peito de poyo refinado e saboroso com uma crosta crocante e salgada."
 		},
-		"jerky_poyo_serving": {
-			"display_name": "Porção de Poyo Curado"
+		"cured_poyo_serving": {
+			"display_name": "Porção de Peito de Poyo Curado"
 		},
-		"jerky_sausage": {
+		"cured_duck": {
+			"display_name": "Peito de Pato Curado",
+			"description": "Os sabores únicos do pato combinam perfeitamente com a gordura salgada e defumada."
+		},
+		"cured_duck_serving": {
+			"display_name": "Porção de Peito de Pato Curado"
+		},
+		"cured_sausage": {
 			"display_name": "Salsicha Curada",
-			"description": "Uma salsicha muito bem preparada."
+			"description": "Uma salsicha primorosamente preparada."
 		},
-		"jerky_sausage_serving": {
+		"cured_sausage_serving": {
 			"display_name": "Porção de Salsicha Curada"
 		},
-		"jerky_steak": {
-			"display_name": "Filé Curado",
-			"description": "Como uma enorme carne de charque!"
+		"cured_steak": {
+			"display_name": "Bife Curado",
+			"description": "É como um pedaço gigante de carne curada!"
 		},
-		"jerky_steak_serving": {
-			"display_name": "Porção de Filé Curado"
+		"cured_steak_serving": {
+			"display_name": "Porção de Bife Curado"
 		},
-		"jerky_varanus": {
-			"display_name": "Fatia de Varanus Curada",
-			"description": "Algo tão ruim se tornou algo tão bom..."
+		"cured_varanus": {
+			"display_name": "Fatia de Varanus Curado",
+			"description": "Algo tão ruim se transformou em algo tão bom..."
 		},
-		"jerky_varanus_serving": {
-			"display_name": "Porção de Varanus Curada"
+		"cured_varanus_serving": {
+			"display_name": "Porção de Varanus Curado"
 		},
-		"jerky_venison": {
-			"display_name": "Posta de Carne de Caça Curada",
-			"description": "Deliciosa e saborosa carne de caça, defumada perfeitamente."
+		"cured_venison": {
+			"display_name": "Lombo de Cervídeo Curado",
+			"description": "Carne de caça deliciosa e saborosa, defumada com perfeição."
 		},
-		"jerky_venison_serving": {
-			"display_name": "Porção de Carne de Caça Curada"
+		"cured_venison_serving": {
+			"display_name": "Porção de Lombo de Cervídeo Curado"
+		},
+		"raw_bacon": {
+			"display_name": "Bacon Cru",
+			"description": "É bacon! Mas ele precisa ser curado em uma casa de defumação para explorar todo seu potencial..."
+		},
+		"bacon_serving": {
+			"display_name": "Fatia de Bacon",
+			"description": "Nom nom nom! É bacon!"
+		},
+		"raw_wild_meat": {
+			"serving_display_name": "Porção de Carne de Caça Crua",
+			"display_name": "Carne de Caça Crua",
+			"description": "Não é boa para consumo, precisa ser curada em uma casa de defumação ou usada na culinária!"
+		},
+		"raw_red_meat": {
+			"serving_display_name": "Porção de Carne Vermelha Crua",
+			"display_name": "Carne Vermelha Crua",
+			"description": "Não é boa para consumo, precisa ser curada em uma casa de defumação ou usada na culinária!"
+		},
+		"raw_domestic_rabbit_meat": {
+			"display_name": "Carne de Coelho Crua (Doméstico)"
+		},
+		"raw_domestic_sheep_meat": {
+			"display_name": "Carne de Ovelha Crua (Doméstico)"
+		},
+		"raw_duck_meat": {
+			"display_name": "Corte Cru de Pato"
+		},
+		"raw_oinker_meat": {
+			"display_name": "Carne de Oinker Crua"
+		},
+		"raw_sheep_meat": {
+			"display_name": "Carne de Ovelha Crua"
+		},
+		"raw_snake_meat": {
+			"display_name": "Carne de Cobra Crua"
+		},
+		"raw_wild_cattle_meat": {
+			"display_name": "Carne Bovina Crua"
+		},
+		"raw_steak_meat": {
+			"display_name": "Corte Cru de Bovino"
+		},
+		"bacon": {
+			"display_name": "Bacon",
+			"description": "Apenas... Bacon."
+		},
+		"raw_red_meat_small": {
+			"display_name": "Carne Vermelha Crua (Pequena)",
+			"description": "Não é boa para consumo, precisa ser curada em uma casa de defumação ou usada na culinária!"
+		},
+		"raw_white_meat_small": {
+			"display_name": "Carne Branca Crua (Pequena)",
+			"description": "Não é boa para consumo, precisa ser curada em uma casa de defumação ou usada na culinária!"
+		},
+		"raw_wild_meat_small": {
+			"display_name": "Carne de Caça Crua (Pequena)",
+			"description": "Não é boa para consumo, precisa ser curada em uma casa de defumação ou usada na culinária!"
+		},
+		"rotten": {
+			"meat": {
+				"display_name": "Carne Podre",
+				"description": "Definitivamente não é mais apropriada para consumo..."
+			},
+			"meat_small": {
+				"display_name": "Carne Podre (Pequena)",
+				"description": "Não é seguro comer!"
+			}
+		},
+		"salted_duck": {
+			"display_name": "Pato Salgado",
+			"description": "Carne de pato deliciosa e macia conservada com sal."
+		},
+		"salted_duck_serving": {
+			"display_name": "Porção de Pato Salgado"
+		},
+		"salted_fish": {
+			"display_name": "Peixe Salgado",
+			"description": "Este peixe foi completamente seco com sal, o que lhe dá um sabor rico e fibroso."
+		},
+		"salted_fish_serving": {
+			"display_name": "Porção de Peixe Salgado"
+		},
+		"cured_fish_serving": {
+			"display_name": "Porção de Peixe Curado"
+		},
+		"salted_fish_meat_serving": {
+			"display_name": "Porção de Filé de Peixe Salgado"
+		},
+		"cured_red_meat": {
+			"display_name": "Carne Vermelha Curada",
+			"description": "Um pedaço delicioso e habilmente curado de carne vermelha curada.",
+			"serving": {
+				"display_name": "Porção de Carne Vermelha Curada"
+			}
+		},
+		"cured_red_meat_small": {
+			"display_name": "Carne Vermelha Curada (Pequena)",
+			"description": "Um pedaço menor, mas ainda delicioso, de carne vermelha bem curada."
+		},
+		"cured_white_meat": {
+			"display_name": "Carne Branca Curada",
+			"description": "Um pedaço de carne branca muito bem curado e com um sabor rico.",
+			"serving": {
+				"display_name": "Porção de Carne Branca Curada"
+			}
+		},
+		"cured_white_meat_small": {
+			"display_name": "Carne Branca Curada (Pequena)",
+			"description": "Um pedaço pequeno de carne branca primorosamente curada."
+		},
+		"cured_wild_meat": {
+			"display_name": "Carne de Caça Curada",
+			"description": "Um pedaço saboroso e saboroso de carne selvagem, curada com perfeição.",
+			"serving": {
+				"display_name": "Porção de Carne de Caça Curada"
+			}
+		},
+		"cured_wild_meat_small": {
+			"display_name": "Carne de Caça Curada (Pequena)",
+			"description": "Não subestime seu tamanho! Este pequeno pedaço de carne bem preservada tem um gosto ótimo!"
+		},
+		"salted_red_meat": {
+			"serving": {
+				"display_name": "Porção de Carne Vermelha Salgada"
+			},
+			"display_name": "Carne Vermelha Salgada",
+			"description": "Uma fatia seca e nutritiva de carne vermelha conservada em sal."
+		},
+		"salted_white_meat": {
+			"serving": {
+				"display_name": "Porção de Carne Branca Salgada"
+			},
+			"display_name": "Carne Branca Salgada",
+			"description": "Um pedaço saboroso e desidratado de ave conservada em sal."
+		},
+		"salted_wild_meat": {
+			"serving": {
+				"display_name": "Porção de Carne de Caça Salgada"
+			},
+			"display_name": "Carne de Caça Salgada",
+			"description": "Um pedaço substancial de carne selvagem que foi conservado com sal."
+		},
+		"smoked_duck": {
+			"display_name": "Pato Defumado",
+			"description": "Defumado até a perfeição crocante. Muito saboroso e exótico!",
+			"serving": {
+				"display_name": "Porção de Pato Defumado"
+			}
+		},
+		"smoked_fish": {
+			"display_name": "Peixe Defumado",
+			"description": "Este peixe inteiro foi defumado para uma refeição muito nutritiva e saborosa!",
+			"serving": {
+				"display_name": "Porção de Peixe Defumado"
+			}
+		},
+		"smoked_red_meat": {
+			"serving": {
+				"display_name": "Porção de Carne Vermelha Defumada"
+			},
+			"display_name": "Carne Vermelha Defumada",
+			"description": "Um pedaço de carne fibroso, mas suculento, preservado com fumaça."
+		},
+		"smoked_white_meat": {
+			"serving": {
+				"display_name": "Porção de Carne Branca Defumada"
+			},
+			"display_name": "Carne Branca Defumada",
+			"description": "Um pedaço considerável de carne branca preservada com fumaça saborosa."
+		},
+		"smoked_wild_meat": {
+			"serving": {
+				"display_name": "Porção de Carne de Caça Defumada"
+			},
+			"display_name": "Carne de Caça Defumada",
+			"description": "Carne magra, cortada em pedaços, preservada na fumaça. Muito nutritiva!"
+		},
+		"salted_red_meat_small": {
+			"display_name": "Carne Vermelha Salgada (Pequena)",
+			"description": "Um pedaço pequeno de carne vermelha salgada."
+		},
+		"salted_white_meat_small": {
+			"display_name": "Carne Branca Salgada (Pequena)",
+			"description": "Um pedacinho de carne branca que ficou em uma caixa de sal por um tempo."
+		},
+		"salted_wild_meat_small": {
+			"display_name": "Carne de Caça Salgada (Pequena)",
+			"description": "Um pouco da natureza selvagem em uma crosta salgada e saborosa."
+		},
+		"smoked_red_meat_small": {
+			"display_name": "Carne Vermelha Defumada (Pequena)",
+			"description": "Um pequeno pedaço de carne magra, vermelha, defumada com perfeição."
+		},
+		"smoked_white_meat_small": {
+			"display_name": "Carne Branca Defumada (Pequena)",
+			"description": "Um pequeno pedaço de carne branca que ganha textura e sabor por meio da fumaça."
+		},
+		"smoked_wild_meat_small": {
+			"display_name": "Carne de Caça Defumada (Pequena)",
+			"description": "Um pequeno pedaço de carne selvagem. Um pouco fibrosa, mas muito saborosa!"
+		},
+		"raw_white_meat": {
+			"description": "Não ideal para consumo, requer curtição numa casa de defumação ou uso na cozinha!",
+			"display_name": "Carne Branca Crua",
+			"serving_display_name": "Porção de Carne Branca Crua"
+		},
+		"raw_meat": {
+			"decay_1_description": "Está apodrecendo! Melhor utilizá-la antes que desapareça..."
+		},
+		"sundried_fish_meat": {
+			"display_name": "Carne de Peixe Seca",
+			"description": "Um sabor peculiar para um paladar refinado!",
+			"serving": {
+				"display_name": "Porção de Carne de Peixe Seca"
+			}
+		},
+		"sundried_red_meat": {
+			"display_name": "Carne Vermelha Seca",
+			"description": "Fatiado e salgado, sob o sol por dias.",
+			"serving": {
+				"display_name": "Porção de Carne Vermelha Seca"
+			}
+		},
+		"sundried_steak": {
+			"display_name": "Bife Ressecado",
+			"description": "Um grande pedaço de carne bem seco pelo sol.",
+			"serving": {
+				"display_name": "Porção de Bife Ressecado"
+			}
+		},
+		"sundried_varanus": {
+			"display_name": "Varanus Ressecado",
+			"description": "Um grande lagarto que foi curado sob o sol com um pouco de sal.",
+			"serving": {
+				"display_name": "Porção de Varanus Ressecado"
+			}
+		},
+		"sundried_white_meat": {
+			"display_name": "Carne Branca Seca",
+			"description": "Não é mais tão suculenta, até um pouco borrachenta.",
+			"serving": {
+				"display_name": "Porção de Carne Branca Seca"
+			}
+		},
+		"sundried_wild_meat": {
+			"display_name": "Carne de Caça Seca",
+			"description": "Muito mastigável e um pouco dura. Mas saborosa!",
+			"serving": {
+				"display_name": "Porção de Carne de Caça Seca"
+			}
 		}
 	},
 	"worker": {
@@ -1258,15 +1706,28 @@
 			"flavor": ""
 		}
 	},
-   "ui": {
-      "game": {
-         "zones_mode": {
-            "stockpile": {
-               "filters": {
-                  "tooltip_wax": "Ceras"
-               }
-            }
-         }
-      }
-   }
+	"ui": {
+		"game": {
+			"zones_mode": {
+				"stockpile": {
+					"filter_presets": {
+						"default_presets": {
+							"supply_trapper": "Suprimentos do Curtume (Padrão Trapper+)",
+							"small_meats": "Carne Crua (Pequena) (Padrão Trapper+)",
+							"large_meats": "Carne Crua (Padrão Trapper+)",
+							"red_meats": "Carne Vermelha Crua (Padrão Trapper+)",
+							"white_meats": "Carne Branca Crua (Padrão Trapper+)",
+							"wild_meats": "Carne de Caça Crua (Padrão Trapper+)",
+							"fish_meats": "Carne de Peixe Crua (Padrão Trapper+)",
+							"meat_pieces": "Pedaço de Carne Inteiros (Padrão Trapper+)",
+							"nuts_cheese": "Frutas Secas & Queijo (Padrão Trapper+)"
+						}
+					},
+					"filters": {
+						"tooltip_wax": "Ceras"
+					}
+				}
+			}
+		}
+	}
 }

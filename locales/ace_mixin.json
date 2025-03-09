@@ -1,0 +1,23 @@
+{
+   "ui": {
+      "game": {
+         "zones_mode": {
+            "stockpile": {
+               "filter_presets": {
+                  "default_presets": {
+                     "supply_trapper": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.supply_trapper)",
+                     "small_meats": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.small_meats)",
+                     "large_meats": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.large_meats)",
+                     "red_meats": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.red_meats)",
+                     "white_meats": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.white_meats)",
+                     "wild_meats": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.wild_meats)",
+                     "fish_meats": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.fish_meats)",
+                     "meat_pieces": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.meat_pieces)",
+                     "nuts_cheese": "i18n(trapper_plus:ui.game.zones_mode.stockpile.filter_presets.default_presets.nuts_cheese)"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -26,7 +26,7 @@
          "display_name": "i18n(trapper_plus:food.salted_fish_meat_serving.display_name)",
          "description": "",
          "material_tags": [
-            "salted_big_fish_serving"
+            "salted_fish_meat_serving"
          ],
          "subject_override": "trapper_plus:food:salted_fish_meat"
       }

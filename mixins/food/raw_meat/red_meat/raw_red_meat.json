@@ -48,6 +48,13 @@
                   "min": 90,
                   "max": 96
                }
+            },
+            "sun_curing": {
+               "result": "trapper_plus:food:sundried_red_meat",
+               "progress_required": {
+                  "min": 50,
+                  "max": 53
+               }
             }
          }
       },
@@ -56,8 +63,9 @@
          "description": "i18n(trapper_plus:food.raw_red_meat.description)",
          "icon": "file(raw_red_meat.png)",
          "material_tags": [
-            "smokehouse_curable",
-            "salt_box_curable",
+            "smoke_curable",
+            "salt_curable",
+            "sun_curable",
             "bits",
             "red",
             "standard"

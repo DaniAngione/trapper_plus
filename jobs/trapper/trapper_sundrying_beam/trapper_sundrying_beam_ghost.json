@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(trapper_sundrying_beam.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "/trapper_plus/data/rigs/jobs/trapper/sundrying_beam/sundrying_beam.json"
+      },
+      "effect_list": {
+         "default": "/trapper_plus/data/rigs/jobs/trapper/sundrying_beam/effects/idle.json"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:trapper.sundrying_beam.display_name)",
+         "description": "i18n(trapper_plus:trapper.sundrying_beam.description)",
+         "icon": "file(trapper_sundrying_beam.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool",
+            "passive_transformer",
+            "sundrying_beam",
+            "no_decay"
+         ]
+      }
+   }
+}

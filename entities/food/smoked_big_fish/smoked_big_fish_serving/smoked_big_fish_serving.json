@@ -23,7 +23,7 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(trapper_plus:food.smoked_big_fish.serving.display_name)",
+         "display_name": "i18n(trapper_plus:food.smoked_big_fish.serving_display_name)",
          "description": "",
          "material_tags": [
             "smoked_big_fish_serving"

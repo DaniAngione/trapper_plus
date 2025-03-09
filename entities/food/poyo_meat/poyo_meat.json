@@ -1,7 +1,7 @@
 {
 	"entity_data": {
 	  "stonehearth:catalog": {
-		 "material_tags":["smokehouse_curable", "salt_box_curable", "piece"]
+		 "material_tags":["smoke_curable", "salt_curable", "piece"]
 	  },
      "core_dani:passive_transform": {
         "type": "curable_food",

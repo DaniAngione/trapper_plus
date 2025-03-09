@@ -32,7 +32,7 @@
          "filter_list": "trapper_plus:input_box:salt_box_filters",
          "is_single_filter": true,
          "default_filter": [
-            "salt_box_curable"
+            "salt_curable"
          ]
       },
       "effect_list": {
@@ -47,7 +47,7 @@
    "entity_data": {
       "stonehearth_ace:transform_data": {
          "transform_uri": "trapper_plus:trapper:salt_box",
-         "command": "trapper_plus:commands:transform:salt_box",
+         "command": "trapper_plus:commands:transform:add_salt",
          "request_action": "stonehearth_ace:transform",
          "request_action_overlay_effect": "trapper_plus:effects:transform_trapper_overlay_effect",
          "transform_ingredient_uri": "trapper_plus:food:salt",

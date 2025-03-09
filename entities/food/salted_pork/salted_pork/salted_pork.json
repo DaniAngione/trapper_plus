@@ -41,7 +41,7 @@
          "material_tags": [
             "piece",
             "pork",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

@@ -33,7 +33,7 @@
          "filter_list": "trapper_plus:output_box:rawhide_rack_filters",
          "is_single_filter": true,
          "default_filter": [
-            "needs_tanning"
+            "tannable"
          ]
       },
       "effect_list": {

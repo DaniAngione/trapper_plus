@@ -24,7 +24,7 @@
    "entity_data": {
       "stonehearth:catalog": {
          "material_tags": [
-            "smokehouse_curable", "salt_box_curable"
+            "smoke_curable", "salt_curable", "sun_curable"
          ]
       },
       "core_dani:passive_transform": {
@@ -42,6 +42,13 @@
                "progress_required": {
                   "min": 72,
                   "max": 80
+               }
+            },
+            "sun_curing": {
+               "result": "trapper_plus:food:sundried_fish_meat",
+               "progress_required": {
+                  "min": 41,
+                  "max": 45
                }
             }
          }

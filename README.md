@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v2.0.3 for Stonehearth 1.1+
+v2.1 for Stonehearth 1.1+
 Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
@@ -77,6 +77,24 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### March 9th, 2025 - v2.1
+- Added 'Sun-drying Beam', workbench. The Trapper can now dry meat under the sun with some salt to create sun-dried goods. Sun-dried meats have a decent buff and more servings, overall they're not as good as Cured (Salted + Smoked) goods, but they're better than either smoking or salting individually.
+- Added 'Sun-tanning Rack', workbench. This new facility is very versatile, being able to both dry fresh pelts and skins or tan rawhide into leather. However, it is only really good at drying skins, which it can do faster than a drying frame and without quality loss. Pelts and leather are both slower than their other methods, and will have a small quality reduction.
+- (ACE) Both of the workbenches above need their salt replenished after some days of use.
+- (ACE) Improved the existing storage filter presets, and added a new one for Supply containers, 'Tannery Supplies'.
+- The Brazillian Portuguese (PT-BR) translation has bee updated and now includes all of the content! Viva!
+- Changed the Tanning Tub's debuff to be a lot less punishing. It will now last a lot less, only being an issue for those that are constantly near the vats.
+- Changed and streamlined some inner workings of the mod, mostly some material tags and definitions that were very specific and are now more generic, being reusable by other features.
+- Salt Boxes are now slightly slower than before.
+- (ACE) Smoked dry fruits (Walnuts, chestnuts, etc.) should now have the same amount of servings as their raw counterpart in ACE.
+- Fixed an issue that prevented some fish goods from being ever eaten (servings were impossible to obtain due to an issue with the `stacks` component)
+- Fixed some minor visual artifacts and misaligned models (Drying Frames, Cured Steak, etc.)
+- Fixed some wrong filters and filter presets, like venison being included in the white meat filters.
+- Fixed some issues with meats not providing the correct buffs for the person that eats them; In particular, all Game Meat was giving the Red Meat buff instead of the Game Meat buff, among others.
+- Fixed some missing or broken localization strings, like the Oinker Skin description or the names of filter presets.
+- Fixed an issue where facilities that should prevent the decay of raw meats (like Smokehouses) were not preventing anything, actually, which allowed meats to spoil before they turned.
+- Fixed some minor typos here and there.
 
 ### November 16th, 2024 - v2.0.3
 - (ACE and/or Archipelago Biome) Fixed fish meats not being properly stored in smokehouses or salt boxes.

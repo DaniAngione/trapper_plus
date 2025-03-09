@@ -2,8 +2,8 @@
    "entity_data": {
       "stonehearth:catalog": {
          "material_tags": [
-            "smokehouse_curable",
-            "salt_box_curable",
+            "smoke_curable",
+            "salt_curable",
             "piece"
          ]
       },

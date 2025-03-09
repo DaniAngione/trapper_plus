@@ -13,6 +13,9 @@
 				"tanning_tub": {
                "recipe": "file(tanning_tub_recipe.json)"
             },
+				"sun_tanning_rack": {
+               "recipe": "file(sun_tanning_rack_recipe.json)"
+            },
 				"drying_frame": {
                "recipe": "file(drying_frame_recipe.json)"
             },
@@ -45,7 +48,10 @@
 				},
 				"trapper_salt_box": {
 					"recipe": "file(trapper_salt_box_recipe.json)"
-				}
+				},
+				"sundrying_beam": {
+               "recipe": "file(sundrying_beam_recipe.json)"
+            }
          }
       },
 		"frontier": {

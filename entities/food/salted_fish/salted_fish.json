@@ -17,6 +17,9 @@
       },
       "mob": {
          "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
       }
    },
    "entity_data": {
@@ -38,7 +41,7 @@
          "material_tags": [
             "salted_fish",
             "fish_cooked",
-            "smokehouse_curable",
+            "smoke_curable",
             "whole"
          ]
       },

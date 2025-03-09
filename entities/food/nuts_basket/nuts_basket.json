@@ -2,7 +2,7 @@
    "entity_data": {
       "stonehearth:catalog": {
          "material_tags": [
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

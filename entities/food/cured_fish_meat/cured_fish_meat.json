@@ -18,7 +18,7 @@
          }
       },
       "stonehearth:stacks": {
-         "max_stacks": 2
+         "max_stacks": 1
       }
    },
    "entity_data": {

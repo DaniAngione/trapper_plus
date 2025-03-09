@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": "stonehearth:mixins:food_decay",
    "components": {},
    "entity_data": {
       "stonehearth_ace:pet_food_container": {

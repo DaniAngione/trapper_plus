@@ -6,7 +6,7 @@
    "icon": "file(tanning_tub_buff.png)",
    "script": "stonehearth:buff_scripts:aura",
    "script_info": {
-      "pulse": "30m",
+      "pulse": "20m",
       "aura_buff": "trapper_plus:buffs:tanning_tub:stench",
       "radius": 12,
       "affect_self": false,

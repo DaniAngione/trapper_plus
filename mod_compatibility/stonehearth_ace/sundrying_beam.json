@@ -1,0 +1,18 @@
+{
+   "components": {
+      "stonehearth:storage": {
+         "is_single_filter": false,
+         "mixintypes": {
+            "default_filter": "remove"
+         }
+      },
+      "stonehearth:evolve": {}
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "trapper_plus:trapper:sundrying_beam:empty",
+         "evolve_time": "9d+12h",
+         "transform_script": "core_dani:scripts:ace_transform_lib_additions"
+      }
+   }
+}

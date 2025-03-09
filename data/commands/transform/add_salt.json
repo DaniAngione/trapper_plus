@@ -1,8 +1,8 @@
 {
    "type": "command",
    "name": "salt_box",
-   "display_name": "i18n(trapper_plus:data.commands.transform.salt_box.display_name)",
-   "description": "i18n(trapper_plus:data.commands.transform.salt_box.description)",
+   "display_name": "i18n(trapper_plus:data.commands.transform.add_salt.display_name)",
+   "description": "i18n(trapper_plus:data.commands.transform.add_salt.description)",
    "default_enabled": true,
    "ordinal": 99,
    "icon": "/trapper_plus/entities/food/salt/salt.png",

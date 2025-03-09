@@ -3,13 +3,13 @@
    "entity_data": {
       "stonehearth:food": {
          "applied_buffs": [
-            "trapper_plus:buffs:consumption:red_meat"
+            "trapper_plus:buffs:consumption:wild_meat"
          ]
       },
       "stonehearth:catalog": {
          "material_tags": [
             "meat",
-            "red"
+            "wild"
          ]
       }
    }

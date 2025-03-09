@@ -40,7 +40,7 @@
          "icon": "file(salted_poultry.png)",
          "material_tags": [
             "salted_poultry",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

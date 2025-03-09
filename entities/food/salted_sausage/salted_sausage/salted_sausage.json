@@ -37,7 +37,7 @@
          "material_tags": [
             "salted_sausage",
             "meat",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {

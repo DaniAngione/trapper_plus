@@ -1,7 +1,7 @@
 {
 	"entity_data": {
 	  "stonehearth:catalog": {
-		 "material_tags":["smokehouse_curable", "salt_box_curable", "piece"]
+		 "material_tags":["smoke_curable", "salt_curable", "sun_curable", "piece"]
 	  },
      "core_dani:passive_transform": {
         "type": "curable_food",
@@ -18,6 +18,13 @@
               "progress_required": {
                  "min": 108,
                  "max": 120
+              }
+           },
+           "sun_curing": {
+              "result": "trapper_plus:food:sundried_varanus",
+              "progress_required": {
+                 "min": 59,
+                 "max": 65
               }
            }
         }

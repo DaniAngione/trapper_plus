@@ -1,0 +1,49 @@
+{
+   "mixins": [
+      "trapper_plus:mixins:food:sundried",
+      "trapper_plus:mixins:food:red_meat"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sundried_steak.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.09
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": -0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "food": "trapper_plus:food:sundried_steak:sundried_steak_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 19,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(trapper_plus:food.sundried_steak.display_name)",
+         "description": "i18n(trapper_plus:food.sundried_steak.description)",
+         "icon": "file(sundried_steak.png)",
+         "material_tags": [
+            "sundried_steak"
+         ]
+      },
+      "stonehearth:food_decay": {
+         "rotten_entity_alias": "stonehearth_ace:food:rotten:steak"
+      }
+   }
+}

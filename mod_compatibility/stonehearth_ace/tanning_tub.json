@@ -6,9 +6,9 @@
             "default_filter": "override"
          },
          "default_filter": [
-            "needs_tanning rawhide",
-            "needs_tanning raw_skin",
-            "needs_tanning pelt oinker"
+            "tannable rawhide",
+            "tannable raw_skin",
+            "tannable pelt oinker"
          ]
       },
       "stonehearth:evolve": {}

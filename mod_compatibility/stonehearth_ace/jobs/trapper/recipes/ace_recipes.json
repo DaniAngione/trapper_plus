@@ -16,6 +16,12 @@
 				},
 				"snake_juice": {
 					"recipe": "file(snake_juice_recipe.json)"
+				},
+				"pickles": {
+					"recipe": "file(pickles_recipe.json)"
+				},
+				"jam": {
+					"recipe": "file(jam_fruit_recipe.json)"
 				}
 			}
 		},

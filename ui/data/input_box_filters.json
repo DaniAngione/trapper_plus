@@ -155,7 +155,7 @@
                "ordinal": 2.52,
                "display_name": "i18n(trapper_plus:entities.food.salt.display_name)",
                "icon": "/trapper_plus/entities/food/salt/salt.png",
-               "filter": "cooking_ingredient salt smokehouse_curable"
+               "filter": "cooking_ingredient salt smoke_curable"
             },
             "smoked_salt": {
                "ordinal": 2.53,

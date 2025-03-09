@@ -16,7 +16,7 @@
          "scale": 0.09
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 }
+         "model_origin": { "x": 0, "y": 0, "z": -0.05 }
       },
       "stonehearth:stacks": {
          "max_stacks": 4
@@ -40,14 +40,14 @@
          "icon": "file(salted_steak.png)",
          "material_tags": [
             "salted_steak",
-            "smokehouse_curable"
+            "smoke_curable"
          ]
       },
       "core_dani:passive_transform": {
          "type": "curable_food",
          "processes": {
             "smoke_curing": {
-               "result": "trapper_plus:food:jerky_steak",
+               "result": "trapper_plus:food:cured_steak",
                "progress_required": {
                   "min": 22,
                   "max": 28

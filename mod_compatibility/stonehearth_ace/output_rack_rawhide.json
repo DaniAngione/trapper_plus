@@ -7,9 +7,9 @@
             "default_filter": "override"
          },
          "default_filter": [
-            "needs_tanning rawhide",
-            "needs_tanning rawskin",
-            "needs_tanning pelt oinker"
+            "tannable rawhide",
+            "tannable rawskin",
+            "tannable pelt oinker"
          ]
       }
    },
