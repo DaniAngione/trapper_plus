@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v2.1 for Stonehearth 1.1+
+v2.2 for Stonehearth 1.1+
 Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
@@ -81,6 +81,21 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### May 11th, 2025 - v2.2
+- Added a "Weak" variant of the Snake Venom for the naturally spawned (not invasions) snakes. It should be less aggressive and easier to deal with when compared to the regular Snake Venom.
+- Fixed a typo on the Snake Venom description.
+- Also made it so naturally spawned snakes are slightly rarer, and have a lower chance of injecting venom.
+- Added a previously announced but missing recipe for butchering a piece of Pork into the recently added Raw Bacon (x2).
+- Fixed a serious issue where a lot of transformations were not being properly triggered or completely impossible due to the items not being stored at all, even with the correct filters selected. Several items were affected by this like Sausages, Venison, Pork, and also some modded items like Fish Meat or Duck Meat from ACE.
+- Also fixed an issue where some of these items were transforming into the wrong item, most notably the salted venison that was turning into cured pork.
+- Finally, also fixed an issue that made it so certain workbenches like drying frames or tanning tubs were impossible to be undeployed and stored.
+- Unfortunately many of the fixes above will require new entities to be applied, so they will not correctly work for previously placed workbenches or previously harvested/butchered meat. It doesn't require a new game, however - exchanging all the Trapper's tools and waiting for new meat should fix everything over time.
+- Fixed an old issue that made the items disappear when the salt expired on Salt Boxes (or when adding new salt) or Tanning Tubs ran out of tannin.
+- Salt on Salt Boxes and fuel on Smokeries should now last a lot longer than before. The idea is to, eventually, convert some tools like Tanning Tubs and Salt Boxes to use a different regime where their "change" into a lesser form is not based on time but rather on how many items the processor has transformed. This will require further changes to Dani's Core Mod but should be a nice thing for the future. For now, enjoy longer-lasting fuel and salt!
+- (ACE) Added the missing "Salted Duck" filter to Smokeries.
+- (ACE) Fixed an issue where the Saltbush crop displayed a "0 Hours" growth time and never really achieved the harvestable stage.
+- (ACE) Fixed an issue that allowed some meat types that shouldn't be available to be sold by Pasture merchants.
 
 ### March 9th, 2025 - v2.1
 - Added 'Sun-drying Beam', workbench. The Trapper can now dry meat under the sun with some salt to create sun-dried goods. Sun-dried meats have a decent buff and more servings, overall they're not as good as Cured (Salted + Smoked) goods, but they're better than either smoking or salting individually.
