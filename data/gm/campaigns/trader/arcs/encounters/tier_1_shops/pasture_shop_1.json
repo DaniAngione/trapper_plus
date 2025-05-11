@@ -40,7 +40,7 @@
                         "small"
                      ],
                      "exclude_material": [
-                        "fish", "snake", "duckduck", "ostrich", "poultry"
+                        "fish", "snake", "duckduck", "ostrich", "poultry_large"
                      ]
                   }
                },

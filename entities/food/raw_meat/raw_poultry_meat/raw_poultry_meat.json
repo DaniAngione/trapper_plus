@@ -7,7 +7,7 @@
          "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
          "icon": "file(../raw_white_meat_small_butchered.png)",
          "material_tags": [
-            "poultry",
+            "poultry_large",
             "butchered"
          ]
       }

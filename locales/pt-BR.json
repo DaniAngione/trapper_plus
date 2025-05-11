@@ -17,6 +17,9 @@
 				"pork_display_name": "Corte Cru Suíno (x4)",
 				"pork_description": "Corte uma carne de porco, produzindo quatro unidades de Cortes Crus Suínos que podem ser usados ​​como carne na culinária, curados ou defumados.",
 				"pork_flavor": "Os Cortes Crus Suínos são considerados carne vermelha",
+				"pork_2_display_name": "Bacon Cru (x2)",
+            	"pork_2_description": "Corte uma carne de porco, produzindo duas unidades de Bacon Cru que podem ser usadas na culinária ou defumadas.",
+            	"pork_2_flavor": "Bacon é considerada uma carne vermelha. O Bacon Cru pode ser defumado diretamente para sua melhor forma de cura",
 				"duck_display_name": "Corte Cru de Pato (x2)",
 				"duck_description": "Corte uma carne de pato, produzindo duas unidades de Cortes Crus de Pato que podem ser usados ​​como carne na culinária, curados ou defumados.",
 				"duck_flavor": "Os Cortes Crus de Pato são considerados carne branca pequena",
@@ -369,6 +372,11 @@
 				"description": "Reduz muito a Força e a Diligência. Reduz levemente a Velocidade. Este cidadão sofrerá dano de 2,5% de sua saúde total a cada 30 minutos.",
 				"ace_description": "Um veneno natural perigoso. Pode durar alguns dias se não for tratado. Força e Diligência são bastante reduzidos, Velocidade é prejudicada.<ul><li>💬 Tipo e Gravidade: Veneno de Cobra (Grave)</li><li>💊 Este veneno precisa de vários tratamentos de Antídoto de Cobra para ser removido</li><li>🌡️ Grandes chances de desenvolver Febre Alta e Infecções enquanto não for tratado!</li><li>💜🔻 A saúde máxima efetiva é um pouco reduzida</li><li>🖤 Este veneno reduz muito o tempo que um cidadão tem para ser resgatado se ficar inconsciente</li></ul>"
 			},
+			"poison_snake_weak": {
+				"display_name": "Veneno de Cobra Fraco",
+				"description": "Reduz levemente a Força, a Diligência e a Velocidade. Este cidadão sofrerá dano de 1% de sua saúde total a cada 30 minutos.",
+				"ace_description": "Um veneno natural complicado. Pode durar alguns dias se não for tratado. Forç, Diligência e Velocidade são levemente prejudicadas.<ul><li>💬 Tipo e Gravidade: Veneno de Cobra (Baixo)</li><li>💊 Este veneno precisa de tratamento de Antídoto de Cobra para ser removido</li><li>🌡️ Alguma chance de desenvolver Febre Alta enquanto não for tratado!</li><li>💜🔻 A saúde máxima efetiva é um pouco reduzida</li><li>🖤 Este veneno reduz um pouco o tempo que um cidadão tem para ser resgatado se ficar inconsciente</li></ul>"
+        	},
 			"snake_juice": {
 				"snake_juice_worn_off_buff": {
 					"display_name": "Suco de Cobra (Efeito Colateral)",

@@ -20,6 +20,7 @@
          "icon": "file(sausage.png)",
          "material_tags": [
             "smoke_curable",
+            "salt_curable",
             "stockpile_cooking_ingredient",
             "cooking_ingredient",
             "meat",

@@ -39,7 +39,7 @@
          "description": "i18n(trapper_plus:food.cured_duck.description)",
          "icon": "file(cured_duck.png)",
          "material_tags": [
-            "duck"
+            "duck_meat"
          ]
       },
       "stonehearth:food_decay": {

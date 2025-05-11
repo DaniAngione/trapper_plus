@@ -32,7 +32,9 @@
          "filter_list": "trapper_plus:input_box:sun_tanning_rack_filters"
       },
       "effect_list": {
-         "default": "file(/data/rigs/jobs/trapper/sun_tanning_rack/effects/idle.json)"
+         "effects": [
+            "file(/data/rigs/jobs/trapper/sun_tanning_rack/effects/idle.json)"
+         ]
       },
       "core_dani:passive_transformer": {
          "type": "sun_tanning_rack",

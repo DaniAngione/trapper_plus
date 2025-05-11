@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_venison.description)",
          "icon": "file(salted_venison.png)",
          "material_tags": [
-            "salted_venison",
+            "venison",
+            "piece",
             "smoke_curable"
          ]
       },
@@ -47,7 +48,7 @@
          "type": "curable_food",
          "processes": {
             "smoke_curing": {
-               "result": "trapper_plus:venison_jerky",
+               "result": "trapper_plus:food:cured_venison",
                "progress_required": {
                   "min": 26,
                   "max": 33

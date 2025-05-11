@@ -19,8 +19,7 @@
    "entity_data": {
       "stonehearth:catalog": {
          "is_item": true,
-         "category": "workshops",
-         "material_tags":["stockpile_furniture"]
+         "category": "workshops"
       }
    }
 }

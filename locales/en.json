@@ -17,6 +17,9 @@
             "pork_display_name": "Raw Pork Cuts (x4)",
             "pork_description": "Slice a piece of Raw Pork, producing four units of raw pork cuts that can be used as meat in cooking, cured or smoked.",
             "pork_flavor": "Pork cuts are considered red meat",
+            "pork_2_display_name": "Raw Bacon (x2)",
+            "pork_2_description": "Slice a piece of Raw Pork, producing two units of raw bacon that can be used cooking or smoked.",
+            "pork_2_flavor": "Bacon is considered red meat. Raw Bacon can be directly smoked into its best cured form",
             "duck_display_name": "Raw Duck Cuts (x2)",
             "duck_description": "Slice a piece of Duck Meat, producing two units of raw duck cuts that can be used as meat in cooking, cured or smoked.",
             "duck_flavor": "Duck cuts are considered small white meat",
@@ -367,7 +370,12 @@
          "poison_snake": {
             "display_name": "Snake Venom",
             "description": "Greatly reduces Muscle and Diligence. Slightly reduces Speed. This hearthling will be damaged in 2.5% of their total health every 30 minutes.",
-            "ace_description": "A dangerous natural venom. Can last a few days if untreated. Muscle and Diligence are greatly reduced, Speed is impaired.<ul><li>💬 Type & Severity: Snake Venom (Severe)</li><li>💊 This venom needs to requires multiple treatments of Snake Antidote to be removed</li><li>🌡️ Greatly increased chances of developing High Fever and Infections while untreated!</li><li>💜🔻 Effective maximum health is somewhat lowered</li><li>🖤 This venom greatly reduces the time a hearthling has to be rescued if knocked unconscious</li></ul>"
+            "ace_description": "A dangerous natural venom. Can last a few days if untreated. Muscle and Diligence are greatly reduced, Speed is impaired.<ul><li>💬 Type & Severity: Snake Venom (Severe)</li><li>💊 This venom requires multiple treatments of Snake Antidote to be removed</li><li>🌡️ Greatly increased chances of developing High Fever and Infections while untreated!</li><li>💜🔻 Effective maximum health is somewhat lowered</li><li>🖤 This venom greatly reduces the time a hearthling has to be rescued if knocked unconscious</li></ul>"
+         },
+         "poison_snake_weak": {
+            "display_name": "Weak Snake Venom",
+            "description": "Slightly reduces Muscle, Diligence and Speed. This hearthling will be damaged in 1% of their total health every 30 minutes.",
+            "ace_description": "A complicated natural venom. Can last a few days if untreated. Muscle, Diligence and Speed are slightly impaired.<ul><li>💬 Type & Severity: Snake Venom (Low)</li><li>💊 This venom requires a treatment of Snake Antidote to be removed</li><li>🌡️ Some chances of developing High Fever while untreated!</li><li>💜🔻 Effective maximum health is slightly lowered</li><li>🖤 This venom slightly reduces the time a hearthling has to be rescued if knocked unconscious</li></ul>"
          },
          "snake_juice": {
             "snake_juice_worn_off_buff": {

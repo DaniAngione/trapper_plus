@@ -17,16 +17,20 @@
          "animation_table": "file(/data/rigs/jobs/trapper/sun_tanning_rack/sun_tanning_rack.json)"
       },
       "effect_list": {
-         "default": "file(/data/rigs/jobs/trapper/sun_tanning_rack/effects/idle.json)"
+         "effects": [
+            "file(/data/rigs/jobs/trapper/sun_tanning_rack/effects/idle.json)"
+         ]
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
+         "stonehearth:hide_child_entities_from_pathfinder": true,
          "display_name": "i18n(trapper_plus:trapper.sun_tanning_rack.display_name)",
          "description": "i18n(trapper_plus:trapper.sun_tanning_rack.empty_description)",
          "icon": "file(sun_tanning_rack_empty.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool",
             "passive_transformer",
             "sun_tanning_rack"

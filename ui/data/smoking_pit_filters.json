@@ -95,7 +95,7 @@
                "ordinal": 55,
                "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
-               "filter": "smoke_curable poultry raw meat butchered"
+               "filter": "smoke_curable poultry_large raw meat butchered"
             },
             "raw_mutton_meat": {
                "ordinal": 57,

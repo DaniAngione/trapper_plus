@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_poultry.description)",
          "icon": "file(salted_poultry.png)",
          "material_tags": [
-            "salted_poultry",
+            "poultry_large",
+            "piece",
             "smoke_curable"
          ]
       },

@@ -18,12 +18,14 @@
       }
    },
    "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:trapper.small_drying_frame.display_name)",
          "description": "i18n(trapper_plus:trapper.small_drying_frame.description)",
          "icon": "file(small_drying_frame.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool",
             "passive_transformer",
             "drying_frame"

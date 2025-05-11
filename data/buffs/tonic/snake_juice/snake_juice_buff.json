@@ -20,6 +20,7 @@
       }
    },
    "disallowed_buffs": [
-      "trapper_plus:buffs:snake_bite"
+      "trapper_plus:buffs:snake_bite",
+      "trapper_plus:buffs:snake_bite_weak"
    ]
 }

@@ -155,13 +155,13 @@
                "ordinal": 54,
                "display_name": "i18n(stonehearth:entities.food.poultry_large.display_name)",
                "icon": "/stonehearth/entities/food/poultry_large/poultry_large.png",
-               "filter": "smoke_curable raw piece poultry"
+               "filter": "smoke_curable raw piece poultry_large"
             },
             "raw_poultry_meat": {
                "ordinal": 55,
                "display_name": "i18n(trapper_plus:food.raw_poultry_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
-               "filter": "smoke_curable poultry raw meat butchered"
+               "filter": "smoke_curable poultry_large raw meat butchered"
             },
             "mutton": {
                "ordinal": 56,
@@ -288,7 +288,7 @@
                "ordinal": 9,
                "display_name": "i18n(trapper_plus:food.salted_poultry.display_name)",
                "icon": "/trapper_plus/entities/food/salted_poultry/salted_poultry/salted_poultry.png",
-               "filter": "smoke_curable salted piece poultry"
+               "filter": "smoke_curable salted piece poultry_large"
             },
             "whole_poyo_meat": {
                "ordinal": 10,

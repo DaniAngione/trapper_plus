@@ -10,8 +10,8 @@
       "stonehearth:buffs": {
          "inflictable_debuffs": {
             "infection": {
-               "uri": "trapper_plus:buffs:snake_bite",
-               "chance": 0.1
+               "uri": "trapper_plus:buffs:snake_bite_weak",
+               "chance": 0.15
             }
          }
       },

@@ -14,9 +14,23 @@
                "file(raw_bacon.qb)"
             ]
          }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 4
       }
    },
    "entity_data": {
+      "stonehearth_ace:pet_food_container": {
+         "food": "trapper_plus:raw_red_meat_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 5,
+         "rarity": "uncommon",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
       "stonehearth:food_decay": {
          "mixintypes": {
             "decay_stages": "remove"
@@ -28,7 +42,9 @@
          "icon": "file(raw_bacon.png)",
          "material_tags": [
             "smoke_curable",
-            "bacon"
+            "bacon",
+            "piece",
+            "red"
          ]
       },
       "core_dani:passive_transform": {
@@ -37,8 +53,8 @@
             "smoke_curing": {
                "result": "trapper_plus:food:bacon",
                "progress_required": {
-                  "min": 28,
-                  "max": 32
+                  "min": 42,
+                  "max": 51
                }
             }
          }

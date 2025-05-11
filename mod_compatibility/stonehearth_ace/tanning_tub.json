@@ -16,7 +16,8 @@
    "entity_data": {
       "stonehearth:evolve_data": {
          "next_stage": "trapper_plus:trapper:tanning_tub:water",
-         "evolve_time": "2d+6h"
+         "evolve_time": "2d+15h",
+         "transform_script": "core_dani:scripts:ace_transform_lib_additions"
       }
    }
 }

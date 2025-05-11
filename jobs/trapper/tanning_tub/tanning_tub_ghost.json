@@ -19,15 +19,22 @@
          "material_maps": [
             "core_dani:material_map"
          ]
+      },
+      "effect_list": {
+         "effects": [
+            "file(/data/rigs/jobs/trapper/tanning_tub/effects/idle.json)"
+         ]
       }
    },
    "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:trapper.tanning_tub.display_name)",
          "description": "i18n(trapper_plus:trapper.tanning_tub.description)",
          "icon": "file(tanning_tub.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool",
             "passive_transformer",
             "tanning_tub"

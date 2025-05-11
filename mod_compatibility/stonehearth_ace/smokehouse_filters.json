@@ -28,7 +28,7 @@
                "ordinal": 17,
                "display_name": "i18n(trapper_plus:food.raw_oinker_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_oinker_meat/raw_oinker_meat.png",
-               "filter": "smoke_curable boar domestic raw meat"
+               "filter": "smoke_curable oinker raw meat"
             },
             "raw_wild_cattle_meat": {
                "ordinal": 18,
@@ -64,7 +64,7 @@
                "ordinal": 53,
                "display_name": "i18n(trapper_plus:food.raw_duck_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_white_meat_small_butchered.png",
-               "filter": "smoke_curable duck raw meat butchered"
+               "filter": "smoke_curable duck_meat raw meat butchered"
             },
             "steak": {
                "ordinal": 62,
@@ -164,7 +164,13 @@
                "ordinal": 21,
                "display_name": "i18n(trapper_plus:food.salted_fish_meat.display_name)",
                "icon": "/trapper_plus/entities/food/salted_fish_meat/salted_fish_meat.png",
-               "filter": "smoke_curable salted fish_meat meat standard"
+               "filter": "smoke_curable salted fish_meat meat"
+            },
+				"duck_meat": {
+               "ordinal": 34.4,
+               "display_name": "i18n(trapper_plus:food.salted_duck.display_name)",
+               "icon": "/trapper_plus/entities/food/salted_duck/salted_duck.png",
+               "filter": "smoke_curable salted piece duck_meat"
             },
 				"steak": {
                "ordinal": 34.5,

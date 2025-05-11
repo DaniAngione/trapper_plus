@@ -17,6 +17,7 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
+         "stonehearth:hide_child_entities_from_pathfinder": true,
          "display_name": "i18n(trapper_plus:trapper.smokehouse_simple.display_name)",
          "description": "i18n(trapper_plus:trapper.smokehouse_simple.unlit_description)",
          "icon": "file(smokehouse_simple.png)",

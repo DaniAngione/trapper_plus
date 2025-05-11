@@ -108,8 +108,8 @@
 				"salt_curable sheep standard raw meat",
 				"salt_curable sheep domestic raw meat",
 				"salt_curable poyo raw meat butchered",
-				"salt_curable duck raw meat butchered",
-				"salt_curable poultry raw meat butchered",
+				"salt_curable duck_meat raw meat butchered",
+				"salt_curable poultry_large raw meat butchered",
 				"salt_curable mutton raw meat butchered",
 				"salt_curable venison raw meat butchered",
 				"salt_curable varanus raw meat butchered"
@@ -119,7 +119,7 @@
 				"salt_curable ostrich raw meat",
 				"salt_curable deer raw meat",
 				"salt_curable boar raw meat",
-				"salt_curable boar domestic raw meat",
+				"salt_curable oinker raw meat",
 				"salt_curable beef standard raw meat",
 				"salt_curable beef domestic raw meat",
 				"salt_curable big_cat raw meat",
@@ -132,7 +132,7 @@
 				"salt_curable rabbit domestic raw meat",
 				"salt_curable sheep domestic raw meat",
 				"salt_curable mutton raw meat butchered",
-				"salt_curable boar domestic raw meat",
+				"salt_curable oinker raw meat",
 				"salt_curable beef domestic raw meat",
 				"salt_curable pork raw meat butchered",
 				"salt_curable steak raw meat butchered"
@@ -140,8 +140,8 @@
 			"white_meats": [
 				"salt_curable snake raw meat",
 				"salt_curable poyo raw meat butchered",
-				"salt_curable duck raw meat butchered",
-				"salt_curable poultry raw meat butchered",
+				"salt_curable duck_meat raw meat butchered",
+				"salt_curable poultry_large raw meat butchered",
 				"salt_curable duckduck raw meat",
 				"salt_curable ostrich raw meat"
 			],
@@ -168,7 +168,7 @@
 			"meat_pieces": [
 				"salt_curable raw piece poyo_meat",
 				"salt_curable raw piece duck_meat",
-				"salt_curable raw piece poultry",
+				"salt_curable raw piece poultry_large",
 				"salt_curable raw piece mutton",
 				"salt_curable raw piece venison",
 				"salt_curable raw piece pork",
@@ -188,8 +188,8 @@
 				"smoke_curable sheep standard raw meat",
 				"smoke_curable sheep domestic raw meat",
 				"smoke_curable poyo raw meat butchered",
-				"smoke_curable duck raw meat butchered",
-				"smoke_curable poultry raw meat butchered",
+				"smoke_curable duck_meat raw meat butchered",
+				"smoke_curable poultry_large raw meat butchered",
 				"smoke_curable mutton raw meat butchered",
 				"smoke_curable venison raw meat butchered",
 				"smoke_curable varanus raw meat butchered"
@@ -199,7 +199,7 @@
 				"smoke_curable ostrich raw meat",
 				"smoke_curable deer raw meat",
 				"smoke_curable boar raw meat",
-				"smoke_curable boar domestic raw meat",
+				"smoke_curable oinker raw meat",
 				"smoke_curable beef standard raw meat",
 				"smoke_curable beef domestic raw meat",
 				"smoke_curable big_cat raw meat",
@@ -212,7 +212,7 @@
 				"smoke_curable rabbit domestic raw meat",
 				"smoke_curable sheep domestic raw meat",
 				"smoke_curable mutton raw meat butchered",
-				"smoke_curable boar domestic raw meat",
+				"smoke_curable oinker raw meat",
 				"smoke_curable beef domestic raw meat",
 				"smoke_curable pork raw meat butchered",
 				"smoke_curable steak raw meat butchered"
@@ -220,8 +220,8 @@
 			"white_meats": [
 				"smoke_curable snake raw meat",
 				"smoke_curable poyo raw meat butchered",
-				"smoke_curable duck raw meat butchered",
-				"smoke_curable poultry raw meat butchered",
+				"smoke_curable duck_meat raw meat butchered",
+				"smoke_curable poultry_large raw meat butchered",
 				"smoke_curable duckduck raw meat",
 				"smoke_curable ostrich raw meat"
 			],
@@ -257,8 +257,8 @@
 				"smoke_curable sheep standard raw meat",
 				"smoke_curable sheep domestic raw meat",
 				"smoke_curable poyo raw meat butchered",
-				"smoke_curable duck raw meat butchered",
-				"smoke_curable poultry raw meat butchered",
+				"smoke_curable duck_meat raw meat butchered",
+				"smoke_curable poultry_large raw meat butchered",
 				"smoke_curable mutton raw meat butchered",
 				"smoke_curable venison raw meat butchered",
 				"smoke_curable varanus raw meat butchered"
@@ -268,7 +268,7 @@
 				"smoke_curable ostrich raw meat",
 				"smoke_curable deer raw meat",
 				"smoke_curable boar raw meat",
-				"smoke_curable boar domestic raw meat",
+				"smoke_curable oinker raw meat",
 				"smoke_curable beef standard raw meat",
 				"smoke_curable beef domestic raw meat",
 				"smoke_curable big_cat raw meat",
@@ -281,7 +281,7 @@
 				"smoke_curable rabbit domestic raw meat",
 				"smoke_curable sheep domestic raw meat",
 				"smoke_curable mutton raw meat butchered",
-				"smoke_curable boar domestic raw meat",
+				"smoke_curable oinker raw meat",
 				"smoke_curable beef domestic raw meat",
 				"smoke_curable pork raw meat butchered",
 				"smoke_curable steak raw meat butchered"
@@ -289,8 +289,8 @@
 			"white_meats": [
 				"smoke_curable snake raw meat",
 				"smoke_curable poyo raw meat butchered",
-				"smoke_curable duck raw meat butchered",
-				"smoke_curable poultry raw meat butchered",
+				"smoke_curable duck_meat raw meat butchered",
+				"smoke_curable poultry_large raw meat butchered",
 				"smoke_curable duckduck raw meat",
 				"smoke_curable ostrich raw meat"
 			],
@@ -317,7 +317,7 @@
 			"meat_pieces": [
 				"smoke_curable raw piece poyo_meat",
 				"smoke_curable raw piece duck_meat",
-				"smoke_curable raw piece poultry",
+				"smoke_curable raw piece poultry_large",
 				"smoke_curable raw piece mutton",
 				"smoke_curable raw piece venison",
 				"smoke_curable raw piece pork",
@@ -343,7 +343,7 @@
 				"smoke_curable ostrich raw meat",
 				"smoke_curable deer raw meat",
 				"smoke_curable boar raw meat",
-				"smoke_curable boar domestic raw meat",
+				"smoke_curable oinker raw meat",
 				"smoke_curable beef standard raw meat",
 				"smoke_curable beef domestic raw meat",
 				"smoke_curable big_cat raw meat",
@@ -353,7 +353,7 @@
 				"smoke_curable steak raw meat butchered"
 			],
 			"red_meats": [
-				"smoke_curable boar domestic raw meat",
+				"smoke_curable oinker raw meat",
 				"smoke_curable beef domestic raw meat",
 				"smoke_curable pork raw meat butchered",
 				"smoke_curable steak raw meat butchered"

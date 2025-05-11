@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_steak.description)",
          "icon": "file(salted_steak.png)",
          "material_tags": [
-            "salted_steak",
+            "steak",
+            "piece",
             "smoke_curable"
          ]
       },

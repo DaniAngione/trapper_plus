@@ -13,20 +13,24 @@
          "animation_table": "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/trapper_salt_box.json"
       },
       "effect_list": {
-         "default": "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/effects/idle.json"
+         "effects": [
+            "/trapper_plus/data/rigs/jobs/trapper/trapper_salt_box/effects/idle.json"
+         ]
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "region_origin": { "x": 0.5, "y": 0, "z": 0 }
+         "model_origin": { "x": 0, "y": 0, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": -0.5 }
       }
    },
    "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
          "display_name": "i18n(trapper_plus:trapper.salt_box.display_name)",
          "description": "i18n(trapper_plus:trapper.salt_box.description)",
          "icon": "file(trapper_salt_box.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool",
             "passive_transformer",
             "salt_box",

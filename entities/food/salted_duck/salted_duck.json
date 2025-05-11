@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_duck.description)",
          "icon": "file(salted_duck.png)",
          "material_tags": [
-            "salted_duck",
+            "duck_meat",
+            "piece",
             "smoke_curable"
          ]
       },

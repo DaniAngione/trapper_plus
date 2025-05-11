@@ -29,6 +29,7 @@
          "icon": "file(trapper_smoking_pit.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool",
             "passive_transformer",
             "smoking_pit"

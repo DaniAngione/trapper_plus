@@ -21,6 +21,7 @@
          "icon": "file(trapper_block.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool"
          ]
       }

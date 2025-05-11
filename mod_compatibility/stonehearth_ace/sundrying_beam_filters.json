@@ -9,7 +9,7 @@
                "ordinal": 6,
                "display_name": "i18n(trapper_plus:food.raw_oinker_meat.display_name)",
                "icon": "/trapper_plus/entities/food/raw_meat/raw_oinker_meat/raw_oinker_meat.png",
-               "filter": "sun_curable boar domestic raw meat"
+               "filter": "sun_curable oinker raw meat"
             },
             "raw_wild_cattle_meat": {
                "ordinal": 7,

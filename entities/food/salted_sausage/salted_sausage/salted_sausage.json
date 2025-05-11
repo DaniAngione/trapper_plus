@@ -35,7 +35,7 @@
          "description": "i18n(trapper_plus:food.salted_sausage.description)",
          "icon": "file(salted_sausage.png)",
          "material_tags": [
-            "salted_sausage",
+            "sausage",
             "meat",
             "smoke_curable"
          ]
@@ -44,7 +44,7 @@
          "type": "curable_food",
          "processes": {
             "smoke_curing": {
-               "result": "trapper_plus:food:jerky_sausage",
+               "result": "trapper_plus:food:cured_sausage",
                "progress_required": {
                   "min": 28,
                   "max": 32

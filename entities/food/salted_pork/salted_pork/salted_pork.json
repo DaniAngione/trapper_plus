@@ -46,13 +46,13 @@
       },
       "core_dani:passive_transform": {
          "type": "curable_food",
-         "progress_required": {
-            "min": 8,
-            "max": 12
-         },
-         "tuning": {
-            "processes": {
-               "smoke_curing": "trapper_plus:food:cured_pork"
+         "processes": {
+            "smoke_curing": {
+               "result": "trapper_plus:food:cured_pork",
+               "progress_required": {
+                  "min": 28,
+                  "max": 35
+               }
             }
          }
       },

@@ -39,7 +39,7 @@
          "description": "i18n(trapper_plus:food.salted_fish.description)",
          "icon": "file(salted_fish.png)",
          "material_tags": [
-            "salted_fish",
+            "fish",
             "fish_cooked",
             "smoke_curable",
             "whole"

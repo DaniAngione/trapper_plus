@@ -1,0 +1,32 @@
+{
+   "category": "poison_snake",
+   "rank": 1,
+   "unique_in_category": true,
+   "description": "i18n(trapper_plus:data.buffs.poison_snake_weak.ace_description)",
+   "queue_crafting_order": "trapper_plus:consumables:antidote_snake",
+   "cant_affect_siege": true,
+   "duration": "2d+36h",
+   "modifiers": {
+      "effective_max_health_percent": {
+         "add": -4
+      },
+      "additive_guts_subtraction_modifier": {
+         "add": 2
+      }
+   },
+   "restore_effect": true,
+   "script": "stonehearth_ace:buff_scripts:periodic_buff_chance",
+   "mixintypes": {
+      "script_info": "override"
+   },
+   "script_info": {
+      "immunity_uri": [
+         "stonehearth:buffs:recently_treated",
+         "stonehearth_ace:buffs:recently_magically_treated"
+      ],
+      "periodic_chance_buff": {
+         "stonehearth_ace:buffs:infection:minor_infection": 0.3
+      },
+      "tick": "1h"
+   }
+}

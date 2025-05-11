@@ -4,6 +4,7 @@
          "crop_type": "trapper_plus:crops:saltbush_crop",
          "ordinal": 1.5,
          "level_requirement": 4,
+         "destroy_on_crop_change": true,
          "field_types": {
             "bush_farm": true
          }

@@ -100,6 +100,9 @@
 				"slice_pork": {
 					"recipe": "file(slice_pork_recipe.json)"
 				},
+				"slice_pork_2": {
+					"recipe": "file(slice_pork_2_recipe.json)"
+				},
 				"slice_mutton": {
 					"recipe": "file(slice_mutton_recipe.json)"
 				},

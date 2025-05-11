@@ -32,6 +32,7 @@
          "icon": "file(trapper_campfire_pot.png)",
          "category": "workshops",
          "material_tags": [
+            "tool",
             "stockpile_tool"
          ]
       }

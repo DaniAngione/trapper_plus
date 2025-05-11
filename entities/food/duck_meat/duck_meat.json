@@ -1,0 +1,26 @@
+{
+	"entity_data": {
+	  "stonehearth:catalog": {
+		 "material_tags":["smoke_curable", "salt_curable", "piece"]
+	  },
+     "core_dani:passive_transform": {
+        "type": "curable_food",
+        "processes": {
+           "smoke_curing": {
+              "result": "trapper_plus:food:smoked_duck",
+              "progress_required": {
+                 "min": 8,
+                 "max": 11
+              }
+           },
+           "salt_curing": {
+              "result": "trapper_plus:food:salted_duck",
+              "progress_required": {
+                 "min": 80,
+                 "max": 88
+              }
+           }
+        }
+     }
+	}
+}

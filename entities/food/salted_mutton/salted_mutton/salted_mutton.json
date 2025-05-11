@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_mutton.description)",
          "icon": "file(salted_mutton.png)",
          "material_tags": [
-            "salted_mutton",
+            "mutton",
+            "piece",
             "smoke_curable"
          ]
       },

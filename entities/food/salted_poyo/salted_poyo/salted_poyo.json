@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_poyo.description)",
          "icon": "file(salted_poyo.png)",
          "material_tags": [
-            "salted_poyo",
+            "poyo_meat",
+            "piece",
             "smoke_curable"
          ]
       },

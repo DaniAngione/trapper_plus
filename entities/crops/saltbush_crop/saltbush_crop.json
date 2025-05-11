@@ -48,6 +48,8 @@
          "resource_pairings": {
             "default": "trapper_plus:crops:saltbush_crop:final"
          },
+         "harvest_threshhold": "default",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect",
          "preferred_seasons": {
             "stonehearth:biome:temperate": [
                "spring"
@@ -64,7 +66,7 @@
          }
       },
       "stonehearth:growing": {
-         "growth_period": "1d+6h",
+         "growth_period": "24h+6h",
          "preferred_climate": "desert_easy",
          "growth_stages": [
             {

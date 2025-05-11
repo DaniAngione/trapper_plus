@@ -39,7 +39,8 @@
          "description": "i18n(trapper_plus:food.salted_varanus.description)",
          "icon": "file(salted_varanus.png)",
          "material_tags": [
-            "salted_varanus",
+            "varanus_meat",
+            "piece",
             "smoke_curable"
          ]
       },
@@ -47,7 +48,7 @@
          "type": "curable_food",
          "processes": {
             "smoke_curing": {
-               "result": "trapper_plus:food:jerky_varanus",
+               "result": "trapper_plus:food:cured_varanus",
                "progress_required": {
                   "min": 24,
                   "max": 32
