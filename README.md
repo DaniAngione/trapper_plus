@@ -82,6 +82,11 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 
 ## CHANGELOG
 
+### May 11th, 2025 - v2.2.1
+- (ACE) Fixed a crash when the Tanning Tub runs out of tannin.
+- Adjusted the position of the Salt Box to perfectly fit a 2x3 space. You'll need new Salt Boxes, existing ones will look wonky. (This is a missing note from the previous update)
+- Fixed an issue where Zillas could still drop vanilla Stonehearth Jerky.
+
 ### May 11th, 2025 - v2.2
 - Added a "Weak" variant of the Snake Venom for the naturally spawned (not invasions) snakes. It should be less aggressive and easier to deal with when compared to the regular Snake Venom.
 - Fixed a typo on the Snake Venom description.

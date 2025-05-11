@@ -1,10 +1,22 @@
 {
-   "entries": {
-      "skin": {
+	"entries": {
+		"skin": {
+			"items": {
+				"skin": {
+					"uri": "trapper_plus:resources:fresh_zilla_skin",
+					"weight": 1
+				}
+			}
+		},
+		"meat": {
+         "num_rolls": {
+            "min": 0,
+            "max": 0
+         },
          "items": {
-            "skin": {
-               "uri": "trapper_plus:resources:fresh_zilla_skin",
-               "weight": 1
+            "meat": {
+               "uri": "",
+               "weight": 0
             }
          }
       },
@@ -21,5 +33,5 @@
 				}
 			}
 		}
-   }
+	}
 }

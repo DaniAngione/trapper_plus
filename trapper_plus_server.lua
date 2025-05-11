@@ -41,7 +41,7 @@ function trapper_plus:_on_init()
    end
 
    radiant.events.trigger_async(radiant, 'trapper_plus:server:init')
-   radiant.log.write_('trapper_plus', 0, 'Trapper+ Mod server initialized')
+   radiant.log.write_('trapper_plus', 0, 'Trapper+ Mod server initialized (2.2.1)')
 end
 
 function trapper_plus:_on_required_loaded()

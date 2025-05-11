@@ -12,9 +12,17 @@
             ]
          }
       },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "file(/data/rigs/jobs/trapper/tanning_tub/tanning_tub.json)",
+         "color_map": "core_dani:color_map:fluids",
+         "material_maps": [
+            "core_dani:material_map"
+         ]
+      },
       "effect_list": {
          "effects": [
-            "file(/data/rigs/jobs/trapper/tanning_tub/effects/idle.json)"
+            "file(/data/rigs/jobs/trapper/tanning_tub/effects/idle_water.json)"
          ]
       }
    },
