@@ -6,8 +6,8 @@
             "default_filter": "override"
          },
          "default_filter": [
-            "leather resource thin_leather",
-            "leather resource scaly_leather"
+            "leather resource thin standard",
+            "leather resource thin scaly"
          ]
       }
    },

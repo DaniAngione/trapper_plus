@@ -536,6 +536,7 @@
       "stonehearth_ace/jobs/cook/recipes/huntsman_banquet_recipe.json": "file(jobs/cook/recipes/huntsman_banquet_recipe.json)",
       "stonehearth_ace/jobs/cook/recipes/hogs_bounty_recipe.json": "file(jobs/cook/recipes/hogs_bounty_recipe.json)",
       "trapper_plus/jobs/cook/recipes/warm_wolf_recipe.json": "/stonehearth_ace/jobs/cook/recipes/ace_warm_wolf_recipe.json",
+      "stonehearth_ace/jobs/shepherd/recipes/recipes.json": "file(jobs/shepherd/recipes/recipes.json)",
       "stonehearth_ace/jobs/shepherd/recipes/curdling_mixture_recipe.json": "file(jobs/shepherd/recipes/curdling_mixture_recipe.json)",
       "stonehearth_ace/jobs/weaver/recipes/chitin_shield_recipe.json": "file(jobs/weaver/recipes/chitin_shield_recipe.json)",
       "stonehearth_ace/jobs/weaver/recipes/simple_quiver_bolts_recipe.json": "file(jobs/weaver/recipes/simple_quiver_bolts_recipe.json)",

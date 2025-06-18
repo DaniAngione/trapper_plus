@@ -1,6 +1,6 @@
 # Trapper+
 ### by Daniel Angione
-v2.2 for Stonehearth 1.1+
+v2.2.2 for Stonehearth 1.1+
 Compatible with Stonehearth ACE 0.9.6.18+
 
 ## DESCRIPTION
@@ -81,6 +81,12 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### June 18th, 2025 - v2.2.2
+- (ACE) Fixed an issue where the Clay or Stone Smokeries would turn into the Wooden one when running out of fuel.
+- Fixed an issue with the Thin Leather Stockpile not working properly nor setting its filters automatically when used with ACE.
+- The Cook can now craft Rendered Animal Fat, Tallow and Lard more efficiently than the Trapper can.
+- (ACE) The Shepherd can now craft Rendered Tallow, Lard and Lanolin Wax. They're less efficient than both the Cook or Trapper for rendering fat but is more efficient in making the wax.
 
 ### May 11th, 2025 - v2.2.1
 - (ACE) Fixed a crash when the Tanning Tub runs out of tannin.

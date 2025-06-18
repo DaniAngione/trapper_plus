@@ -1,0 +1,17 @@
+{
+   "craftable_recipes": {
+		"refining": {
+			"recipes": {
+				"wax_wool": {
+					"recipe": "file(wax_wool_recipe.json)"
+				},
+				"rendered_animal_fat_tallow": {
+					"recipe": "file(rendered_animal_fat_tallow_recipe.json)"
+				},
+				"rendered_animal_fat_lard": {
+					"recipe": "file(rendered_animal_fat_lard_recipe.json)"
+				}
+			}
+       }
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "type": "recipe",
+   "effort": 12,
+   "work_units": 3,
+   "recipe_name": "i18n(trapper_plus:food.animal_fat_rendered.recipe_name)",
+   "description": "i18n(trapper_plus:food.animal_fat_rendered.recipe_description)",
+   "flavor": "i18n(trapper_plus:food.animal_fat_rendered.flavor)",
+   "portrait": "/trapper_plus/entities/food/animal_fat_rendered/animal_fat_rendered.png",
+   "workshop": "stonehearth:cook:workbench",
+   "work_effect": "fiddle",
+   "proficiency_gain": 0.5,
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "trapper_plus:resources:animal_fat",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:food:animal_fat_rendered"
+      }
+   ]
+}

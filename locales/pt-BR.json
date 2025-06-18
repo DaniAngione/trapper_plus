@@ -754,7 +754,8 @@
 				"wax_wool": {
 					"display_name": "Lanolina",
 					"description": "Uma cera firme e gordurosa obtida da lã de ovelhas. Serve como cera fina.",
-					"flavor": "A gordura cerosa da lã de ovelha as mantém quentinhas e secas"
+					"flavor": "A gordura cerosa da lã de ovelha as mantém quentinhas e secas",
+               		"shepherd_flavor": "O Pastor pode utilizar a estação de trabalho do Cozinheiro para essa receita!"
 				}
 			},
 			"fiber": {
@@ -1092,14 +1093,16 @@
 			"description": "Oleosa e saborosa gordura suína. Pode ser utilizada como gordura ou manteiga!",
 			"recipe_name": "Processar Gordura Suína (x3)",
 			"recipe_description": "Ferva e trabalhe a gordura animal para transformá-la numa forma mais útil.",
-			"flavor": "Chamada de banha, gordura suína é cremosa o bastante para ser utilizada como manteiga!"
+			"flavor": "Chamada de banha, gordura suína é cremosa o bastante para ser utilizada como manteiga!",
+            "shepherd_flavor": "O Pastor pode utilizar a estação de trabalho do Cozinheiro para essa receita!"
 		},
 		"animal_fat_rendered_tallow": {
 			"display_name": "Balde de Sebo",
 			"description": "Um tipo especial de gordura. Pode ser utilizada também como óleo de cozinha ou cera simples.",
 			"recipe_name": "Processar Gordura Bovina (x2)",
 			"recipe_description": "Ferva e trabalhe a gordura animal para transformá-la numa forma mais útil.",
-			"flavor": "Sebo possui vários usos, desde óleo para fritura até como uma cera simples."
+			"flavor": "Sebo possui vários usos, desde óleo para fritura até como uma cera simples.",
+            "shepherd_flavor": "O Pastor pode utilizar a estação de trabalho do Cozinheiro para essa receita!"
 		},
 		"bug_meat_soup": {
 			"display_name": "Sopa de Insetos",

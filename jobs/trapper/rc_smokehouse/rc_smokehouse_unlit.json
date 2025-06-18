@@ -19,7 +19,7 @@
    },
    "entity_data": {
       "stonehearth_ace:transform_data": {
-         "transform_uri": "trapper_plus:trapper:smokehouse"
+         "transform_uri": "trapper_plus:trapper:rc_smokehouse"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 12,

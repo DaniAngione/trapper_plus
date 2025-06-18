@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 7,
+   "recipe_name": "i18n(trapper_plus:entities.resources.wax.wax_wool.display_name)",
+   "description": "i18n(trapper_plus:entities.resources.wax.wax_wool.description)",
+   "flavor": "i18n(trapper_plus:entities.resources.wax.wax_wool.shepherd_flavor)",
+   "portrait": "/trapper_plus/entities/resources/wax/wax_wool/wax_wool.png",
+   "workshop": "stonehearth:cook:workbench",
+	"ace_smart_crafter_ignore": true,
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:resources:fiber:wool_bundle",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "trapper_plus:resources:wax:wax_wool"
+      }
+   ]
+}

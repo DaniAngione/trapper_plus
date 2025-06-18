@@ -754,7 +754,8 @@
             "wax_wool": {
                "display_name": "Lanolin Wax",
                "description": "Greasy and firm fat boiled from the wooly coat of a sheep. Can be used as fine wax.",
-               "flavor": "The waxy grease of sheep wool helps them keep warm and dry"
+               "flavor": "The waxy grease of sheep wool helps them keep warm and dry",
+               "shepherd_flavor": "The Shepherd can use the Cook's Cooking Pot for this recipe!"
             }
          },
          "fiber": {
@@ -1092,14 +1093,16 @@
          "description": "Greasy, flavorful pork fat. Can be used as grease but also as butter!",
          "recipe_name": "Slab of Lard (x3)",
          "recipe_description": "Boil and work pork fat into an useful, rendered form.",
-         "flavor": "Known as lard, rendered pork fat can also be used as a spreading, like butter!"
+         "flavor": "Known as lard, rendered pork fat can also be used as a spreading, like butter!",
+         "shepherd_flavor": "The Shepherd can use the Cook's Cooking Pot for this recipe!"
       },
       "animal_fat_rendered_tallow": {
          "display_name": "Bucket of Tallow",
          "description": "A special kind of fat. Can be used as grease, cooking oil and even as poor wax!",
          "recipe_name": "Bucket of Tallow (x2)",
          "recipe_description": "Boil and work steak fat into an useful, rendered form.",
-         "flavor": "Tallow has many uses, can be used as oil for deep frying and even as a poor wax"
+         "flavor": "Tallow has many uses, can be used as oil for deep frying and even as a poor wax",
+         "shepherd_flavor": "The Shepherd can use the Cook's Cooking Pot for this recipe!"
       },
       "bug_meat_soup": {
          "display_name": "Bug Meat Soup",
