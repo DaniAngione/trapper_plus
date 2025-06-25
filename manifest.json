@@ -451,6 +451,7 @@
       "stonehearth:plants:wax_plant:purple": "file(entities/plants/wax_plant_purple/wax_plant_purple.json)",
       "stonehearth:plants:wax_plant:green": "file(entities/plants/wax_plant_green/wax_plant_green.json)",
       "stonehearth_ace:resources:fiber:dwarfsbeard_bundle": "file(entities/resources/fiber/dwarfsbeard_bundle/dwarfsbeard_bundle.json)",
+      "stonehearth_ace:buffs:dragon:blood": "file(mod_compatibility/stonehearth_ace/data/buffs/dragon/dragon_blood_buff.json)",
       "stonehearth/jobs/trapper/trapper_abilities/trapper_abilities.json": "file(jobs/trapper/trapper_abilities/trapper_abilities.json)",
       "stonehearth/jobs/trapper/trapper_description.json": "file(jobs/trapper/trapper_description.json)",
       "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json": "file(jobs/trapper/trapping_grounds/trapping_grounds.json)",

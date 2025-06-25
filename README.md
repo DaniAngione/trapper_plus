@@ -1,7 +1,7 @@
 # Trapper+
 ### by Daniel Angione
-v2.2.2 for Stonehearth 1.1+
-Compatible with Stonehearth ACE 0.9.6.18+
+v2.2.3 for Stonehearth 1.1+
+Compatible with Stonehearth ACE 0.9.6.19+
 
 ## DESCRIPTION
 
@@ -81,6 +81,12 @@ Special thanks to BrunoSupremo for his help with the Archipelago Mod compatibili
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### June 25th, 2025 - v2.2.3
+- Fixed an issue where Varanus Meat could be stored in large pelt stockpiles.
+- Fixed an issue where actual Varanus (and Zilla) skins could *not* be stored in large pelt stockpiles.
+- (ACE) All snakes will drop fangs now.
+- (ACE) Dragons are now immune to snake poison.
 
 ### June 18th, 2025 - v2.2.2
 - (ACE) Fixed an issue where the Clay or Stone Smokeries would turn into the Wooden one when running out of fuel.

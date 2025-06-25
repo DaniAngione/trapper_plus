@@ -4,7 +4,7 @@
 			"mixintypes": {
 				"material_tags": "override"
 			},
-         "material_tags":["skin", "resource", "stockpile_animal_part", "animal_part"]
+         "material_tags":["skin", "varanus", "resource", "stockpile_animal_part", "animal_part"]
       }
    }
 }
